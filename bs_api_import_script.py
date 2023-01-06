@@ -110,22 +110,6 @@ modos_alt = ['bossFight','roboRumble','bigGame','soloShowdown','duoShowdown']
 battlelog = battlelog.loc[~battlelog['battle.mode'].isin(modos_alt)]
 
 # %%
-# eliminar columnas nulas
-battlelog = battlelog.drop(columns=[
-'battle.rank'
-,'battle.players'
-,'battle.big_brawler.tag'
-,'battle.big_brawler.name'
-,'battle.big_brawler.brawler.id'
-,'battle.big_brawler.brawler.name'
-,'battle.big_brawler.brawler.power'
-,'battle.big_brawler.brawler.trophies'
-,'battle.star_player'
-])
-
-battlelog.info()
-
-# %%
 # reset battlelog index
 battlelog.reset_index(drop=True, inplace=True)
 
