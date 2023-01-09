@@ -10,7 +10,7 @@ import json
 
 # %%
 # crear cliente
-client = brawlstats.Client('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6ImQ5MmQ4NDdhLWI0ZjAtNDVjNC04MzAwLWMxYzg1YmYxNGRjYSIsImlhdCI6MTY3MjkzMTY0MCwic3ViIjoiZGV2ZWxvcGVyL2Q0ZTc3OGNkLWJlYTAtZjlmNS04NDBhLTgzYTk1NTk3MWQ1MCIsInNjb3BlcyI6WyJicmF3bHN0YXJzIl0sImxpbWl0cyI6W3sidGllciI6ImRldmVsb3Blci9zaWx2ZXIiLCJ0eXBlIjoidGhyb3R0bGluZyJ9LHsiY2lkcnMiOlsiMjAxLjE4OC4yNS4xODYiXSwidHlwZSI6ImNsaWVudCJ9XX0.FmhW24C4spfT1KZ2XP88I3GcQZ7mxwSBdWz77NBwS-f928QAom4e1VKs_lYKa_0WEz5BVQFXrbYJB3ghk4NRww')
+client = brawlstats.Client('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjE5N2ZkMzYzLWY5NDktNGE5Zi04NzAwLTRlMDNhMTliYjlmOCIsImlhdCI6MTY3MzI0MjA2Niwic3ViIjoiZGV2ZWxvcGVyL2Q0ZTc3OGNkLWJlYTAtZjlmNS04NDBhLTgzYTk1NTk3MWQ1MCIsInNjb3BlcyI6WyJicmF3bHN0YXJzIl0sImxpbWl0cyI6W3sidGllciI6ImRldmVsb3Blci9zaWx2ZXIiLCJ0eXBlIjoidGhyb3R0bGluZyJ9LHsiY2lkcnMiOlsiMjAxLjE4OC4xNS45OCJdLCJ0eXBlIjoiY2xpZW50In1dfQ.2_WnWWCi19MuOb01qHg-Ey2lorhyz9PoqldFv4pqrTYCTjrH1JhTFPbkZrWsvmhn62AWoHHj4JNuEvVTcXfXWw')
 # Do not post your token on a public github
 
 # %%
@@ -80,7 +80,7 @@ print(battlelog.shape)
 
 # %%
 # export dataset completo
-battlelog_complete = pd.read_csv('datasets/complete/battlelog_complete.csv', index_col=0)
+battlelog_complete = pd.read_csv('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/complete/battlelog_complete.csv', index_col=0)
 
 battlelog_export = pd.concat([battlelog, battlelog_complete])
 
@@ -88,7 +88,7 @@ battlelog_export = battlelog_export.drop_duplicates(['playertag', 'battle_time',
 
 battlelog_export.reset_index(drop=True, inplace=True)
 
-battlelog_export.to_csv('datasets/complete/battlelog_complete.csv')
+battlelog_export.to_csv('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/complete/battlelog_complete.csv')
 
 # %%
 # cuenta tipos de juego
@@ -153,7 +153,7 @@ print(battlelog.info())
 
 # %%
 # traer archivo histórico battlelog
-battlelog_hist = pd.read_csv('datasets/teams/battlelog_teams.csv', index_col=0)
+battlelog_hist = pd.read_csv('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/teams/battlelog_teams.csv', index_col=0)
 print(battlelog_hist.shape)
 
 # %%
@@ -163,12 +163,12 @@ print(battlelog.shape)
 
 # %%
 # eliminar battelogs duplicados
-battlelog = battlelog.drop_duplicates(ignore_index=True)
+battlelog = battlelog.drop_duplicates(['battle_time', 'event.id', 'event.mode', 'event.map', 'battle.mode', 'battle.type', 'battle.duration', 'battle.team1.player1.tag'], ignore_index=True)
 print(battlelog.shape)
 
 # %%
 # export dataset teams completo mas histórico
-battlelog.to_csv('datasets/teams/battlelog_teams.csv')
+battlelog.to_csv('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/teams/battlelog_teams.csv')
 
 # %%
 # importar brawlers
@@ -193,13 +193,13 @@ for k in range(len(json_brawlers)):
 # reset brawler index y export de dataset
 brawlers.reset_index(drop=True, inplace=True)
 
-brawlers.to_csv('datasets/brawlers/brawlers.csv')
+brawlers.to_csv('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/brawlers/brawlers.csv')
 
 print(brawlers)
 
 # %%
 # import información adicional de brawlers
-brawlers_classification = pd.read_csv('datasets/brawlers/brawlers_classification.csv', index_col=0)
+brawlers_classification = pd.read_csv('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/brawlers/brawlers_classification.csv', index_col=0)
 
 print(brawlers_classification.head())
 
@@ -210,6 +210,6 @@ print(brawlerStats.info())
 
 # %%
 # export dataframe final brawlers
-brawlerStats.to_csv('datasets/brawlers/brawlers_stats.csv')
+brawlerStats.to_csv('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/brawlers/brawlers_stats.csv')
 
 
