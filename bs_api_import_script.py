@@ -10,7 +10,7 @@ import json
 
 # %%
 # crear cliente
-client = brawlstats.Client('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjE5N2ZkMzYzLWY5NDktNGE5Zi04NzAwLTRlMDNhMTliYjlmOCIsImlhdCI6MTY3MzI0MjA2Niwic3ViIjoiZGV2ZWxvcGVyL2Q0ZTc3OGNkLWJlYTAtZjlmNS04NDBhLTgzYTk1NTk3MWQ1MCIsInNjb3BlcyI6WyJicmF3bHN0YXJzIl0sImxpbWl0cyI6W3sidGllciI6ImRldmVsb3Blci9zaWx2ZXIiLCJ0eXBlIjoidGhyb3R0bGluZyJ9LHsiY2lkcnMiOlsiMjAxLjE4OC4xNS45OCJdLCJ0eXBlIjoiY2xpZW50In1dfQ.2_WnWWCi19MuOb01qHg-Ey2lorhyz9PoqldFv4pqrTYCTjrH1JhTFPbkZrWsvmhn62AWoHHj4JNuEvVTcXfXWw')
+client = brawlstats.Client('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjNiNThjYWY4LWRmMDUtNDFiYy05NDVhLWNjYjJhNjE3YTViMiIsImlhdCI6MTY3MzM2MDM0Niwic3ViIjoiZGV2ZWxvcGVyL2Q0ZTc3OGNkLWJlYTAtZjlmNS04NDBhLTgzYTk1NTk3MWQ1MCIsInNjb3BlcyI6WyJicmF3bHN0YXJzIl0sImxpbWl0cyI6W3sidGllciI6ImRldmVsb3Blci9zaWx2ZXIiLCJ0eXBlIjoidGhyb3R0bGluZyJ9LHsiY2lkcnMiOlsiMTg2LjE0OC4zLjIwMCJdLCJ0eXBlIjoiY2xpZW50In1dfQ.LM3TNmmmYq-8A3GAgpCz8AKC4Q918oFGra4x7ZiOoOVR16wACy467AaAILPihjFCiWO0o3mILM5HRqxjmSuOog')
 # Do not post your token on a public github
 
 # %%
@@ -20,7 +20,7 @@ leaderboard = client.get_rankings(ranking='players')
 for i in leaderboard:
     topplayer_tag.append(i.tag)
 
-print(topplayer_tag)
+print('cantidad top player tag: ' + str(len(topplayer_tag)))
 
 # %%
 # creación del dataframe
@@ -76,17 +76,21 @@ print(battlelog.info())
 # reset battlelog index
 battlelog.reset_index(drop=True, inplace=True)
 
-print(battlelog.shape)
+print('dimensiones battlelog: ' + str(battlelog.shape))
 
 # %%
 # export dataset completo
 battlelog_complete = pd.read_csv('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/complete/battlelog_complete.csv', index_col=0)
+
+print('dimensiones battlelog complete: ' + str(battlelog_complete.shape))
 
 battlelog_export = pd.concat([battlelog, battlelog_complete])
 
 battlelog_export = battlelog_export.drop_duplicates(['playertag', 'battle_time', 'event.id', 'event.mode', 'event.map', 'battle.mode', 'battle.type', 'battle.result', 'battle.duration', 'battle.trophy_change'], ignore_index=True)
 
 battlelog_export.reset_index(drop=True, inplace=True)
+
+print('dimensiones battlelog export: ' + str(battlelog_export.shape))
 
 battlelog_export.to_csv('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/complete/battlelog_complete.csv')
 
@@ -113,7 +117,7 @@ battlelog = battlelog.loc[~battlelog['battle.mode'].isin(modos_alt)]
 # reset battlelog index
 battlelog.reset_index(drop=True, inplace=True)
 
-print(battlelog.shape)
+print('dimensiones battlelog: ' + str(battlelog.shape))
 
 # %%
 # descomponer la columna teams
@@ -149,22 +153,22 @@ battlelog = battlelog.drop(columns=[
 'battle.teams'
 ])
 
-print(battlelog.info())
-
 # %%
 # traer archivo histórico battlelog
 battlelog_hist = pd.read_csv('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/teams/battlelog_teams.csv', index_col=0)
-print(battlelog_hist.shape)
+
+print('dimensiones battlelog hist: ' + str(battlelog_hist.shape))
 
 # %%
 # agregar nuevos reg a histórico
 battlelog = pd.concat([battlelog, battlelog_hist])
-print(battlelog.shape)
+print('dimensiones battlelog concat: ' + str(battlelog.shape))
 
 # %%
 # eliminar battelogs duplicados
 battlelog = battlelog.drop_duplicates(['battle_time', 'event.id', 'event.mode', 'event.map', 'battle.mode', 'battle.type', 'battle.duration', 'battle.team1.player1.tag'], ignore_index=True)
-print(battlelog.shape)
+
+print('dimensiones battlelog final: ' + str(battlelog.shape))
 
 # %%
 # export dataset teams completo mas histórico
@@ -195,13 +199,11 @@ brawlers.reset_index(drop=True, inplace=True)
 
 brawlers.to_csv('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/brawlers/brawlers.csv')
 
-print(brawlers)
+print(brawlers.info())
 
 # %%
 # import información adicional de brawlers
 brawlers_classification = pd.read_csv('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/brawlers/brawlers_classification.csv', index_col=0)
-
-print(brawlers_classification.head())
 
 # %%
 # merge de ambos dataframes
@@ -211,5 +213,7 @@ print(brawlerStats.info())
 # %%
 # export dataframe final brawlers
 brawlerStats.to_csv('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/brawlers/brawlers_stats.csv')
+
+print('dimensiones brawlerStats: ' + str(brawlerStats.shape))
 
 
