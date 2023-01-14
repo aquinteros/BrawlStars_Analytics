@@ -1,16 +1,13 @@
 # %%
-#%pip install brawlstats
-
-# %%
 # importar paquetes a ocupar
 import brawlstats
 import pandas as pd
 import numpy as np
-import json
+import datetime
 
 # %%
 # crear cliente
-client = brawlstats.Client('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjNiNThjYWY4LWRmMDUtNDFiYy05NDVhLWNjYjJhNjE3YTViMiIsImlhdCI6MTY3MzM2MDM0Niwic3ViIjoiZGV2ZWxvcGVyL2Q0ZTc3OGNkLWJlYTAtZjlmNS04NDBhLTgzYTk1NTk3MWQ1MCIsInNjb3BlcyI6WyJicmF3bHN0YXJzIl0sImxpbWl0cyI6W3sidGllciI6ImRldmVsb3Blci9zaWx2ZXIiLCJ0eXBlIjoidGhyb3R0bGluZyJ9LHsiY2lkcnMiOlsiMTg2LjE0OC4zLjIwMCJdLCJ0eXBlIjoiY2xpZW50In1dfQ.LM3TNmmmYq-8A3GAgpCz8AKC4Q918oFGra4x7ZiOoOVR16wACy467AaAILPihjFCiWO0o3mILM5HRqxjmSuOog')
+client = brawlstats.Client('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjExMDQ1YTAyLWQyNDItNGNjNC05NzQ4LTRjM2RmNmVkMjk2NCIsImlhdCI6MTY3MzYxOTE1MSwic3ViIjoiZGV2ZWxvcGVyL2Q0ZTc3OGNkLWJlYTAtZjlmNS04NDBhLTgzYTk1NTk3MWQ1MCIsInNjb3BlcyI6WyJicmF3bHN0YXJzIl0sImxpbWl0cyI6W3sidGllciI6ImRldmVsb3Blci9zaWx2ZXIiLCJ0eXBlIjoidGhyb3R0bGluZyJ9LHsiY2lkcnMiOlsiMTg2LjE0OC4zLjIwMCIsIjIwMS4xODguMTUuOTgiXSwidHlwZSI6ImNsaWVudCJ9XX0.viDoi0t2c1HR8l7zdlnIYJHVPsFUNkHfDXHAnBG7oZpjR58IgfvAMBt0lGPrka2CUUasW5Osx7CdZK7pcxlPHQ')
 # Do not post your token on a public github
 
 # %%
@@ -26,25 +23,25 @@ print('cantidad top player tag: ' + str(len(topplayer_tag)))
 # creación del dataframe
 battlelog = pd.DataFrame()
 
-def split_json(s):
-	# separa un string por el item "
-	s = str(s).split('"')
+#def split_json(s):
+#	# separa un string por el item "
+#	s = str(s).split('"')
+#
+#	return s
 
-	return s
-
-def clean_json(jsonitem):
-	# para una lista de artiuclos de json, separa en " y limpia los elementos impares de la lista resultante 
-	for i in range(len(jsonitem)):
-		splitted = split_json(jsonitem[i])
-		for j in range(len(splitted)):
-			splitted[j] = str(splitted[j]).replace('None','"None"')
-			if j % 2 == 1 and len(splitted[j]) < 20:
-				splitted[j] = '"' + str(splitted[j]).replace("'",'`') + '"'
-			else:
-				splitted[j] = str(splitted[j]).replace("'",'"')
-		jsonitem[i] = ''.join(splitted)
-	
-	return jsonitem
+#def clean_json(jsonitem):
+#	# para una lista de artiuclos de json, separa en " y limpia los elementos impares de la lista resultante 
+#	for i in range(len(jsonitem)):
+#		splitted = split_json(jsonitem[i])
+#		for j in range(len(splitted)):
+#			splitted[j] = str(splitted[j]).replace('None','"None"').replace('False','"False"').replace('True','"True"')
+#			if j % 2 == 1 and len(splitted[j]) < 20:
+#				splitted[j] = '"' + str(splitted[j]).replace("'",'`') + '"'
+#			else:
+#				splitted[j] = str(splitted[j]).replace("'",'"')
+#		jsonitem[i] = ''.join(splitted)
+#	
+#	return jsonitem
 
 #def cleanjson(val):
 #	result = str(val).replace('"',"`").replace(': `', ": '").replace('`,',"',").replace('`}',"'}").replace("e's",'e`s').replace('"ll','`ll').replace("I'm", 'I`m').replace("i'm", 'i`m').replace("' ","` ").replace("t's","t`s").replace('None',"'None'").replace("'",'"')
@@ -52,25 +49,20 @@ def clean_json(jsonitem):
 
 for i in range(len(topplayer_tag)):
 
+	json_battlelog = []
 	playertag = topplayer_tag[i]
 	try:
-		json_battlelog = client.get_battle_logs(playertag).to_list()
+		json_battlelog = client.get_battle_logs(playertag).raw_data
 	except:
 		print("No se pudo recuperar battlelog de tag " + playertag)
 
-	json_battlelog = clean_json(json_battlelog)
-
 	for k in range(len(json_battlelog)):
+		loaded_json = json_battlelog[k]
+		json_battlelog[k]['playertag'] = playertag
 		try:
-			loaded_json = json.loads('{"playertag": "' + playertag + '", ' + json_battlelog[k][1:])
 			battlelog = pd.concat([battlelog, pd.json_normalize(loaded_json)])
 		except:
 			print("no se pudo importar " + playertag + " battlelog numero " + str(k))
-	
-
-# %%
-# ver info del dataset
-print(battlelog.info())
 
 # %%
 # reset battlelog index
@@ -108,7 +100,6 @@ battlelog['battle.mode'].value_counts()
 
 # %%
 # eliminar modos alt y modos showdown
-
 modos_alt = ['bossFight','roboRumble','bigGame','soloShowdown','duoShowdown']
 
 battlelog = battlelog.loc[~battlelog['battle.mode'].isin(modos_alt)]
@@ -154,6 +145,82 @@ battlelog = battlelog.drop(columns=[
 ])
 
 # %%
+players_hist = pd.read_csv('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/players/players.csv', index_col=0)
+players_hist.shape
+
+# %%
+# crear listado de players en battelog
+
+playerlist = pd.DataFrame(pd.concat([
+	battlelog['playertag'], 
+	battlelog['battle.starPlayer.tag'], 
+	battlelog['battle.team1.player1.tag'], 
+	battlelog['battle.team1.player2.tag'], 
+	battlelog['battle.team1.player3.tag'], 
+	battlelog['battle.team2.player1.tag'], 
+	battlelog['battle.team2.player2.tag'], 
+	battlelog['battle.team2.player3.tag']
+	], ignore_index=True).drop_duplicates().reset_index(drop=True))
+
+playerlist.shape
+
+# %%
+# crear listado nuevos playersplayers_hist
+playerlist_merge = pd.merge(playerlist, players_hist['tag'], left_on=0, right_on='tag', how='left').drop_duplicates().reset_index(drop=True)
+
+playerlist_final = playerlist_merge[0][playerlist_merge['tag'].isna()].drop_duplicates().reset_index(drop=True)
+
+playerlist_final.shape
+
+# %%
+# agregar datos de player
+#players = pd.DataFrame()
+#
+#for i in range(len(playerlist_final)):
+#
+#	json_player = []
+#	playertag = playerlist_final.loc[i]
+#	try:
+#		json_player = client.get_profile(playerlist_final.loc[i]).raw_data
+#		del json_player['brawlers']
+#	except:
+#		print("No se pudo recuperar player de tag " + str(playertag))
+#
+#	try:
+#		players = pd.concat([players, pd.json_normalize(json_player)])
+#	except:
+#		print("no se pudo importar player tag " + str(playertag))
+
+# refactored:
+players = pd.DataFrame()
+
+timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+
+for i, playertag in enumerate(playerlist_final):
+
+	json_player = []
+	try:
+		json_player = client.get_profile(playertag).raw_data
+		del json_player['brawlers']
+	except:
+		print("No se pudo recuperar player de tag " + str(playertag))
+
+	try:
+		players = pd.concat([players, pd.json_normalize(json_player)])
+		players['import_date'] = timestamp
+	except:
+		print("no se pudo importar player tag " + str(playertag))
+
+# %%
+# concatenar las bases
+players = pd.concat([players, players_hist]).drop_duplicates().reset_index(drop=True)
+
+print('dimensiones players: ' + str(players.shape))
+
+# %%
+players.to_csv('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/players/players.csv')
+
+# %%
 # traer archivo histórico battlelog
 battlelog_hist = pd.read_csv('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/teams/battlelog_teams.csv', index_col=0)
 
@@ -166,7 +233,7 @@ print('dimensiones battlelog concat: ' + str(battlelog.shape))
 
 # %%
 # eliminar battelogs duplicados
-battlelog = battlelog.drop_duplicates(['battle_time', 'event.id', 'event.mode', 'event.map', 'battle.mode', 'battle.type', 'battle.duration', 'battle.team1.player1.tag'], ignore_index=True)
+battlelog = battlelog.drop_duplicates(['battleTime', 'event.id', 'event.mode', 'event.map', 'battle.mode', 'battle.type', 'battle.duration', 'battle.team1.player1.tag'], ignore_index=True)
 
 print('dimensiones battlelog final: ' + str(battlelog.shape))
 
@@ -179,19 +246,12 @@ battlelog.to_csv('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/Bra
 brawlers = pd.DataFrame()
 
 try:
-	json_brawlers = client.get_brawlers().to_list()
+	json_brawlers = client.get_brawlers().raw_data
 except:
 	print("No se pudo recuperar listado de brawlers")
 
-json_brawlers = clean_json(json_brawlers)
+brawlers = pd.concat([brawlers, pd.json_normalize(json_brawlers)])
 
-for k in range(len(json_brawlers)):
-	try:
-		loaded_json = json.loads(json_brawlers[k])
-		brawlers = pd.concat([brawlers, pd.json_normalize(loaded_json)])
-	except:
-		print("no se pudo importar brawler numero " + str(k))
-		print(json_brawlers[k])
 
 # %%
 # reset brawler index y export de dataset
