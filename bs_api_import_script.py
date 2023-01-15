@@ -252,7 +252,6 @@ except:
 
 brawlers = pd.concat([brawlers, pd.json_normalize(json_brawlers)])
 
-
 # %%
 # reset brawler index y export de dataset
 brawlers.reset_index(drop=True, inplace=True)
@@ -267,7 +266,7 @@ brawlers_classification = pd.read_csv('C:/Users/alniquia/OneDrive - Telefonica/D
 
 # %%
 # merge de ambos dataframes
-brawlerStats = pd.merge(brawlers, brawlers_classification)
+brawlerStats = pd.merge(brawlers['id'], brawlers_classification, on='id')
 print(brawlerStats.info())
 
 # %%

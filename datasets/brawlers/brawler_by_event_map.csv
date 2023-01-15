@@ -1,0 +1,2442 @@
+,brawlername,event.mode,event.map,total_games,total_draws,total_wins,winrate
+0,TICK,knockout,X Marks the Spot,80,0.0,70.0,0.875
+1,TICK,knockout,Riverside,35,0.0,31.0,0.8857142857142857
+2,TICK,knockout,Out in the Open,80,0.0,64.0,0.8
+3,TICK,knockout,New Perspective,21,0.0,21.0,1.0
+4,TICK,knockout,Goldarm Gulch,33,0.0,24.0,0.7272727272727273
+5,TICK,knockout,Flaring Phoenix,26,0.0,20.0,0.7692307692307693
+6,TICK,knockout,Belle`s Rock,144,0.0,114.0,0.7916666666666666
+7,TICK,hotZone,Split,133,1.0,121.0,0.9097744360902256
+8,TICK,hotZone,Ring of Fire,58,0.0,53.0,0.9137931034482759
+9,TICK,hotZone,Quarter Pounder,91,0.0,87.0,0.9560439560439561
+10,TICK,hotZone,Parallel Plays,40,0.0,39.0,0.975
+11,TICK,hotZone,Open Zone,27,0.0,26.0,0.9629629629629629
+12,TICK,hotZone,Dueling Beetles,109,0.0,97.0,0.8899082568807339
+13,TICK,hotZone,Controller Chaos,102,0.0,94.0,0.9215686274509803
+14,TICK,heist,Tornado Ring,1,0.0,1.0,1.0
+15,TICK,heist,Safe Zone,2,0.0,2.0,1.0
+16,TICK,heist,Pit Stop,1,0.0,1.0,1.0
+17,TICK,heist,Kaboom Canyon,1,0.0,1.0,1.0
+18,TICK,heist,Hot Potato,1,0.0,1.0,1.0
+19,TICK,heist,Bridge Too Far,1,0.0,1.0,1.0
+20,TICK,gemGrab,Undermine,13,0.0,9.0,0.6923076923076923
+21,TICK,gemGrab,Minecart Madness,174,0.0,153.0,0.8793103448275862
+22,TICK,gemGrab,Hard Rock Mine,11,0.0,10.0,0.9090909090909091
+23,TICK,gemGrab,Gem Fort,3,0.0,3.0,1.0
+24,TICK,gemGrab,Double Swoosh,11,0.0,10.0,0.9090909090909091
+25,TICK,gemGrab,Deep Diner,94,0.0,82.0,0.8723404255319149
+26,TICK,gemGrab,Crystal Arcade,29,0.0,26.0,0.896551724137931
+27,TICK,brawlBall,Super Beach,24,0.0,22.0,0.9166666666666666
+28,TICK,brawlBall,Sunny Soccer,46,1.0,30.0,0.6521739130434783
+29,TICK,brawlBall,Sneaky Fields,29,0.0,25.0,0.8620689655172413
+30,TICK,brawlBall,Pinhole Punt,37,0.0,30.0,0.8108108108108109
+31,TICK,brawlBall,Center Stage,65,1.0,53.0,0.8153846153846154
+32,TICK,brawlBall,Beach Ball,55,1.0,45.0,0.8181818181818182
+33,TICK,brawlBall,Backyard Bowl,32,0.0,25.0,0.78125
+34,TICK,bounty,Temple Ruins,11,0.0,10.0,0.9090909090909091
+35,TICK,bounty,Shooting Star,369,0.0,301.0,0.8157181571815718
+36,TICK,bounty,Layer Cake,156,0.0,130.0,0.8333333333333334
+37,TICK,bounty,Hideout,256,0.0,223.0,0.87109375
+38,TICK,bounty,Excel,38,0.0,34.0,0.8947368421052632
+39,TICK,bounty,Dry Season,151,0.0,133.0,0.8807947019867549
+40,TICK,bounty,Canal Grande,7,0.0,5.0,0.7142857142857143
+41,TARA,knockout,X Marks the Spot,2,0.0,1.0,0.5
+42,TARA,knockout,Out in the Open,61,1.0,38.0,0.6229508196721312
+43,TARA,knockout,New Perspective,49,0.0,37.0,0.7551020408163265
+44,TARA,knockout,Goldarm Gulch,12,0.0,10.0,0.8333333333333334
+45,TARA,knockout,Flaring Phoenix,72,0.0,50.0,0.6944444444444444
+46,TARA,knockout,Belle`s Rock,3,0.0,3.0,1.0
+47,TARA,hotZone,Split,12,0.0,12.0,1.0
+48,TARA,hotZone,Ring of Fire,43,0.0,36.0,0.8372093023255814
+49,TARA,hotZone,Quarter Pounder,14,0.0,9.0,0.6428571428571429
+50,TARA,hotZone,Parallel Plays,4,0.0,3.0,0.75
+51,TARA,hotZone,Open Zone,8,0.0,6.0,0.75
+52,TARA,hotZone,Dueling Beetles,8,0.0,8.0,1.0
+53,TARA,hotZone,Controller Chaos,35,0.0,28.0,0.8
+54,TARA,heist,Tornado Ring,37,0.0,28.0,0.7567567567567568
+55,TARA,heist,Snaked Assault,24,0.0,14.0,0.5833333333333334
+56,TARA,heist,Safe Zone,1,0.0,1.0,1.0
+57,TARA,heist,Pit Stop,11,1.0,7.0,0.6363636363636364
+58,TARA,heist,Kaboom Canyon,4,0.0,3.0,0.75
+59,TARA,heist,Hot Potato,6,0.0,5.0,0.8333333333333334
+60,TARA,gemGrab,Undermine,183,0.0,131.0,0.7158469945355191
+61,TARA,gemGrab,Minecart Madness,31,0.0,23.0,0.7419354838709677
+62,TARA,gemGrab,Hard Rock Mine,101,0.0,70.0,0.693069306930693
+63,TARA,gemGrab,Gem Fort,208,0.0,165.0,0.7932692307692307
+64,TARA,gemGrab,Double Swoosh,267,0.0,197.0,0.7378277153558053
+65,TARA,gemGrab,Deep Diner,102,0.0,72.0,0.7058823529411765
+66,TARA,gemGrab,Crystal Arcade,175,0.0,142.0,0.8114285714285714
+67,TARA,brawlBall,Super Beach,51,3.0,34.0,0.6666666666666666
+68,TARA,brawlBall,Sunny Soccer,78,0.0,60.0,0.7692307692307693
+69,TARA,brawlBall,Sneaky Fields,161,2.0,133.0,0.8260869565217391
+70,TARA,brawlBall,Pinhole Punt,113,1.0,92.0,0.8141592920353983
+71,TARA,brawlBall,Center Stage,269,7.0,202.0,0.7509293680297398
+72,TARA,brawlBall,Beach Ball,120,0.0,98.0,0.8166666666666667
+73,TARA,brawlBall,Backyard Bowl,24,0.0,20.0,0.8333333333333334
+74,TARA,bounty,Temple Ruins,3,0.0,3.0,1.0
+75,TARA,bounty,Shooting Star,1,0.0,1.0,1.0
+76,TARA,bounty,Layer Cake,2,0.0,0.0,0.0
+77,TARA,bounty,Hideout,4,0.0,4.0,1.0
+78,TARA,bounty,Excel,1,0.0,1.0,1.0
+79,TARA,bounty,Dry Season,3,0.0,0.0,0.0
+80,SURGE,knockout,X Marks the Spot,3,0.0,3.0,1.0
+81,SURGE,knockout,Riverside,2,0.0,2.0,1.0
+82,SURGE,knockout,Out in the Open,4,0.0,3.0,0.75
+83,SURGE,knockout,New Perspective,5,0.0,5.0,1.0
+84,SURGE,knockout,Goldarm Gulch,2,0.0,2.0,1.0
+85,SURGE,knockout,Flaring Phoenix,3,0.0,2.0,0.6666666666666666
+86,SURGE,knockout,Belle`s Rock,2,0.0,2.0,1.0
+87,SURGE,hotZone,Split,266,0.0,205.0,0.7706766917293233
+88,SURGE,hotZone,Ring of Fire,11,0.0,8.0,0.7272727272727273
+89,SURGE,hotZone,Quarter Pounder,48,0.0,39.0,0.8125
+90,SURGE,hotZone,Parallel Plays,91,1.0,81.0,0.8901098901098901
+91,SURGE,hotZone,Open Zone,9,0.0,9.0,1.0
+92,SURGE,hotZone,Dueling Beetles,29,0.0,22.0,0.7586206896551724
+93,SURGE,hotZone,Controller Chaos,253,0.0,205.0,0.8102766798418972
+94,SURGE,heist,Tornado Ring,19,0.0,15.0,0.7894736842105263
+95,SURGE,heist,Snaked Assault,19,0.0,15.0,0.7894736842105263
+96,SURGE,heist,Pit Stop,57,0.0,40.0,0.7017543859649122
+97,SURGE,heist,Kaboom Canyon,5,0.0,5.0,1.0
+98,SURGE,heist,Hot Potato,11,0.0,9.0,0.8181818181818182
+99,SURGE,gemGrab,Undermine,84,0.0,68.0,0.8095238095238095
+100,SURGE,gemGrab,Minecart Madness,37,0.0,34.0,0.918918918918919
+101,SURGE,gemGrab,Hard Rock Mine,60,0.0,45.0,0.75
+102,SURGE,gemGrab,Gem Fort,61,0.0,47.0,0.7704918032786885
+103,SURGE,gemGrab,Double Swoosh,194,0.0,154.0,0.7938144329896907
+104,SURGE,gemGrab,Deep Diner,218,0.0,178.0,0.8165137614678899
+105,SURGE,gemGrab,Crystal Arcade,156,0.0,120.0,0.7692307692307693
+106,SURGE,brawlBall,Super Beach,268,6.0,197.0,0.7350746268656716
+107,SURGE,brawlBall,Sunny Soccer,336,6.0,235.0,0.6994047619047619
+108,SURGE,brawlBall,Sneaky Fields,564,9.0,407.0,0.7216312056737588
+109,SURGE,brawlBall,Pinhole Punt,215,2.0,164.0,0.7627906976744186
+110,SURGE,brawlBall,Center Stage,373,6.0,285.0,0.7640750670241286
+111,SURGE,brawlBall,Beach Ball,335,2.0,268.0,0.8
+112,SURGE,brawlBall,Backyard Bowl,38,2.0,32.0,0.8421052631578947
+113,SURGE,bounty,Temple Ruins,3,0.0,2.0,0.6666666666666666
+114,SURGE,bounty,Shooting Star,3,0.0,3.0,1.0
+115,SURGE,bounty,Layer Cake,16,0.0,15.0,0.9375
+116,SURGE,bounty,Hideout,4,0.0,2.0,0.5
+117,SURGE,bounty,Excel,1,0.0,1.0,1.0
+118,SURGE,bounty,Dry Season,2,0.0,2.0,1.0
+119,SURGE,bounty,Canal Grande,2,0.0,1.0,0.5
+120,STU,knockout,X Marks the Spot,7,0.0,4.0,0.5714285714285714
+121,STU,knockout,Riverside,2,0.0,2.0,1.0
+122,STU,knockout,Out in the Open,16,0.0,12.0,0.75
+123,STU,knockout,New Perspective,6,0.0,6.0,1.0
+124,STU,knockout,Goldarm Gulch,4,0.0,4.0,1.0
+125,STU,knockout,Flaring Phoenix,4,0.0,4.0,1.0
+126,STU,knockout,Belle`s Rock,9,0.0,7.0,0.7777777777777778
+127,STU,hotZone,Split,269,0.0,227.0,0.8438661710037175
+128,STU,hotZone,Ring of Fire,46,0.0,39.0,0.8478260869565217
+129,STU,hotZone,Quarter Pounder,144,1.0,108.0,0.75
+130,STU,hotZone,Parallel Plays,95,0.0,73.0,0.7684210526315789
+131,STU,hotZone,Open Zone,64,0.0,46.0,0.71875
+132,STU,hotZone,Dueling Beetles,75,0.0,60.0,0.8
+133,STU,hotZone,Controller Chaos,162,0.0,123.0,0.7592592592592593
+134,STU,heist,Snaked Assault,1,0.0,1.0,1.0
+135,STU,heist,Safe Zone,1,0.0,0.0,0.0
+136,STU,heist,Pit Stop,3,0.0,3.0,1.0
+137,STU,heist,Kaboom Canyon,5,0.0,4.0,0.8
+138,STU,heist,Bridge Too Far,1,0.0,0.0,0.0
+139,STU,gemGrab,Undermine,19,0.0,14.0,0.7368421052631579
+140,STU,gemGrab,Minecart Madness,96,0.0,71.0,0.7395833333333334
+141,STU,gemGrab,Hard Rock Mine,88,0.0,73.0,0.8295454545454546
+142,STU,gemGrab,Gem Fort,21,0.0,14.0,0.6666666666666666
+143,STU,gemGrab,Double Swoosh,40,0.0,30.0,0.75
+144,STU,gemGrab,Deep Diner,207,0.0,151.0,0.7294685990338164
+145,STU,gemGrab,Crystal Arcade,141,0.0,111.0,0.7872340425531915
+146,STU,brawlBall,Super Beach,119,0.0,87.0,0.7310924369747899
+147,STU,brawlBall,Sunny Soccer,303,2.0,220.0,0.7260726072607261
+148,STU,brawlBall,Sneaky Fields,96,2.0,77.0,0.8020833333333334
+149,STU,brawlBall,Pinhole Punt,349,6.0,259.0,0.7421203438395415
+150,STU,brawlBall,Center Stage,117,1.0,91.0,0.7777777777777778
+151,STU,brawlBall,Beach Ball,482,4.0,377.0,0.7821576763485477
+152,STU,brawlBall,Backyard Bowl,344,8.0,246.0,0.7151162790697675
+153,STU,bounty,Shooting Star,5,0.0,5.0,1.0
+154,STU,bounty,Layer Cake,28,0.0,22.0,0.7857142857142857
+155,STU,bounty,Hideout,13,0.0,11.0,0.8461538461538461
+156,STU,bounty,Excel,10,0.0,7.0,0.7
+157,STU,bounty,Dry Season,8,0.0,7.0,0.875
+158,STU,bounty,Canal Grande,1,0.0,1.0,1.0
+159,SQUEAK,knockout,X Marks the Spot,5,0.0,3.0,0.6
+160,SQUEAK,knockout,Riverside,4,0.0,4.0,1.0
+161,SQUEAK,knockout,Out in the Open,11,0.0,7.0,0.6363636363636364
+162,SQUEAK,knockout,New Perspective,3,0.0,2.0,0.6666666666666666
+163,SQUEAK,knockout,Goldarm Gulch,1,0.0,0.0,0.0
+164,SQUEAK,knockout,Flaring Phoenix,3,0.0,1.0,0.3333333333333333
+165,SQUEAK,knockout,Belle`s Rock,7,0.0,3.0,0.42857142857142855
+166,SQUEAK,hotZone,Split,29,0.0,25.0,0.8620689655172413
+167,SQUEAK,hotZone,Ring of Fire,18,0.0,11.0,0.6111111111111112
+168,SQUEAK,hotZone,Quarter Pounder,46,0.0,41.0,0.8913043478260869
+169,SQUEAK,hotZone,Parallel Plays,8,0.0,6.0,0.75
+170,SQUEAK,hotZone,Open Zone,10,0.0,8.0,0.8
+171,SQUEAK,hotZone,Dueling Beetles,165,0.0,130.0,0.7878787878787878
+172,SQUEAK,hotZone,Controller Chaos,126,0.0,95.0,0.753968253968254
+173,SQUEAK,heist,Snaked Assault,3,0.0,2.0,0.6666666666666666
+174,SQUEAK,heist,Pit Stop,25,0.0,20.0,0.8
+175,SQUEAK,heist,Kaboom Canyon,5,0.0,4.0,0.8
+176,SQUEAK,heist,Hot Potato,2,0.0,1.0,0.5
+177,SQUEAK,heist,Bridge Too Far,2,0.0,1.0,0.5
+178,SQUEAK,gemGrab,Undermine,44,0.0,35.0,0.7954545454545454
+179,SQUEAK,gemGrab,Minecart Madness,51,0.0,38.0,0.7450980392156863
+180,SQUEAK,gemGrab,Hard Rock Mine,5,0.0,5.0,1.0
+181,SQUEAK,gemGrab,Gem Fort,1,0.0,1.0,1.0
+182,SQUEAK,gemGrab,Double Swoosh,31,0.0,20.0,0.6451612903225806
+183,SQUEAK,gemGrab,Deep Diner,76,0.0,63.0,0.8289473684210527
+184,SQUEAK,gemGrab,Crystal Arcade,15,0.0,10.0,0.6666666666666666
+185,SQUEAK,brawlBall,Super Beach,36,0.0,25.0,0.6944444444444444
+186,SQUEAK,brawlBall,Sunny Soccer,49,0.0,35.0,0.7142857142857143
+187,SQUEAK,brawlBall,Sneaky Fields,51,1.0,38.0,0.7450980392156863
+188,SQUEAK,brawlBall,Pinhole Punt,34,0.0,24.0,0.7058823529411765
+189,SQUEAK,brawlBall,Center Stage,39,0.0,26.0,0.6666666666666666
+190,SQUEAK,brawlBall,Beach Ball,78,1.0,71.0,0.9102564102564102
+191,SQUEAK,brawlBall,Backyard Bowl,16,0.0,11.0,0.6875
+192,SQUEAK,bounty,Shooting Star,2,0.0,1.0,0.5
+193,SQUEAK,bounty,Layer Cake,17,0.0,9.0,0.5294117647058824
+194,SQUEAK,bounty,Hideout,5,0.0,4.0,0.8
+195,SQUEAK,bounty,Excel,15,0.0,15.0,1.0
+196,SQUEAK,bounty,Dry Season,7,0.0,6.0,0.8571428571428571
+197,SPROUT,knockout,X Marks the Spot,19,0.0,9.0,0.47368421052631576
+198,SPROUT,knockout,Riverside,42,0.0,27.0,0.6428571428571429
+199,SPROUT,knockout,Out in the Open,13,0.0,7.0,0.5384615384615384
+200,SPROUT,knockout,New Perspective,9,0.0,6.0,0.6666666666666666
+201,SPROUT,knockout,Goldarm Gulch,12,0.0,6.0,0.5
+202,SPROUT,knockout,Flaring Phoenix,10,0.0,6.0,0.6
+203,SPROUT,knockout,Belle`s Rock,68,0.0,41.0,0.6029411764705882
+204,SPROUT,hotZone,Split,28,0.0,20.0,0.7142857142857143
+205,SPROUT,hotZone,Ring of Fire,15,0.0,13.0,0.8666666666666667
+206,SPROUT,hotZone,Quarter Pounder,37,0.0,30.0,0.8108108108108109
+207,SPROUT,hotZone,Parallel Plays,2,0.0,0.0,0.0
+208,SPROUT,hotZone,Dueling Beetles,123,0.0,88.0,0.7154471544715447
+209,SPROUT,hotZone,Controller Chaos,30,0.0,25.0,0.8333333333333334
+210,SPROUT,heist,Safe Zone,1,0.0,1.0,1.0
+211,SPROUT,gemGrab,Undermine,3,0.0,1.0,0.3333333333333333
+212,SPROUT,gemGrab,Minecart Madness,11,0.0,8.0,0.7272727272727273
+213,SPROUT,gemGrab,Hard Rock Mine,1,0.0,1.0,1.0
+214,SPROUT,gemGrab,Gem Fort,2,0.0,1.0,0.5
+215,SPROUT,gemGrab,Double Swoosh,1,0.0,1.0,1.0
+216,SPROUT,gemGrab,Deep Diner,42,0.0,37.0,0.8809523809523809
+217,SPROUT,gemGrab,Crystal Arcade,1,0.0,1.0,1.0
+218,SPROUT,brawlBall,Super Beach,7,0.0,5.0,0.7142857142857143
+219,SPROUT,brawlBall,Sunny Soccer,16,0.0,11.0,0.6875
+220,SPROUT,brawlBall,Sneaky Fields,7,0.0,4.0,0.5714285714285714
+221,SPROUT,brawlBall,Pinhole Punt,25,1.0,20.0,0.8
+222,SPROUT,brawlBall,Center Stage,3,0.0,2.0,0.6666666666666666
+223,SPROUT,brawlBall,Beach Ball,21,0.0,18.0,0.8571428571428571
+224,SPROUT,brawlBall,Backyard Bowl,32,1.0,24.0,0.75
+225,SPROUT,bounty,Shooting Star,86,0.0,72.0,0.8372093023255814
+226,SPROUT,bounty,Layer Cake,37,0.0,22.0,0.5945945945945946
+227,SPROUT,bounty,Hideout,35,0.0,25.0,0.7142857142857143
+228,SPROUT,bounty,Excel,2,0.0,2.0,1.0
+229,SPROUT,bounty,Dry Season,47,0.0,25.0,0.5319148936170213
+230,SPIKE,knockout,X Marks the Spot,57,0.0,50.0,0.8771929824561403
+231,SPIKE,knockout,Riverside,18,0.0,15.0,0.8333333333333334
+232,SPIKE,knockout,Out in the Open,21,0.0,17.0,0.8095238095238095
+233,SPIKE,knockout,New Perspective,9,0.0,7.0,0.7777777777777778
+234,SPIKE,knockout,Goldarm Gulch,20,0.0,15.0,0.75
+235,SPIKE,knockout,Flaring Phoenix,14,0.0,12.0,0.8571428571428571
+236,SPIKE,knockout,Belle`s Rock,20,0.0,15.0,0.75
+237,SPIKE,hotZone,Split,66,0.0,53.0,0.803030303030303
+238,SPIKE,hotZone,Ring of Fire,48,0.0,40.0,0.8333333333333334
+239,SPIKE,hotZone,Quarter Pounder,81,0.0,66.0,0.8148148148148148
+240,SPIKE,hotZone,Parallel Plays,33,0.0,28.0,0.8484848484848485
+241,SPIKE,hotZone,Open Zone,41,0.0,35.0,0.8536585365853658
+242,SPIKE,hotZone,Dueling Beetles,92,0.0,71.0,0.7717391304347826
+243,SPIKE,hotZone,Controller Chaos,138,0.0,100.0,0.7246376811594203
+244,SPIKE,heist,Tornado Ring,63,0.0,50.0,0.7936507936507936
+245,SPIKE,heist,Snaked Assault,63,0.0,48.0,0.7619047619047619
+246,SPIKE,heist,Safe Zone,9,0.0,9.0,1.0
+247,SPIKE,heist,Pit Stop,48,0.0,40.0,0.8333333333333334
+248,SPIKE,heist,Kaboom Canyon,61,0.0,55.0,0.9016393442622951
+249,SPIKE,heist,Hot Potato,5,0.0,3.0,0.6
+250,SPIKE,heist,Bridge Too Far,5,0.0,3.0,0.6
+251,SPIKE,gemGrab,Undermine,44,0.0,32.0,0.7272727272727273
+252,SPIKE,gemGrab,Minecart Madness,167,1.0,128.0,0.7664670658682635
+253,SPIKE,gemGrab,Hard Rock Mine,23,0.0,17.0,0.7391304347826086
+254,SPIKE,gemGrab,Gem Fort,23,0.0,22.0,0.9565217391304348
+255,SPIKE,gemGrab,Double Swoosh,105,0.0,84.0,0.8
+256,SPIKE,gemGrab,Deep Diner,92,0.0,80.0,0.8695652173913043
+257,SPIKE,gemGrab,Crystal Arcade,73,0.0,51.0,0.6986301369863014
+258,SPIKE,brawlBall,Super Beach,83,1.0,67.0,0.8072289156626506
+259,SPIKE,brawlBall,Sunny Soccer,229,5.0,158.0,0.6899563318777293
+260,SPIKE,brawlBall,Sneaky Fields,270,6.0,195.0,0.7222222222222222
+261,SPIKE,brawlBall,Pinhole Punt,307,2.0,241.0,0.7850162866449512
+262,SPIKE,brawlBall,Center Stage,137,1.0,100.0,0.7299270072992701
+263,SPIKE,brawlBall,Beach Ball,194,1.0,151.0,0.7783505154639175
+264,SPIKE,brawlBall,Backyard Bowl,172,5.0,131.0,0.7616279069767442
+265,SPIKE,bounty,Temple Ruins,2,0.0,2.0,1.0
+266,SPIKE,bounty,Shooting Star,20,0.0,15.0,0.75
+267,SPIKE,bounty,Layer Cake,9,0.0,9.0,1.0
+268,SPIKE,bounty,Hideout,60,0.0,49.0,0.8166666666666667
+269,SPIKE,bounty,Excel,2,0.0,2.0,1.0
+270,SPIKE,bounty,Dry Season,16,0.0,15.0,0.9375
+271,SHELLY,knockout,X Marks the Spot,5,0.0,3.0,0.6
+272,SHELLY,knockout,Riverside,4,0.0,4.0,1.0
+273,SHELLY,knockout,Out in the Open,61,0.0,37.0,0.6065573770491803
+274,SHELLY,knockout,New Perspective,46,0.0,35.0,0.7608695652173914
+275,SHELLY,knockout,Goldarm Gulch,13,0.0,8.0,0.6153846153846154
+276,SHELLY,knockout,Flaring Phoenix,16,0.0,9.0,0.5625
+277,SHELLY,knockout,Belle`s Rock,9,0.0,7.0,0.7777777777777778
+278,SHELLY,hotZone,Split,13,0.0,12.0,0.9230769230769231
+279,SHELLY,hotZone,Ring of Fire,2,0.0,2.0,1.0
+280,SHELLY,hotZone,Quarter Pounder,9,0.0,8.0,0.8888888888888888
+281,SHELLY,hotZone,Parallel Plays,5,0.0,5.0,1.0
+282,SHELLY,hotZone,Open Zone,1,0.0,1.0,1.0
+283,SHELLY,hotZone,Dueling Beetles,6,0.0,6.0,1.0
+284,SHELLY,hotZone,Controller Chaos,12,0.0,12.0,1.0
+285,SHELLY,heist,Tornado Ring,3,0.0,3.0,1.0
+286,SHELLY,heist,Snaked Assault,8,0.0,7.0,0.875
+287,SHELLY,heist,Safe Zone,1,0.0,1.0,1.0
+288,SHELLY,heist,Pit Stop,9,0.0,6.0,0.6666666666666666
+289,SHELLY,heist,Kaboom Canyon,8,0.0,7.0,0.875
+290,SHELLY,gemGrab,Undermine,9,0.0,7.0,0.7777777777777778
+291,SHELLY,gemGrab,Minecart Madness,7,0.0,7.0,1.0
+292,SHELLY,gemGrab,Hard Rock Mine,3,0.0,2.0,0.6666666666666666
+293,SHELLY,gemGrab,Gem Fort,14,0.0,9.0,0.6428571428571429
+294,SHELLY,gemGrab,Double Swoosh,44,0.0,33.0,0.75
+295,SHELLY,gemGrab,Deep Diner,16,0.0,15.0,0.9375
+296,SHELLY,gemGrab,Crystal Arcade,10,0.0,8.0,0.8
+297,SHELLY,brawlBall,Super Beach,21,1.0,17.0,0.8095238095238095
+298,SHELLY,brawlBall,Sunny Soccer,91,1.0,67.0,0.7362637362637363
+299,SHELLY,brawlBall,Sneaky Fields,239,3.0,183.0,0.7656903765690377
+300,SHELLY,brawlBall,Pinhole Punt,53,0.0,46.0,0.8679245283018868
+301,SHELLY,brawlBall,Center Stage,276,3.0,202.0,0.7318840579710145
+302,SHELLY,brawlBall,Beach Ball,50,0.0,43.0,0.86
+303,SHELLY,brawlBall,Backyard Bowl,36,0.0,28.0,0.7777777777777778
+304,SHELLY,bounty,Temple Ruins,2,0.0,2.0,1.0
+305,SHELLY,bounty,Shooting Star,1,0.0,1.0,1.0
+306,SHELLY,bounty,Layer Cake,6,0.0,6.0,1.0
+307,SHELLY,bounty,Hideout,3,0.0,3.0,1.0
+308,SHELLY,bounty,Excel,2,0.0,2.0,1.0
+309,SHELLY,bounty,Dry Season,2,0.0,2.0,1.0
+310,SANDY,knockout,X Marks the Spot,2,0.0,2.0,1.0
+311,SANDY,knockout,New Perspective,3,0.0,2.0,0.6666666666666666
+312,SANDY,knockout,Goldarm Gulch,1,0.0,1.0,1.0
+313,SANDY,hotZone,Split,25,0.0,24.0,0.96
+314,SANDY,hotZone,Ring of Fire,16,0.0,12.0,0.75
+315,SANDY,hotZone,Quarter Pounder,18,0.0,14.0,0.7777777777777778
+316,SANDY,hotZone,Parallel Plays,2,0.0,1.0,0.5
+317,SANDY,hotZone,Open Zone,5,0.0,5.0,1.0
+318,SANDY,hotZone,Dueling Beetles,51,0.0,39.0,0.7647058823529411
+319,SANDY,hotZone,Controller Chaos,29,0.0,25.0,0.8620689655172413
+320,SANDY,heist,Tornado Ring,1,0.0,1.0,1.0
+321,SANDY,gemGrab,Undermine,19,0.0,13.0,0.6842105263157895
+322,SANDY,gemGrab,Minecart Madness,9,0.0,9.0,1.0
+323,SANDY,gemGrab,Hard Rock Mine,8,0.0,6.0,0.75
+324,SANDY,gemGrab,Gem Fort,40,0.0,33.0,0.825
+325,SANDY,gemGrab,Double Swoosh,82,0.0,65.0,0.7926829268292683
+326,SANDY,gemGrab,Deep Diner,33,0.0,24.0,0.7272727272727273
+327,SANDY,gemGrab,Crystal Arcade,85,0.0,73.0,0.8588235294117647
+328,SANDY,brawlBall,Super Beach,44,0.0,32.0,0.7272727272727273
+329,SANDY,brawlBall,Sunny Soccer,58,0.0,50.0,0.8620689655172413
+330,SANDY,brawlBall,Sneaky Fields,39,0.0,25.0,0.6410256410256411
+331,SANDY,brawlBall,Pinhole Punt,70,0.0,47.0,0.6714285714285714
+332,SANDY,brawlBall,Center Stage,40,0.0,26.0,0.65
+333,SANDY,brawlBall,Beach Ball,40,0.0,27.0,0.675
+334,SANDY,brawlBall,Backyard Bowl,14,0.0,11.0,0.7857142857142857
+335,SANDY,bounty,Dry Season,1,0.0,1.0,1.0
+336,SAM,knockout,X Marks the Spot,3,0.0,3.0,1.0
+337,SAM,knockout,Riverside,1,0.0,1.0,1.0
+338,SAM,knockout,Out in the Open,2,0.0,2.0,1.0
+339,SAM,knockout,New Perspective,1,0.0,0.0,0.0
+340,SAM,knockout,Goldarm Gulch,3,0.0,2.0,0.6666666666666666
+341,SAM,knockout,Flaring Phoenix,6,0.0,6.0,1.0
+342,SAM,knockout,Belle`s Rock,3,0.0,3.0,1.0
+343,SAM,hotZone,Split,37,1.0,29.0,0.7837837837837838
+344,SAM,hotZone,Ring of Fire,14,0.0,12.0,0.8571428571428571
+345,SAM,hotZone,Quarter Pounder,34,0.0,30.0,0.8823529411764706
+346,SAM,hotZone,Parallel Plays,22,0.0,16.0,0.7272727272727273
+347,SAM,hotZone,Open Zone,9,0.0,7.0,0.7777777777777778
+348,SAM,hotZone,Dueling Beetles,23,0.0,16.0,0.6956521739130435
+349,SAM,hotZone,Controller Chaos,31,0.0,21.0,0.6774193548387096
+350,SAM,heist,Tornado Ring,14,0.0,10.0,0.7142857142857143
+351,SAM,heist,Snaked Assault,38,0.0,35.0,0.9210526315789473
+352,SAM,heist,Pit Stop,116,0.0,94.0,0.8103448275862069
+353,SAM,heist,Kaboom Canyon,13,0.0,12.0,0.9230769230769231
+354,SAM,heist,Hot Potato,20,0.0,19.0,0.95
+355,SAM,heist,Bridge Too Far,11,0.0,6.0,0.5454545454545454
+356,SAM,gemGrab,Undermine,19,0.0,18.0,0.9473684210526315
+357,SAM,gemGrab,Minecart Madness,23,0.0,19.0,0.8260869565217391
+358,SAM,gemGrab,Hard Rock Mine,6,0.0,6.0,1.0
+359,SAM,gemGrab,Gem Fort,12,0.0,10.0,0.8333333333333334
+360,SAM,gemGrab,Double Swoosh,9,0.0,9.0,1.0
+361,SAM,gemGrab,Deep Diner,34,0.0,26.0,0.7647058823529411
+362,SAM,gemGrab,Crystal Arcade,11,0.0,8.0,0.7272727272727273
+363,SAM,brawlBall,Super Beach,29,0.0,20.0,0.6896551724137931
+364,SAM,brawlBall,Sunny Soccer,93,3.0,60.0,0.6451612903225806
+365,SAM,brawlBall,Sneaky Fields,139,0.0,113.0,0.8129496402877698
+366,SAM,brawlBall,Pinhole Punt,42,0.0,30.0,0.7142857142857143
+367,SAM,brawlBall,Center Stage,125,0.0,104.0,0.832
+368,SAM,brawlBall,Beach Ball,72,0.0,59.0,0.8194444444444444
+369,SAM,brawlBall,Backyard Bowl,26,1.0,19.0,0.7307692307692307
+370,SAM,bounty,Shooting Star,19,0.0,17.0,0.8947368421052632
+371,SAM,bounty,Layer Cake,6,0.0,2.0,0.3333333333333333
+372,SAM,bounty,Hideout,3,0.0,2.0,0.6666666666666666
+373,SAM,bounty,Excel,1,0.0,1.0,1.0
+374,SAM,bounty,Dry Season,12,0.0,9.0,0.75
+375,RUFFS,knockout,X Marks the Spot,12,0.0,9.0,0.75
+376,RUFFS,knockout,Out in the Open,8,0.0,4.0,0.5
+377,RUFFS,knockout,New Perspective,10,0.0,7.0,0.7
+378,RUFFS,knockout,Goldarm Gulch,9,0.0,5.0,0.5555555555555556
+379,RUFFS,knockout,Flaring Phoenix,9,0.0,5.0,0.5555555555555556
+380,RUFFS,knockout,Belle`s Rock,7,0.0,4.0,0.5714285714285714
+381,RUFFS,hotZone,Split,112,0.0,83.0,0.7410714285714286
+382,RUFFS,hotZone,Ring of Fire,39,0.0,33.0,0.8461538461538461
+383,RUFFS,hotZone,Quarter Pounder,31,0.0,27.0,0.8709677419354839
+384,RUFFS,hotZone,Parallel Plays,12,0.0,9.0,0.75
+385,RUFFS,hotZone,Dueling Beetles,18,0.0,12.0,0.6666666666666666
+386,RUFFS,hotZone,Controller Chaos,18,0.0,13.0,0.7222222222222222
+387,RUFFS,heist,Tornado Ring,4,0.0,3.0,0.75
+388,RUFFS,heist,Snaked Assault,2,0.0,1.0,0.5
+389,RUFFS,heist,Safe Zone,28,0.0,22.0,0.7857142857142857
+390,RUFFS,heist,Pit Stop,13,0.0,9.0,0.6923076923076923
+391,RUFFS,heist,Kaboom Canyon,4,0.0,4.0,1.0
+392,RUFFS,heist,Hot Potato,1,0.0,0.0,0.0
+393,RUFFS,gemGrab,Undermine,9,0.0,6.0,0.6666666666666666
+394,RUFFS,gemGrab,Minecart Madness,30,1.0,21.0,0.7
+395,RUFFS,gemGrab,Hard Rock Mine,52,0.0,38.0,0.7307692307692307
+396,RUFFS,gemGrab,Gem Fort,3,0.0,1.0,0.3333333333333333
+397,RUFFS,gemGrab,Double Swoosh,13,0.0,9.0,0.6923076923076923
+398,RUFFS,gemGrab,Deep Diner,80,0.0,60.0,0.75
+399,RUFFS,gemGrab,Crystal Arcade,28,0.0,26.0,0.9285714285714286
+400,RUFFS,brawlBall,Super Beach,9,0.0,4.0,0.4444444444444444
+401,RUFFS,brawlBall,Sunny Soccer,80,1.0,50.0,0.625
+402,RUFFS,brawlBall,Sneaky Fields,15,0.0,9.0,0.6
+403,RUFFS,brawlBall,Pinhole Punt,124,0.0,88.0,0.7096774193548387
+404,RUFFS,brawlBall,Center Stage,47,2.0,30.0,0.6382978723404256
+405,RUFFS,brawlBall,Beach Ball,125,1.0,98.0,0.784
+406,RUFFS,brawlBall,Backyard Bowl,19,0.0,15.0,0.7894736842105263
+407,RUFFS,bounty,Temple Ruins,1,0.0,1.0,1.0
+408,RUFFS,bounty,Shooting Star,1,0.0,1.0,1.0
+409,RUFFS,bounty,Layer Cake,6,0.0,5.0,0.8333333333333334
+410,RUFFS,bounty,Hideout,2,0.0,1.0,0.5
+411,RUFFS,bounty,Excel,3,0.0,3.0,1.0
+412,RUFFS,bounty,Dry Season,59,0.0,47.0,0.7966101694915254
+413,ROSA,knockout,Out in the Open,1,0.0,1.0,1.0
+414,ROSA,hotZone,Split,13,0.0,10.0,0.7692307692307693
+415,ROSA,hotZone,Ring of Fire,10,0.0,9.0,0.9
+416,ROSA,hotZone,Quarter Pounder,17,0.0,12.0,0.7058823529411765
+417,ROSA,hotZone,Parallel Plays,4,0.0,3.0,0.75
+418,ROSA,hotZone,Open Zone,1,0.0,1.0,1.0
+419,ROSA,hotZone,Dueling Beetles,17,0.0,12.0,0.7058823529411765
+420,ROSA,hotZone,Controller Chaos,45,0.0,36.0,0.8
+421,ROSA,heist,Tornado Ring,5,0.0,4.0,0.8
+422,ROSA,heist,Snaked Assault,1,0.0,0.0,0.0
+423,ROSA,heist,Safe Zone,1,0.0,1.0,1.0
+424,ROSA,heist,Pit Stop,3,0.0,3.0,1.0
+425,ROSA,heist,Hot Potato,3,0.0,3.0,1.0
+426,ROSA,gemGrab,Undermine,6,0.0,6.0,1.0
+427,ROSA,gemGrab,Minecart Madness,1,0.0,0.0,0.0
+428,ROSA,gemGrab,Hard Rock Mine,12,0.0,10.0,0.8333333333333334
+429,ROSA,gemGrab,Gem Fort,62,0.0,47.0,0.7580645161290323
+430,ROSA,gemGrab,Double Swoosh,36,0.0,26.0,0.7222222222222222
+431,ROSA,gemGrab,Deep Diner,7,0.0,7.0,1.0
+432,ROSA,gemGrab,Crystal Arcade,21,0.0,17.0,0.8095238095238095
+433,ROSA,brawlBall,Super Beach,6,0.0,4.0,0.6666666666666666
+434,ROSA,brawlBall,Sunny Soccer,8,0.0,6.0,0.75
+435,ROSA,brawlBall,Sneaky Fields,262,2.0,203.0,0.7748091603053435
+436,ROSA,brawlBall,Pinhole Punt,21,0.0,17.0,0.8095238095238095
+437,ROSA,brawlBall,Center Stage,160,0.0,127.0,0.79375
+438,ROSA,brawlBall,Beach Ball,11,0.0,9.0,0.8181818181818182
+439,ROSA,bounty,Temple Ruins,1,0.0,0.0,0.0
+440,ROSA,bounty,Shooting Star,1,0.0,1.0,1.0
+441,ROSA,bounty,Layer Cake,14,0.0,13.0,0.9285714285714286
+442,ROSA,bounty,Hideout,1,0.0,1.0,1.0
+443,RICO,knockout,X Marks the Spot,2,0.0,1.0,0.5
+444,RICO,knockout,Riverside,1,0.0,1.0,1.0
+445,RICO,knockout,Out in the Open,5,0.0,4.0,0.8
+446,RICO,knockout,New Perspective,13,0.0,11.0,0.8461538461538461
+447,RICO,knockout,Goldarm Gulch,92,0.0,61.0,0.6630434782608695
+448,RICO,knockout,Belle`s Rock,36,0.0,24.0,0.6666666666666666
+449,RICO,hotZone,Split,532,1.0,413.0,0.7763157894736842
+450,RICO,hotZone,Ring of Fire,32,0.0,17.0,0.53125
+451,RICO,hotZone,Quarter Pounder,33,0.0,26.0,0.7878787878787878
+452,RICO,hotZone,Parallel Plays,1,0.0,1.0,1.0
+453,RICO,hotZone,Dueling Beetles,3,0.0,3.0,1.0
+454,RICO,hotZone,Controller Chaos,15,0.0,13.0,0.8666666666666667
+455,RICO,heist,Tornado Ring,6,0.0,6.0,1.0
+456,RICO,heist,Snaked Assault,14,0.0,11.0,0.7857142857142857
+457,RICO,heist,Safe Zone,109,0.0,90.0,0.8256880733944955
+458,RICO,heist,Pit Stop,155,1.0,113.0,0.7290322580645161
+459,RICO,heist,Kaboom Canyon,5,0.0,3.0,0.6
+460,RICO,heist,Hot Potato,55,0.0,47.0,0.8545454545454545
+461,RICO,gemGrab,Undermine,19,0.0,15.0,0.7894736842105263
+462,RICO,gemGrab,Minecart Madness,14,0.0,11.0,0.7857142857142857
+463,RICO,gemGrab,Hard Rock Mine,207,0.0,157.0,0.7584541062801933
+464,RICO,gemGrab,Gem Fort,81,0.0,64.0,0.7901234567901234
+465,RICO,gemGrab,Double Swoosh,7,0.0,6.0,0.8571428571428571
+466,RICO,gemGrab,Deep Diner,78,0.0,68.0,0.8717948717948718
+467,RICO,gemGrab,Crystal Arcade,20,0.0,15.0,0.75
+468,RICO,brawlBall,Super Beach,21,1.0,13.0,0.6190476190476191
+469,RICO,brawlBall,Sunny Soccer,127,3.0,91.0,0.7165354330708661
+470,RICO,brawlBall,Sneaky Fields,419,3.0,294.0,0.7016706443914081
+471,RICO,brawlBall,Pinhole Punt,234,2.0,177.0,0.7564102564102564
+472,RICO,brawlBall,Center Stage,469,9.0,330.0,0.7036247334754797
+473,RICO,brawlBall,Beach Ball,106,2.0,70.0,0.660377358490566
+474,RICO,brawlBall,Backyard Bowl,24,0.0,20.0,0.8333333333333334
+475,RICO,bounty,Temple Ruins,18,0.0,16.0,0.8888888888888888
+476,RICO,bounty,Shooting Star,3,0.0,3.0,1.0
+477,RICO,bounty,Layer Cake,17,0.0,11.0,0.6470588235294118
+478,RICO,bounty,Hideout,3,0.0,3.0,1.0
+479,RICO,bounty,Excel,3,0.0,2.0,0.6666666666666666
+480,POCO,knockout,X Marks the Spot,8,0.0,8.0,1.0
+481,POCO,knockout,Riverside,5,0.0,5.0,1.0
+482,POCO,knockout,Out in the Open,3,0.0,3.0,1.0
+483,POCO,knockout,New Perspective,3,0.0,3.0,1.0
+484,POCO,knockout,Goldarm Gulch,1,0.0,1.0,1.0
+485,POCO,knockout,Flaring Phoenix,2,0.0,2.0,1.0
+486,POCO,knockout,Belle`s Rock,2,0.0,2.0,1.0
+487,POCO,hotZone,Split,51,0.0,42.0,0.8235294117647058
+488,POCO,hotZone,Ring of Fire,212,0.0,157.0,0.7405660377358491
+489,POCO,hotZone,Quarter Pounder,149,0.0,125.0,0.8389261744966443
+490,POCO,hotZone,Parallel Plays,67,0.0,57.0,0.8507462686567164
+491,POCO,hotZone,Open Zone,215,0.0,175.0,0.813953488372093
+492,POCO,hotZone,Dueling Beetles,308,0.0,253.0,0.8214285714285714
+493,POCO,hotZone,Controller Chaos,288,0.0,236.0,0.8194444444444444
+494,POCO,heist,Tornado Ring,1,0.0,1.0,1.0
+495,POCO,heist,Snaked Assault,2,0.0,2.0,1.0
+496,POCO,heist,Safe Zone,4,0.0,1.0,0.25
+497,POCO,heist,Pit Stop,2,0.0,1.0,0.5
+498,POCO,heist,Kaboom Canyon,2,0.0,2.0,1.0
+499,POCO,heist,Bridge Too Far,1,0.0,1.0,1.0
+500,POCO,gemGrab,Undermine,18,0.0,15.0,0.8333333333333334
+501,POCO,gemGrab,Minecart Madness,54,0.0,45.0,0.8333333333333334
+502,POCO,gemGrab,Hard Rock Mine,23,0.0,20.0,0.8695652173913043
+503,POCO,gemGrab,Gem Fort,99,0.0,72.0,0.7272727272727273
+504,POCO,gemGrab,Double Swoosh,150,0.0,108.0,0.72
+505,POCO,gemGrab,Deep Diner,85,0.0,70.0,0.8235294117647058
+506,POCO,gemGrab,Crystal Arcade,81,0.0,68.0,0.8395061728395061
+507,POCO,brawlBall,Super Beach,67,0.0,48.0,0.7164179104477612
+508,POCO,brawlBall,Sunny Soccer,102,0.0,76.0,0.7450980392156863
+509,POCO,brawlBall,Sneaky Fields,367,3.0,287.0,0.782016348773842
+510,POCO,brawlBall,Pinhole Punt,264,1.0,194.0,0.7348484848484849
+511,POCO,brawlBall,Center Stage,158,0.0,108.0,0.6835443037974683
+512,POCO,brawlBall,Beach Ball,137,0.0,98.0,0.7153284671532847
+513,POCO,brawlBall,Backyard Bowl,51,2.0,37.0,0.7254901960784313
+514,POCO,bounty,Temple Ruins,2,0.0,2.0,1.0
+515,POCO,bounty,Shooting Star,19,0.0,17.0,0.8947368421052632
+516,POCO,bounty,Layer Cake,8,0.0,7.0,0.875
+517,POCO,bounty,Hideout,5,0.0,5.0,1.0
+518,POCO,bounty,Dry Season,7,0.0,6.0,0.8571428571428571
+519,POCO,bounty,Canal Grande,3,0.0,2.0,0.6666666666666666
+520,PIPER,knockout,X Marks the Spot,185,0.0,142.0,0.7675675675675676
+521,PIPER,knockout,Riverside,548,0.0,399.0,0.7281021897810219
+522,PIPER,knockout,Out in the Open,244,0.0,183.0,0.75
+523,PIPER,knockout,New Perspective,38,0.0,25.0,0.6578947368421053
+524,PIPER,knockout,Goldarm Gulch,42,0.0,24.0,0.5714285714285714
+525,PIPER,knockout,Flaring Phoenix,13,0.0,10.0,0.7692307692307693
+526,PIPER,knockout,Belle`s Rock,233,0.0,169.0,0.7253218884120172
+527,PIPER,hotZone,Split,4,0.0,0.0,0.0
+528,PIPER,hotZone,Ring of Fire,23,0.0,21.0,0.9130434782608695
+529,PIPER,hotZone,Quarter Pounder,18,0.0,17.0,0.9444444444444444
+530,PIPER,hotZone,Parallel Plays,4,0.0,3.0,0.75
+531,PIPER,hotZone,Open Zone,29,0.0,24.0,0.8275862068965517
+532,PIPER,hotZone,Dueling Beetles,4,0.0,3.0,0.75
+533,PIPER,hotZone,Controller Chaos,7,0.0,7.0,1.0
+534,PIPER,heist,Tornado Ring,3,0.0,2.0,0.6666666666666666
+535,PIPER,heist,Snaked Assault,5,0.0,4.0,0.8
+536,PIPER,heist,Safe Zone,68,0.0,49.0,0.7205882352941176
+537,PIPER,heist,Pit Stop,2,0.0,2.0,1.0
+538,PIPER,heist,Kaboom Canyon,95,0.0,81.0,0.8526315789473684
+539,PIPER,heist,Bridge Too Far,57,0.0,45.0,0.7894736842105263
+540,PIPER,gemGrab,Undermine,141,0.0,96.0,0.6808510638297872
+541,PIPER,gemGrab,Minecart Madness,230,0.0,169.0,0.7347826086956522
+542,PIPER,gemGrab,Hard Rock Mine,55,0.0,40.0,0.7272727272727273
+543,PIPER,gemGrab,Gem Fort,4,0.0,2.0,0.5
+544,PIPER,gemGrab,Double Swoosh,9,0.0,7.0,0.7777777777777778
+545,PIPER,gemGrab,Deep Diner,117,0.0,87.0,0.7435897435897436
+546,PIPER,gemGrab,Crystal Arcade,80,0.0,57.0,0.7125
+547,PIPER,brawlBall,Super Beach,6,0.0,5.0,0.8333333333333334
+548,PIPER,brawlBall,Sunny Soccer,4,0.0,3.0,0.75
+549,PIPER,brawlBall,Sneaky Fields,18,0.0,15.0,0.8333333333333334
+550,PIPER,brawlBall,Pinhole Punt,61,2.0,35.0,0.5737704918032787
+551,PIPER,brawlBall,Center Stage,22,0.0,16.0,0.7272727272727273
+552,PIPER,brawlBall,Beach Ball,19,0.0,11.0,0.5789473684210527
+553,PIPER,brawlBall,Backyard Bowl,290,7.0,207.0,0.7137931034482758
+554,PIPER,bounty,Temple Ruins,13,0.0,12.0,0.9230769230769231
+555,PIPER,bounty,Shooting Star,838,0.0,634.0,0.7565632458233891
+556,PIPER,bounty,Layer Cake,54,0.0,38.0,0.7037037037037037
+557,PIPER,bounty,Hideout,597,0.0,458.0,0.7671691792294807
+558,PIPER,bounty,Excel,4,0.0,3.0,0.75
+559,PIPER,bounty,Dry Season,259,0.0,200.0,0.7722007722007722
+560,PENNY,knockout,X Marks the Spot,10,0.0,8.0,0.8
+561,PENNY,knockout,Riverside,7,0.0,6.0,0.8571428571428571
+562,PENNY,knockout,Out in the Open,58,0.0,39.0,0.6724137931034483
+563,PENNY,knockout,New Perspective,2,0.0,2.0,1.0
+564,PENNY,knockout,Goldarm Gulch,27,0.0,23.0,0.8518518518518519
+565,PENNY,knockout,Flaring Phoenix,17,0.0,14.0,0.8235294117647058
+566,PENNY,knockout,Belle`s Rock,13,0.0,8.0,0.6153846153846154
+567,PENNY,hotZone,Split,26,0.0,14.0,0.5384615384615384
+568,PENNY,hotZone,Ring of Fire,112,0.0,88.0,0.7857142857142857
+569,PENNY,hotZone,Quarter Pounder,56,0.0,51.0,0.9107142857142857
+570,PENNY,hotZone,Parallel Plays,28,0.0,23.0,0.8214285714285714
+571,PENNY,hotZone,Open Zone,39,0.0,35.0,0.8974358974358975
+572,PENNY,hotZone,Dueling Beetles,241,0.0,206.0,0.8547717842323651
+573,PENNY,hotZone,Controller Chaos,144,0.0,122.0,0.8472222222222222
+574,PENNY,heist,Tornado Ring,13,0.0,10.0,0.7692307692307693
+575,PENNY,heist,Snaked Assault,13,0.0,12.0,0.9230769230769231
+576,PENNY,heist,Safe Zone,13,0.0,11.0,0.8461538461538461
+577,PENNY,heist,Pit Stop,11,0.0,10.0,0.9090909090909091
+578,PENNY,heist,Kaboom Canyon,37,0.0,32.0,0.8648648648648649
+579,PENNY,heist,Hot Potato,3,0.0,2.0,0.6666666666666666
+580,PENNY,heist,Bridge Too Far,3,0.0,2.0,0.6666666666666666
+581,PENNY,gemGrab,Undermine,80,0.0,64.0,0.8
+582,PENNY,gemGrab,Minecart Madness,130,0.0,109.0,0.8384615384615385
+583,PENNY,gemGrab,Hard Rock Mine,54,0.0,36.0,0.6666666666666666
+584,PENNY,gemGrab,Gem Fort,57,0.0,41.0,0.7192982456140351
+585,PENNY,gemGrab,Double Swoosh,142,0.0,105.0,0.7394366197183099
+586,PENNY,gemGrab,Deep Diner,215,0.0,157.0,0.7302325581395349
+587,PENNY,gemGrab,Crystal Arcade,112,0.0,88.0,0.7857142857142857
+588,PENNY,brawlBall,Super Beach,68,0.0,49.0,0.7205882352941176
+589,PENNY,brawlBall,Sunny Soccer,88,3.0,61.0,0.6931818181818182
+590,PENNY,brawlBall,Sneaky Fields,39,0.0,27.0,0.6923076923076923
+591,PENNY,brawlBall,Pinhole Punt,59,3.0,38.0,0.6440677966101694
+592,PENNY,brawlBall,Center Stage,21,0.0,13.0,0.6190476190476191
+593,PENNY,brawlBall,Beach Ball,102,0.0,80.0,0.7843137254901961
+594,PENNY,brawlBall,Backyard Bowl,51,0.0,40.0,0.7843137254901961
+595,PENNY,bounty,Temple Ruins,1,0.0,1.0,1.0
+596,PENNY,bounty,Shooting Star,22,0.0,21.0,0.9545454545454546
+597,PENNY,bounty,Layer Cake,58,0.0,42.0,0.7241379310344828
+598,PENNY,bounty,Hideout,36,0.0,21.0,0.5833333333333334
+599,PENNY,bounty,Excel,11,0.0,11.0,1.0
+600,PENNY,bounty,Dry Season,58,0.0,40.0,0.6896551724137931
+601,PENNY,bounty,Canal Grande,1,0.0,0.0,0.0
+602,PAM,knockout,Riverside,10,0.0,7.0,0.7
+603,PAM,knockout,Out in the Open,1,0.0,1.0,1.0
+604,PAM,knockout,New Perspective,1,0.0,1.0,1.0
+605,PAM,knockout,Goldarm Gulch,1,0.0,1.0,1.0
+606,PAM,hotZone,Split,3,0.0,3.0,1.0
+607,PAM,hotZone,Ring of Fire,62,0.0,42.0,0.6774193548387096
+608,PAM,hotZone,Quarter Pounder,18,0.0,12.0,0.6666666666666666
+609,PAM,hotZone,Parallel Plays,15,0.0,11.0,0.7333333333333333
+610,PAM,hotZone,Open Zone,38,0.0,29.0,0.7631578947368421
+611,PAM,hotZone,Dueling Beetles,26,0.0,18.0,0.6923076923076923
+612,PAM,hotZone,Controller Chaos,57,0.0,42.0,0.7368421052631579
+613,PAM,heist,Tornado Ring,5,0.0,4.0,0.8
+614,PAM,heist,Snaked Assault,2,0.0,2.0,1.0
+615,PAM,heist,Safe Zone,23,0.0,19.0,0.8260869565217391
+616,PAM,heist,Pit Stop,1,0.0,0.0,0.0
+617,PAM,heist,Kaboom Canyon,3,0.0,3.0,1.0
+618,PAM,heist,Bridge Too Far,1,0.0,1.0,1.0
+619,PAM,gemGrab,Undermine,39,0.0,27.0,0.6923076923076923
+620,PAM,gemGrab,Minecart Madness,41,0.0,32.0,0.7804878048780488
+621,PAM,gemGrab,Hard Rock Mine,5,0.0,4.0,0.8
+622,PAM,gemGrab,Gem Fort,18,0.0,14.0,0.7777777777777778
+623,PAM,gemGrab,Double Swoosh,35,0.0,24.0,0.6857142857142857
+624,PAM,gemGrab,Deep Diner,15,0.0,9.0,0.6
+625,PAM,gemGrab,Crystal Arcade,14,0.0,12.0,0.8571428571428571
+626,PAM,brawlBall,Super Beach,10,0.0,7.0,0.7
+627,PAM,brawlBall,Sunny Soccer,22,1.0,12.0,0.5454545454545454
+628,PAM,brawlBall,Sneaky Fields,22,0.0,12.0,0.5454545454545454
+629,PAM,brawlBall,Pinhole Punt,83,0.0,63.0,0.7590361445783133
+630,PAM,brawlBall,Center Stage,26,0.0,17.0,0.6538461538461539
+631,PAM,brawlBall,Beach Ball,11,1.0,8.0,0.7272727272727273
+632,PAM,brawlBall,Backyard Bowl,72,0.0,50.0,0.6944444444444444
+633,PAM,bounty,Temple Ruins,1,0.0,1.0,1.0
+634,PAM,bounty,Shooting Star,5,0.0,4.0,0.8
+635,PAM,bounty,Hideout,3,0.0,2.0,0.6666666666666666
+636,PAM,bounty,Excel,1,0.0,1.0,1.0
+637,PAM,bounty,Dry Season,1,0.0,1.0,1.0
+638,PAM,bounty,Canal Grande,2,0.0,1.0,0.5
+639,OTIS,knockout,X Marks the Spot,22,0.0,18.0,0.8181818181818182
+640,OTIS,knockout,Riverside,4,0.0,1.0,0.25
+641,OTIS,knockout,Out in the Open,23,0.0,19.0,0.8260869565217391
+642,OTIS,knockout,New Perspective,1,0.0,0.0,0.0
+643,OTIS,knockout,Goldarm Gulch,30,0.0,20.0,0.6666666666666666
+644,OTIS,knockout,Belle`s Rock,14,0.0,8.0,0.5714285714285714
+645,OTIS,hotZone,Split,24,0.0,18.0,0.75
+646,OTIS,hotZone,Ring of Fire,46,0.0,35.0,0.7608695652173914
+647,OTIS,hotZone,Quarter Pounder,43,0.0,41.0,0.9534883720930233
+648,OTIS,hotZone,Parallel Plays,20,0.0,14.0,0.7
+649,OTIS,hotZone,Open Zone,24,0.0,14.0,0.5833333333333334
+650,OTIS,hotZone,Dueling Beetles,58,0.0,48.0,0.8275862068965517
+651,OTIS,hotZone,Controller Chaos,117,0.0,96.0,0.8205128205128205
+652,OTIS,heist,Tornado Ring,7,0.0,6.0,0.8571428571428571
+653,OTIS,heist,Snaked Assault,9,0.0,6.0,0.6666666666666666
+654,OTIS,heist,Safe Zone,7,0.0,6.0,0.8571428571428571
+655,OTIS,heist,Pit Stop,5,0.0,3.0,0.6
+656,OTIS,heist,Kaboom Canyon,17,0.0,15.0,0.8823529411764706
+657,OTIS,heist,Hot Potato,17,0.0,14.0,0.8235294117647058
+658,OTIS,heist,Bridge Too Far,10,0.0,6.0,0.6
+659,OTIS,gemGrab,Undermine,19,0.0,19.0,1.0
+660,OTIS,gemGrab,Minecart Madness,110,1.0,90.0,0.8181818181818182
+661,OTIS,gemGrab,Hard Rock Mine,30,0.0,25.0,0.8333333333333334
+662,OTIS,gemGrab,Gem Fort,26,0.0,20.0,0.7692307692307693
+663,OTIS,gemGrab,Double Swoosh,59,0.0,41.0,0.6949152542372882
+664,OTIS,gemGrab,Deep Diner,63,0.0,54.0,0.8571428571428571
+665,OTIS,gemGrab,Crystal Arcade,39,0.0,28.0,0.717948717948718
+666,OTIS,brawlBall,Super Beach,69,0.0,49.0,0.7101449275362319
+667,OTIS,brawlBall,Sunny Soccer,148,2.0,110.0,0.7432432432432432
+668,OTIS,brawlBall,Sneaky Fields,269,4.0,204.0,0.758364312267658
+669,OTIS,brawlBall,Pinhole Punt,169,5.0,133.0,0.7869822485207101
+670,OTIS,brawlBall,Center Stage,173,3.0,132.0,0.7630057803468208
+671,OTIS,brawlBall,Beach Ball,217,3.0,168.0,0.7741935483870968
+672,OTIS,brawlBall,Backyard Bowl,121,2.0,101.0,0.8347107438016529
+673,OTIS,bounty,Temple Ruins,3,0.0,3.0,1.0
+674,OTIS,bounty,Shooting Star,3,0.0,3.0,1.0
+675,OTIS,bounty,Layer Cake,28,0.0,23.0,0.8214285714285714
+676,OTIS,bounty,Hideout,9,0.0,5.0,0.5555555555555556
+677,OTIS,bounty,Dry Season,37,0.0,31.0,0.8378378378378378
+678,OTIS,bounty,Canal Grande,2,0.0,1.0,0.5
+679,NITA,knockout,Out in the Open,2,0.0,2.0,1.0
+680,NITA,knockout,New Perspective,1,0.0,1.0,1.0
+681,NITA,knockout,Goldarm Gulch,4,0.0,3.0,0.75
+682,NITA,knockout,Flaring Phoenix,2,0.0,2.0,1.0
+683,NITA,knockout,Belle`s Rock,2,0.0,2.0,1.0
+684,NITA,hotZone,Split,64,0.0,48.0,0.75
+685,NITA,hotZone,Ring of Fire,13,0.0,12.0,0.9230769230769231
+686,NITA,hotZone,Quarter Pounder,73,0.0,60.0,0.821917808219178
+687,NITA,hotZone,Parallel Plays,108,1.0,93.0,0.8611111111111112
+688,NITA,hotZone,Open Zone,4,0.0,4.0,1.0
+689,NITA,hotZone,Dueling Beetles,35,0.0,30.0,0.8571428571428571
+690,NITA,hotZone,Controller Chaos,310,0.0,246.0,0.7935483870967742
+691,NITA,heist,Tornado Ring,628,3.0,510.0,0.8121019108280255
+692,NITA,heist,Snaked Assault,413,0.0,327.0,0.7917675544794189
+693,NITA,heist,Safe Zone,8,0.0,8.0,1.0
+694,NITA,heist,Pit Stop,667,1.0,537.0,0.8050974512743628
+695,NITA,heist,Kaboom Canyon,71,0.0,59.0,0.8309859154929577
+696,NITA,heist,Hot Potato,114,0.0,92.0,0.8070175438596491
+697,NITA,heist,Bridge Too Far,2,0.0,2.0,1.0
+698,NITA,gemGrab,Undermine,72,0.0,53.0,0.7361111111111112
+699,NITA,gemGrab,Minecart Madness,20,0.0,18.0,0.9
+700,NITA,gemGrab,Hard Rock Mine,46,0.0,29.0,0.6304347826086957
+701,NITA,gemGrab,Gem Fort,79,0.0,59.0,0.7468354430379747
+702,NITA,gemGrab,Double Swoosh,103,0.0,77.0,0.7475728155339806
+703,NITA,gemGrab,Deep Diner,136,0.0,111.0,0.8161764705882353
+704,NITA,gemGrab,Crystal Arcade,222,0.0,174.0,0.7837837837837838
+705,NITA,brawlBall,Super Beach,151,2.0,110.0,0.7284768211920529
+706,NITA,brawlBall,Sunny Soccer,180,3.0,123.0,0.6833333333333333
+707,NITA,brawlBall,Sneaky Fields,540,3.0,409.0,0.7574074074074074
+708,NITA,brawlBall,Pinhole Punt,101,2.0,73.0,0.7227722772277227
+709,NITA,brawlBall,Center Stage,287,2.0,218.0,0.759581881533101
+710,NITA,brawlBall,Beach Ball,235,2.0,197.0,0.8382978723404255
+711,NITA,brawlBall,Backyard Bowl,22,0.0,18.0,0.8181818181818182
+712,NITA,bounty,Temple Ruins,1,0.0,1.0,1.0
+713,NITA,bounty,Shooting Star,1,0.0,1.0,1.0
+714,NITA,bounty,Layer Cake,4,0.0,4.0,1.0
+715,NITA,bounty,Hideout,1,0.0,0.0,0.0
+716,NITA,bounty,Excel,3,0.0,2.0,0.6666666666666666
+717,NITA,bounty,Dry Season,2,0.0,2.0,1.0
+718,NANI,knockout,X Marks the Spot,44,0.0,38.0,0.8636363636363636
+719,NANI,knockout,Riverside,332,0.0,253.0,0.7620481927710844
+720,NANI,knockout,Out in the Open,31,0.0,22.0,0.7096774193548387
+721,NANI,knockout,New Perspective,7,0.0,5.0,0.7142857142857143
+722,NANI,knockout,Goldarm Gulch,3,0.0,1.0,0.3333333333333333
+723,NANI,knockout,Flaring Phoenix,5,0.0,4.0,0.8
+724,NANI,knockout,Belle`s Rock,16,0.0,10.0,0.625
+725,NANI,hotZone,Ring of Fire,1,0.0,1.0,1.0
+726,NANI,hotZone,Quarter Pounder,27,0.0,17.0,0.6296296296296297
+727,NANI,hotZone,Open Zone,2,0.0,1.0,0.5
+728,NANI,hotZone,Controller Chaos,1,0.0,1.0,1.0
+729,NANI,heist,Safe Zone,2,0.0,1.0,0.5
+730,NANI,heist,Kaboom Canyon,17,0.0,14.0,0.8235294117647058
+731,NANI,heist,Bridge Too Far,10,0.0,6.0,0.6
+732,NANI,gemGrab,Undermine,1,0.0,0.0,0.0
+733,NANI,gemGrab,Minecart Madness,24,0.0,19.0,0.7916666666666666
+734,NANI,gemGrab,Hard Rock Mine,2,0.0,2.0,1.0
+735,NANI,gemGrab,Deep Diner,10,0.0,10.0,1.0
+736,NANI,gemGrab,Crystal Arcade,6,0.0,6.0,1.0
+737,NANI,brawlBall,Super Beach,2,0.0,1.0,0.5
+738,NANI,brawlBall,Sunny Soccer,1,0.0,0.0,0.0
+739,NANI,brawlBall,Sneaky Fields,1,0.0,0.0,0.0
+740,NANI,brawlBall,Pinhole Punt,2,0.0,2.0,1.0
+741,NANI,brawlBall,Beach Ball,1,0.0,1.0,1.0
+742,NANI,brawlBall,Backyard Bowl,32,1.0,20.0,0.625
+743,NANI,bounty,Temple Ruins,1,0.0,1.0,1.0
+744,NANI,bounty,Shooting Star,738,0.0,562.0,0.7615176151761518
+745,NANI,bounty,Layer Cake,5,0.0,3.0,0.6
+746,NANI,bounty,Hideout,182,0.0,136.0,0.7472527472527473
+747,NANI,bounty,Dry Season,33,0.0,25.0,0.7575757575757576
+748,MR. P,knockout,X Marks the Spot,20,0.0,17.0,0.85
+749,MR. P,knockout,Riverside,9,0.0,9.0,1.0
+750,MR. P,knockout,Out in the Open,31,0.0,25.0,0.8064516129032258
+751,MR. P,knockout,New Perspective,14,0.0,7.0,0.5
+752,MR. P,knockout,Goldarm Gulch,3,0.0,0.0,0.0
+753,MR. P,knockout,Flaring Phoenix,24,0.0,20.0,0.8333333333333334
+754,MR. P,knockout,Belle`s Rock,17,0.0,13.0,0.7647058823529411
+755,MR. P,hotZone,Ring of Fire,5,0.0,4.0,0.8
+756,MR. P,hotZone,Quarter Pounder,15,0.0,14.0,0.9333333333333333
+757,MR. P,hotZone,Parallel Plays,4,0.0,4.0,1.0
+758,MR. P,hotZone,Open Zone,3,0.0,2.0,0.6666666666666666
+759,MR. P,hotZone,Dueling Beetles,16,0.0,13.0,0.8125
+760,MR. P,hotZone,Controller Chaos,7,0.0,5.0,0.7142857142857143
+761,MR. P,heist,Snaked Assault,1,0.0,1.0,1.0
+762,MR. P,heist,Safe Zone,2,0.0,2.0,1.0
+763,MR. P,heist,Pit Stop,1,0.0,1.0,1.0
+764,MR. P,heist,Kaboom Canyon,1,0.0,1.0,1.0
+765,MR. P,gemGrab,Undermine,4,0.0,3.0,0.75
+766,MR. P,gemGrab,Minecart Madness,61,0.0,51.0,0.8360655737704918
+767,MR. P,gemGrab,Gem Fort,2,0.0,2.0,1.0
+768,MR. P,gemGrab,Double Swoosh,82,0.0,70.0,0.8536585365853658
+769,MR. P,gemGrab,Deep Diner,21,0.0,14.0,0.6666666666666666
+770,MR. P,gemGrab,Crystal Arcade,13,0.0,10.0,0.7692307692307693
+771,MR. P,brawlBall,Sunny Soccer,8,0.0,5.0,0.625
+772,MR. P,brawlBall,Sneaky Fields,12,0.0,11.0,0.9166666666666666
+773,MR. P,brawlBall,Pinhole Punt,11,0.0,7.0,0.6363636363636364
+774,MR. P,brawlBall,Center Stage,4,0.0,3.0,0.75
+775,MR. P,brawlBall,Beach Ball,33,0.0,28.0,0.8484848484848485
+776,MR. P,brawlBall,Backyard Bowl,39,0.0,33.0,0.8461538461538461
+777,MR. P,bounty,Temple Ruins,2,0.0,2.0,1.0
+778,MR. P,bounty,Shooting Star,29,0.0,22.0,0.7586206896551724
+779,MR. P,bounty,Layer Cake,10,0.0,6.0,0.6
+780,MR. P,bounty,Hideout,26,0.0,19.0,0.7307692307692307
+781,MR. P,bounty,Excel,6,0.0,5.0,0.8333333333333334
+782,MR. P,bounty,Dry Season,43,0.0,30.0,0.6976744186046512
+783,MR. P,bounty,Canal Grande,2,0.0,1.0,0.5
+784,MORTIS,knockout,X Marks the Spot,71,0.0,56.0,0.7887323943661971
+785,MORTIS,knockout,Riverside,15,0.0,13.0,0.8666666666666667
+786,MORTIS,knockout,Out in the Open,100,1.0,69.0,0.69
+787,MORTIS,knockout,New Perspective,83,0.0,59.0,0.7108433734939759
+788,MORTIS,knockout,Goldarm Gulch,47,0.0,35.0,0.7446808510638298
+789,MORTIS,knockout,Flaring Phoenix,90,0.0,64.0,0.7111111111111111
+790,MORTIS,knockout,Belle`s Rock,91,0.0,68.0,0.7472527472527473
+791,MORTIS,hotZone,Split,20,0.0,19.0,0.95
+792,MORTIS,hotZone,Ring of Fire,10,0.0,8.0,0.8
+793,MORTIS,hotZone,Quarter Pounder,42,0.0,34.0,0.8095238095238095
+794,MORTIS,hotZone,Parallel Plays,25,0.0,21.0,0.84
+795,MORTIS,hotZone,Open Zone,11,0.0,9.0,0.8181818181818182
+796,MORTIS,hotZone,Dueling Beetles,81,0.0,69.0,0.8518518518518519
+797,MORTIS,hotZone,Controller Chaos,89,0.0,72.0,0.8089887640449438
+798,MORTIS,heist,Tornado Ring,2,0.0,2.0,1.0
+799,MORTIS,heist,Snaked Assault,2,0.0,1.0,0.5
+800,MORTIS,heist,Safe Zone,1,0.0,1.0,1.0
+801,MORTIS,heist,Pit Stop,1,0.0,1.0,1.0
+802,MORTIS,heist,Kaboom Canyon,1,0.0,0.0,0.0
+803,MORTIS,gemGrab,Undermine,105,0.0,66.0,0.6285714285714286
+804,MORTIS,gemGrab,Minecart Madness,164,0.0,125.0,0.7621951219512195
+805,MORTIS,gemGrab,Hard Rock Mine,81,0.0,63.0,0.7777777777777778
+806,MORTIS,gemGrab,Gem Fort,74,0.0,47.0,0.6351351351351351
+807,MORTIS,gemGrab,Double Swoosh,92,0.0,76.0,0.8260869565217391
+808,MORTIS,gemGrab,Deep Diner,271,0.0,219.0,0.8081180811808119
+809,MORTIS,gemGrab,Crystal Arcade,168,0.0,132.0,0.7857142857142857
+810,MORTIS,brawlBall,Super Beach,233,2.0,174.0,0.7467811158798283
+811,MORTIS,brawlBall,Sunny Soccer,292,0.0,191.0,0.6541095890410958
+812,MORTIS,brawlBall,Sneaky Fields,265,1.0,203.0,0.7660377358490567
+813,MORTIS,brawlBall,Pinhole Punt,447,2.0,341.0,0.7628635346756152
+814,MORTIS,brawlBall,Center Stage,452,3.0,361.0,0.7986725663716814
+815,MORTIS,brawlBall,Beach Ball,363,1.0,275.0,0.7575757575757576
+816,MORTIS,brawlBall,Backyard Bowl,362,4.0,270.0,0.7458563535911602
+817,MORTIS,bounty,Temple Ruins,25,0.0,24.0,0.96
+818,MORTIS,bounty,Shooting Star,158,0.0,113.0,0.7151898734177216
+819,MORTIS,bounty,Layer Cake,220,0.0,156.0,0.7090909090909091
+820,MORTIS,bounty,Hideout,239,0.0,188.0,0.7866108786610879
+821,MORTIS,bounty,Excel,37,0.0,35.0,0.9459459459459459
+822,MORTIS,bounty,Dry Season,199,0.0,140.0,0.7035175879396985
+823,MORTIS,bounty,Canal Grande,2,0.0,1.0,0.5
+824,MEG,knockout,X Marks the Spot,7,0.0,2.0,0.2857142857142857
+825,MEG,knockout,Riverside,7,0.0,3.0,0.42857142857142855
+826,MEG,knockout,Out in the Open,7,0.0,3.0,0.42857142857142855
+827,MEG,knockout,Goldarm Gulch,1,0.0,1.0,1.0
+828,MEG,knockout,Belle`s Rock,6,0.0,5.0,0.8333333333333334
+829,MEG,hotZone,Split,1,0.0,1.0,1.0
+830,MEG,hotZone,Ring of Fire,119,0.0,97.0,0.8151260504201681
+831,MEG,hotZone,Quarter Pounder,82,0.0,65.0,0.7926829268292683
+832,MEG,hotZone,Parallel Plays,3,0.0,2.0,0.6666666666666666
+833,MEG,hotZone,Open Zone,116,0.0,92.0,0.7931034482758621
+834,MEG,hotZone,Dueling Beetles,109,0.0,90.0,0.8256880733944955
+835,MEG,hotZone,Controller Chaos,88,0.0,76.0,0.8636363636363636
+836,MEG,heist,Snaked Assault,2,0.0,1.0,0.5
+837,MEG,heist,Safe Zone,5,0.0,2.0,0.4
+838,MEG,heist,Kaboom Canyon,28,0.0,22.0,0.7857142857142857
+839,MEG,heist,Bridge Too Far,2,0.0,1.0,0.5
+840,MEG,gemGrab,Undermine,11,0.0,10.0,0.9090909090909091
+841,MEG,gemGrab,Minecart Madness,94,0.0,83.0,0.8829787234042553
+842,MEG,gemGrab,Hard Rock Mine,5,0.0,4.0,0.8
+843,MEG,gemGrab,Gem Fort,1,0.0,1.0,1.0
+844,MEG,gemGrab,Double Swoosh,3,0.0,3.0,1.0
+845,MEG,gemGrab,Deep Diner,4,0.0,2.0,0.5
+846,MEG,gemGrab,Crystal Arcade,5,0.0,5.0,1.0
+847,MEG,brawlBall,Super Beach,15,0.0,14.0,0.9333333333333333
+848,MEG,brawlBall,Sunny Soccer,1,0.0,1.0,1.0
+849,MEG,brawlBall,Sneaky Fields,10,0.0,6.0,0.6
+850,MEG,brawlBall,Pinhole Punt,49,1.0,35.0,0.7142857142857143
+851,MEG,brawlBall,Center Stage,1,0.0,1.0,1.0
+852,MEG,brawlBall,Beach Ball,33,0.0,23.0,0.696969696969697
+853,MEG,brawlBall,Backyard Bowl,74,1.0,50.0,0.6756756756756757
+854,MEG,bounty,Shooting Star,2,0.0,1.0,0.5
+855,MEG,bounty,Layer Cake,3,0.0,1.0,0.3333333333333333
+856,MEG,bounty,Hideout,4,0.0,3.0,0.75
+857,MEG,bounty,Dry Season,4,0.0,3.0,0.75
+858,MAX,knockout,X Marks the Spot,36,0.0,28.0,0.7777777777777778
+859,MAX,knockout,Riverside,30,0.0,24.0,0.8
+860,MAX,knockout,Out in the Open,73,0.0,58.0,0.7945205479452054
+861,MAX,knockout,New Perspective,8,0.0,5.0,0.625
+862,MAX,knockout,Goldarm Gulch,18,0.0,12.0,0.6666666666666666
+863,MAX,knockout,Flaring Phoenix,6,0.0,4.0,0.6666666666666666
+864,MAX,knockout,Belle`s Rock,54,0.0,38.0,0.7037037037037037
+865,MAX,hotZone,Split,5,0.0,4.0,0.8
+866,MAX,hotZone,Ring of Fire,30,0.0,24.0,0.8
+867,MAX,hotZone,Quarter Pounder,92,0.0,75.0,0.8152173913043478
+868,MAX,hotZone,Parallel Plays,10,0.0,10.0,1.0
+869,MAX,hotZone,Open Zone,39,0.0,31.0,0.7948717948717948
+870,MAX,hotZone,Dueling Beetles,48,0.0,42.0,0.875
+871,MAX,hotZone,Controller Chaos,20,0.0,16.0,0.8
+872,MAX,heist,Tornado Ring,25,0.0,17.0,0.68
+873,MAX,heist,Snaked Assault,54,0.0,31.0,0.5740740740740741
+874,MAX,heist,Safe Zone,18,0.0,12.0,0.6666666666666666
+875,MAX,heist,Pit Stop,6,0.0,6.0,1.0
+876,MAX,heist,Kaboom Canyon,67,0.0,54.0,0.8059701492537313
+877,MAX,heist,Hot Potato,4,0.0,2.0,0.5
+878,MAX,heist,Bridge Too Far,22,0.0,13.0,0.5909090909090909
+879,MAX,gemGrab,Undermine,85,0.0,65.0,0.7647058823529411
+880,MAX,gemGrab,Minecart Madness,106,0.0,79.0,0.7452830188679245
+881,MAX,gemGrab,Hard Rock Mine,56,0.0,37.0,0.6607142857142857
+882,MAX,gemGrab,Gem Fort,32,0.0,21.0,0.65625
+883,MAX,gemGrab,Double Swoosh,74,0.0,48.0,0.6486486486486487
+884,MAX,gemGrab,Deep Diner,139,0.0,110.0,0.7913669064748201
+885,MAX,gemGrab,Crystal Arcade,89,0.0,64.0,0.7191011235955056
+886,MAX,brawlBall,Super Beach,257,4.0,185.0,0.7198443579766537
+887,MAX,brawlBall,Sunny Soccer,205,4.0,140.0,0.6829268292682927
+888,MAX,brawlBall,Sneaky Fields,332,0.0,246.0,0.7409638554216867
+889,MAX,brawlBall,Pinhole Punt,424,4.0,313.0,0.7382075471698113
+890,MAX,brawlBall,Center Stage,213,1.0,165.0,0.7746478873239436
+891,MAX,brawlBall,Beach Ball,248,4.0,173.0,0.6975806451612904
+892,MAX,brawlBall,Backyard Bowl,490,6.0,372.0,0.7591836734693878
+893,MAX,bounty,Temple Ruins,7,0.0,6.0,0.8571428571428571
+894,MAX,bounty,Shooting Star,168,0.0,127.0,0.7559523809523809
+895,MAX,bounty,Layer Cake,49,0.0,35.0,0.7142857142857143
+896,MAX,bounty,Hideout,202,0.0,152.0,0.7524752475247525
+897,MAX,bounty,Excel,2,0.0,1.0,0.5
+898,MAX,bounty,Dry Season,111,0.0,84.0,0.7567567567567568
+899,MAX,bounty,Canal Grande,4,0.0,3.0,0.75
+900,MANDY,knockout,X Marks the Spot,20,0.0,17.0,0.85
+901,MANDY,knockout,Riverside,120,0.0,80.0,0.6666666666666666
+902,MANDY,knockout,Out in the Open,125,0.0,82.0,0.656
+903,MANDY,knockout,New Perspective,23,0.0,16.0,0.6956521739130435
+904,MANDY,knockout,Goldarm Gulch,67,0.0,51.0,0.7611940298507462
+905,MANDY,knockout,Flaring Phoenix,64,0.0,48.0,0.75
+906,MANDY,knockout,Belle`s Rock,11,0.0,9.0,0.8181818181818182
+907,MANDY,hotZone,Ring of Fire,8,0.0,8.0,1.0
+908,MANDY,hotZone,Quarter Pounder,1,0.0,0.0,0.0
+909,MANDY,hotZone,Parallel Plays,34,0.0,30.0,0.8823529411764706
+910,MANDY,hotZone,Open Zone,32,0.0,24.0,0.75
+911,MANDY,hotZone,Dueling Beetles,38,0.0,24.0,0.631578947368421
+912,MANDY,hotZone,Controller Chaos,3,0.0,2.0,0.6666666666666666
+913,MANDY,heist,Tornado Ring,1,0.0,1.0,1.0
+914,MANDY,heist,Snaked Assault,1,0.0,1.0,1.0
+915,MANDY,heist,Safe Zone,1,0.0,1.0,1.0
+916,MANDY,heist,Pit Stop,3,0.0,1.0,0.3333333333333333
+917,MANDY,heist,Kaboom Canyon,21,0.0,20.0,0.9523809523809523
+918,MANDY,gemGrab,Undermine,8,0.0,2.0,0.25
+919,MANDY,gemGrab,Minecart Madness,227,0.0,183.0,0.8061674008810573
+920,MANDY,gemGrab,Hard Rock Mine,2,0.0,0.0,0.0
+921,MANDY,gemGrab,Gem Fort,3,0.0,2.0,0.6666666666666666
+922,MANDY,gemGrab,Double Swoosh,10,0.0,7.0,0.7
+923,MANDY,gemGrab,Deep Diner,33,0.0,23.0,0.696969696969697
+924,MANDY,gemGrab,Crystal Arcade,71,0.0,56.0,0.7887323943661971
+925,MANDY,brawlBall,Super Beach,35,1.0,26.0,0.7428571428571429
+926,MANDY,brawlBall,Sunny Soccer,148,2.0,105.0,0.7094594594594594
+927,MANDY,brawlBall,Sneaky Fields,145,2.0,101.0,0.696551724137931
+928,MANDY,brawlBall,Pinhole Punt,134,1.0,95.0,0.7089552238805971
+929,MANDY,brawlBall,Center Stage,344,3.0,258.0,0.75
+930,MANDY,brawlBall,Beach Ball,161,2.0,116.0,0.7204968944099379
+931,MANDY,brawlBall,Backyard Bowl,19,0.0,11.0,0.5789473684210527
+932,MANDY,bounty,Temple Ruins,1,0.0,0.0,0.0
+933,MANDY,bounty,Shooting Star,132,0.0,90.0,0.6818181818181818
+934,MANDY,bounty,Layer Cake,7,0.0,3.0,0.42857142857142855
+935,MANDY,bounty,Hideout,258,0.0,203.0,0.7868217054263565
+936,MANDY,bounty,Dry Season,104,0.0,74.0,0.7115384615384616
+937,LOU,knockout,X Marks the Spot,2,0.0,1.0,0.5
+938,LOU,knockout,Riverside,2,0.0,2.0,1.0
+939,LOU,knockout,Out in the Open,4,0.0,0.0,0.0
+940,LOU,knockout,Belle`s Rock,1,0.0,1.0,1.0
+941,LOU,hotZone,Split,14,0.0,11.0,0.7857142857142857
+942,LOU,hotZone,Ring of Fire,71,0.0,46.0,0.647887323943662
+943,LOU,hotZone,Quarter Pounder,48,0.0,39.0,0.8125
+944,LOU,hotZone,Parallel Plays,5,0.0,4.0,0.8
+945,LOU,hotZone,Open Zone,28,0.0,23.0,0.8214285714285714
+946,LOU,hotZone,Dueling Beetles,220,0.0,192.0,0.8727272727272727
+947,LOU,hotZone,Controller Chaos,207,0.0,162.0,0.782608695652174
+948,LOU,heist,Tornado Ring,4,0.0,4.0,1.0
+949,LOU,heist,Snaked Assault,1,0.0,1.0,1.0
+950,LOU,heist,Safe Zone,1,0.0,1.0,1.0
+951,LOU,heist,Pit Stop,1,0.0,0.0,0.0
+952,LOU,heist,Kaboom Canyon,2,0.0,0.0,0.0
+953,LOU,heist,Hot Potato,2,0.0,2.0,1.0
+954,LOU,gemGrab,Undermine,1,0.0,1.0,1.0
+955,LOU,gemGrab,Minecart Madness,19,0.0,12.0,0.631578947368421
+956,LOU,gemGrab,Gem Fort,7,0.0,2.0,0.2857142857142857
+957,LOU,gemGrab,Double Swoosh,12,0.0,7.0,0.5833333333333334
+958,LOU,gemGrab,Deep Diner,16,0.0,12.0,0.75
+959,LOU,gemGrab,Crystal Arcade,2,0.0,2.0,1.0
+960,LOU,brawlBall,Super Beach,20,0.0,12.0,0.6
+961,LOU,brawlBall,Sunny Soccer,75,0.0,53.0,0.7066666666666667
+962,LOU,brawlBall,Sneaky Fields,99,1.0,60.0,0.6060606060606061
+963,LOU,brawlBall,Pinhole Punt,112,1.0,90.0,0.8035714285714286
+964,LOU,brawlBall,Center Stage,59,0.0,39.0,0.6610169491525424
+965,LOU,brawlBall,Beach Ball,48,0.0,31.0,0.6458333333333334
+966,LOU,brawlBall,Backyard Bowl,31,0.0,21.0,0.6774193548387096
+967,LOU,bounty,Layer Cake,1,0.0,1.0,1.0
+968,LOLA,knockout,X Marks the Spot,3,0.0,3.0,1.0
+969,LOLA,knockout,Riverside,3,0.0,3.0,1.0
+970,LOLA,knockout,Out in the Open,3,0.0,2.0,0.6666666666666666
+971,LOLA,knockout,New Perspective,2,0.0,2.0,1.0
+972,LOLA,knockout,Goldarm Gulch,2,0.0,2.0,1.0
+973,LOLA,knockout,Belle`s Rock,4,0.0,2.0,0.5
+974,LOLA,hotZone,Split,2,0.0,1.0,0.5
+975,LOLA,hotZone,Ring of Fire,15,0.0,11.0,0.7333333333333333
+976,LOLA,hotZone,Quarter Pounder,10,0.0,8.0,0.8
+977,LOLA,hotZone,Parallel Plays,4,0.0,4.0,1.0
+978,LOLA,hotZone,Open Zone,28,0.0,20.0,0.7142857142857143
+979,LOLA,hotZone,Dueling Beetles,21,0.0,17.0,0.8095238095238095
+980,LOLA,hotZone,Controller Chaos,8,0.0,6.0,0.75
+981,LOLA,heist,Tornado Ring,8,0.0,4.0,0.5
+982,LOLA,heist,Snaked Assault,8,0.0,7.0,0.875
+983,LOLA,heist,Safe Zone,15,0.0,12.0,0.8
+984,LOLA,heist,Pit Stop,4,0.0,4.0,1.0
+985,LOLA,heist,Kaboom Canyon,188,1.0,148.0,0.7872340425531915
+986,LOLA,heist,Hot Potato,3,0.0,2.0,0.6666666666666666
+987,LOLA,heist,Bridge Too Far,49,0.0,38.0,0.7755102040816326
+988,LOLA,gemGrab,Undermine,16,0.0,12.0,0.75
+989,LOLA,gemGrab,Minecart Madness,85,1.0,66.0,0.7764705882352941
+990,LOLA,gemGrab,Hard Rock Mine,9,0.0,6.0,0.6666666666666666
+991,LOLA,gemGrab,Gem Fort,4,0.0,3.0,0.75
+992,LOLA,gemGrab,Double Swoosh,15,0.0,8.0,0.5333333333333333
+993,LOLA,gemGrab,Deep Diner,23,0.0,20.0,0.8695652173913043
+994,LOLA,gemGrab,Crystal Arcade,2,0.0,1.0,0.5
+995,LOLA,brawlBall,Super Beach,10,0.0,9.0,0.9
+996,LOLA,brawlBall,Sunny Soccer,3,0.0,2.0,0.6666666666666666
+997,LOLA,brawlBall,Sneaky Fields,26,0.0,19.0,0.7307692307692307
+998,LOLA,brawlBall,Pinhole Punt,89,3.0,69.0,0.7752808988764045
+999,LOLA,brawlBall,Center Stage,15,0.0,12.0,0.8
+1000,LOLA,brawlBall,Beach Ball,5,0.0,2.0,0.4
+1001,LOLA,brawlBall,Backyard Bowl,125,1.0,95.0,0.76
+1002,LOLA,bounty,Shooting Star,26,0.0,22.0,0.8461538461538461
+1003,LOLA,bounty,Layer Cake,1,0.0,1.0,1.0
+1004,LOLA,bounty,Hideout,4,0.0,3.0,0.75
+1005,LOLA,bounty,Dry Season,23,0.0,17.0,0.7391304347826086
+1006,LEON,knockout,X Marks the Spot,65,0.0,62.0,0.9538461538461539
+1007,LEON,knockout,Riverside,27,0.0,18.0,0.6666666666666666
+1008,LEON,knockout,Out in the Open,53,0.0,39.0,0.7358490566037735
+1009,LEON,knockout,New Perspective,29,0.0,23.0,0.7931034482758621
+1010,LEON,knockout,Goldarm Gulch,24,0.0,17.0,0.7083333333333334
+1011,LEON,knockout,Flaring Phoenix,16,0.0,12.0,0.75
+1012,LEON,knockout,Belle`s Rock,28,0.0,21.0,0.75
+1013,LEON,hotZone,Split,13,1.0,10.0,0.7692307692307693
+1014,LEON,hotZone,Ring of Fire,14,0.0,11.0,0.7857142857142857
+1015,LEON,hotZone,Quarter Pounder,28,0.0,26.0,0.9285714285714286
+1016,LEON,hotZone,Parallel Plays,132,1.0,115.0,0.8712121212121212
+1017,LEON,hotZone,Open Zone,53,0.0,39.0,0.7358490566037735
+1018,LEON,hotZone,Dueling Beetles,23,0.0,19.0,0.8260869565217391
+1019,LEON,hotZone,Controller Chaos,16,0.0,16.0,1.0
+1020,LEON,heist,Tornado Ring,9,0.0,8.0,0.8888888888888888
+1021,LEON,heist,Snaked Assault,5,0.0,4.0,0.8
+1022,LEON,heist,Pit Stop,3,0.0,2.0,0.6666666666666666
+1023,LEON,heist,Kaboom Canyon,4,0.0,3.0,0.75
+1024,LEON,gemGrab,Undermine,28,0.0,21.0,0.75
+1025,LEON,gemGrab,Minecart Madness,73,0.0,61.0,0.8356164383561644
+1026,LEON,gemGrab,Hard Rock Mine,38,0.0,28.0,0.7368421052631579
+1027,LEON,gemGrab,Gem Fort,25,0.0,14.0,0.56
+1028,LEON,gemGrab,Double Swoosh,32,0.0,25.0,0.78125
+1029,LEON,gemGrab,Deep Diner,94,0.0,80.0,0.851063829787234
+1030,LEON,gemGrab,Crystal Arcade,47,0.0,40.0,0.851063829787234
+1031,LEON,brawlBall,Super Beach,18,0.0,9.0,0.5
+1032,LEON,brawlBall,Sunny Soccer,48,0.0,41.0,0.8541666666666666
+1033,LEON,brawlBall,Sneaky Fields,34,1.0,25.0,0.7352941176470589
+1034,LEON,brawlBall,Pinhole Punt,202,1.0,161.0,0.7970297029702971
+1035,LEON,brawlBall,Center Stage,49,2.0,33.0,0.673469387755102
+1036,LEON,brawlBall,Beach Ball,50,0.0,37.0,0.74
+1037,LEON,brawlBall,Backyard Bowl,164,2.0,129.0,0.7865853658536586
+1038,LEON,bounty,Temple Ruins,3,0.0,3.0,1.0
+1039,LEON,bounty,Shooting Star,86,0.0,74.0,0.8604651162790697
+1040,LEON,bounty,Layer Cake,42,0.0,29.0,0.6904761904761905
+1041,LEON,bounty,Hideout,155,0.0,112.0,0.7225806451612903
+1042,LEON,bounty,Excel,11,0.0,8.0,0.7272727272727273
+1043,LEON,bounty,Dry Season,107,0.0,87.0,0.8130841121495327
+1044,LEON,bounty,Canal Grande,1,0.0,1.0,1.0
+1045,JESSIE,knockout,X Marks the Spot,2,0.0,2.0,1.0
+1046,JESSIE,knockout,Riverside,3,0.0,2.0,0.6666666666666666
+1047,JESSIE,knockout,Out in the Open,3,0.0,2.0,0.6666666666666666
+1048,JESSIE,knockout,Goldarm Gulch,2,0.0,2.0,1.0
+1049,JESSIE,knockout,Flaring Phoenix,1,0.0,0.0,0.0
+1050,JESSIE,knockout,Belle`s Rock,4,0.0,4.0,1.0
+1051,JESSIE,hotZone,Split,8,0.0,7.0,0.875
+1052,JESSIE,hotZone,Ring of Fire,31,0.0,28.0,0.9032258064516129
+1053,JESSIE,hotZone,Quarter Pounder,36,0.0,34.0,0.9444444444444444
+1054,JESSIE,hotZone,Parallel Plays,55,2.0,48.0,0.8727272727272727
+1055,JESSIE,hotZone,Open Zone,22,0.0,20.0,0.9090909090909091
+1056,JESSIE,hotZone,Dueling Beetles,87,0.0,72.0,0.8275862068965517
+1057,JESSIE,hotZone,Controller Chaos,52,0.0,46.0,0.8846153846153846
+1058,JESSIE,heist,Tornado Ring,108,0.0,97.0,0.8981481481481481
+1059,JESSIE,heist,Snaked Assault,153,0.0,132.0,0.8627450980392157
+1060,JESSIE,heist,Safe Zone,37,0.0,30.0,0.8108108108108109
+1061,JESSIE,heist,Pit Stop,57,0.0,48.0,0.8421052631578947
+1062,JESSIE,heist,Kaboom Canyon,128,1.0,112.0,0.875
+1063,JESSIE,heist,Hot Potato,36,0.0,27.0,0.75
+1064,JESSIE,heist,Bridge Too Far,9,0.0,5.0,0.5555555555555556
+1065,JESSIE,gemGrab,Undermine,29,0.0,23.0,0.7931034482758621
+1066,JESSIE,gemGrab,Minecart Madness,55,0.0,48.0,0.8727272727272727
+1067,JESSIE,gemGrab,Hard Rock Mine,8,0.0,7.0,0.875
+1068,JESSIE,gemGrab,Gem Fort,24,0.0,21.0,0.875
+1069,JESSIE,gemGrab,Double Swoosh,55,0.0,45.0,0.8181818181818182
+1070,JESSIE,gemGrab,Deep Diner,74,0.0,65.0,0.8783783783783784
+1071,JESSIE,gemGrab,Crystal Arcade,39,0.0,35.0,0.8974358974358975
+1072,JESSIE,brawlBall,Super Beach,88,2.0,62.0,0.7045454545454546
+1073,JESSIE,brawlBall,Sunny Soccer,46,1.0,33.0,0.717391304347826
+1074,JESSIE,brawlBall,Sneaky Fields,58,0.0,49.0,0.8448275862068966
+1075,JESSIE,brawlBall,Pinhole Punt,75,0.0,50.0,0.6666666666666666
+1076,JESSIE,brawlBall,Center Stage,24,0.0,19.0,0.7916666666666666
+1077,JESSIE,brawlBall,Beach Ball,75,1.0,59.0,0.7866666666666666
+1078,JESSIE,brawlBall,Backyard Bowl,37,0.0,32.0,0.8648648648648649
+1079,JESSIE,bounty,Temple Ruins,1,0.0,1.0,1.0
+1080,JESSIE,bounty,Shooting Star,5,0.0,4.0,0.8
+1081,JESSIE,bounty,Layer Cake,5,0.0,2.0,0.4
+1082,JESSIE,bounty,Hideout,4,0.0,3.0,0.75
+1083,JESSIE,bounty,Dry Season,4,0.0,4.0,1.0
+1084,JANET,knockout,X Marks the Spot,31,0.0,24.0,0.7741935483870968
+1085,JANET,knockout,Riverside,3,0.0,3.0,1.0
+1086,JANET,knockout,Out in the Open,36,0.0,29.0,0.8055555555555556
+1087,JANET,knockout,New Perspective,10,0.0,7.0,0.7
+1088,JANET,knockout,Goldarm Gulch,4,0.0,1.0,0.25
+1089,JANET,knockout,Flaring Phoenix,4,0.0,3.0,0.75
+1090,JANET,knockout,Belle`s Rock,27,0.0,19.0,0.7037037037037037
+1091,JANET,hotZone,Split,23,0.0,20.0,0.8695652173913043
+1092,JANET,hotZone,Ring of Fire,12,0.0,7.0,0.5833333333333334
+1093,JANET,hotZone,Quarter Pounder,42,0.0,32.0,0.7619047619047619
+1094,JANET,hotZone,Parallel Plays,74,1.0,60.0,0.8108108108108109
+1095,JANET,hotZone,Open Zone,26,0.0,20.0,0.7692307692307693
+1096,JANET,hotZone,Dueling Beetles,16,0.0,16.0,1.0
+1097,JANET,hotZone,Controller Chaos,24,0.0,15.0,0.625
+1098,JANET,heist,Tornado Ring,2,0.0,2.0,1.0
+1099,JANET,heist,Safe Zone,1,0.0,0.0,0.0
+1100,JANET,heist,Pit Stop,1,0.0,1.0,1.0
+1101,JANET,heist,Kaboom Canyon,4,0.0,3.0,0.75
+1102,JANET,gemGrab,Undermine,64,0.0,48.0,0.75
+1103,JANET,gemGrab,Minecart Madness,71,0.0,63.0,0.8873239436619719
+1104,JANET,gemGrab,Hard Rock Mine,10,0.0,6.0,0.6
+1105,JANET,gemGrab,Gem Fort,10,0.0,9.0,0.9
+1106,JANET,gemGrab,Double Swoosh,86,0.0,67.0,0.7790697674418605
+1107,JANET,gemGrab,Deep Diner,41,0.0,27.0,0.6585365853658537
+1108,JANET,gemGrab,Crystal Arcade,63,0.0,55.0,0.873015873015873
+1109,JANET,brawlBall,Super Beach,7,0.0,3.0,0.42857142857142855
+1110,JANET,brawlBall,Sunny Soccer,21,1.0,14.0,0.6666666666666666
+1111,JANET,brawlBall,Sneaky Fields,20,0.0,15.0,0.75
+1112,JANET,brawlBall,Pinhole Punt,106,0.0,79.0,0.7452830188679245
+1113,JANET,brawlBall,Center Stage,93,4.0,74.0,0.7956989247311828
+1114,JANET,brawlBall,Beach Ball,118,2.0,96.0,0.8135593220338984
+1115,JANET,brawlBall,Backyard Bowl,34,0.0,19.0,0.5588235294117647
+1116,JANET,bounty,Shooting Star,8,0.0,5.0,0.625
+1117,JANET,bounty,Layer Cake,52,0.0,39.0,0.75
+1118,JANET,bounty,Hideout,57,0.0,48.0,0.8421052631578947
+1119,JANET,bounty,Dry Season,28,0.0,22.0,0.7857142857142857
+1120,JANET,bounty,Canal Grande,15,0.0,9.0,0.6
+1121,JACKY,knockout,X Marks the Spot,185,0.0,143.0,0.772972972972973
+1122,JACKY,knockout,Out in the Open,243,2.0,163.0,0.6707818930041153
+1123,JACKY,knockout,New Perspective,63,0.0,45.0,0.7142857142857143
+1124,JACKY,knockout,Goldarm Gulch,23,0.0,14.0,0.6086956521739131
+1125,JACKY,knockout,Flaring Phoenix,30,0.0,14.0,0.4666666666666667
+1126,JACKY,knockout,Belle`s Rock,47,0.0,38.0,0.8085106382978723
+1127,JACKY,hotZone,Split,45,0.0,35.0,0.7777777777777778
+1128,JACKY,hotZone,Ring of Fire,2,0.0,2.0,1.0
+1129,JACKY,hotZone,Quarter Pounder,19,0.0,13.0,0.6842105263157895
+1130,JACKY,hotZone,Parallel Plays,8,0.0,8.0,1.0
+1131,JACKY,hotZone,Open Zone,3,0.0,3.0,1.0
+1132,JACKY,hotZone,Dueling Beetles,20,0.0,19.0,0.95
+1133,JACKY,hotZone,Controller Chaos,11,0.0,10.0,0.9090909090909091
+1134,JACKY,heist,Tornado Ring,5,0.0,5.0,1.0
+1135,JACKY,heist,Snaked Assault,3,0.0,3.0,1.0
+1136,JACKY,heist,Pit Stop,4,0.0,4.0,1.0
+1137,JACKY,heist,Kaboom Canyon,2,0.0,1.0,0.5
+1138,JACKY,gemGrab,Undermine,8,0.0,6.0,0.75
+1139,JACKY,gemGrab,Minecart Madness,4,0.0,3.0,0.75
+1140,JACKY,gemGrab,Hard Rock Mine,6,0.0,4.0,0.6666666666666666
+1141,JACKY,gemGrab,Gem Fort,26,0.0,19.0,0.7307692307692307
+1142,JACKY,gemGrab,Double Swoosh,15,0.0,10.0,0.6666666666666666
+1143,JACKY,gemGrab,Deep Diner,5,0.0,4.0,0.8
+1144,JACKY,gemGrab,Crystal Arcade,27,0.0,21.0,0.7777777777777778
+1145,JACKY,brawlBall,Super Beach,94,0.0,74.0,0.7872340425531915
+1146,JACKY,brawlBall,Sunny Soccer,119,0.0,90.0,0.7563025210084033
+1147,JACKY,brawlBall,Sneaky Fields,581,6.0,442.0,0.7607573149741824
+1148,JACKY,brawlBall,Pinhole Punt,91,0.0,72.0,0.7912087912087912
+1149,JACKY,brawlBall,Center Stage,387,3.0,281.0,0.7260981912144703
+1150,JACKY,brawlBall,Beach Ball,120,0.0,101.0,0.8416666666666667
+1151,JACKY,brawlBall,Backyard Bowl,23,0.0,18.0,0.782608695652174
+1152,JACKY,bounty,Temple Ruins,3,0.0,3.0,1.0
+1153,JACKY,bounty,Shooting Star,1,0.0,1.0,1.0
+1154,JACKY,bounty,Layer Cake,5,0.0,4.0,0.8
+1155,JACKY,bounty,Hideout,1,0.0,1.0,1.0
+1156,JACKY,bounty,Excel,4,0.0,2.0,0.5
+1157,JACKY,bounty,Dry Season,8,0.0,6.0,0.75
+1158,JACKY,bounty,Canal Grande,1,0.0,0.0,0.0
+1159,GUS,knockout,X Marks the Spot,48,0.0,41.0,0.8541666666666666
+1160,GUS,knockout,Riverside,69,0.0,51.0,0.7391304347826086
+1161,GUS,knockout,Out in the Open,97,0.0,73.0,0.7525773195876289
+1162,GUS,knockout,New Perspective,18,0.0,17.0,0.9444444444444444
+1163,GUS,knockout,Goldarm Gulch,20,0.0,12.0,0.6
+1164,GUS,knockout,Flaring Phoenix,14,0.0,11.0,0.7857142857142857
+1165,GUS,knockout,Belle`s Rock,102,0.0,73.0,0.7156862745098039
+1166,GUS,hotZone,Ring of Fire,12,0.0,11.0,0.9166666666666666
+1167,GUS,hotZone,Quarter Pounder,37,0.0,32.0,0.8648648648648649
+1168,GUS,hotZone,Parallel Plays,8,0.0,6.0,0.75
+1169,GUS,hotZone,Open Zone,33,0.0,26.0,0.7878787878787878
+1170,GUS,hotZone,Dueling Beetles,26,0.0,18.0,0.6923076923076923
+1171,GUS,hotZone,Controller Chaos,27,0.0,26.0,0.9629629629629629
+1172,GUS,heist,Safe Zone,3,0.0,2.0,0.6666666666666666
+1173,GUS,heist,Kaboom Canyon,6,0.0,6.0,1.0
+1174,GUS,heist,Bridge Too Far,7,0.0,5.0,0.7142857142857143
+1175,GUS,gemGrab,Undermine,42,0.0,28.0,0.6666666666666666
+1176,GUS,gemGrab,Minecart Madness,135,0.0,123.0,0.9111111111111111
+1177,GUS,gemGrab,Hard Rock Mine,7,0.0,6.0,0.8571428571428571
+1178,GUS,gemGrab,Gem Fort,10,0.0,7.0,0.7
+1179,GUS,gemGrab,Double Swoosh,18,0.0,14.0,0.7777777777777778
+1180,GUS,gemGrab,Deep Diner,91,0.0,68.0,0.7472527472527473
+1181,GUS,gemGrab,Crystal Arcade,133,0.0,110.0,0.8270676691729323
+1182,GUS,brawlBall,Super Beach,20,0.0,13.0,0.65
+1183,GUS,brawlBall,Sunny Soccer,14,0.0,7.0,0.5
+1184,GUS,brawlBall,Sneaky Fields,47,0.0,37.0,0.7872340425531915
+1185,GUS,brawlBall,Pinhole Punt,65,3.0,42.0,0.6461538461538462
+1186,GUS,brawlBall,Center Stage,19,0.0,12.0,0.631578947368421
+1187,GUS,brawlBall,Beach Ball,23,0.0,15.0,0.6521739130434783
+1188,GUS,brawlBall,Backyard Bowl,150,0.0,128.0,0.8533333333333334
+1189,GUS,bounty,Temple Ruins,3,0.0,2.0,0.6666666666666666
+1190,GUS,bounty,Shooting Star,199,0.0,158.0,0.7939698492462312
+1191,GUS,bounty,Layer Cake,60,0.0,53.0,0.8833333333333333
+1192,GUS,bounty,Hideout,145,0.0,113.0,0.7793103448275862
+1193,GUS,bounty,Excel,16,0.0,15.0,0.9375
+1194,GUS,bounty,Dry Season,96,0.0,71.0,0.7395833333333334
+1195,GUS,bounty,Canal Grande,1,0.0,1.0,1.0
+1196,GROM,knockout,X Marks the Spot,222,0.0,182.0,0.8198198198198198
+1197,GROM,knockout,Riverside,89,0.0,74.0,0.8314606741573034
+1198,GROM,knockout,Out in the Open,246,0.0,168.0,0.6829268292682927
+1199,GROM,knockout,New Perspective,120,0.0,94.0,0.7833333333333333
+1200,GROM,knockout,Goldarm Gulch,162,0.0,112.0,0.691358024691358
+1201,GROM,knockout,Flaring Phoenix,76,0.0,54.0,0.7105263157894737
+1202,GROM,knockout,Belle`s Rock,371,0.0,260.0,0.7008086253369272
+1203,GROM,hotZone,Split,190,0.0,155.0,0.8157894736842105
+1204,GROM,hotZone,Ring of Fire,25,0.0,18.0,0.72
+1205,GROM,hotZone,Quarter Pounder,52,1.0,44.0,0.8461538461538461
+1206,GROM,hotZone,Parallel Plays,23,0.0,18.0,0.782608695652174
+1207,GROM,hotZone,Open Zone,7,0.0,6.0,0.8571428571428571
+1208,GROM,hotZone,Dueling Beetles,94,0.0,83.0,0.8829787234042553
+1209,GROM,hotZone,Controller Chaos,45,0.0,32.0,0.7111111111111111
+1210,GROM,heist,Tornado Ring,7,0.0,4.0,0.5714285714285714
+1211,GROM,heist,Snaked Assault,19,0.0,16.0,0.8421052631578947
+1212,GROM,heist,Safe Zone,32,0.0,23.0,0.71875
+1213,GROM,heist,Pit Stop,18,0.0,14.0,0.7777777777777778
+1214,GROM,heist,Kaboom Canyon,51,0.0,37.0,0.7254901960784313
+1215,GROM,heist,Hot Potato,5,0.0,3.0,0.6
+1216,GROM,heist,Bridge Too Far,36,0.0,20.0,0.5555555555555556
+1217,GROM,gemGrab,Undermine,12,0.0,7.0,0.5833333333333334
+1218,GROM,gemGrab,Minecart Madness,86,0.0,71.0,0.8255813953488372
+1219,GROM,gemGrab,Hard Rock Mine,5,0.0,5.0,1.0
+1220,GROM,gemGrab,Gem Fort,6,0.0,6.0,1.0
+1221,GROM,gemGrab,Double Swoosh,19,0.0,14.0,0.7368421052631579
+1222,GROM,gemGrab,Deep Diner,153,0.0,128.0,0.8366013071895425
+1223,GROM,gemGrab,Crystal Arcade,16,0.0,13.0,0.8125
+1224,GROM,brawlBall,Super Beach,23,0.0,16.0,0.6956521739130435
+1225,GROM,brawlBall,Sunny Soccer,134,2.0,89.0,0.664179104477612
+1226,GROM,brawlBall,Sneaky Fields,56,3.0,36.0,0.6428571428571429
+1227,GROM,brawlBall,Pinhole Punt,47,0.0,35.0,0.7446808510638298
+1228,GROM,brawlBall,Center Stage,1052,11.0,805.0,0.7652091254752852
+1229,GROM,brawlBall,Beach Ball,110,0.0,83.0,0.7545454545454545
+1230,GROM,brawlBall,Backyard Bowl,20,0.0,12.0,0.6
+1231,GROM,bounty,Temple Ruins,2,0.0,2.0,1.0
+1232,GROM,bounty,Shooting Star,405,0.0,297.0,0.7333333333333333
+1233,GROM,bounty,Layer Cake,158,0.0,113.0,0.7151898734177216
+1234,GROM,bounty,Hideout,521,0.0,385.0,0.7389635316698656
+1235,GROM,bounty,Excel,27,0.0,23.0,0.8518518518518519
+1236,GROM,bounty,Dry Season,324,0.0,237.0,0.7314814814814815
+1237,GROM,bounty,Canal Grande,6,0.0,2.0,0.3333333333333333
+1238,GRIFF,knockout,Riverside,1,0.0,1.0,1.0
+1239,GRIFF,knockout,Out in the Open,6,0.0,6.0,1.0
+1240,GRIFF,knockout,New Perspective,2,0.0,2.0,1.0
+1241,GRIFF,knockout,Flaring Phoenix,2,0.0,2.0,1.0
+1242,GRIFF,knockout,Belle`s Rock,2,0.0,2.0,1.0
+1243,GRIFF,hotZone,Split,115,1.0,90.0,0.782608695652174
+1244,GRIFF,hotZone,Ring of Fire,67,0.0,55.0,0.8208955223880597
+1245,GRIFF,hotZone,Quarter Pounder,98,1.0,74.0,0.7551020408163265
+1246,GRIFF,hotZone,Parallel Plays,128,1.0,110.0,0.859375
+1247,GRIFF,hotZone,Open Zone,21,0.0,19.0,0.9047619047619048
+1248,GRIFF,hotZone,Dueling Beetles,90,0.0,85.0,0.9444444444444444
+1249,GRIFF,hotZone,Controller Chaos,238,0.0,198.0,0.8319327731092437
+1250,GRIFF,heist,Tornado Ring,89,0.0,73.0,0.8202247191011236
+1251,GRIFF,heist,Snaked Assault,86,0.0,77.0,0.8953488372093024
+1252,GRIFF,heist,Safe Zone,10,0.0,8.0,0.8
+1253,GRIFF,heist,Pit Stop,97,0.0,80.0,0.8247422680412371
+1254,GRIFF,heist,Kaboom Canyon,25,0.0,18.0,0.72
+1255,GRIFF,heist,Hot Potato,13,0.0,9.0,0.6923076923076923
+1256,GRIFF,heist,Bridge Too Far,3,0.0,2.0,0.6666666666666666
+1257,GRIFF,gemGrab,Undermine,30,0.0,24.0,0.8
+1258,GRIFF,gemGrab,Minecart Madness,20,0.0,19.0,0.95
+1259,GRIFF,gemGrab,Hard Rock Mine,13,0.0,10.0,0.7692307692307693
+1260,GRIFF,gemGrab,Gem Fort,32,0.0,25.0,0.78125
+1261,GRIFF,gemGrab,Double Swoosh,75,0.0,58.0,0.7733333333333333
+1262,GRIFF,gemGrab,Deep Diner,111,0.0,90.0,0.8108108108108109
+1263,GRIFF,gemGrab,Crystal Arcade,145,0.0,115.0,0.7931034482758621
+1264,GRIFF,brawlBall,Super Beach,92,3.0,66.0,0.717391304347826
+1265,GRIFF,brawlBall,Sunny Soccer,129,1.0,99.0,0.7674418604651163
+1266,GRIFF,brawlBall,Sneaky Fields,159,1.0,130.0,0.8176100628930818
+1267,GRIFF,brawlBall,Pinhole Punt,214,4.0,154.0,0.719626168224299
+1268,GRIFF,brawlBall,Center Stage,142,1.0,107.0,0.7535211267605634
+1269,GRIFF,brawlBall,Beach Ball,123,1.0,98.0,0.7967479674796748
+1270,GRIFF,brawlBall,Backyard Bowl,73,0.0,57.0,0.7808219178082192
+1271,GRIFF,bounty,Shooting Star,1,0.0,1.0,1.0
+1272,GRIFF,bounty,Layer Cake,2,0.0,2.0,1.0
+1273,GRIFF,bounty,Hideout,3,0.0,3.0,1.0
+1274,GRIFF,bounty,Dry Season,5,0.0,4.0,0.8
+1275,GRIFF,bounty,Canal Grande,1,0.0,1.0,1.0
+1276,GRAY,knockout,X Marks the Spot,282,0.0,218.0,0.7730496453900709
+1277,GRAY,knockout,Riverside,46,0.0,30.0,0.6521739130434783
+1278,GRAY,knockout,Out in the Open,470,2.0,326.0,0.6936170212765957
+1279,GRAY,knockout,New Perspective,132,0.0,98.0,0.7424242424242424
+1280,GRAY,knockout,Goldarm Gulch,69,0.0,48.0,0.6956521739130435
+1281,GRAY,knockout,Flaring Phoenix,57,0.0,33.0,0.5789473684210527
+1282,GRAY,knockout,Belle`s Rock,117,0.0,82.0,0.7008547008547008
+1283,GRAY,hotZone,Split,152,0.0,128.0,0.8421052631578947
+1284,GRAY,hotZone,Ring of Fire,5,0.0,5.0,1.0
+1285,GRAY,hotZone,Quarter Pounder,87,0.0,63.0,0.7241379310344828
+1286,GRAY,hotZone,Parallel Plays,8,0.0,6.0,0.75
+1287,GRAY,hotZone,Open Zone,25,0.0,16.0,0.64
+1288,GRAY,hotZone,Dueling Beetles,56,0.0,48.0,0.8571428571428571
+1289,GRAY,hotZone,Controller Chaos,12,0.0,8.0,0.6666666666666666
+1290,GRAY,heist,Tornado Ring,2,0.0,2.0,1.0
+1291,GRAY,heist,Snaked Assault,1,0.0,1.0,1.0
+1292,GRAY,heist,Pit Stop,1,0.0,1.0,1.0
+1293,GRAY,heist,Kaboom Canyon,7,0.0,6.0,0.8571428571428571
+1294,GRAY,heist,Hot Potato,2,0.0,1.0,0.5
+1295,GRAY,heist,Bridge Too Far,2,0.0,2.0,1.0
+1296,GRAY,gemGrab,Undermine,78,0.0,60.0,0.7692307692307693
+1297,GRAY,gemGrab,Minecart Madness,76,0.0,62.0,0.8157894736842105
+1298,GRAY,gemGrab,Hard Rock Mine,66,0.0,48.0,0.7272727272727273
+1299,GRAY,gemGrab,Gem Fort,48,0.0,42.0,0.875
+1300,GRAY,gemGrab,Double Swoosh,111,0.0,86.0,0.7747747747747747
+1301,GRAY,gemGrab,Deep Diner,120,0.0,92.0,0.7666666666666667
+1302,GRAY,gemGrab,Crystal Arcade,150,0.0,122.0,0.8133333333333334
+1303,GRAY,brawlBall,Super Beach,89,0.0,61.0,0.6853932584269663
+1304,GRAY,brawlBall,Sunny Soccer,279,1.0,201.0,0.7204301075268817
+1305,GRAY,brawlBall,Sneaky Fields,88,1.0,59.0,0.6704545454545454
+1306,GRAY,brawlBall,Pinhole Punt,231,4.0,153.0,0.6623376623376623
+1307,GRAY,brawlBall,Center Stage,289,3.0,202.0,0.698961937716263
+1308,GRAY,brawlBall,Beach Ball,213,1.0,159.0,0.7464788732394366
+1309,GRAY,brawlBall,Backyard Bowl,260,5.0,199.0,0.7653846153846153
+1310,GRAY,bounty,Shooting Star,28,0.0,26.0,0.9285714285714286
+1311,GRAY,bounty,Layer Cake,25,0.0,15.0,0.6
+1312,GRAY,bounty,Hideout,140,0.0,112.0,0.8
+1313,GRAY,bounty,Excel,9,0.0,6.0,0.6666666666666666
+1314,GRAY,bounty,Dry Season,30,0.0,23.0,0.7666666666666667
+1315,GENE,knockout,X Marks the Spot,107,0.0,80.0,0.7476635514018691
+1316,GENE,knockout,Riverside,23,0.0,14.0,0.6086956521739131
+1317,GENE,knockout,Out in the Open,129,0.0,86.0,0.6666666666666666
+1318,GENE,knockout,New Perspective,19,0.0,16.0,0.8421052631578947
+1319,GENE,knockout,Goldarm Gulch,60,0.0,37.0,0.6166666666666667
+1320,GENE,knockout,Flaring Phoenix,44,0.0,27.0,0.6136363636363636
+1321,GENE,knockout,Belle`s Rock,102,0.0,68.0,0.6666666666666666
+1322,GENE,hotZone,Split,2,0.0,1.0,0.5
+1323,GENE,hotZone,Ring of Fire,1,0.0,0.0,0.0
+1324,GENE,hotZone,Quarter Pounder,26,0.0,19.0,0.7307692307692307
+1325,GENE,hotZone,Parallel Plays,2,0.0,2.0,1.0
+1326,GENE,hotZone,Open Zone,19,0.0,12.0,0.631578947368421
+1327,GENE,hotZone,Dueling Beetles,1,0.0,1.0,1.0
+1328,GENE,hotZone,Controller Chaos,2,0.0,1.0,0.5
+1329,GENE,heist,Tornado Ring,2,0.0,2.0,1.0
+1330,GENE,heist,Pit Stop,1,0.0,1.0,1.0
+1331,GENE,heist,Kaboom Canyon,2,0.0,2.0,1.0
+1332,GENE,gemGrab,Undermine,123,0.0,82.0,0.6666666666666666
+1333,GENE,gemGrab,Minecart Madness,164,1.0,132.0,0.8048780487804879
+1334,GENE,gemGrab,Hard Rock Mine,108,0.0,85.0,0.7870370370370371
+1335,GENE,gemGrab,Gem Fort,109,0.0,81.0,0.7431192660550459
+1336,GENE,gemGrab,Double Swoosh,312,0.0,222.0,0.7115384615384616
+1337,GENE,gemGrab,Deep Diner,272,0.0,211.0,0.7757352941176471
+1338,GENE,gemGrab,Crystal Arcade,189,0.0,150.0,0.7936507936507936
+1339,GENE,brawlBall,Super Beach,9,0.0,5.0,0.5555555555555556
+1340,GENE,brawlBall,Sunny Soccer,15,1.0,10.0,0.6666666666666666
+1341,GENE,brawlBall,Sneaky Fields,42,2.0,35.0,0.8333333333333334
+1342,GENE,brawlBall,Pinhole Punt,48,1.0,38.0,0.7916666666666666
+1343,GENE,brawlBall,Center Stage,37,1.0,22.0,0.5945945945945946
+1344,GENE,brawlBall,Beach Ball,28,1.0,17.0,0.6071428571428571
+1345,GENE,brawlBall,Backyard Bowl,72,2.0,56.0,0.7777777777777778
+1346,GENE,bounty,Temple Ruins,6,0.0,6.0,1.0
+1347,GENE,bounty,Shooting Star,119,0.0,82.0,0.6890756302521008
+1348,GENE,bounty,Layer Cake,163,0.0,117.0,0.7177914110429447
+1349,GENE,bounty,Hideout,158,0.0,115.0,0.7278481012658228
+1350,GENE,bounty,Excel,23,0.0,18.0,0.782608695652174
+1351,GENE,bounty,Dry Season,272,0.0,198.0,0.7279411764705882
+1352,GENE,bounty,Canal Grande,5,0.0,1.0,0.2
+1353,GALE,knockout,X Marks the Spot,2,0.0,2.0,1.0
+1354,GALE,knockout,Riverside,1,0.0,1.0,1.0
+1355,GALE,knockout,Out in the Open,7,1.0,5.0,0.7142857142857143
+1356,GALE,knockout,New Perspective,1,0.0,1.0,1.0
+1357,GALE,knockout,Goldarm Gulch,4,0.0,4.0,1.0
+1358,GALE,knockout,Flaring Phoenix,2,0.0,2.0,1.0
+1359,GALE,knockout,Belle`s Rock,1,0.0,1.0,1.0
+1360,GALE,hotZone,Split,272,0.0,205.0,0.7536764705882353
+1361,GALE,hotZone,Ring of Fire,14,0.0,13.0,0.9285714285714286
+1362,GALE,hotZone,Quarter Pounder,21,0.0,19.0,0.9047619047619048
+1363,GALE,hotZone,Parallel Plays,49,0.0,44.0,0.8979591836734694
+1364,GALE,hotZone,Open Zone,22,0.0,21.0,0.9545454545454546
+1365,GALE,hotZone,Dueling Beetles,13,0.0,13.0,1.0
+1366,GALE,hotZone,Controller Chaos,76,0.0,59.0,0.7763157894736842
+1367,GALE,heist,Tornado Ring,2,0.0,1.0,0.5
+1368,GALE,heist,Snaked Assault,1,0.0,1.0,1.0
+1369,GALE,heist,Pit Stop,5,0.0,2.0,0.4
+1370,GALE,heist,Kaboom Canyon,21,0.0,19.0,0.9047619047619048
+1371,GALE,heist,Hot Potato,5,0.0,5.0,1.0
+1372,GALE,gemGrab,Undermine,21,0.0,18.0,0.8571428571428571
+1373,GALE,gemGrab,Minecart Madness,20,0.0,17.0,0.85
+1374,GALE,gemGrab,Hard Rock Mine,2,0.0,2.0,1.0
+1375,GALE,gemGrab,Gem Fort,5,0.0,4.0,0.8
+1376,GALE,gemGrab,Double Swoosh,25,0.0,20.0,0.8
+1377,GALE,gemGrab,Deep Diner,13,0.0,8.0,0.6153846153846154
+1378,GALE,gemGrab,Crystal Arcade,9,0.0,7.0,0.7777777777777778
+1379,GALE,brawlBall,Super Beach,31,0.0,24.0,0.7741935483870968
+1380,GALE,brawlBall,Sunny Soccer,73,1.0,56.0,0.7671232876712328
+1381,GALE,brawlBall,Sneaky Fields,108,1.0,82.0,0.7592592592592593
+1382,GALE,brawlBall,Pinhole Punt,122,3.0,107.0,0.8770491803278688
+1383,GALE,brawlBall,Center Stage,145,1.0,110.0,0.7586206896551724
+1384,GALE,brawlBall,Beach Ball,85,1.0,69.0,0.8117647058823529
+1385,GALE,brawlBall,Backyard Bowl,63,2.0,54.0,0.8571428571428571
+1386,GALE,bounty,Shooting Star,2,0.0,2.0,1.0
+1387,GALE,bounty,Layer Cake,2,0.0,2.0,1.0
+1388,GALE,bounty,Hideout,2,0.0,1.0,0.5
+1389,GALE,bounty,Canal Grande,2,0.0,1.0,0.5
+1390,FRANK,knockout,X Marks the Spot,4,0.0,4.0,1.0
+1391,FRANK,knockout,Riverside,2,0.0,2.0,1.0
+1392,FRANK,knockout,Out in the Open,1,0.0,1.0,1.0
+1393,FRANK,knockout,New Perspective,1,0.0,1.0,1.0
+1394,FRANK,knockout,Goldarm Gulch,1,0.0,1.0,1.0
+1395,FRANK,knockout,Flaring Phoenix,3,0.0,2.0,0.6666666666666666
+1396,FRANK,knockout,Belle`s Rock,2,0.0,2.0,1.0
+1397,FRANK,hotZone,Split,122,0.0,89.0,0.7295081967213115
+1398,FRANK,hotZone,Ring of Fire,12,0.0,10.0,0.8333333333333334
+1399,FRANK,hotZone,Quarter Pounder,58,1.0,49.0,0.8448275862068966
+1400,FRANK,hotZone,Parallel Plays,10,0.0,10.0,1.0
+1401,FRANK,hotZone,Open Zone,4,0.0,4.0,1.0
+1402,FRANK,hotZone,Dueling Beetles,27,0.0,17.0,0.6296296296296297
+1403,FRANK,hotZone,Controller Chaos,74,0.0,68.0,0.918918918918919
+1404,FRANK,heist,Tornado Ring,63,0.0,50.0,0.7936507936507936
+1405,FRANK,heist,Snaked Assault,12,0.0,12.0,1.0
+1406,FRANK,heist,Pit Stop,57,0.0,42.0,0.7368421052631579
+1407,FRANK,heist,Kaboom Canyon,4,0.0,4.0,1.0
+1408,FRANK,heist,Hot Potato,2,0.0,2.0,1.0
+1409,FRANK,heist,Bridge Too Far,3,0.0,2.0,0.6666666666666666
+1410,FRANK,gemGrab,Undermine,16,0.0,10.0,0.625
+1411,FRANK,gemGrab,Minecart Madness,5,0.0,4.0,0.8
+1412,FRANK,gemGrab,Hard Rock Mine,3,0.0,2.0,0.6666666666666666
+1413,FRANK,gemGrab,Gem Fort,6,0.0,5.0,0.8333333333333334
+1414,FRANK,gemGrab,Double Swoosh,66,0.0,55.0,0.8333333333333334
+1415,FRANK,gemGrab,Deep Diner,18,0.0,15.0,0.8333333333333334
+1416,FRANK,gemGrab,Crystal Arcade,22,0.0,18.0,0.8181818181818182
+1417,FRANK,brawlBall,Super Beach,84,0.0,65.0,0.7738095238095238
+1418,FRANK,brawlBall,Sunny Soccer,122,1.0,91.0,0.7459016393442623
+1419,FRANK,brawlBall,Sneaky Fields,255,3.0,183.0,0.7176470588235294
+1420,FRANK,brawlBall,Pinhole Punt,136,1.0,106.0,0.7794117647058824
+1421,FRANK,brawlBall,Center Stage,195,0.0,156.0,0.8
+1422,FRANK,brawlBall,Beach Ball,115,1.0,95.0,0.8260869565217391
+1423,FRANK,brawlBall,Backyard Bowl,82,0.0,70.0,0.8536585365853658
+1424,FRANK,bounty,Temple Ruins,1,0.0,1.0,1.0
+1425,FRANK,bounty,Shooting Star,3,0.0,2.0,0.6666666666666666
+1426,FRANK,bounty,Layer Cake,5,0.0,3.0,0.6
+1427,FRANK,bounty,Hideout,5,0.0,3.0,0.6
+1428,FRANK,bounty,Excel,4,0.0,2.0,0.5
+1429,FRANK,bounty,Dry Season,3,0.0,3.0,1.0
+1430,FANG,knockout,X Marks the Spot,78,0.0,58.0,0.7435897435897436
+1431,FANG,knockout,Riverside,56,0.0,40.0,0.7142857142857143
+1432,FANG,knockout,Out in the Open,30,0.0,24.0,0.8
+1433,FANG,knockout,New Perspective,48,0.0,34.0,0.7083333333333334
+1434,FANG,knockout,Goldarm Gulch,49,0.0,38.0,0.7755102040816326
+1435,FANG,knockout,Flaring Phoenix,10,0.0,9.0,0.9
+1436,FANG,knockout,Belle`s Rock,52,0.0,38.0,0.7307692307692307
+1437,FANG,hotZone,Split,13,0.0,12.0,0.9230769230769231
+1438,FANG,hotZone,Ring of Fire,42,0.0,32.0,0.7619047619047619
+1439,FANG,hotZone,Quarter Pounder,13,0.0,10.0,0.7692307692307693
+1440,FANG,hotZone,Parallel Plays,7,1.0,4.0,0.5714285714285714
+1441,FANG,hotZone,Open Zone,17,0.0,13.0,0.7647058823529411
+1442,FANG,hotZone,Dueling Beetles,47,0.0,43.0,0.9148936170212766
+1443,FANG,hotZone,Controller Chaos,18,0.0,17.0,0.9444444444444444
+1444,FANG,heist,Tornado Ring,3,0.0,3.0,1.0
+1445,FANG,heist,Snaked Assault,19,0.0,10.0,0.5263157894736842
+1446,FANG,heist,Safe Zone,5,0.0,3.0,0.6
+1447,FANG,heist,Pit Stop,4,0.0,4.0,1.0
+1448,FANG,heist,Kaboom Canyon,11,0.0,9.0,0.8181818181818182
+1449,FANG,heist,Hot Potato,1,0.0,1.0,1.0
+1450,FANG,gemGrab,Undermine,61,0.0,50.0,0.819672131147541
+1451,FANG,gemGrab,Minecart Madness,58,0.0,39.0,0.6724137931034483
+1452,FANG,gemGrab,Hard Rock Mine,12,0.0,10.0,0.8333333333333334
+1453,FANG,gemGrab,Gem Fort,29,0.0,26.0,0.896551724137931
+1454,FANG,gemGrab,Double Swoosh,40,0.0,34.0,0.85
+1455,FANG,gemGrab,Deep Diner,65,0.0,53.0,0.8153846153846154
+1456,FANG,gemGrab,Crystal Arcade,63,0.0,50.0,0.7936507936507936
+1457,FANG,brawlBall,Super Beach,72,0.0,59.0,0.8194444444444444
+1458,FANG,brawlBall,Sunny Soccer,107,0.0,84.0,0.7850467289719626
+1459,FANG,brawlBall,Sneaky Fields,62,1.0,50.0,0.8064516129032258
+1460,FANG,brawlBall,Pinhole Punt,130,2.0,93.0,0.7153846153846154
+1461,FANG,brawlBall,Center Stage,100,1.0,67.0,0.67
+1462,FANG,brawlBall,Beach Ball,132,0.0,101.0,0.7651515151515151
+1463,FANG,brawlBall,Backyard Bowl,156,2.0,120.0,0.7692307692307693
+1464,FANG,bounty,Temple Ruins,15,0.0,14.0,0.9333333333333333
+1465,FANG,bounty,Shooting Star,114,0.0,89.0,0.7807017543859649
+1466,FANG,bounty,Layer Cake,40,0.0,31.0,0.775
+1467,FANG,bounty,Hideout,71,0.0,48.0,0.676056338028169
+1468,FANG,bounty,Excel,8,0.0,7.0,0.875
+1469,FANG,bounty,Dry Season,90,0.0,67.0,0.7444444444444445
+1470,FANG,bounty,Canal Grande,2,0.0,1.0,0.5
+1471,EVE,knockout,X Marks the Spot,18,0.0,13.0,0.7222222222222222
+1472,EVE,knockout,Riverside,454,0.0,344.0,0.7577092511013216
+1473,EVE,knockout,Out in the Open,66,0.0,51.0,0.7727272727272727
+1474,EVE,knockout,New Perspective,4,0.0,2.0,0.5
+1475,EVE,knockout,Goldarm Gulch,12,0.0,7.0,0.5833333333333334
+1476,EVE,knockout,Flaring Phoenix,2,0.0,2.0,1.0
+1477,EVE,knockout,Belle`s Rock,23,0.0,17.0,0.7391304347826086
+1478,EVE,hotZone,Split,5,0.0,3.0,0.6
+1479,EVE,hotZone,Ring of Fire,9,0.0,9.0,1.0
+1480,EVE,hotZone,Quarter Pounder,6,0.0,4.0,0.6666666666666666
+1481,EVE,hotZone,Parallel Plays,2,0.0,1.0,0.5
+1482,EVE,hotZone,Open Zone,4,0.0,4.0,1.0
+1483,EVE,hotZone,Dueling Beetles,6,0.0,5.0,0.8333333333333334
+1484,EVE,hotZone,Controller Chaos,7,0.0,6.0,0.8571428571428571
+1485,EVE,heist,Tornado Ring,5,0.0,5.0,1.0
+1486,EVE,heist,Snaked Assault,8,0.0,7.0,0.875
+1487,EVE,heist,Safe Zone,24,0.0,19.0,0.7916666666666666
+1488,EVE,heist,Pit Stop,1,0.0,1.0,1.0
+1489,EVE,heist,Kaboom Canyon,38,0.0,32.0,0.8421052631578947
+1490,EVE,heist,Bridge Too Far,26,0.0,18.0,0.6923076923076923
+1491,EVE,gemGrab,Undermine,7,0.0,6.0,0.8571428571428571
+1492,EVE,gemGrab,Minecart Madness,16,0.0,14.0,0.875
+1493,EVE,gemGrab,Hard Rock Mine,2,0.0,2.0,1.0
+1494,EVE,gemGrab,Gem Fort,7,0.0,6.0,0.8571428571428571
+1495,EVE,gemGrab,Double Swoosh,4,0.0,3.0,0.75
+1496,EVE,gemGrab,Deep Diner,13,0.0,11.0,0.8461538461538461
+1497,EVE,gemGrab,Crystal Arcade,22,0.0,19.0,0.8636363636363636
+1498,EVE,brawlBall,Super Beach,5,0.0,4.0,0.8
+1499,EVE,brawlBall,Sunny Soccer,4,0.0,4.0,1.0
+1500,EVE,brawlBall,Sneaky Fields,16,0.0,16.0,1.0
+1501,EVE,brawlBall,Pinhole Punt,49,0.0,45.0,0.9183673469387755
+1502,EVE,brawlBall,Center Stage,23,0.0,18.0,0.782608695652174
+1503,EVE,brawlBall,Beach Ball,17,0.0,13.0,0.7647058823529411
+1504,EVE,brawlBall,Backyard Bowl,46,0.0,40.0,0.8695652173913043
+1505,EVE,bounty,Shooting Star,51,0.0,39.0,0.7647058823529411
+1506,EVE,bounty,Layer Cake,6,0.0,4.0,0.6666666666666666
+1507,EVE,bounty,Hideout,13,0.0,13.0,1.0
+1508,EVE,bounty,Excel,1,0.0,1.0,1.0
+1509,EVE,bounty,Dry Season,24,0.0,17.0,0.7083333333333334
+1510,EVE,bounty,Canal Grande,5,0.0,4.0,0.8
+1511,EMZ,knockout,X Marks the Spot,5,0.0,5.0,1.0
+1512,EMZ,knockout,Riverside,1,0.0,0.0,0.0
+1513,EMZ,knockout,Out in the Open,4,0.0,4.0,1.0
+1514,EMZ,knockout,New Perspective,5,0.0,5.0,1.0
+1515,EMZ,knockout,Goldarm Gulch,3,0.0,3.0,1.0
+1516,EMZ,hotZone,Split,11,0.0,11.0,1.0
+1517,EMZ,hotZone,Ring of Fire,24,0.0,21.0,0.875
+1518,EMZ,hotZone,Quarter Pounder,50,0.0,47.0,0.94
+1519,EMZ,hotZone,Parallel Plays,46,0.0,43.0,0.9347826086956522
+1520,EMZ,hotZone,Open Zone,19,0.0,18.0,0.9473684210526315
+1521,EMZ,hotZone,Dueling Beetles,70,0.0,64.0,0.9142857142857143
+1522,EMZ,hotZone,Controller Chaos,228,0.0,194.0,0.8508771929824561
+1523,EMZ,heist,Tornado Ring,465,4.0,372.0,0.8
+1524,EMZ,heist,Snaked Assault,224,0.0,166.0,0.7410714285714286
+1525,EMZ,heist,Safe Zone,2,0.0,2.0,1.0
+1526,EMZ,heist,Pit Stop,108,0.0,78.0,0.7222222222222222
+1527,EMZ,heist,Kaboom Canyon,16,0.0,16.0,1.0
+1528,EMZ,heist,Hot Potato,81,0.0,67.0,0.8271604938271605
+1529,EMZ,heist,Bridge Too Far,1,0.0,1.0,1.0
+1530,EMZ,gemGrab,Undermine,93,0.0,71.0,0.7634408602150538
+1531,EMZ,gemGrab,Minecart Madness,39,0.0,35.0,0.8974358974358975
+1532,EMZ,gemGrab,Hard Rock Mine,11,0.0,10.0,0.9090909090909091
+1533,EMZ,gemGrab,Gem Fort,52,0.0,31.0,0.5961538461538461
+1534,EMZ,gemGrab,Double Swoosh,137,0.0,104.0,0.7591240875912408
+1535,EMZ,gemGrab,Deep Diner,41,0.0,35.0,0.8536585365853658
+1536,EMZ,gemGrab,Crystal Arcade,47,0.0,39.0,0.8297872340425532
+1537,EMZ,brawlBall,Super Beach,52,0.0,39.0,0.75
+1538,EMZ,brawlBall,Sunny Soccer,171,3.0,131.0,0.7660818713450293
+1539,EMZ,brawlBall,Sneaky Fields,254,2.0,189.0,0.7440944881889764
+1540,EMZ,brawlBall,Pinhole Punt,166,4.0,127.0,0.7650602409638554
+1541,EMZ,brawlBall,Center Stage,394,2.0,315.0,0.799492385786802
+1542,EMZ,brawlBall,Beach Ball,117,0.0,106.0,0.905982905982906
+1543,EMZ,brawlBall,Backyard Bowl,19,0.0,12.0,0.631578947368421
+1544,EMZ,bounty,Temple Ruins,2,0.0,2.0,1.0
+1545,EMZ,bounty,Shooting Star,1,0.0,1.0,1.0
+1546,EMZ,bounty,Layer Cake,5,0.0,5.0,1.0
+1547,EMZ,bounty,Hideout,5,0.0,5.0,1.0
+1548,EMZ,bounty,Dry Season,2,0.0,2.0,1.0
+1549,EL PRIMO,knockout,X Marks the Spot,5,0.0,5.0,1.0
+1550,EL PRIMO,knockout,Out in the Open,1,0.0,1.0,1.0
+1551,EL PRIMO,knockout,New Perspective,3,0.0,3.0,1.0
+1552,EL PRIMO,knockout,Goldarm Gulch,3,0.0,2.0,0.6666666666666666
+1553,EL PRIMO,knockout,Flaring Phoenix,5,0.0,3.0,0.6
+1554,EL PRIMO,knockout,Belle`s Rock,1,0.0,1.0,1.0
+1555,EL PRIMO,hotZone,Split,41,0.0,34.0,0.8292682926829268
+1556,EL PRIMO,hotZone,Ring of Fire,7,0.0,5.0,0.7142857142857143
+1557,EL PRIMO,hotZone,Quarter Pounder,13,0.0,11.0,0.8461538461538461
+1558,EL PRIMO,hotZone,Parallel Plays,11,0.0,11.0,1.0
+1559,EL PRIMO,hotZone,Open Zone,1,0.0,1.0,1.0
+1560,EL PRIMO,hotZone,Dueling Beetles,14,0.0,14.0,1.0
+1561,EL PRIMO,hotZone,Controller Chaos,31,0.0,25.0,0.8064516129032258
+1562,EL PRIMO,heist,Tornado Ring,43,0.0,37.0,0.8604651162790697
+1563,EL PRIMO,heist,Snaked Assault,74,0.0,63.0,0.8513513513513513
+1564,EL PRIMO,heist,Safe Zone,9,0.0,8.0,0.8888888888888888
+1565,EL PRIMO,heist,Pit Stop,379,1.0,304.0,0.8021108179419525
+1566,EL PRIMO,heist,Kaboom Canyon,13,0.0,12.0,0.9230769230769231
+1567,EL PRIMO,heist,Hot Potato,11,0.0,8.0,0.7272727272727273
+1568,EL PRIMO,heist,Bridge Too Far,2,0.0,2.0,1.0
+1569,EL PRIMO,gemGrab,Undermine,8,0.0,5.0,0.625
+1570,EL PRIMO,gemGrab,Minecart Madness,19,0.0,16.0,0.8421052631578947
+1571,EL PRIMO,gemGrab,Hard Rock Mine,21,0.0,17.0,0.8095238095238095
+1572,EL PRIMO,gemGrab,Gem Fort,13,0.0,7.0,0.5384615384615384
+1573,EL PRIMO,gemGrab,Double Swoosh,15,0.0,12.0,0.8
+1574,EL PRIMO,gemGrab,Deep Diner,26,0.0,20.0,0.7692307692307693
+1575,EL PRIMO,gemGrab,Crystal Arcade,11,0.0,7.0,0.6363636363636364
+1576,EL PRIMO,brawlBall,Super Beach,87,1.0,64.0,0.735632183908046
+1577,EL PRIMO,brawlBall,Sunny Soccer,202,3.0,153.0,0.7574257425742574
+1578,EL PRIMO,brawlBall,Sneaky Fields,463,3.0,355.0,0.7667386609071274
+1579,EL PRIMO,brawlBall,Pinhole Punt,142,2.0,109.0,0.7676056338028169
+1580,EL PRIMO,brawlBall,Center Stage,365,3.0,261.0,0.7150684931506849
+1581,EL PRIMO,brawlBall,Beach Ball,161,0.0,121.0,0.7515527950310559
+1582,EL PRIMO,brawlBall,Backyard Bowl,62,1.0,49.0,0.7903225806451613
+1583,EL PRIMO,bounty,Shooting Star,1,0.0,0.0,0.0
+1584,EL PRIMO,bounty,Layer Cake,3,0.0,3.0,1.0
+1585,EL PRIMO,bounty,Hideout,6,0.0,5.0,0.8333333333333334
+1586,EL PRIMO,bounty,Dry Season,2,0.0,2.0,1.0
+1587,EDGAR,knockout,X Marks the Spot,7,0.0,6.0,0.8571428571428571
+1588,EDGAR,knockout,Riverside,7,0.0,7.0,1.0
+1589,EDGAR,knockout,Out in the Open,8,0.0,6.0,0.75
+1590,EDGAR,knockout,New Perspective,13,0.0,9.0,0.6923076923076923
+1591,EDGAR,knockout,Goldarm Gulch,7,0.0,6.0,0.8571428571428571
+1592,EDGAR,knockout,Flaring Phoenix,13,0.0,10.0,0.7692307692307693
+1593,EDGAR,knockout,Belle`s Rock,23,0.0,13.0,0.5652173913043478
+1594,EDGAR,hotZone,Split,39,0.0,29.0,0.7435897435897436
+1595,EDGAR,hotZone,Quarter Pounder,13,0.0,13.0,1.0
+1596,EDGAR,hotZone,Parallel Plays,7,0.0,5.0,0.7142857142857143
+1597,EDGAR,hotZone,Open Zone,4,0.0,3.0,0.75
+1598,EDGAR,hotZone,Dueling Beetles,10,0.0,9.0,0.9
+1599,EDGAR,hotZone,Controller Chaos,13,0.0,12.0,0.9230769230769231
+1600,EDGAR,heist,Tornado Ring,43,0.0,42.0,0.9767441860465116
+1601,EDGAR,heist,Snaked Assault,56,0.0,49.0,0.875
+1602,EDGAR,heist,Safe Zone,1,0.0,1.0,1.0
+1603,EDGAR,heist,Pit Stop,302,1.0,245.0,0.8112582781456954
+1604,EDGAR,heist,Kaboom Canyon,19,0.0,19.0,1.0
+1605,EDGAR,heist,Hot Potato,17,0.0,12.0,0.7058823529411765
+1606,EDGAR,gemGrab,Undermine,4,0.0,3.0,0.75
+1607,EDGAR,gemGrab,Minecart Madness,17,0.0,15.0,0.8823529411764706
+1608,EDGAR,gemGrab,Hard Rock Mine,3,0.0,2.0,0.6666666666666666
+1609,EDGAR,gemGrab,Gem Fort,29,0.0,21.0,0.7241379310344828
+1610,EDGAR,gemGrab,Double Swoosh,8,0.0,8.0,1.0
+1611,EDGAR,gemGrab,Deep Diner,9,0.0,8.0,0.8888888888888888
+1612,EDGAR,gemGrab,Crystal Arcade,9,0.0,9.0,1.0
+1613,EDGAR,brawlBall,Super Beach,9,0.0,5.0,0.5555555555555556
+1614,EDGAR,brawlBall,Sunny Soccer,15,0.0,11.0,0.7333333333333333
+1615,EDGAR,brawlBall,Sneaky Fields,78,0.0,56.0,0.717948717948718
+1616,EDGAR,brawlBall,Pinhole Punt,26,0.0,23.0,0.8846153846153846
+1617,EDGAR,brawlBall,Center Stage,83,1.0,57.0,0.6867469879518072
+1618,EDGAR,brawlBall,Beach Ball,16,0.0,11.0,0.6875
+1619,EDGAR,brawlBall,Backyard Bowl,13,0.0,10.0,0.7692307692307693
+1620,EDGAR,bounty,Temple Ruins,2,0.0,1.0,0.5
+1621,EDGAR,bounty,Shooting Star,4,0.0,4.0,1.0
+1622,EDGAR,bounty,Layer Cake,13,0.0,11.0,0.8461538461538461
+1623,EDGAR,bounty,Hideout,3,0.0,3.0,1.0
+1624,EDGAR,bounty,Excel,5,0.0,5.0,1.0
+1625,EDGAR,bounty,Dry Season,1,0.0,1.0,1.0
+1626,DYNAMIKE,knockout,X Marks the Spot,23,0.0,17.0,0.7391304347826086
+1627,DYNAMIKE,knockout,Riverside,9,0.0,7.0,0.7777777777777778
+1628,DYNAMIKE,knockout,Out in the Open,11,0.0,7.0,0.6363636363636364
+1629,DYNAMIKE,knockout,New Perspective,18,0.0,16.0,0.8888888888888888
+1630,DYNAMIKE,knockout,Goldarm Gulch,7,0.0,4.0,0.5714285714285714
+1631,DYNAMIKE,knockout,Flaring Phoenix,7,0.0,5.0,0.7142857142857143
+1632,DYNAMIKE,knockout,Belle`s Rock,25,0.0,21.0,0.84
+1633,DYNAMIKE,hotZone,Split,432,0.0,348.0,0.8055555555555556
+1634,DYNAMIKE,hotZone,Ring of Fire,3,0.0,3.0,1.0
+1635,DYNAMIKE,hotZone,Quarter Pounder,74,0.0,67.0,0.9054054054054054
+1636,DYNAMIKE,hotZone,Parallel Plays,34,0.0,31.0,0.9117647058823529
+1637,DYNAMIKE,hotZone,Open Zone,6,0.0,6.0,1.0
+1638,DYNAMIKE,hotZone,Dueling Beetles,42,0.0,36.0,0.8571428571428571
+1639,DYNAMIKE,hotZone,Controller Chaos,142,0.0,121.0,0.852112676056338
+1640,DYNAMIKE,heist,Tornado Ring,72,1.0,56.0,0.7777777777777778
+1641,DYNAMIKE,heist,Snaked Assault,35,0.0,33.0,0.9428571428571428
+1642,DYNAMIKE,heist,Safe Zone,4,0.0,4.0,1.0
+1643,DYNAMIKE,heist,Pit Stop,359,0.0,278.0,0.7743732590529248
+1644,DYNAMIKE,heist,Kaboom Canyon,25,0.0,20.0,0.8
+1645,DYNAMIKE,heist,Hot Potato,115,0.0,87.0,0.7565217391304347
+1646,DYNAMIKE,heist,Bridge Too Far,1,0.0,0.0,0.0
+1647,DYNAMIKE,gemGrab,Undermine,20,0.0,15.0,0.75
+1648,DYNAMIKE,gemGrab,Minecart Madness,55,0.0,49.0,0.8909090909090909
+1649,DYNAMIKE,gemGrab,Hard Rock Mine,6,0.0,5.0,0.8333333333333334
+1650,DYNAMIKE,gemGrab,Gem Fort,13,0.0,8.0,0.6153846153846154
+1651,DYNAMIKE,gemGrab,Double Swoosh,21,0.0,17.0,0.8095238095238095
+1652,DYNAMIKE,gemGrab,Deep Diner,215,0.0,179.0,0.8325581395348837
+1653,DYNAMIKE,gemGrab,Crystal Arcade,20,0.0,15.0,0.75
+1654,DYNAMIKE,brawlBall,Super Beach,295,6.0,191.0,0.6474576271186441
+1655,DYNAMIKE,brawlBall,Sunny Soccer,378,1.0,290.0,0.7671957671957672
+1656,DYNAMIKE,brawlBall,Sneaky Fields,85,0.0,64.0,0.7529411764705882
+1657,DYNAMIKE,brawlBall,Pinhole Punt,58,2.0,49.0,0.8448275862068966
+1658,DYNAMIKE,brawlBall,Center Stage,86,0.0,70.0,0.813953488372093
+1659,DYNAMIKE,brawlBall,Beach Ball,367,4.0,298.0,0.8119891008174387
+1660,DYNAMIKE,brawlBall,Backyard Bowl,41,0.0,30.0,0.7317073170731707
+1661,DYNAMIKE,bounty,Temple Ruins,6,0.0,6.0,1.0
+1662,DYNAMIKE,bounty,Shooting Star,6,0.0,5.0,0.8333333333333334
+1663,DYNAMIKE,bounty,Layer Cake,37,0.0,29.0,0.7837837837837838
+1664,DYNAMIKE,bounty,Hideout,20,0.0,19.0,0.95
+1665,DYNAMIKE,bounty,Excel,53,0.0,50.0,0.9433962264150944
+1666,DYNAMIKE,bounty,Dry Season,6,0.0,6.0,1.0
+1667,DYNAMIKE,bounty,Canal Grande,2,0.0,2.0,1.0
+1668,DARRYL,knockout,X Marks the Spot,4,0.0,3.0,0.75
+1669,DARRYL,knockout,Riverside,4,0.0,4.0,1.0
+1670,DARRYL,knockout,Out in the Open,3,0.0,1.0,0.3333333333333333
+1671,DARRYL,knockout,New Perspective,8,0.0,6.0,0.75
+1672,DARRYL,knockout,Goldarm Gulch,3,0.0,3.0,1.0
+1673,DARRYL,knockout,Flaring Phoenix,3,0.0,2.0,0.6666666666666666
+1674,DARRYL,knockout,Belle`s Rock,5,0.0,4.0,0.8
+1675,DARRYL,hotZone,Split,56,0.0,40.0,0.7142857142857143
+1676,DARRYL,hotZone,Ring of Fire,8,0.0,7.0,0.875
+1677,DARRYL,hotZone,Quarter Pounder,10,0.0,9.0,0.9
+1678,DARRYL,hotZone,Parallel Plays,5,0.0,5.0,1.0
+1679,DARRYL,hotZone,Open Zone,3,0.0,3.0,1.0
+1680,DARRYL,hotZone,Dueling Beetles,19,0.0,18.0,0.9473684210526315
+1681,DARRYL,hotZone,Controller Chaos,19,0.0,16.0,0.8421052631578947
+1682,DARRYL,heist,Tornado Ring,238,0.0,175.0,0.7352941176470589
+1683,DARRYL,heist,Snaked Assault,140,0.0,111.0,0.7928571428571428
+1684,DARRYL,heist,Safe Zone,9,0.0,6.0,0.6666666666666666
+1685,DARRYL,heist,Pit Stop,377,2.0,308.0,0.8169761273209549
+1686,DARRYL,heist,Kaboom Canyon,37,0.0,28.0,0.7567567567567568
+1687,DARRYL,heist,Hot Potato,49,0.0,31.0,0.6326530612244898
+1688,DARRYL,heist,Bridge Too Far,15,0.0,8.0,0.5333333333333333
+1689,DARRYL,gemGrab,Undermine,6,0.0,4.0,0.6666666666666666
+1690,DARRYL,gemGrab,Minecart Madness,14,0.0,13.0,0.9285714285714286
+1691,DARRYL,gemGrab,Hard Rock Mine,8,0.0,7.0,0.875
+1692,DARRYL,gemGrab,Gem Fort,5,0.0,5.0,1.0
+1693,DARRYL,gemGrab,Double Swoosh,14,0.0,10.0,0.7142857142857143
+1694,DARRYL,gemGrab,Deep Diner,16,0.0,14.0,0.875
+1695,DARRYL,gemGrab,Crystal Arcade,20,0.0,12.0,0.6
+1696,DARRYL,brawlBall,Super Beach,60,0.0,45.0,0.75
+1697,DARRYL,brawlBall,Sunny Soccer,132,0.0,91.0,0.6893939393939394
+1698,DARRYL,brawlBall,Sneaky Fields,131,0.0,104.0,0.7938931297709924
+1699,DARRYL,brawlBall,Pinhole Punt,107,1.0,83.0,0.7757009345794392
+1700,DARRYL,brawlBall,Center Stage,123,0.0,86.0,0.6991869918699187
+1701,DARRYL,brawlBall,Beach Ball,83,1.0,63.0,0.7590361445783133
+1702,DARRYL,brawlBall,Backyard Bowl,40,0.0,32.0,0.8
+1703,DARRYL,bounty,Shooting Star,3,0.0,2.0,0.6666666666666666
+1704,DARRYL,bounty,Layer Cake,5,0.0,3.0,0.6
+1705,DARRYL,bounty,Hideout,2,0.0,2.0,1.0
+1706,DARRYL,bounty,Excel,10,0.0,9.0,0.9
+1707,DARRYL,bounty,Dry Season,2,0.0,2.0,1.0
+1708,CROW,knockout,X Marks the Spot,24,0.0,22.0,0.9166666666666666
+1709,CROW,knockout,Riverside,14,0.0,12.0,0.8571428571428571
+1710,CROW,knockout,Out in the Open,66,1.0,52.0,0.7878787878787878
+1711,CROW,knockout,New Perspective,25,0.0,21.0,0.84
+1712,CROW,knockout,Goldarm Gulch,12,0.0,12.0,1.0
+1713,CROW,knockout,Flaring Phoenix,9,0.0,7.0,0.7777777777777778
+1714,CROW,knockout,Belle`s Rock,15,0.0,12.0,0.8
+1715,CROW,hotZone,Split,26,0.0,22.0,0.8461538461538461
+1716,CROW,hotZone,Ring of Fire,101,0.0,82.0,0.8118811881188119
+1717,CROW,hotZone,Quarter Pounder,62,0.0,58.0,0.9354838709677419
+1718,CROW,hotZone,Parallel Plays,33,0.0,29.0,0.8787878787878788
+1719,CROW,hotZone,Open Zone,234,0.0,190.0,0.811965811965812
+1720,CROW,hotZone,Dueling Beetles,69,0.0,56.0,0.8115942028985508
+1721,CROW,hotZone,Controller Chaos,61,0.0,51.0,0.8360655737704918
+1722,CROW,heist,Tornado Ring,44,0.0,35.0,0.7954545454545454
+1723,CROW,heist,Snaked Assault,14,0.0,12.0,0.8571428571428571
+1724,CROW,heist,Safe Zone,7,0.0,5.0,0.7142857142857143
+1725,CROW,heist,Pit Stop,5,0.0,4.0,0.8
+1726,CROW,heist,Kaboom Canyon,104,1.0,79.0,0.7596153846153846
+1727,CROW,heist,Hot Potato,2,0.0,1.0,0.5
+1728,CROW,heist,Bridge Too Far,1,0.0,1.0,1.0
+1729,CROW,gemGrab,Undermine,191,0.0,143.0,0.7486910994764397
+1730,CROW,gemGrab,Minecart Madness,329,0.0,255.0,0.7750759878419453
+1731,CROW,gemGrab,Hard Rock Mine,41,0.0,33.0,0.8048780487804879
+1732,CROW,gemGrab,Gem Fort,199,0.0,149.0,0.7487437185929648
+1733,CROW,gemGrab,Double Swoosh,237,0.0,175.0,0.7383966244725738
+1734,CROW,gemGrab,Deep Diner,204,0.0,170.0,0.8333333333333334
+1735,CROW,gemGrab,Crystal Arcade,146,0.0,118.0,0.8082191780821918
+1736,CROW,brawlBall,Super Beach,65,0.0,43.0,0.6615384615384615
+1737,CROW,brawlBall,Sunny Soccer,88,1.0,64.0,0.7272727272727273
+1738,CROW,brawlBall,Sneaky Fields,158,3.0,114.0,0.7215189873417721
+1739,CROW,brawlBall,Pinhole Punt,699,13.0,506.0,0.7238912732474965
+1740,CROW,brawlBall,Center Stage,289,3.0,201.0,0.6955017301038062
+1741,CROW,brawlBall,Beach Ball,275,1.0,211.0,0.7672727272727272
+1742,CROW,brawlBall,Backyard Bowl,502,8.0,384.0,0.7649402390438247
+1743,CROW,bounty,Temple Ruins,3,0.0,2.0,0.6666666666666666
+1744,CROW,bounty,Shooting Star,37,0.0,33.0,0.8918918918918919
+1745,CROW,bounty,Layer Cake,14,0.0,10.0,0.7142857142857143
+1746,CROW,bounty,Hideout,27,0.0,25.0,0.9259259259259259
+1747,CROW,bounty,Excel,4,0.0,4.0,1.0
+1748,CROW,bounty,Dry Season,19,0.0,14.0,0.7368421052631579
+1749,CROW,bounty,Canal Grande,2,0.0,2.0,1.0
+1750,COLT,knockout,X Marks the Spot,30,0.0,24.0,0.8
+1751,COLT,knockout,Riverside,50,0.0,41.0,0.82
+1752,COLT,knockout,Out in the Open,53,1.0,44.0,0.8301886792452831
+1753,COLT,knockout,New Perspective,11,0.0,8.0,0.7272727272727273
+1754,COLT,knockout,Goldarm Gulch,5,0.0,5.0,1.0
+1755,COLT,knockout,Flaring Phoenix,3,0.0,3.0,1.0
+1756,COLT,knockout,Belle`s Rock,33,0.0,27.0,0.8181818181818182
+1757,COLT,hotZone,Split,80,0.0,71.0,0.8875
+1758,COLT,hotZone,Ring of Fire,11,0.0,9.0,0.8181818181818182
+1759,COLT,hotZone,Quarter Pounder,19,0.0,16.0,0.8421052631578947
+1760,COLT,hotZone,Parallel Plays,2,0.0,2.0,1.0
+1761,COLT,hotZone,Open Zone,11,0.0,10.0,0.9090909090909091
+1762,COLT,hotZone,Dueling Beetles,32,0.0,30.0,0.9375
+1763,COLT,hotZone,Controller Chaos,40,0.0,35.0,0.875
+1764,COLT,heist,Tornado Ring,324,1.0,254.0,0.7839506172839507
+1765,COLT,heist,Snaked Assault,367,0.0,296.0,0.8065395095367848
+1766,COLT,heist,Safe Zone,201,0.0,162.0,0.8059701492537313
+1767,COLT,heist,Pit Stop,334,1.0,263.0,0.7874251497005988
+1768,COLT,heist,Kaboom Canyon,258,1.0,214.0,0.8294573643410853
+1769,COLT,heist,Hot Potato,69,0.0,59.0,0.855072463768116
+1770,COLT,heist,Bridge Too Far,102,0.0,73.0,0.7156862745098039
+1771,COLT,gemGrab,Undermine,16,0.0,10.0,0.625
+1772,COLT,gemGrab,Minecart Madness,45,0.0,35.0,0.7777777777777778
+1773,COLT,gemGrab,Hard Rock Mine,5,0.0,4.0,0.8
+1774,COLT,gemGrab,Gem Fort,12,0.0,9.0,0.75
+1775,COLT,gemGrab,Double Swoosh,12,0.0,10.0,0.8333333333333334
+1776,COLT,gemGrab,Deep Diner,72,0.0,54.0,0.75
+1777,COLT,gemGrab,Crystal Arcade,35,0.0,33.0,0.9428571428571428
+1778,COLT,brawlBall,Super Beach,68,2.0,49.0,0.7205882352941176
+1779,COLT,brawlBall,Sunny Soccer,75,2.0,48.0,0.64
+1780,COLT,brawlBall,Sneaky Fields,132,0.0,120.0,0.9090909090909091
+1781,COLT,brawlBall,Pinhole Punt,173,4.0,132.0,0.7630057803468208
+1782,COLT,brawlBall,Center Stage,171,1.0,128.0,0.7485380116959064
+1783,COLT,brawlBall,Beach Ball,195,1.0,143.0,0.7333333333333333
+1784,COLT,brawlBall,Backyard Bowl,332,3.0,262.0,0.7891566265060241
+1785,COLT,bounty,Shooting Star,48,0.0,38.0,0.7916666666666666
+1786,COLT,bounty,Layer Cake,15,0.0,13.0,0.8666666666666667
+1787,COLT,bounty,Hideout,63,0.0,57.0,0.9047619047619048
+1788,COLT,bounty,Excel,6,0.0,6.0,1.0
+1789,COLT,bounty,Dry Season,32,0.0,29.0,0.90625
+1790,COLETTE,knockout,X Marks the Spot,2,0.0,2.0,1.0
+1791,COLETTE,knockout,Out in the Open,6,0.0,5.0,0.8333333333333334
+1792,COLETTE,knockout,Goldarm Gulch,2,0.0,1.0,0.5
+1793,COLETTE,knockout,Flaring Phoenix,6,0.0,3.0,0.5
+1794,COLETTE,knockout,Belle`s Rock,3,0.0,1.0,0.3333333333333333
+1795,COLETTE,hotZone,Split,31,0.0,24.0,0.7741935483870968
+1796,COLETTE,hotZone,Ring of Fire,21,0.0,21.0,1.0
+1797,COLETTE,hotZone,Quarter Pounder,35,0.0,30.0,0.8571428571428571
+1798,COLETTE,hotZone,Parallel Plays,16,0.0,11.0,0.6875
+1799,COLETTE,hotZone,Open Zone,8,0.0,6.0,0.75
+1800,COLETTE,hotZone,Dueling Beetles,35,0.0,28.0,0.8
+1801,COLETTE,hotZone,Controller Chaos,30,0.0,28.0,0.9333333333333333
+1802,COLETTE,heist,Tornado Ring,97,1.0,71.0,0.7319587628865979
+1803,COLETTE,heist,Snaked Assault,117,0.0,92.0,0.7863247863247863
+1804,COLETTE,heist,Safe Zone,71,0.0,47.0,0.6619718309859155
+1805,COLETTE,heist,Pit Stop,33,0.0,28.0,0.8484848484848485
+1806,COLETTE,heist,Kaboom Canyon,357,1.0,280.0,0.7843137254901961
+1807,COLETTE,heist,Hot Potato,23,0.0,14.0,0.6086956521739131
+1808,COLETTE,heist,Bridge Too Far,38,0.0,23.0,0.6052631578947368
+1809,COLETTE,gemGrab,Undermine,4,0.0,4.0,1.0
+1810,COLETTE,gemGrab,Minecart Madness,21,0.0,17.0,0.8095238095238095
+1811,COLETTE,gemGrab,Hard Rock Mine,10,0.0,9.0,0.9
+1812,COLETTE,gemGrab,Gem Fort,9,0.0,7.0,0.7777777777777778
+1813,COLETTE,gemGrab,Double Swoosh,6,0.0,4.0,0.6666666666666666
+1814,COLETTE,gemGrab,Deep Diner,8,0.0,7.0,0.875
+1815,COLETTE,gemGrab,Crystal Arcade,5,0.0,3.0,0.6
+1816,COLETTE,brawlBall,Super Beach,19,0.0,12.0,0.631578947368421
+1817,COLETTE,brawlBall,Sunny Soccer,50,0.0,40.0,0.8
+1818,COLETTE,brawlBall,Sneaky Fields,30,1.0,25.0,0.8333333333333334
+1819,COLETTE,brawlBall,Pinhole Punt,68,1.0,48.0,0.7058823529411765
+1820,COLETTE,brawlBall,Center Stage,74,1.0,49.0,0.6621621621621622
+1821,COLETTE,brawlBall,Beach Ball,71,0.0,64.0,0.9014084507042254
+1822,COLETTE,brawlBall,Backyard Bowl,93,1.0,74.0,0.7956989247311828
+1823,COLETTE,bounty,Layer Cake,1,0.0,1.0,1.0
+1824,COLETTE,bounty,Hideout,8,0.0,7.0,0.875
+1825,CHESTER,knockout,X Marks the Spot,53,0.0,39.0,0.7358490566037735
+1826,CHESTER,knockout,Riverside,20,0.0,17.0,0.85
+1827,CHESTER,knockout,Out in the Open,91,0.0,71.0,0.7802197802197802
+1828,CHESTER,knockout,New Perspective,70,0.0,57.0,0.8142857142857143
+1829,CHESTER,knockout,Goldarm Gulch,60,0.0,47.0,0.7833333333333333
+1830,CHESTER,knockout,Flaring Phoenix,12,0.0,9.0,0.75
+1831,CHESTER,knockout,Belle`s Rock,39,0.0,31.0,0.7948717948717948
+1832,CHESTER,hotZone,Split,235,0.0,189.0,0.8042553191489362
+1833,CHESTER,hotZone,Ring of Fire,167,0.0,120.0,0.718562874251497
+1834,CHESTER,hotZone,Quarter Pounder,455,0.0,363.0,0.7978021978021979
+1835,CHESTER,hotZone,Parallel Plays,293,2.0,233.0,0.7952218430034129
+1836,CHESTER,hotZone,Open Zone,36,0.0,22.0,0.6111111111111112
+1837,CHESTER,hotZone,Dueling Beetles,129,0.0,110.0,0.8527131782945736
+1838,CHESTER,hotZone,Controller Chaos,143,0.0,115.0,0.8041958041958042
+1839,CHESTER,heist,Tornado Ring,169,0.0,128.0,0.757396449704142
+1840,CHESTER,heist,Snaked Assault,139,0.0,110.0,0.7913669064748201
+1841,CHESTER,heist,Safe Zone,14,0.0,10.0,0.7142857142857143
+1842,CHESTER,heist,Pit Stop,99,0.0,75.0,0.7575757575757576
+1843,CHESTER,heist,Kaboom Canyon,75,1.0,61.0,0.8133333333333334
+1844,CHESTER,heist,Hot Potato,11,0.0,7.0,0.6363636363636364
+1845,CHESTER,heist,Bridge Too Far,7,0.0,6.0,0.8571428571428571
+1846,CHESTER,gemGrab,Undermine,339,0.0,253.0,0.7463126843657817
+1847,CHESTER,gemGrab,Minecart Madness,363,0.0,281.0,0.7741046831955923
+1848,CHESTER,gemGrab,Hard Rock Mine,166,0.0,128.0,0.7710843373493976
+1849,CHESTER,gemGrab,Gem Fort,272,0.0,207.0,0.7610294117647058
+1850,CHESTER,gemGrab,Double Swoosh,479,0.0,347.0,0.7244258872651357
+1851,CHESTER,gemGrab,Deep Diner,336,0.0,259.0,0.7708333333333334
+1852,CHESTER,gemGrab,Crystal Arcade,343,0.0,279.0,0.8134110787172012
+1853,CHESTER,brawlBall,Super Beach,294,4.0,209.0,0.7108843537414966
+1854,CHESTER,brawlBall,Sunny Soccer,763,8.0,570.0,0.747051114023591
+1855,CHESTER,brawlBall,Sneaky Fields,574,8.0,408.0,0.710801393728223
+1856,CHESTER,brawlBall,Pinhole Punt,1036,11.0,793.0,0.7654440154440154
+1857,CHESTER,brawlBall,Center Stage,1241,16.0,930.0,0.7493956486704271
+1858,CHESTER,brawlBall,Beach Ball,847,4.0,660.0,0.7792207792207793
+1859,CHESTER,brawlBall,Backyard Bowl,394,6.0,306.0,0.7766497461928934
+1860,CHESTER,bounty,Temple Ruins,3,0.0,3.0,1.0
+1861,CHESTER,bounty,Shooting Star,23,0.0,19.0,0.8260869565217391
+1862,CHESTER,bounty,Layer Cake,70,0.0,53.0,0.7571428571428571
+1863,CHESTER,bounty,Hideout,47,0.0,36.0,0.7659574468085106
+1864,CHESTER,bounty,Excel,4,0.0,3.0,0.75
+1865,CHESTER,bounty,Dry Season,21,0.0,15.0,0.7142857142857143
+1866,CHESTER,bounty,Canal Grande,8,0.0,1.0,0.125
+1867,CARL,knockout,X Marks the Spot,41,0.0,36.0,0.8780487804878049
+1868,CARL,knockout,Riverside,23,0.0,21.0,0.9130434782608695
+1869,CARL,knockout,Out in the Open,72,0.0,52.0,0.7222222222222222
+1870,CARL,knockout,New Perspective,9,0.0,5.0,0.5555555555555556
+1871,CARL,knockout,Goldarm Gulch,10,0.0,6.0,0.6
+1872,CARL,knockout,Flaring Phoenix,36,0.0,30.0,0.8333333333333334
+1873,CARL,knockout,Belle`s Rock,69,0.0,49.0,0.7101449275362319
+1874,CARL,hotZone,Split,8,0.0,8.0,1.0
+1875,CARL,hotZone,Ring of Fire,29,0.0,23.0,0.7931034482758621
+1876,CARL,hotZone,Quarter Pounder,58,0.0,44.0,0.7586206896551724
+1877,CARL,hotZone,Parallel Plays,21,0.0,18.0,0.8571428571428571
+1878,CARL,hotZone,Open Zone,44,0.0,35.0,0.7954545454545454
+1879,CARL,hotZone,Dueling Beetles,117,0.0,90.0,0.7692307692307693
+1880,CARL,hotZone,Controller Chaos,36,0.0,29.0,0.8055555555555556
+1881,CARL,heist,Tornado Ring,6,0.0,6.0,1.0
+1882,CARL,heist,Snaked Assault,13,0.0,10.0,0.7692307692307693
+1883,CARL,heist,Safe Zone,26,0.0,19.0,0.7307692307692307
+1884,CARL,heist,Pit Stop,50,0.0,38.0,0.76
+1885,CARL,heist,Kaboom Canyon,41,0.0,31.0,0.7560975609756098
+1886,CARL,heist,Hot Potato,5,0.0,5.0,1.0
+1887,CARL,heist,Bridge Too Far,4,0.0,2.0,0.5
+1888,CARL,gemGrab,Undermine,67,0.0,53.0,0.7910447761194029
+1889,CARL,gemGrab,Minecart Madness,172,0.0,133.0,0.7732558139534884
+1890,CARL,gemGrab,Hard Rock Mine,52,0.0,39.0,0.75
+1891,CARL,gemGrab,Gem Fort,65,0.0,49.0,0.7538461538461538
+1892,CARL,gemGrab,Double Swoosh,54,0.0,41.0,0.7592592592592593
+1893,CARL,gemGrab,Deep Diner,186,0.0,144.0,0.7741935483870968
+1894,CARL,gemGrab,Crystal Arcade,130,0.0,104.0,0.8
+1895,CARL,brawlBall,Super Beach,47,0.0,35.0,0.7446808510638298
+1896,CARL,brawlBall,Sunny Soccer,218,2.0,156.0,0.7155963302752294
+1897,CARL,brawlBall,Sneaky Fields,47,0.0,32.0,0.6808510638297872
+1898,CARL,brawlBall,Pinhole Punt,266,4.0,197.0,0.7406015037593985
+1899,CARL,brawlBall,Center Stage,86,0.0,67.0,0.7790697674418605
+1900,CARL,brawlBall,Beach Ball,214,1.0,159.0,0.7429906542056075
+1901,CARL,brawlBall,Backyard Bowl,150,2.0,120.0,0.8
+1902,CARL,bounty,Temple Ruins,3,0.0,2.0,0.6666666666666666
+1903,CARL,bounty,Shooting Star,21,0.0,17.0,0.8095238095238095
+1904,CARL,bounty,Layer Cake,50,0.0,37.0,0.74
+1905,CARL,bounty,Hideout,38,0.0,31.0,0.8157894736842105
+1906,CARL,bounty,Excel,15,0.0,15.0,1.0
+1907,CARL,bounty,Dry Season,117,0.0,80.0,0.6837606837606838
+1908,CARL,bounty,Canal Grande,2,0.0,2.0,1.0
+1909,BYRON,knockout,X Marks the Spot,35,0.0,31.0,0.8857142857142857
+1910,BYRON,knockout,Riverside,36,0.0,28.0,0.7777777777777778
+1911,BYRON,knockout,Out in the Open,17,0.0,11.0,0.6470588235294118
+1912,BYRON,knockout,New Perspective,5,0.0,2.0,0.4
+1913,BYRON,knockout,Goldarm Gulch,1,0.0,1.0,1.0
+1914,BYRON,knockout,Flaring Phoenix,8,0.0,6.0,0.75
+1915,BYRON,knockout,Belle`s Rock,26,0.0,19.0,0.7307692307692307
+1916,BYRON,hotZone,Split,1,0.0,0.0,0.0
+1917,BYRON,hotZone,Ring of Fire,3,0.0,3.0,1.0
+1918,BYRON,hotZone,Quarter Pounder,19,0.0,16.0,0.8421052631578947
+1919,BYRON,hotZone,Parallel Plays,13,0.0,12.0,0.9230769230769231
+1920,BYRON,hotZone,Open Zone,23,0.0,17.0,0.7391304347826086
+1921,BYRON,hotZone,Dueling Beetles,14,0.0,9.0,0.6428571428571429
+1922,BYRON,hotZone,Controller Chaos,4,0.0,2.0,0.5
+1923,BYRON,heist,Safe Zone,2,0.0,2.0,1.0
+1924,BYRON,heist,Kaboom Canyon,23,0.0,15.0,0.6521739130434783
+1925,BYRON,heist,Hot Potato,1,0.0,0.0,0.0
+1926,BYRON,heist,Bridge Too Far,6,0.0,3.0,0.5
+1927,BYRON,gemGrab,Undermine,8,0.0,6.0,0.75
+1928,BYRON,gemGrab,Minecart Madness,90,0.0,65.0,0.7222222222222222
+1929,BYRON,gemGrab,Hard Rock Mine,17,0.0,14.0,0.8235294117647058
+1930,BYRON,gemGrab,Gem Fort,3,0.0,1.0,0.3333333333333333
+1931,BYRON,gemGrab,Double Swoosh,8,0.0,6.0,0.75
+1932,BYRON,gemGrab,Deep Diner,62,0.0,52.0,0.8387096774193549
+1933,BYRON,gemGrab,Crystal Arcade,40,0.0,31.0,0.775
+1934,BYRON,brawlBall,Super Beach,31,0.0,24.0,0.7741935483870968
+1935,BYRON,brawlBall,Sunny Soccer,15,0.0,7.0,0.4666666666666667
+1936,BYRON,brawlBall,Sneaky Fields,31,0.0,18.0,0.5806451612903226
+1937,BYRON,brawlBall,Pinhole Punt,39,0.0,29.0,0.7435897435897436
+1938,BYRON,brawlBall,Center Stage,13,1.0,8.0,0.6153846153846154
+1939,BYRON,brawlBall,Beach Ball,54,0.0,46.0,0.8518518518518519
+1940,BYRON,brawlBall,Backyard Bowl,62,0.0,48.0,0.7741935483870968
+1941,BYRON,bounty,Temple Ruins,1,0.0,1.0,1.0
+1942,BYRON,bounty,Shooting Star,83,0.0,57.0,0.6867469879518072
+1943,BYRON,bounty,Layer Cake,35,0.0,22.0,0.6285714285714286
+1944,BYRON,bounty,Hideout,40,0.0,35.0,0.875
+1945,BYRON,bounty,Excel,1,0.0,1.0,1.0
+1946,BYRON,bounty,Dry Season,52,0.0,31.0,0.5961538461538461
+1947,BUZZ,knockout,X Marks the Spot,4,0.0,3.0,0.75
+1948,BUZZ,knockout,Riverside,2,0.0,2.0,1.0
+1949,BUZZ,knockout,Out in the Open,7,0.0,6.0,0.8571428571428571
+1950,BUZZ,knockout,New Perspective,2,0.0,0.0,0.0
+1951,BUZZ,knockout,Goldarm Gulch,4,0.0,4.0,1.0
+1952,BUZZ,knockout,Flaring Phoenix,8,0.0,8.0,1.0
+1953,BUZZ,knockout,Belle`s Rock,5,0.0,4.0,0.8
+1954,BUZZ,hotZone,Split,84,0.0,69.0,0.8214285714285714
+1955,BUZZ,hotZone,Ring of Fire,3,0.0,3.0,1.0
+1956,BUZZ,hotZone,Quarter Pounder,31,0.0,29.0,0.9354838709677419
+1957,BUZZ,hotZone,Parallel Plays,35,0.0,29.0,0.8285714285714286
+1958,BUZZ,hotZone,Open Zone,4,0.0,3.0,0.75
+1959,BUZZ,hotZone,Dueling Beetles,16,0.0,14.0,0.875
+1960,BUZZ,hotZone,Controller Chaos,34,0.0,29.0,0.8529411764705882
+1961,BUZZ,heist,Tornado Ring,113,0.0,82.0,0.7256637168141593
+1962,BUZZ,heist,Snaked Assault,69,0.0,57.0,0.8260869565217391
+1963,BUZZ,heist,Safe Zone,14,0.0,10.0,0.7142857142857143
+1964,BUZZ,heist,Pit Stop,343,0.0,277.0,0.8075801749271136
+1965,BUZZ,heist,Kaboom Canyon,18,0.0,15.0,0.8333333333333334
+1966,BUZZ,heist,Hot Potato,26,0.0,24.0,0.9230769230769231
+1967,BUZZ,heist,Bridge Too Far,7,0.0,4.0,0.5714285714285714
+1968,BUZZ,gemGrab,Undermine,45,0.0,28.0,0.6222222222222222
+1969,BUZZ,gemGrab,Minecart Madness,31,0.0,21.0,0.6774193548387096
+1970,BUZZ,gemGrab,Hard Rock Mine,15,0.0,14.0,0.9333333333333333
+1971,BUZZ,gemGrab,Gem Fort,46,0.0,38.0,0.8260869565217391
+1972,BUZZ,gemGrab,Double Swoosh,32,0.0,25.0,0.78125
+1973,BUZZ,gemGrab,Deep Diner,83,0.0,62.0,0.7469879518072289
+1974,BUZZ,gemGrab,Crystal Arcade,82,0.0,63.0,0.7682926829268293
+1975,BUZZ,brawlBall,Super Beach,109,0.0,70.0,0.6422018348623854
+1976,BUZZ,brawlBall,Sunny Soccer,279,3.0,193.0,0.6917562724014337
+1977,BUZZ,brawlBall,Sneaky Fields,325,1.0,242.0,0.7446153846153846
+1978,BUZZ,brawlBall,Pinhole Punt,249,1.0,199.0,0.7991967871485943
+1979,BUZZ,brawlBall,Center Stage,447,8.0,328.0,0.7337807606263982
+1980,BUZZ,brawlBall,Beach Ball,237,1.0,180.0,0.759493670886076
+1981,BUZZ,brawlBall,Backyard Bowl,107,2.0,84.0,0.7850467289719626
+1982,BUZZ,bounty,Temple Ruins,2,0.0,1.0,0.5
+1983,BUZZ,bounty,Shooting Star,1,0.0,1.0,1.0
+1984,BUZZ,bounty,Layer Cake,19,0.0,7.0,0.3684210526315789
+1985,BUZZ,bounty,Hideout,7,0.0,7.0,1.0
+1986,BUZZ,bounty,Excel,19,0.0,17.0,0.8947368421052632
+1987,BUZZ,bounty,Dry Season,8,0.0,4.0,0.5
+1988,BUZZ,bounty,Canal Grande,3,0.0,3.0,1.0
+1989,BUSTER,knockout,X Marks the Spot,56,0.0,44.0,0.7857142857142857
+1990,BUSTER,knockout,Riverside,1,0.0,1.0,1.0
+1991,BUSTER,knockout,Out in the Open,38,0.0,25.0,0.6578947368421053
+1992,BUSTER,knockout,New Perspective,18,0.0,16.0,0.8888888888888888
+1993,BUSTER,knockout,Goldarm Gulch,32,0.0,14.0,0.4375
+1994,BUSTER,knockout,Flaring Phoenix,15,0.0,10.0,0.6666666666666666
+1995,BUSTER,knockout,Belle`s Rock,10,0.0,7.0,0.7
+1996,BUSTER,hotZone,Split,296,0.0,232.0,0.7837837837837838
+1997,BUSTER,hotZone,Ring of Fire,141,0.0,91.0,0.6453900709219859
+1998,BUSTER,hotZone,Quarter Pounder,160,0.0,132.0,0.825
+1999,BUSTER,hotZone,Parallel Plays,190,0.0,161.0,0.8473684210526315
+2000,BUSTER,hotZone,Open Zone,17,0.0,15.0,0.8823529411764706
+2001,BUSTER,hotZone,Dueling Beetles,165,0.0,136.0,0.8242424242424242
+2002,BUSTER,hotZone,Controller Chaos,226,0.0,185.0,0.8185840707964602
+2003,BUSTER,heist,Tornado Ring,10,0.0,9.0,0.9
+2004,BUSTER,heist,Snaked Assault,5,0.0,3.0,0.6
+2005,BUSTER,heist,Safe Zone,2,0.0,2.0,1.0
+2006,BUSTER,heist,Pit Stop,3,0.0,3.0,1.0
+2007,BUSTER,heist,Kaboom Canyon,7,0.0,7.0,1.0
+2008,BUSTER,heist,Bridge Too Far,4,0.0,3.0,0.75
+2009,BUSTER,gemGrab,Undermine,128,0.0,90.0,0.703125
+2010,BUSTER,gemGrab,Minecart Madness,133,1.0,114.0,0.8571428571428571
+2011,BUSTER,gemGrab,Hard Rock Mine,64,0.0,50.0,0.78125
+2012,BUSTER,gemGrab,Gem Fort,172,0.0,114.0,0.6627906976744186
+2013,BUSTER,gemGrab,Double Swoosh,250,0.0,186.0,0.744
+2014,BUSTER,gemGrab,Deep Diner,179,0.0,144.0,0.8044692737430168
+2015,BUSTER,gemGrab,Crystal Arcade,256,0.0,212.0,0.828125
+2016,BUSTER,brawlBall,Super Beach,183,2.0,127.0,0.6939890710382514
+2017,BUSTER,brawlBall,Sunny Soccer,335,5.0,241.0,0.7194029850746269
+2018,BUSTER,brawlBall,Sneaky Fields,484,6.0,362.0,0.7479338842975206
+2019,BUSTER,brawlBall,Pinhole Punt,458,2.0,316.0,0.6899563318777293
+2020,BUSTER,brawlBall,Center Stage,783,5.0,589.0,0.7522349936143039
+2021,BUSTER,brawlBall,Beach Ball,390,0.0,303.0,0.7769230769230769
+2022,BUSTER,brawlBall,Backyard Bowl,76,1.0,55.0,0.7236842105263158
+2023,BUSTER,bounty,Temple Ruins,2,0.0,1.0,0.5
+2024,BUSTER,bounty,Shooting Star,5,0.0,4.0,0.8
+2025,BUSTER,bounty,Layer Cake,27,0.0,16.0,0.5925925925925926
+2026,BUSTER,bounty,Hideout,14,0.0,7.0,0.5
+2027,BUSTER,bounty,Excel,4,0.0,3.0,0.75
+2028,BUSTER,bounty,Dry Season,11,0.0,7.0,0.6363636363636364
+2029,BUSTER,bounty,Canal Grande,12,0.0,7.0,0.5833333333333334
+2030,BULL,knockout,X Marks the Spot,2,0.0,1.0,0.5
+2031,BULL,knockout,Riverside,5,0.0,3.0,0.6
+2032,BULL,knockout,Out in the Open,1,0.0,1.0,1.0
+2033,BULL,knockout,Flaring Phoenix,1,0.0,1.0,1.0
+2034,BULL,hotZone,Split,38,0.0,24.0,0.631578947368421
+2035,BULL,hotZone,Ring of Fire,2,0.0,2.0,1.0
+2036,BULL,hotZone,Quarter Pounder,4,0.0,3.0,0.75
+2037,BULL,hotZone,Parallel Plays,6,0.0,5.0,0.8333333333333334
+2038,BULL,hotZone,Open Zone,1,0.0,1.0,1.0
+2039,BULL,hotZone,Dueling Beetles,4,0.0,4.0,1.0
+2040,BULL,hotZone,Controller Chaos,6,0.0,5.0,0.8333333333333334
+2041,BULL,heist,Tornado Ring,250,0.0,203.0,0.812
+2042,BULL,heist,Snaked Assault,122,0.0,105.0,0.860655737704918
+2043,BULL,heist,Safe Zone,5,0.0,3.0,0.6
+2044,BULL,heist,Pit Stop,590,3.0,444.0,0.752542372881356
+2045,BULL,heist,Kaboom Canyon,21,0.0,18.0,0.8571428571428571
+2046,BULL,heist,Hot Potato,56,0.0,38.0,0.6785714285714286
+2047,BULL,heist,Bridge Too Far,3,0.0,2.0,0.6666666666666666
+2048,BULL,gemGrab,Undermine,4,0.0,3.0,0.75
+2049,BULL,gemGrab,Minecart Madness,12,0.0,9.0,0.75
+2050,BULL,gemGrab,Hard Rock Mine,11,0.0,7.0,0.6363636363636364
+2051,BULL,gemGrab,Gem Fort,17,0.0,13.0,0.7647058823529411
+2052,BULL,gemGrab,Double Swoosh,13,0.0,12.0,0.9230769230769231
+2053,BULL,gemGrab,Deep Diner,11,0.0,10.0,0.9090909090909091
+2054,BULL,gemGrab,Crystal Arcade,13,0.0,8.0,0.6153846153846154
+2055,BULL,brawlBall,Super Beach,34,0.0,25.0,0.7352941176470589
+2056,BULL,brawlBall,Sunny Soccer,49,0.0,37.0,0.7551020408163265
+2057,BULL,brawlBall,Sneaky Fields,247,2.0,181.0,0.7327935222672065
+2058,BULL,brawlBall,Pinhole Punt,66,0.0,51.0,0.7727272727272727
+2059,BULL,brawlBall,Center Stage,208,1.0,156.0,0.75
+2060,BULL,brawlBall,Beach Ball,44,0.0,33.0,0.75
+2061,BULL,brawlBall,Backyard Bowl,22,0.0,15.0,0.6818181818181818
+2062,BULL,bounty,Layer Cake,7,0.0,5.0,0.7142857142857143
+2063,BULL,bounty,Hideout,3,0.0,1.0,0.3333333333333333
+2064,BULL,bounty,Dry Season,3,0.0,2.0,0.6666666666666666
+2065,BULL,bounty,Canal Grande,1,0.0,1.0,1.0
+2066,BROCK,knockout,X Marks the Spot,177,0.0,148.0,0.8361581920903954
+2067,BROCK,knockout,Riverside,158,0.0,128.0,0.810126582278481
+2068,BROCK,knockout,Out in the Open,263,0.0,189.0,0.7186311787072244
+2069,BROCK,knockout,New Perspective,45,0.0,35.0,0.7777777777777778
+2070,BROCK,knockout,Goldarm Gulch,71,0.0,54.0,0.7605633802816901
+2071,BROCK,knockout,Flaring Phoenix,33,0.0,28.0,0.8484848484848485
+2072,BROCK,knockout,Belle`s Rock,146,0.0,108.0,0.7397260273972602
+2073,BROCK,hotZone,Split,13,0.0,13.0,1.0
+2074,BROCK,hotZone,Ring of Fire,7,0.0,7.0,1.0
+2075,BROCK,hotZone,Quarter Pounder,10,0.0,10.0,1.0
+2076,BROCK,hotZone,Parallel Plays,3,0.0,3.0,1.0
+2077,BROCK,hotZone,Open Zone,8,0.0,8.0,1.0
+2078,BROCK,hotZone,Dueling Beetles,30,0.0,25.0,0.8333333333333334
+2079,BROCK,hotZone,Controller Chaos,14,0.0,14.0,1.0
+2080,BROCK,heist,Tornado Ring,26,0.0,23.0,0.8846153846153846
+2081,BROCK,heist,Snaked Assault,48,0.0,39.0,0.8125
+2082,BROCK,heist,Safe Zone,113,0.0,88.0,0.7787610619469026
+2083,BROCK,heist,Pit Stop,16,0.0,13.0,0.8125
+2084,BROCK,heist,Kaboom Canyon,284,0.0,233.0,0.8204225352112676
+2085,BROCK,heist,Hot Potato,5,0.0,4.0,0.8
+2086,BROCK,heist,Bridge Too Far,53,0.0,31.0,0.5849056603773585
+2087,BROCK,gemGrab,Undermine,17,0.0,12.0,0.7058823529411765
+2088,BROCK,gemGrab,Minecart Madness,73,0.0,63.0,0.863013698630137
+2089,BROCK,gemGrab,Hard Rock Mine,8,0.0,7.0,0.875
+2090,BROCK,gemGrab,Gem Fort,8,0.0,5.0,0.625
+2091,BROCK,gemGrab,Double Swoosh,29,0.0,19.0,0.6551724137931034
+2092,BROCK,gemGrab,Deep Diner,58,0.0,46.0,0.7931034482758621
+2093,BROCK,gemGrab,Crystal Arcade,74,0.0,62.0,0.8378378378378378
+2094,BROCK,brawlBall,Super Beach,22,0.0,19.0,0.8636363636363636
+2095,BROCK,brawlBall,Sunny Soccer,33,0.0,29.0,0.8787878787878788
+2096,BROCK,brawlBall,Sneaky Fields,17,0.0,12.0,0.7058823529411765
+2097,BROCK,brawlBall,Pinhole Punt,49,3.0,34.0,0.6938775510204082
+2098,BROCK,brawlBall,Center Stage,53,0.0,39.0,0.7358490566037735
+2099,BROCK,brawlBall,Beach Ball,57,0.0,44.0,0.7719298245614035
+2100,BROCK,brawlBall,Backyard Bowl,204,4.0,147.0,0.7205882352941176
+2101,BROCK,bounty,Temple Ruins,3,0.0,3.0,1.0
+2102,BROCK,bounty,Shooting Star,350,0.0,271.0,0.7742857142857142
+2103,BROCK,bounty,Layer Cake,88,0.0,68.0,0.7727272727272727
+2104,BROCK,bounty,Hideout,262,0.0,209.0,0.7977099236641222
+2105,BROCK,bounty,Excel,7,0.0,6.0,0.8571428571428571
+2106,BROCK,bounty,Dry Season,179,0.0,146.0,0.8156424581005587
+2107,BROCK,bounty,Canal Grande,5,0.0,3.0,0.6
+2108,BONNIE,knockout,X Marks the Spot,25,0.0,16.0,0.64
+2109,BONNIE,knockout,Riverside,72,0.0,58.0,0.8055555555555556
+2110,BONNIE,knockout,Out in the Open,49,0.0,41.0,0.8367346938775511
+2111,BONNIE,knockout,New Perspective,11,0.0,10.0,0.9090909090909091
+2112,BONNIE,knockout,Goldarm Gulch,6,0.0,3.0,0.5
+2113,BONNIE,knockout,Belle`s Rock,55,0.0,32.0,0.5818181818181818
+2114,BONNIE,hotZone,Split,2,0.0,2.0,1.0
+2115,BONNIE,hotZone,Ring of Fire,4,0.0,2.0,0.5
+2116,BONNIE,hotZone,Quarter Pounder,7,0.0,7.0,1.0
+2117,BONNIE,hotZone,Parallel Plays,4,0.0,4.0,1.0
+2118,BONNIE,hotZone,Open Zone,10,0.0,10.0,1.0
+2119,BONNIE,hotZone,Dueling Beetles,11,0.0,11.0,1.0
+2120,BONNIE,hotZone,Controller Chaos,3,0.0,2.0,0.6666666666666666
+2121,BONNIE,heist,Tornado Ring,3,0.0,3.0,1.0
+2122,BONNIE,heist,Snaked Assault,3,0.0,3.0,1.0
+2123,BONNIE,heist,Safe Zone,57,0.0,49.0,0.8596491228070176
+2124,BONNIE,heist,Pit Stop,4,0.0,2.0,0.5
+2125,BONNIE,heist,Kaboom Canyon,24,0.0,17.0,0.7083333333333334
+2126,BONNIE,heist,Bridge Too Far,18,0.0,13.0,0.7222222222222222
+2127,BONNIE,gemGrab,Undermine,3,0.0,1.0,0.3333333333333333
+2128,BONNIE,gemGrab,Minecart Madness,74,0.0,67.0,0.9054054054054054
+2129,BONNIE,gemGrab,Hard Rock Mine,7,0.0,5.0,0.7142857142857143
+2130,BONNIE,gemGrab,Gem Fort,2,0.0,2.0,1.0
+2131,BONNIE,gemGrab,Double Swoosh,11,0.0,9.0,0.8181818181818182
+2132,BONNIE,gemGrab,Deep Diner,7,0.0,5.0,0.7142857142857143
+2133,BONNIE,gemGrab,Crystal Arcade,16,0.0,13.0,0.8125
+2134,BONNIE,brawlBall,Super Beach,16,1.0,8.0,0.5
+2135,BONNIE,brawlBall,Sunny Soccer,2,0.0,0.0,0.0
+2136,BONNIE,brawlBall,Sneaky Fields,29,0.0,21.0,0.7241379310344828
+2137,BONNIE,brawlBall,Pinhole Punt,44,0.0,32.0,0.7272727272727273
+2138,BONNIE,brawlBall,Center Stage,10,0.0,8.0,0.8
+2139,BONNIE,brawlBall,Beach Ball,22,0.0,18.0,0.8181818181818182
+2140,BONNIE,brawlBall,Backyard Bowl,75,2.0,57.0,0.76
+2141,BONNIE,bounty,Shooting Star,49,0.0,32.0,0.6530612244897959
+2142,BONNIE,bounty,Layer Cake,14,0.0,8.0,0.5714285714285714
+2143,BONNIE,bounty,Hideout,121,0.0,94.0,0.7768595041322314
+2144,BONNIE,bounty,Dry Season,35,0.0,28.0,0.8
+2145,BO,knockout,X Marks the Spot,235,0.0,179.0,0.7617021276595745
+2146,BO,knockout,Riverside,14,0.0,11.0,0.7857142857142857
+2147,BO,knockout,Out in the Open,419,3.0,281.0,0.6706443914081146
+2148,BO,knockout,New Perspective,170,0.0,121.0,0.711764705882353
+2149,BO,knockout,Goldarm Gulch,108,0.0,73.0,0.6759259259259259
+2150,BO,knockout,Flaring Phoenix,160,0.0,106.0,0.6625
+2151,BO,knockout,Belle`s Rock,79,0.0,62.0,0.7848101265822784
+2152,BO,hotZone,Split,21,0.0,20.0,0.9523809523809523
+2153,BO,hotZone,Ring of Fire,152,0.0,124.0,0.8157894736842105
+2154,BO,hotZone,Quarter Pounder,72,0.0,63.0,0.875
+2155,BO,hotZone,Parallel Plays,21,0.0,19.0,0.9047619047619048
+2156,BO,hotZone,Open Zone,83,0.0,69.0,0.8313253012048193
+2157,BO,hotZone,Dueling Beetles,148,0.0,122.0,0.8243243243243243
+2158,BO,hotZone,Controller Chaos,52,0.0,49.0,0.9423076923076923
+2159,BO,heist,Tornado Ring,22,0.0,20.0,0.9090909090909091
+2160,BO,heist,Snaked Assault,14,0.0,14.0,1.0
+2161,BO,heist,Safe Zone,38,0.0,30.0,0.7894736842105263
+2162,BO,heist,Pit Stop,6,1.0,5.0,0.8333333333333334
+2163,BO,heist,Kaboom Canyon,24,0.0,23.0,0.9583333333333334
+2164,BO,heist,Hot Potato,6,0.0,6.0,1.0
+2165,BO,heist,Bridge Too Far,5,0.0,3.0,0.6
+2166,BO,gemGrab,Undermine,157,0.0,124.0,0.7898089171974523
+2167,BO,gemGrab,Minecart Madness,310,0.0,265.0,0.8548387096774194
+2168,BO,gemGrab,Hard Rock Mine,50,0.0,39.0,0.78
+2169,BO,gemGrab,Gem Fort,58,0.0,43.0,0.7413793103448276
+2170,BO,gemGrab,Double Swoosh,182,0.0,135.0,0.7417582417582418
+2171,BO,gemGrab,Deep Diner,181,0.0,143.0,0.7900552486187845
+2172,BO,gemGrab,Crystal Arcade,98,0.0,80.0,0.8163265306122449
+2173,BO,brawlBall,Super Beach,44,0.0,33.0,0.75
+2174,BO,brawlBall,Sunny Soccer,14,0.0,9.0,0.6428571428571429
+2175,BO,brawlBall,Sneaky Fields,59,1.0,49.0,0.8305084745762712
+2176,BO,brawlBall,Pinhole Punt,146,2.0,109.0,0.7465753424657534
+2177,BO,brawlBall,Center Stage,41,1.0,28.0,0.6829268292682927
+2178,BO,brawlBall,Beach Ball,54,2.0,41.0,0.7592592592592593
+2179,BO,brawlBall,Backyard Bowl,87,2.0,63.0,0.7241379310344828
+2180,BO,bounty,Temple Ruins,3,0.0,3.0,1.0
+2181,BO,bounty,Shooting Star,48,0.0,42.0,0.875
+2182,BO,bounty,Layer Cake,65,0.0,48.0,0.7384615384615385
+2183,BO,bounty,Hideout,55,0.0,48.0,0.8727272727272727
+2184,BO,bounty,Excel,9,0.0,7.0,0.7777777777777778
+2185,BO,bounty,Dry Season,60,0.0,46.0,0.7666666666666667
+2186,BIBI,knockout,X Marks the Spot,7,0.0,6.0,0.8571428571428571
+2187,BIBI,knockout,Riverside,1,0.0,1.0,1.0
+2188,BIBI,knockout,Out in the Open,1,0.0,1.0,1.0
+2189,BIBI,knockout,New Perspective,2,0.0,2.0,1.0
+2190,BIBI,knockout,Goldarm Gulch,4,0.0,4.0,1.0
+2191,BIBI,knockout,Belle`s Rock,19,0.0,14.0,0.7368421052631579
+2192,BIBI,hotZone,Split,174,0.0,138.0,0.7931034482758621
+2193,BIBI,hotZone,Ring of Fire,7,0.0,5.0,0.7142857142857143
+2194,BIBI,hotZone,Quarter Pounder,34,0.0,26.0,0.7647058823529411
+2195,BIBI,hotZone,Parallel Plays,49,0.0,42.0,0.8571428571428571
+2196,BIBI,hotZone,Open Zone,5,0.0,5.0,1.0
+2197,BIBI,hotZone,Dueling Beetles,32,0.0,26.0,0.8125
+2198,BIBI,hotZone,Controller Chaos,94,0.0,82.0,0.8723404255319149
+2199,BIBI,heist,Tornado Ring,365,2.0,298.0,0.8164383561643835
+2200,BIBI,heist,Snaked Assault,243,0.0,210.0,0.8641975308641975
+2201,BIBI,heist,Safe Zone,12,0.0,9.0,0.75
+2202,BIBI,heist,Pit Stop,560,0.0,414.0,0.7392857142857143
+2203,BIBI,heist,Kaboom Canyon,32,0.0,24.0,0.75
+2204,BIBI,heist,Hot Potato,67,0.0,54.0,0.8059701492537313
+2205,BIBI,heist,Bridge Too Far,3,0.0,3.0,1.0
+2206,BIBI,gemGrab,Undermine,14,0.0,11.0,0.7857142857142857
+2207,BIBI,gemGrab,Minecart Madness,28,0.0,27.0,0.9642857142857143
+2208,BIBI,gemGrab,Hard Rock Mine,10,0.0,7.0,0.7
+2209,BIBI,gemGrab,Gem Fort,6,0.0,5.0,0.8333333333333334
+2210,BIBI,gemGrab,Double Swoosh,13,0.0,10.0,0.7692307692307693
+2211,BIBI,gemGrab,Deep Diner,36,0.0,31.0,0.8611111111111112
+2212,BIBI,gemGrab,Crystal Arcade,30,0.0,25.0,0.8333333333333334
+2213,BIBI,brawlBall,Super Beach,141,2.0,94.0,0.6666666666666666
+2214,BIBI,brawlBall,Sunny Soccer,192,2.0,138.0,0.71875
+2215,BIBI,brawlBall,Sneaky Fields,206,1.0,150.0,0.7281553398058253
+2216,BIBI,brawlBall,Pinhole Punt,223,1.0,170.0,0.7623318385650224
+2217,BIBI,brawlBall,Center Stage,231,2.0,167.0,0.7229437229437229
+2218,BIBI,brawlBall,Beach Ball,242,4.0,184.0,0.7603305785123967
+2219,BIBI,brawlBall,Backyard Bowl,85,0.0,62.0,0.7294117647058823
+2220,BIBI,bounty,Temple Ruins,1,0.0,1.0,1.0
+2221,BIBI,bounty,Shooting Star,10,0.0,6.0,0.6
+2222,BIBI,bounty,Layer Cake,6,0.0,6.0,1.0
+2223,BIBI,bounty,Hideout,7,0.0,5.0,0.7142857142857143
+2224,BIBI,bounty,Excel,6,0.0,6.0,1.0
+2225,BIBI,bounty,Dry Season,6,0.0,6.0,1.0
+2226,BIBI,bounty,Canal Grande,1,0.0,1.0,1.0
+2227,BELLE,knockout,X Marks the Spot,87,0.0,67.0,0.7701149425287356
+2228,BELLE,knockout,Riverside,110,0.0,83.0,0.7545454545454545
+2229,BELLE,knockout,Out in the Open,141,0.0,102.0,0.723404255319149
+2230,BELLE,knockout,New Perspective,37,0.0,37.0,1.0
+2231,BELLE,knockout,Goldarm Gulch,12,0.0,10.0,0.8333333333333334
+2232,BELLE,knockout,Flaring Phoenix,5,0.0,4.0,0.8
+2233,BELLE,knockout,Belle`s Rock,103,0.0,76.0,0.7378640776699029
+2234,BELLE,hotZone,Split,3,0.0,3.0,1.0
+2235,BELLE,hotZone,Ring of Fire,52,0.0,48.0,0.9230769230769231
+2236,BELLE,hotZone,Quarter Pounder,20,0.0,18.0,0.9
+2237,BELLE,hotZone,Parallel Plays,5,0.0,3.0,0.6
+2238,BELLE,hotZone,Open Zone,15,0.0,12.0,0.8
+2239,BELLE,hotZone,Dueling Beetles,46,0.0,37.0,0.8043478260869565
+2240,BELLE,hotZone,Controller Chaos,2,0.0,0.0,0.0
+2241,BELLE,heist,Tornado Ring,15,0.0,13.0,0.8666666666666667
+2242,BELLE,heist,Snaked Assault,3,0.0,3.0,1.0
+2243,BELLE,heist,Safe Zone,44,0.0,34.0,0.7727272727272727
+2244,BELLE,heist,Kaboom Canyon,42,0.0,30.0,0.7142857142857143
+2245,BELLE,heist,Bridge Too Far,57,0.0,41.0,0.7192982456140351
+2246,BELLE,gemGrab,Undermine,38,0.0,28.0,0.7368421052631579
+2247,BELLE,gemGrab,Minecart Madness,103,0.0,70.0,0.6796116504854369
+2248,BELLE,gemGrab,Hard Rock Mine,26,0.0,19.0,0.7307692307692307
+2249,BELLE,gemGrab,Gem Fort,5,0.0,4.0,0.8
+2250,BELLE,gemGrab,Double Swoosh,8,0.0,7.0,0.875
+2251,BELLE,gemGrab,Deep Diner,56,0.0,44.0,0.7857142857142857
+2252,BELLE,gemGrab,Crystal Arcade,45,0.0,38.0,0.8444444444444444
+2253,BELLE,brawlBall,Super Beach,31,2.0,20.0,0.6451612903225806
+2254,BELLE,brawlBall,Sunny Soccer,5,0.0,3.0,0.6
+2255,BELLE,brawlBall,Sneaky Fields,13,0.0,11.0,0.8461538461538461
+2256,BELLE,brawlBall,Pinhole Punt,93,0.0,69.0,0.7419354838709677
+2257,BELLE,brawlBall,Center Stage,19,0.0,13.0,0.6842105263157895
+2258,BELLE,brawlBall,Beach Ball,28,0.0,20.0,0.7142857142857143
+2259,BELLE,brawlBall,Backyard Bowl,149,0.0,118.0,0.7919463087248322
+2260,BELLE,bounty,Temple Ruins,1,0.0,0.0,0.0
+2261,BELLE,bounty,Shooting Star,233,0.0,188.0,0.8068669527896996
+2262,BELLE,bounty,Layer Cake,49,0.0,30.0,0.6122448979591837
+2263,BELLE,bounty,Hideout,234,0.0,175.0,0.7478632478632479
+2264,BELLE,bounty,Excel,2,0.0,2.0,1.0
+2265,BELLE,bounty,Dry Season,136,0.0,105.0,0.7720588235294118
+2266,BEA,knockout,X Marks the Spot,42,0.0,32.0,0.7619047619047619
+2267,BEA,knockout,Riverside,106,0.0,78.0,0.7358490566037735
+2268,BEA,knockout,Out in the Open,93,0.0,62.0,0.6666666666666666
+2269,BEA,knockout,New Perspective,18,0.0,12.0,0.6666666666666666
+2270,BEA,knockout,Goldarm Gulch,2,0.0,2.0,1.0
+2271,BEA,knockout,Flaring Phoenix,6,0.0,6.0,1.0
+2272,BEA,knockout,Belle`s Rock,23,0.0,15.0,0.6521739130434783
+2273,BEA,hotZone,Split,80,0.0,66.0,0.825
+2274,BEA,hotZone,Ring of Fire,115,0.0,86.0,0.7478260869565218
+2275,BEA,hotZone,Quarter Pounder,325,2.0,248.0,0.7630769230769231
+2276,BEA,hotZone,Parallel Plays,70,0.0,59.0,0.8428571428571429
+2277,BEA,hotZone,Open Zone,162,0.0,129.0,0.7962962962962963
+2278,BEA,hotZone,Dueling Beetles,144,0.0,113.0,0.7847222222222222
+2279,BEA,hotZone,Controller Chaos,293,0.0,236.0,0.8054607508532423
+2280,BEA,heist,Tornado Ring,116,0.0,93.0,0.8017241379310345
+2281,BEA,heist,Snaked Assault,141,0.0,109.0,0.7730496453900709
+2282,BEA,heist,Safe Zone,36,0.0,22.0,0.6111111111111112
+2283,BEA,heist,Pit Stop,71,0.0,58.0,0.8169014084507042
+2284,BEA,heist,Kaboom Canyon,98,0.0,78.0,0.7959183673469388
+2285,BEA,heist,Hot Potato,1,0.0,1.0,1.0
+2286,BEA,heist,Bridge Too Far,17,0.0,10.0,0.5882352941176471
+2287,BEA,gemGrab,Undermine,83,0.0,60.0,0.7228915662650602
+2288,BEA,gemGrab,Minecart Madness,145,0.0,114.0,0.7862068965517242
+2289,BEA,gemGrab,Hard Rock Mine,44,0.0,33.0,0.75
+2290,BEA,gemGrab,Gem Fort,42,0.0,30.0,0.7142857142857143
+2291,BEA,gemGrab,Double Swoosh,95,0.0,77.0,0.8105263157894737
+2292,BEA,gemGrab,Deep Diner,153,0.0,124.0,0.8104575163398693
+2293,BEA,gemGrab,Crystal Arcade,172,0.0,138.0,0.8023255813953488
+2294,BEA,brawlBall,Super Beach,309,5.0,217.0,0.7022653721682848
+2295,BEA,brawlBall,Sunny Soccer,232,6.0,177.0,0.7629310344827587
+2296,BEA,brawlBall,Sneaky Fields,795,7.0,587.0,0.7383647798742138
+2297,BEA,brawlBall,Pinhole Punt,725,12.0,546.0,0.7531034482758621
+2298,BEA,brawlBall,Center Stage,158,2.0,115.0,0.7278481012658228
+2299,BEA,brawlBall,Beach Ball,398,1.0,315.0,0.7914572864321608
+2300,BEA,brawlBall,Backyard Bowl,675,13.0,519.0,0.7688888888888888
+2301,BEA,bounty,Temple Ruins,1,0.0,1.0,1.0
+2302,BEA,bounty,Shooting Star,102,0.0,81.0,0.7941176470588235
+2303,BEA,bounty,Layer Cake,13,0.0,8.0,0.6153846153846154
+2304,BEA,bounty,Hideout,90,0.0,70.0,0.7777777777777778
+2305,BEA,bounty,Excel,24,0.0,22.0,0.9166666666666666
+2306,BEA,bounty,Dry Season,58,0.0,46.0,0.7931034482758621
+2307,BEA,bounty,Canal Grande,1,0.0,1.0,1.0
+2308,BARLEY,knockout,Belle`s Rock,2,0.0,2.0,1.0
+2309,BARLEY,hotZone,Split,103,0.0,81.0,0.7864077669902912
+2310,BARLEY,hotZone,Ring of Fire,1,0.0,1.0,1.0
+2311,BARLEY,hotZone,Quarter Pounder,201,0.0,155.0,0.7711442786069652
+2312,BARLEY,hotZone,Parallel Plays,152,2.0,130.0,0.8552631578947368
+2313,BARLEY,hotZone,Dueling Beetles,28,0.0,25.0,0.8928571428571429
+2314,BARLEY,hotZone,Controller Chaos,58,0.0,46.0,0.7931034482758621
+2315,BARLEY,heist,Tornado Ring,11,0.0,8.0,0.7272727272727273
+2316,BARLEY,heist,Snaked Assault,6,0.0,3.0,0.5
+2317,BARLEY,heist,Pit Stop,185,0.0,154.0,0.8324324324324325
+2318,BARLEY,heist,Kaboom Canyon,1,0.0,1.0,1.0
+2319,BARLEY,heist,Hot Potato,17,0.0,13.0,0.7647058823529411
+2320,BARLEY,gemGrab,Undermine,1,0.0,1.0,1.0
+2321,BARLEY,gemGrab,Minecart Madness,3,0.0,3.0,1.0
+2322,BARLEY,gemGrab,Hard Rock Mine,2,0.0,2.0,1.0
+2323,BARLEY,gemGrab,Double Swoosh,1,0.0,1.0,1.0
+2324,BARLEY,gemGrab,Deep Diner,162,0.0,134.0,0.8271604938271605
+2325,BARLEY,gemGrab,Crystal Arcade,2,0.0,2.0,1.0
+2326,BARLEY,brawlBall,Super Beach,98,1.0,68.0,0.6938775510204082
+2327,BARLEY,brawlBall,Sunny Soccer,86,0.0,65.0,0.7558139534883721
+2328,BARLEY,brawlBall,Sneaky Fields,22,0.0,17.0,0.7727272727272727
+2329,BARLEY,brawlBall,Beach Ball,25,0.0,18.0,0.72
+2330,BARLEY,brawlBall,Backyard Bowl,1,0.0,0.0,0.0
+2331,BARLEY,bounty,Layer Cake,3,0.0,3.0,1.0
+2332,BARLEY,bounty,Hideout,3,0.0,1.0,0.3333333333333333
+2333,BARLEY,bounty,Dry Season,1,0.0,1.0,1.0
+2334,ASH,knockout,X Marks the Spot,4,0.0,3.0,0.75
+2335,ASH,knockout,Out in the Open,1,0.0,1.0,1.0
+2336,ASH,knockout,Goldarm Gulch,2,0.0,2.0,1.0
+2337,ASH,knockout,Flaring Phoenix,1,0.0,1.0,1.0
+2338,ASH,knockout,Belle`s Rock,5,0.0,4.0,0.8
+2339,ASH,hotZone,Split,78,1.0,65.0,0.8333333333333334
+2340,ASH,hotZone,Ring of Fire,14,0.0,11.0,0.7857142857142857
+2341,ASH,hotZone,Quarter Pounder,13,0.0,10.0,0.7692307692307693
+2342,ASH,hotZone,Parallel Plays,31,0.0,24.0,0.7741935483870968
+2343,ASH,hotZone,Open Zone,1,0.0,0.0,0.0
+2344,ASH,hotZone,Dueling Beetles,21,0.0,15.0,0.7142857142857143
+2345,ASH,hotZone,Controller Chaos,151,0.0,127.0,0.8410596026490066
+2346,ASH,heist,Tornado Ring,8,0.0,6.0,0.75
+2347,ASH,heist,Snaked Assault,6,0.0,5.0,0.8333333333333334
+2348,ASH,heist,Pit Stop,4,0.0,2.0,0.5
+2349,ASH,heist,Kaboom Canyon,3,0.0,3.0,1.0
+2350,ASH,gemGrab,Undermine,95,0.0,61.0,0.6421052631578947
+2351,ASH,gemGrab,Minecart Madness,27,0.0,24.0,0.8888888888888888
+2352,ASH,gemGrab,Hard Rock Mine,53,0.0,43.0,0.8113207547169812
+2353,ASH,gemGrab,Gem Fort,91,0.0,66.0,0.7252747252747253
+2354,ASH,gemGrab,Double Swoosh,139,0.0,100.0,0.7194244604316546
+2355,ASH,gemGrab,Deep Diner,54,0.0,43.0,0.7962962962962963
+2356,ASH,gemGrab,Crystal Arcade,164,0.0,133.0,0.8109756097560976
+2357,ASH,brawlBall,Super Beach,85,2.0,52.0,0.611764705882353
+2358,ASH,brawlBall,Sunny Soccer,117,1.0,84.0,0.717948717948718
+2359,ASH,brawlBall,Sneaky Fields,577,6.0,422.0,0.7313691507798961
+2360,ASH,brawlBall,Pinhole Punt,159,5.0,117.0,0.7358490566037735
+2361,ASH,brawlBall,Center Stage,278,3.0,202.0,0.7266187050359713
+2362,ASH,brawlBall,Beach Ball,129,1.0,102.0,0.7906976744186046
+2363,ASH,brawlBall,Backyard Bowl,8,0.0,4.0,0.5
+2364,ASH,bounty,Temple Ruins,1,0.0,0.0,0.0
+2365,ASH,bounty,Shooting Star,2,0.0,2.0,1.0
+2366,ASH,bounty,Layer Cake,30,0.0,23.0,0.7666666666666667
+2367,ASH,bounty,Hideout,3,0.0,2.0,0.6666666666666666
+2368,ASH,bounty,Dry Season,3,0.0,3.0,1.0
+2369,AMBER,knockout,X Marks the Spot,2,0.0,2.0,1.0
+2370,AMBER,knockout,Riverside,40,0.0,28.0,0.7
+2371,AMBER,knockout,Out in the Open,3,0.0,3.0,1.0
+2372,AMBER,knockout,New Perspective,1,0.0,1.0,1.0
+2373,AMBER,knockout,Belle`s Rock,3,0.0,1.0,0.3333333333333333
+2374,AMBER,hotZone,Split,29,0.0,27.0,0.9310344827586207
+2375,AMBER,hotZone,Ring of Fire,36,0.0,29.0,0.8055555555555556
+2376,AMBER,hotZone,Quarter Pounder,27,0.0,22.0,0.8148148148148148
+2377,AMBER,hotZone,Parallel Plays,27,0.0,20.0,0.7407407407407407
+2378,AMBER,hotZone,Open Zone,69,0.0,56.0,0.8115942028985508
+2379,AMBER,hotZone,Dueling Beetles,37,0.0,28.0,0.7567567567567568
+2380,AMBER,hotZone,Controller Chaos,61,0.0,50.0,0.819672131147541
+2381,AMBER,heist,Tornado Ring,5,0.0,4.0,0.8
+2382,AMBER,heist,Snaked Assault,21,0.0,13.0,0.6190476190476191
+2383,AMBER,heist,Safe Zone,3,0.0,3.0,1.0
+2384,AMBER,heist,Pit Stop,3,0.0,3.0,1.0
+2385,AMBER,heist,Kaboom Canyon,77,0.0,64.0,0.8311688311688312
+2386,AMBER,heist,Hot Potato,2,0.0,2.0,1.0
+2387,AMBER,heist,Bridge Too Far,13,0.0,9.0,0.6923076923076923
+2388,AMBER,gemGrab,Undermine,99,0.0,75.0,0.7575757575757576
+2389,AMBER,gemGrab,Minecart Madness,31,0.0,23.0,0.7419354838709677
+2390,AMBER,gemGrab,Hard Rock Mine,3,0.0,3.0,1.0
+2391,AMBER,gemGrab,Gem Fort,19,0.0,13.0,0.6842105263157895
+2392,AMBER,gemGrab,Double Swoosh,138,0.0,109.0,0.7898550724637681
+2393,AMBER,gemGrab,Deep Diner,21,0.0,14.0,0.6666666666666666
+2394,AMBER,gemGrab,Crystal Arcade,9,0.0,8.0,0.8888888888888888
+2395,AMBER,brawlBall,Sunny Soccer,8,0.0,4.0,0.5
+2396,AMBER,brawlBall,Sneaky Fields,23,0.0,16.0,0.6956521739130435
+2397,AMBER,brawlBall,Pinhole Punt,61,0.0,42.0,0.6885245901639344
+2398,AMBER,brawlBall,Center Stage,82,1.0,54.0,0.6585365853658537
+2399,AMBER,brawlBall,Beach Ball,28,0.0,18.0,0.6428571428571429
+2400,AMBER,brawlBall,Backyard Bowl,88,1.0,72.0,0.8181818181818182
+2401,AMBER,bounty,Temple Ruins,2,0.0,2.0,1.0
+2402,AMBER,bounty,Shooting Star,4,0.0,4.0,1.0
+2403,AMBER,bounty,Layer Cake,16,0.0,15.0,0.9375
+2404,AMBER,bounty,Hideout,3,0.0,2.0,0.6666666666666666
+2405,AMBER,bounty,Dry Season,9,0.0,8.0,0.8888888888888888
+2406,8-BIT,knockout,X Marks the Spot,11,0.0,6.0,0.5454545454545454
+2407,8-BIT,knockout,Riverside,10,0.0,8.0,0.8
+2408,8-BIT,knockout,Out in the Open,3,0.0,3.0,1.0
+2409,8-BIT,knockout,New Perspective,2,0.0,1.0,0.5
+2410,8-BIT,knockout,Goldarm Gulch,10,0.0,9.0,0.9
+2411,8-BIT,knockout,Belle`s Rock,1,0.0,0.0,0.0
+2412,8-BIT,hotZone,Ring of Fire,5,0.0,3.0,0.6
+2413,8-BIT,hotZone,Quarter Pounder,4,0.0,3.0,0.75
+2414,8-BIT,hotZone,Open Zone,3,0.0,3.0,1.0
+2415,8-BIT,hotZone,Dueling Beetles,3,0.0,2.0,0.6666666666666666
+2416,8-BIT,hotZone,Controller Chaos,1,0.0,0.0,0.0
+2417,8-BIT,heist,Tornado Ring,50,0.0,38.0,0.76
+2418,8-BIT,heist,Snaked Assault,75,0.0,65.0,0.8666666666666667
+2419,8-BIT,heist,Safe Zone,13,0.0,10.0,0.7692307692307693
+2420,8-BIT,heist,Pit Stop,7,0.0,6.0,0.8571428571428571
+2421,8-BIT,heist,Kaboom Canyon,59,0.0,47.0,0.7966101694915254
+2422,8-BIT,heist,Hot Potato,1,0.0,1.0,1.0
+2423,8-BIT,heist,Bridge Too Far,52,0.0,38.0,0.7307692307692307
+2424,8-BIT,gemGrab,Undermine,12,0.0,6.0,0.5
+2425,8-BIT,gemGrab,Minecart Madness,77,0.0,65.0,0.8441558441558441
+2426,8-BIT,gemGrab,Hard Rock Mine,62,0.0,46.0,0.7419354838709677
+2427,8-BIT,gemGrab,Gem Fort,6,0.0,5.0,0.8333333333333334
+2428,8-BIT,gemGrab,Double Swoosh,48,0.0,40.0,0.8333333333333334
+2429,8-BIT,gemGrab,Deep Diner,149,0.0,133.0,0.8926174496644296
+2430,8-BIT,gemGrab,Crystal Arcade,37,0.0,30.0,0.8108108108108109
+2431,8-BIT,brawlBall,Sunny Soccer,13,1.0,7.0,0.5384615384615384
+2432,8-BIT,brawlBall,Sneaky Fields,4,0.0,2.0,0.5
+2433,8-BIT,brawlBall,Pinhole Punt,8,0.0,5.0,0.625
+2434,8-BIT,brawlBall,Center Stage,3,0.0,2.0,0.6666666666666666
+2435,8-BIT,brawlBall,Beach Ball,9,0.0,8.0,0.8888888888888888
+2436,8-BIT,brawlBall,Backyard Bowl,53,2.0,42.0,0.7924528301886793
+2437,8-BIT,bounty,Shooting Star,5,0.0,5.0,1.0
+2438,8-BIT,bounty,Layer Cake,2,0.0,2.0,1.0
+2439,8-BIT,bounty,Hideout,5,0.0,4.0,0.8
+2440,8-BIT,bounty,Dry Season,3,0.0,3.0,1.0
