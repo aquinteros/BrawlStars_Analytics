@@ -105,6 +105,24 @@ modos_alt = ['bossFight','roboRumble','bigGame','soloShowdown','duoShowdown']
 battlelog = battlelog.loc[~battlelog['battle.mode'].isin(modos_alt)]
 
 # %%
+#cuenta event.mode
+battlelog['event.mode'] = battlelog['event.mode'].fillna('unknown')
+battlelog['event.mode'].value_counts()
+
+# %%
+# eliminar event vacio
+battlelog = battlelog.loc[battlelog['event.mode'] != "unknown"]
+
+# %%
+#cuenta event.map
+battlelog['event.map'] = battlelog['event.map'].fillna('unknown')
+battlelog['event.map'].value_counts()
+
+# %%
+# eliminar map vacio
+battlelog = battlelog.loc[battlelog['event.map'] != "unknown"]
+
+# %%
 # reset battlelog index
 battlelog.reset_index(drop=True, inplace=True)
 
