@@ -62,4 +62,4 @@
 60,16000062,BUSTER,"[{'id': 23000519, 'name': 'BLOCKBUSTER'}, {'id': 23000520, 'name': 'KEVLAR VEST'}]","[{'id': 23000521, 'name': 'UTILITY BELT'}, {'id': 23000522, 'name': 'SLO-MO REPLAY'}]"
 61,16000063,CHESTER,"[{'id': 23000527, 'name': ""BELL'O'MANIA""}, {'id': 23000528, 'name': 'SNEAK PEEK'}]","[{'id': 23000529, 'name': 'SPICY DICE'}, {'id': 23000530, 'name': 'CANDY BEANS'}]"
 62,16000064,GRAY,"[{'id': 23000535, 'name': 'FAKE INJURY'}, {'id': 23000536, 'name': 'NEW PERSPECTIVE'}]","[{'id': 23000537, 'name': 'WALKING CANE'}, {'id': 23000538, 'name': 'GRAND PIANO'}]"
-63,16000065,MANDY,"[{'id': 23000543, 'name': 'IN MY SIGHTS'}]","[{'id': 23000545, 'name': 'CARAMELIZE'}]"
+63,16000065,MANDY,"[{'id': 23000543, 'name': 'IN MY SIGHTS'}, {'id': 23000544, 'name': 'HARD CANDY'}]","[{'id': 23000545, 'name': 'CARAMELIZE'}, {'id': 23000546, 'name': 'COOKIE CRUMBS'}]"

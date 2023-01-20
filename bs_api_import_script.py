@@ -3,7 +3,7 @@
 import brawlstats
 import pandas as pd
 import datetime
-#import ipywidgets as widgets
+# import ipywidgets as widgets
 import zipfile
 import os
 
@@ -61,9 +61,9 @@ for i in leaderboard:
 
 # top por regiones en countryCode
 for i, item in enumerate(countryCode):
-    leaderboard = client.get_rankings(ranking='players',region=item)
-    for i in leaderboard:
-        topplayer_tag.append(i.tag)
+   leaderboard = client.get_rankings(ranking='players',region=item)
+   for i in leaderboard:
+       topplayer_tag.append(i.tag)
 
 topplayer_tag = list(set(topplayer_tag))
 
@@ -220,38 +220,6 @@ with zipfile.ZipFile('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects
 os.remove('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/complete/battlelog_complete.csv')
 
 # %%
-# descomponer la columna teams
-
-# def battle_delimiter(i, j):
-# 	result = pd.json_normalize(pd.json_normalize(pd.json_normalize(pd.json_normalize(rawdata['battle'])['teams'])[i])[j])
-# 	return result
-
-# def normalize_to_df(i, t, p):
-# 	battlelog.loc[i,'battle.team' + str(t) + '.player' + str(p) + '.tag'] = normalized[t - 1][p - 1]['tag']
-# 	battlelog.loc[i,'battle.team' + str(t) + '.player' + str(p) + '.name'] = normalized[t - 1][p - 1]['name']
-# 	battlelog.loc[i,'battle.team' + str(t) + '.player' + str(p) + '.brawler.id'] = normalized[t - 1][p - 1]['brawler.id']
-# 	battlelog.loc[i,'battle.team' + str(t) + '.player' + str(p) + '.brawler.name'] = normalized[t - 1][p - 1]['brawler.name']
-# 	battlelog.loc[i,'battle.team' + str(t) + '.player' + str(p) + '.brawler.power'] = normalized[t - 1][p - 1]['brawler.power']
-# 	battlelog.loc[i,'battle.team' + str(t) + '.player' + str(p) + '.brawler.trophies'] = normalized[t - 1][p - 1]['brawler.trophies']
-
-# normalized = pd.DataFrame()
-
-# for i in range(len(battlelog)):
-# 	team = battlelog['battle.teams'].iloc[i]
-# 	if team != None:
-# 		try:
-# 			normalized = pd.json_normalize(team, errors='ignore').transpose()
-# 			normalize_to_df(i, 1, 1)
-# 			normalize_to_df(i, 1, 2)
-# 			normalize_to_df(i, 1, 3)
-# 			normalize_to_df(i, 2, 1)
-# 			normalize_to_df(i, 2, 2)
-# 			normalize_to_df(i, 2, 3)
-# 		except:
-# 			print("no se pudo transponer")
-
-
-# %%
 # cuenta tipos de juego
 battlelog['battle.type'].value_counts()
 
@@ -283,12 +251,6 @@ battlelog = battlelog.loc[battlelog['event.map'] != "unknown"]
 battlelog.reset_index(drop=True, inplace=True)
 
 print('dimensiones battlelog: ' + str(battlelog.shape))
-
-# %%
-# eliminar battle teams
-battlelog = battlelog.drop(columns=[
-'battle.teams'
-])
 
 # %%
 # crear listado de players en battelog
@@ -367,6 +329,48 @@ print('dimensiones players: ' + str(players.shape))
 
 # %%
 players.to_csv('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/players/players.csv')
+
+# %%
+# descomponer la columna teams
+
+# def battle_delimiter(i, j):
+# 	result = pd.json_normalize(pd.json_normalize(pd.json_normalize(pd.json_normalize(rawdata['battle'])['teams'])[i])[j])
+# 	return result
+
+def normalize_to_df(i, t, p):
+	battlelog.loc[i,'battle.team' + str(t) + '.player' + str(p) + '.tag'] = normalized[t - 1][p - 1]['tag']
+	battlelog.loc[i,'battle.team' + str(t) + '.player' + str(p) + '.name'] = normalized[t - 1][p - 1]['name']
+	battlelog.loc[i,'battle.team' + str(t) + '.player' + str(p) + '.brawler.id'] = normalized[t - 1][p - 1]['brawler.id']
+	battlelog.loc[i,'battle.team' + str(t) + '.player' + str(p) + '.brawler.name'] = normalized[t - 1][p - 1]['brawler.name']
+	battlelog.loc[i,'battle.team' + str(t) + '.player' + str(p) + '.brawler.power'] = normalized[t - 1][p - 1]['brawler.power']
+	battlelog.loc[i,'battle.team' + str(t) + '.player' + str(p) + '.brawler.trophies'] = normalized[t - 1][p - 1]['brawler.trophies']
+
+normalized = pd.DataFrame()
+
+for i, team in enumerate(battlelog['battle.teams']):
+	if team != None:
+		try:
+			normalized = pd.json_normalize(team, errors='ignore').transpose()
+			normalize_to_df(i, 1, 1)
+			normalize_to_df(i, 1, 2)
+			normalize_to_df(i, 1, 3)
+			normalize_to_df(i, 2, 1)
+			normalize_to_df(i, 2, 2)
+			normalize_to_df(i, 2, 3)
+		except:
+			print("no se pudo transponer")
+
+battlelog.info()
+
+
+# %%
+battlelog.iloc[0].to_clipboard()
+
+# %%
+# eliminar battle teams
+battlelog = battlelog.drop(columns=[
+'battle.teams'
+])
 
 # %%
 # traer archivo histórico battlelog
