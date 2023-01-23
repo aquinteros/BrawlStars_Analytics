@@ -1,0 +1,65 @@
+,Brawler,Health,Rarity,Class,Movement Speed,Range,Reload,Bullets,Super Charge,Spread,Speed,Width
+0,shelly,3800,Starting Brawler,Damage Dealer,720 (Normal),"7.67 (Long), 10 (with Clay Pigeons)",1.5 seconds (Normal),5,10.05%,"30°, 10° (with Clay Pigeons)","3100, 4300 (with Clay Pigeons)",
+1,colt,2800,Rare,Damage Dealer,"720 (Normal), 820 (with Slick Boots)","9 (Long), 10 (with Magnum Special)",1.7 seconds (Normal),"6, 1 (with Silver Bullet)",8.37%,,"4000, 4440 (with Magnum Special)","0.33, 0.67 (with Silver Bullet)"
+2,bull,5000,Rare,Tank,"770 (Fast), 1800 (with Super)",5.33 (Normal),"1.6 seconds (Normal), 0.8 seconds (with Berserker)",5,10%,45°,2853,
+3,brock,2400,Rare,Damage Dealer,720 (Normal),9 (Long),2.1 seconds (Slow),,26.1%,,"2700, 3105 (with Rocket Fuel)","0.67, 1 (with Rocket Fuel)"
+4,rico,2800,Super Rare,Damage Dealer,"720 (Normal), 970 (with Robo Retreat)",9.67 (Very Long),1.2 seconds (Very Fast),5,8.4%,7.5°,3478,0.67
+5,spike,2400,Legendary,Damage Dealer,720 (Normal),7.67 (Long),2 seconds (Slow),7,14.42%,,"2174, 3261 (spike)","1, 0.33 (spike)"
+6,barley,2400,Rare,Damage Dealer,720 (Normal),7.33 (Long),2 seconds (Slow),,17.5%,,1750,
+7,jessie,3000,Super Rare,Damage Dealer,720 (Normal),9 (Long),1.8 seconds (Normal),,16.695%,,"2870, 1522 (bounce)",1
+8,nita,4000,Rare,Damage Dealer,720 (Normal),6 (Normal),1.1 seconds (Very Fast),,20%,,2718,1.67
+9,dynamike,2800,Super Rare,Damage Dealer,"770 (Fast), 920 (with Fidget Spinner)",7.33 (Long),1.6 seconds (Normal),2,25%,,1900,
+10,el_primo,6000,Rare,Tank,"770 (Fast), 970 (with Meteor Rush), 1600 (with Super)",3 (Short),0.8 seconds (Very Fast),4,8.3%,,3261,1
+11,mortis,3800,Mythic,Assassin,820 (Very Fast),10 (Very Long),"2.4 seconds (Very Slow), 1.2 seconds (with Survival Shovel)",,30.15%,,2718,2.67
+12,crow,2400,Legendary,Assassin,"820 (Very Fast), 3000 (with Super)",8.67 (Long),1.4 seconds (Fast),3,"7.12%, 1.78% (poison)",22.5°,3261,0.33
+13,poco,4000,Rare,Support,720 (Normal),7 (Long),1.6 seconds (Normal),,21%,65°,2500,
+14,bo,3600,Epic,Damage Dealer,720 (Normal),8.67 (Long),1.7 seconds (Normal),3,12%,15°,2800,0.47
+15,piper,2400,Epic,Damage Dealer,"720 (Normal), 1500 (with Super)",10 (Very Long),2.3 seconds (Very Slow),,8.488-36.86% (close to max range),,4000,0.67
+16,pam,4800,Epic,Support,720 (Normal),9 (Long),1.3 seconds (Very Fast),9,6.825%,30°,4130,0.33
+17,tara,3200,Mythic,Damage Dealer,720 (Normal),8 (Long),2 seconds (Slow),3,8.395%,25°,3152,0.67
+18,darryl,5300,Super Rare,Hybrid,"770 (Fast), 2400 (with Super)",6 (Normal),"1.8 seconds (Normal), 0.9 seconds (Rolling Reload)",10,7.02%,40°,3044,
+19,penny,3600,Super Rare,Damage Dealer,720 (Normal),8 (Long),2 seconds (Slow),"4, 6 (with Heavy Coffers)",21.855%,,"3400, 2500 (pouch)","1, 0.67 (pouch)"
+20,frank,7000,Epic,Tank,770 (Fast),6 (Normal),0.8 seconds (Very Fast),,37.2%,65°,5000,1
+21,gene,3600,Mythic,Support,720 (Normal),"5.67 (close range; Normal), 11.33 (max range; Very long)",2 seconds (Slow),"1 (close range), 6 (max range)","25.2% (close range), 4.2% (max range)",100° (max range),3200,"1 (close range), 0.67 (max range)"
+22,tick,2200,Super Rare,Damage Dealer,720 (Normal),8.67 (Long),"2.3 seconds (Very Slow), 2.08 seconds (with Automa-Tick Reload)","3, 6 (with Mine Mania)",17.6%,,"2000, 450 (mine)",
+23,leon,3200,Legendary,Assassin,"820 (Very Fast), 1070 (with Smoke Trails)",9.67 (Very Long),1.9 seconds (Normal),4,12.625-5.05% (close to max range),17.5°,3500,0.67
+24,rosa,5400,Rare,Tank,770 (Fast),3.67 (Short),1 second (Very Fast),3,11.155%,65°,5000,1
+25,carl,4000,Super Rare,Damage Dealer,"720 (Normal), 1440 (with Super)",8.33 (Long),,,16.83%,,"3000, 3300 (with Power Throw)",1.67
+26,bibi,4600,Epic,Damage Dealer,"820 (Very Fast), 920 (with Home Run)",40 (Very Long),0.8 seconds (Very Fast),,25.2%,150°,3000,1.67
+27,8-bit,4800,Super Rare,Damage Dealer,"580 (Very Slow), 720 (with Plugged In)",10 (Very Long),1.5 seconds (Normal),"6, 18 (with Extra Credits)",8.48%,9°,4500,0.33
+28,sandy,3800,Legendary,Support,770 (Fast),6 (Normal),1.8 seconds (Normal),,14.3%,40°,3500,1.33
+29,bea,2400,Epic,Damage Dealer,720 (Normal),10 (Very Long),0.9 seconds (Very Fast),,35.6%,,3255,1
+30,emz,3600,Epic,Damage Dealer,720 (Normal),6.67 (Normal),2 seconds (Slow),,11.18%,40°,1500,1.33
+31,mr__p,3000,Mythic,Damage Dealer,720 (Normal),"7 (Long), 10 (after bounce)",1.6 seconds (Normal),,16.74%,,"3000, 1000 (bounce)",1.33
+32,max,3200,Mythic,Support,"820 (Very Fast), 1120 (with Super)",8.33 (Long),1.3 seconds (Very Fast),4,7.88%,15°,4000,0.33
+33,jacky,5000,Super Rare,Tank,"770 (Fast), 928 (with Pneumatic Booster)",5,1.8 seconds (Normal),,25.28%,,,
+34,gale,3600,Chromatic,Hybrid,720 (Normal),8.33 (Long),1.2 seconds (Very Fast),6,6.67%,,3000,2
+35,nani,2600,Epic,Damage Dealer,720 (Normal),8.67 (Long),1.8 seconds (Normal),3,17.5%,50°,4000,0.27
+36,sprout,3000,Mythic,Support,720 (Normal),5 (Normal),1.7 seconds (Normal),,20.58%,,1700,1
+37,surge,2800,Chromatic,Damage Dealer,"650 (Slow), 820 (stage, 1+; Very Fast)","6.67 (Normal), 8.67 (stage, 2+; Long)",2 seconds (Slow),,"35.4%, 17.7% (split)",,"3500, 3000 (split)",1
+38,colette,3400,Chromatic,Damage Dealer,"720 (Normal), 4000 (with Super)",8.67 (Long),1.6 seconds (Normal),,25%,,4000,1
+39,amber,3200,Legendary,Damage Dealer,"720 (Normal), 820 (with Fire Starters)",8.33 (Long),"0.22 seconds (8.8 seconds max; Very Fast), 0.146 seconds (5.86 seconds max; with Scorchin' Siphon)",40 (full ammo bar),4.55%,15°,3500,1.33
+40,lou,3200,Chromatic,Hybrid,720 (Normal),9.33 (Very Long),1.3 seconds (Very Fast),3,15.73%,,4000,0.33
+41,byron,2400,Mythic,Support,720 (Normal),10 (Very Long),1.6 seconds (Normal),,8.33%,,4000,1
+42,edgar,2800,Epic,Assassin,"820 (Very Fast), 3500 (with Super), 1020 (after Super)",2 (Short),0.7 seconds (Very Fast),2,8.37%,,3500,2
+43,ruffs,2800,Chromatic,Support,720 (Normal),9 (Long),1.4 seconds (Fast),2,15.25%,,3500,0.47
+44,stu,2900,Epic,Assassin,"720 (Normal), 820 (with Speed Zone), 3000 (with Super)",7.67 (Long),1.5 seconds (Normal),2,100%,,3300,1
+45,belle,2600,Chromatic,Damage Dealer,720 (Normal),10 (Very Long),1.4 seconds (Fast),,"21.84%, 10.92% (bounce)",,4000,"0.67, 0.33 (bounce)"
+46,squeak,3600,Mythic,Damage Dealer,720 (Normal),"7.67 (Long), 15.33 (with Windup; Very Long)",2.1 seconds (Slow),,25%,,4000,0.33
+47,grom,3000,Epic,Damage Dealer,"720 (Normal), 820 (With Foot Patrol; Very Fast)",7.67 (Long),2 seconds (Slow),4,16.67%,,3000 (split),0.83
+48,buzz,4400,Chromatic,Assassin,"770 (Fast), 4500 (with Super)",2.67 (Short),1 second (Very Fast),5,10.08%,100°,4000,1
+49,griff,3400,Epic,Damage Dealer,720 (Normal),8.33 (Long),1.7 seconds (Normal),"9, 12 (with Coin Shower)",6.3%,15°,3100,0.33
+50,ash,5400,Chromatic,Tank,"720 (Normal), 770 (Fast; half Rage), 820 (Very Fast, full Rage)",4.67 (Normal),"1.4 seconds (Fast), 1 second (with full Rage and Mad As Heck)",,"16.8%, 25.2% (half Rage), 33.6% (full Rage)",,5000,1.67
+51,meg,2300,Legendary,Damage Dealer,"770 (Fast), 720 (Mecha; Normal)",9 (Long),"1.3 seconds (Very Fast), 1.5 seconds (Mecha; Normal)","2, 8 (Mecha)","14.28%, 0% (Mecha)",,"4000, 4500 (Mecha)","1, 2 (Mecha)"
+52,lola,3800,Chromatic,Damage Dealer,720 (Normal),8.67 (Long),1.5 seconds (Normal),6,6.73%,,4500,0.67
+53,fang,4300,Chromatic,Damage Dealer,"770 (Fast), 4500 (with Super)","3 (Short), 9 (Shoe)",1 second (Very Fast),1,25%,,"4500 (Short), 3200 (Shoe)","2(Short), 0.67(Shoe)"
+54,eve,2900,Chromatic,Damage Dealer,720 (Normal),9.33 (Very Long),1.6 seconds (Normal),3,11.2%,,3500,
+55,janet,3400,Chromatic,Damage Dealer,"720 (Normal), 1401 (with Super)","4 (min range; Normal), 8.33 (max range; Long)",1.5 seconds (Normal),,16.67%,,3500,
+56,bonnie,4800,Epic,Hybrid,"620 (Clyde; Slow), 806 (with Sugar Rush), 820 (Bonnie; Very Fast)","9 (Clyde; Very Long), 5 (Bonnie; Normal)","1 second (Clyde; Very Fast), 0.7 seconds (with Sugar Rush), 2 seconds (Bonnie; Slow)","1 (Clyde), 3 (Bonnie)","25% (Clyde), 0% (Bonnie)",40º (Bonnie),"4000 (Clyde), 3261 (Bonnie)","1 (Clyde), 0.33 (Bonnie)"
+57,otis,3400,Chromatic,Damage Dealer,720 (Normal),9 (Very Long),1.5 seconds (Normal),"3, 4 (with Ink Refills)",8.33%,,3600,0.67
+58,sam,5400,Chromatic,Damage Dealer,"770 (Fast), 970 (after throwing Knuckle Busters; Very Fast)",3 (Short),"1.6 seconds (with Knuckle Busters; Normal), 0.9 seconds (without Knuckle Busters; Very Fast)",2,10%,"50° (with Knuckle Busters), 25° (without Knuckle Busters)","5000 (with Knuckle Busters), 3261 (without Knuckle Busters)",
+59,gus,3200,Super Rare,Support,720 (Normal),9.33 (Very Long),1.5 seconds (Normal),,25%,,4000,1
+60,buster,4800,Chromatic,Tank,"770 (Fast), 620 (while Super is active)",5.33 (Normal),1.8 seconds (Normal),,37-18.5% (close to max range),45°,4200,
+61,chester,3300,Legendary,Damage Dealer,770 (Fast),8.33 (Long),1.9 seconds (Normal),"1 (first sequence), 2 (second sequence), 3 (third sequence), 4 (with Bell 'O' Mania)",16.6%,"15° (second sequence), 30° (third sequence), 45° (with Bell 'O' Mania)",3300,0.67
+62,gray,3300,Mythic,Support,720 (Normal),9 (Very Long),1.4 seconds (Fast),,25.2%,,3804,0.33
+63,mandy,2800,Chromatic,Damage Dealer,720 (Normal),"9 (Very Long), 12 (Focused; Very Long)",1.5 seconds (Normal),1,20%,,"3500, 4200 (with In My Sights)",0.67

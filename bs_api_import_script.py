@@ -9,7 +9,7 @@ import os
 
 # %%
 # crear cliente
-client = brawlstats.Client('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6Ijc2ZjcyMzY3LWVjMDktNDYzMy04ZDc2LWQyNzI2MzlmZDJlYyIsImlhdCI6MTY3NDA5NTAyNSwic3ViIjoiZGV2ZWxvcGVyL2Q0ZTc3OGNkLWJlYTAtZjlmNS04NDBhLTgzYTk1NTk3MWQ1MCIsInNjb3BlcyI6WyJicmF3bHN0YXJzIl0sImxpbWl0cyI6W3sidGllciI6ImRldmVsb3Blci9zaWx2ZXIiLCJ0eXBlIjoidGhyb3R0bGluZyJ9LHsiY2lkcnMiOlsiMjAxLjE4OC4yMy43NiJdLCJ0eXBlIjoiY2xpZW50In1dfQ.Ek2kE7OwqLp8qvuYmcisXz0WdZR6k1Jf9DbBqVhePA-dZVJC6fD-t9wTk4dE-gPscleN23wpX5cqvJf0sE5pCw')
+client = brawlstats.Client('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjdhMGNiNWIxLWFlMzctNDQzYi1iMTAzLWFmZjdmZDQwMDNhYyIsImlhdCI6MTY3NDMyMjUyNCwic3ViIjoiZGV2ZWxvcGVyL2Q0ZTc3OGNkLWJlYTAtZjlmNS04NDBhLTgzYTk1NTk3MWQ1MCIsInNjb3BlcyI6WyJicmF3bHN0YXJzIl0sImxpbWl0cyI6W3sidGllciI6ImRldmVsb3Blci9zaWx2ZXIiLCJ0eXBlIjoidGhyb3R0bGluZyJ9LHsiY2lkcnMiOlsiMjAxLjE4OC40LjM1Il0sInR5cGUiOiJjbGllbnQifV19.4nIoAAurRFujh0KHsgQ32E9xlycENhX4IqnS6btozJRkhZHnjgSH1YBhco9-CMq_Zk0OH10sMW9kjM_rZCkRIQ')
 # Do not post your token on a public github
 
 # %%
@@ -374,6 +374,10 @@ battlelog = battlelog.drop(columns=[
 
 # %%
 # traer archivo histórico battlelog
+with zipfile.ZipFile('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/teams/battlelog_teams.zip', 'r') as zip_ref:
+    # Extraer el archivo CSV
+    zip_ref.extractall('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/teams/')
+    
 battlelog_hist = pd.read_csv('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/teams/battlelog_teams.csv', index_col=0)
 
 print('dimensiones battlelog hist: ' + str(battlelog_hist.shape))
@@ -392,5 +396,11 @@ print('dimensiones battlelog final: ' + str(battlelog.shape))
 # %%
 # export dataset teams completo mas histórico
 battlelog.to_csv('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/teams/battlelog_teams.csv')
+
+# Comprimir el archivo CSV
+with zipfile.ZipFile('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/teams/battlelog_teams.zip', 'w') as zip_file:
+    zip_file.write('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/teams/battlelog_teams.csv', arcname='battlelog_teams.csv',compress_type=zipfile.ZIP_DEFLATED)
+
+os.remove('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/teams/battlelog_teams.csv')
 
 
