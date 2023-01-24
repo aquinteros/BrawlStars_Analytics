@@ -1,65 +1,65 @@
-,id,name,role,range,speed,health
-0,16000000,SHELLY,tank stopper,long,normal,5320
-1,16000001,COLT,ranged dps,long,normal,3920
-2,16000002,BULL,close quarters,short,fast,7000
-3,16000003,BROCK,sniper,long,normal,3600
-4,16000004,RICO,ranged dps,long,normal,4200
-5,16000005,SPIKE,ranged dps,long,normal,3600
-6,16000006,BARLEY,thrower,normal,normal,3480
-7,16000007,JESSIE,area control,long,normal,4500
-8,16000008,NITA,area control,short,normal,5800
-9,16000009,DYNAMIKE,thrower,normal,fast,4200
-10,16000010,EL PRIMO,close quarters,short,fast,8400
-11,16000011,MORTIS,assassin,short,very fast,5700
-12,16000012,CROW,area control,long,very fast,3480
-13,16000013,POCO,healer,long,normal,5800
-14,16000014,BO,area control,long,normal,5220
-15,16000015,PIPER,sniper,very long,normal,3360
-16,16000016,PAM,area control,long,normal,7200
-17,16000017,TARA,area control,long,normal,4800
-18,16000018,DARRYL,assassin,short,fast,7950
-19,16000019,PENNY,area control,long,normal,5400
-20,16000020,FRANK,tank,normal,fast,10150
-21,16000021,GENE,area control,long,normal,5400
-22,16000022,TICK,thrower,very long,normal,3080
-23,16000023,LEON,assassin,long,very fast,4800
-24,16000024,ROSA,tank,short,fast,7830
-25,16000025,CARL,area control,long,normal,5600
-26,16000026,BIBI,area control,short,very fast,6670
-27,16000027,8-BIT,ranged dps,long,very slow,6720
-28,16000028,SANDY,area control,normal,fast,5510
-29,16000029,BEA,sniper,very long,normal,3480
-30,16000030,EMZ,area control,normal,normal,5220
-31,16000031,MR. P,area control,long,normal,4200
-32,16000032,MAX,assassin,normal,very fast,4480
-33,16000034,JACKY,tank,short,fast,7250
-34,16000035,GALE,area control,long,normal,5040
-35,16000036,NANI,sniper,very long,normal,3770
-36,16000037,SPROUT,thrower,very long,normal,4350
-37,16000038,SURGE,assassin,long,slow,4200
-38,16000039,COLETTE,assassin,long,normal,4760
-39,16000040,AMBER,area control,long,normal,4640
-40,16000041,LOU,area control,long,normal,4640
-41,16000042,BYRON,healer,long,normal,3480
-42,16000043,EDGAR,close quarters,short,very fast,3920
-43,16000044,RUFFS,ranged dps,long,normal,4060
-44,16000045,STU,assassin,normal,normal,4205
-45,16000046,BELLE,sniper,long,normal,3640
-46,16000047,SQUEAK,area control,long,normal,5040
-47,16000048,GROM,thrower,very long,normal,4350
-48,16000049,BUZZ,close quarters,short,fast,6600
-49,16000050,GRIFF,ranged dps,long,normal,4930
-50,16000051,ASH,tank,short,normal,7830
-51,16000052,MEG,tank,normal,fast,3335
-52,16000053,LOLA,ranged dps,long,normal,5320
-53,16000054,FANG,assassin,short,fast,6450
-54,16000056,EVE,area control,long,normal,4205
-55,16000057,JANET,assassin,long,normal,4930
-56,16000058,BONNIE,sniper,long,slow,6720
-57,16000059,OTIS,assassin,long,normal,4760
-58,16000060,SAM,tank,short,fast,7560
-59,16000061,GUS,healer,long,normal,4480
-60,16000062,BUSTER,area control,normal,fast,6960
-61,16000063,CHESTER,assassin,long,fast,4785
-62,16000064,GRAY,sniper,long,normal,4785
-63,16000065,MANDY,sniper,very long,normal,5600
+,Brawler,Health,Rarity,Class,Movement Speed,Range,Reload,Speed_Num,Range_Num,Reload_Num,id,Role
+0,shelly,5700.0,Starting Brawler,Damage Dealer,Normal,Long,Normal,720,7.67,1.5,16000000,tank stopper
+1,colt,4200.0,Rare,Damage Dealer,Normal,Long,Normal,720,9,1.7,16000001,ranged dps
+2,bull,7500.0,Rare,Tank,Fast,Normal,Normal,770,5.33,1.6,16000002,close quarters
+3,brock,3600.0,Rare,Damage Dealer,Normal,Long,Slow,720,9,2.1,16000003,sniper
+4,rico,4200.0,Super Rare,Damage Dealer,Normal,Very Long,Very Fast,720,9.67,1.2,16000004,ranged dps
+5,spike,3600.0,Legendary,Damage Dealer,Normal,Long,Slow,720,7.67,2,16000005,ranged dps
+6,barley,3600.0,Rare,Damage Dealer,Normal,Long,Slow,720,7.33,2,16000006,thrower
+7,jessie,4500.0,Super Rare,Damage Dealer,Normal,Long,Normal,720,9,1.8,16000007,area control
+8,nita,6000.0,Rare,Damage Dealer,Normal,Normal,Very Fast,720,6,1.1,16000008,area control
+9,dynamike,4200.0,Super Rare,Damage Dealer,Fast,Long,Normal,770,7.33,1.6,16000009,thrower
+10,el_primo,9000.0,Rare,Tank,Fast,Short,Very Fast,770,3,0.8,16000010,close quarters
+11,mortis,5700.0,Mythic,Assassin,Very Fast,Short,Very Slow,820,2.67,2.4,16000011,assassin
+12,crow,3600.0,Legendary,Assassin,Very Fast,Long,Fast,820,8.67,1.4,16000012,area control
+13,poco,6000.0,Rare,Support,Normal,Long,Normal,720,7,1.6,16000013,healer
+14,bo,5400.0,Epic,Damage Dealer,Normal,Long,Normal,720,8.67,1.7,16000014,area control
+15,piper,3600.0,Epic,Damage Dealer,Normal,Very Long,Very Slow,720,10,2.3,16000015,sniper
+16,pam,7200.0,Epic,Support,Normal,Long,Very Fast,720,9,1.3,16000016,area control
+17,tara,4800.0,Mythic,Damage Dealer,Normal,Long,Slow,720,8,2,16000017,area control
+18,darryl,7950.0,Super Rare,Hybrid,Fast,Normal,Normal,770,6,1.8,16000018,assassin
+19,penny,5400.0,Super Rare,Damage Dealer,Normal,Long,Slow,720,8,2,16000019,area control
+20,frank,10500.0,Epic,Tank,Fast,Normal,Very Fast,770,6,0.8,16000020,tank
+21,gene,5400.0,Mythic,Support,Normal,close range; Normal,Slow,720,5.67,2,16000021,area control
+22,tick,3300.0,Super Rare,Damage Dealer,Normal,Long,Very Slow,720,8.67,2.3,16000022,thrower
+23,leon,4800.0,Legendary,Assassin,Very Fast,Very Long,Normal,820,9.67,1.9,16000023,assassin
+24,rosa,8100.0,Rare,Tank,Fast,Short,Very Fast,770,3.67,1,16000024,tank
+25,carl,6000.0,Super Rare,Damage Dealer,Normal,,,720,2.33,nan,16000025,area control
+26,bibi,6900.0,Epic,Damage Dealer,Very Fast,Short,Very Fast,820,3.67,0.8,16000026,area control
+27,8-bit,7200.0,Super Rare,Damage Dealer,Very Slow,Very Long,Normal,580,10,1.5,16000027,ranged dps
+28,sandy,5700.0,Legendary,Support,Fast,Normal,Normal,770,6,1.8,16000028,area control
+29,bea,3600.0,Epic,Damage Dealer,Normal,Very Long,Very Fast,720,10,0.9,16000029,sniper
+30,emz,5400.0,Epic,Damage Dealer,Normal,Normal,Slow,720,6.67,2,16000030,area control
+31,mr__p,4500.0,Mythic,Damage Dealer,Normal,Long,Normal,720,7,1.6,16000031,area control
+32,max,4800.0,Mythic,Support,Very Fast,Long,Very Fast,820,8.33,1.3,16000032,assassin
+33,jacky,7500.0,Super Rare,Tank,Fast,Short,Normal,770,3.33,1.8,16000034,tank
+34,gale,5400.0,Chromatic,Hybrid,Normal,Long,Very Fast,720,8.33,1.2,16000035,area control
+35,nani,3900.0,Epic,Damage Dealer,Normal,Long,Normal,720,8.67,1.8,16000036,sniper
+36,sprout,4500.0,Mythic,Support,Normal,Normal,Normal,720,5,1.7,16000037,thrower
+37,surge,4200.0,Chromatic,Damage Dealer,Slow,Normal,Slow,650,6.67,2,16000038,assassin
+38,colette,5100.0,Chromatic,Damage Dealer,Normal,Long,Normal,720,8.67,1.6,16000039,assassin
+39,amber,4800.0,Legendary,Damage Dealer,Normal,Long,8.8 seconds max; Very Fast,720,8.33,0.22,16000040,area control
+40,lou,4800.0,Chromatic,Hybrid,Normal,Very Long,Very Fast,720,9.33,1.3,16000041,area control
+41,byron,3600.0,Mythic,Support,Normal,Very Long,Normal,720,10,1.6,16000042,healer
+42,edgar,4200.0,Epic,Assassin,Very Fast,Short,Very Fast,820,2,0.7,16000043,close quarters
+43,ruffs,4200.0,Chromatic,Support,Normal,Long,Fast,720,9,1.4,16000044,ranged dps
+44,stu,4350.0,Epic,Assassin,Normal,Long,Normal,720,7.67,1.5,16000045,assassin
+45,belle,3900.0,Chromatic,Damage Dealer,Normal,Very Long,Fast,720,10,1.4,16000046,sniper
+46,squeak,5400.0,Mythic,Damage Dealer,Normal,Long,Slow,720,7.67,2.1,16000047,area control
+47,grom,4500.0,Epic,Damage Dealer,Normal,Long,Slow,720,7.67,2,16000048,thrower
+48,buzz,6600.0,Chromatic,Assassin,Fast,Short,Very Fast,770,2.67,1,16000049,close quarters
+49,griff,5100.0,Epic,Damage Dealer,Normal,Long,Normal,720,8.33,1.7,16000050,ranged dps
+50,ash,8100.0,Chromatic,Tank,Normal,Normal,Fast,720,4.67,1.4,16000051,tank
+51,meg,3450.0,Legendary,Damage Dealer,Fast,Long,Very Fast,770,9,1.3,16000052,tank
+52,lola,5700.0,Chromatic,Damage Dealer,Normal,Long,Normal,720,8.67,1.5,16000053,ranged dps
+53,fang,6450.0,Chromatic,Damage Dealer,Fast,Short,Very Fast,770,3,1,16000054,assassin
+54,eve,4350.0,Chromatic,Damage Dealer,Normal,Very Long,Normal,720,9.33,1.6,16000056,area control
+55,janet,5100.0,Chromatic,Damage Dealer,Normal,min range; Normal,Normal,720,4,1.5,16000057,assassin
+56,bonnie,7200.0,Epic,Hybrid,Clyde; Slow,Clyde; Very Long,Clyde; Very Fast,620,9,1,16000058,sniper
+57,otis,5100.0,Chromatic,Damage Dealer,Normal,Very Long,Normal,720,9,1.5,16000059,assassin
+58,sam,8100.0,Chromatic,Damage Dealer,Fast,Short,with Knuckle Busters; Normal,770,3,1.6,16000060,tank
+59,gus,4800.0,Super Rare,Support,Normal,Very Long,Normal,720,9.33,1.5,16000061,healer
+60,buster,7200.0,Chromatic,Tank,Fast,Normal,Normal,770,5.33,1.8,16000062,area control
+61,chester,4950.0,Legendary,Damage Dealer,Fast,Long,Normal,770,8.33,1.9,16000063,assassin
+62,gray,4950.0,Mythic,Support,Normal,Very Long,Fast,720,9,1.4,16000064,sniper
+63,mandy,4200.0,Chromatic,Damage Dealer,Normal,Very Long,Normal,720,9,1.5,16000065,sniper
