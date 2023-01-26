@@ -1,43 +1,43 @@
 ,event.mode,event.map
-0,hotZone,Dueling Beetles
-1,hotZone,Ring of Fire
-3,heist,Safe Zone
-5,bounty,Layer Cake
-8,knockout,Goldarm Gulch
-11,gemGrab,Double Swoosh
-14,brawlBall,Sneaky Fields
-20,brawlBall,Super Beach
-36,bounty,Shooting Star
-38,heist,Pit Stop
-42,heist,Bridge Too Far
-48,knockout,Belle's Rock
-50,gemGrab,Crystal Arcade
-60,knockout,Out in the Open
-66,brawlBall,Pinhole Punt
-73,gemGrab,Hard Rock Mine
-75,brawlBall,Center Stage
-88,brawlBall,Beach Ball
-108,knockout,New Perspective
-148,bounty,Canal Grande
-159,brawlBall,Sunny Soccer
-224,hotZone,Open Zone
-268,heist,Kaboom Canyon
-282,brawlBall,Backyard Bowl
-418,bounty,Excel
-499,gemGrab,Minecart Madness
-782,heist,Snaked Assault
-1250,bounty,Dry Season
-1537,gemGrab,Undermine
-1651,knockout,X Marks the Spot
-1994,hotZone,Split
-2583,knockout,Flaring Phoenix
-3389,heist,Tornado Ring
-5674,hotZone,Parallel Plays
-6751,hotZone,Quarter Pounder
-7818,gemGrab,Deep Diner
-10990,gemGrab,Gem Fort
-14505,bounty,Hideout
-15143,hotZone,Controller Chaos
-18475,knockout,Riverside
-22734,bounty,Temple Ruins
-44109,heist,Hot Potato
+0,bounty,Temple Ruins
+6,heist,Safe Zone
+12,knockout,Riverside
+25,gemGrab,Undermine
+36,gemGrab,Gem Fort
+50,brawlBall,Pinhole Punt
+53,heist,Pit Stop
+55,bounty,Layer Cake
+58,bounty,Canal Grande
+61,hotZone,Dueling Beetles
+63,knockout,Belle's Rock
+65,hotZone,Open Zone
+99,brawlBall,Super Beach
+102,knockout,Out in the Open
+110,bounty,Excel
+114,gemGrab,Crystal Arcade
+115,hotZone,Ring of Fire
+131,heist,Hot Potato
+156,heist,Bridge Too Far
+159,gemGrab,Hard Rock Mine
+166,knockout,Goldarm Gulch
+169,brawlBall,Sneaky Fields
+175,knockout,New Perspective
+195,brawlBall,Sunny Soccer
+219,brawlBall,Beach Ball
+428,brawlBall,Center Stage
+469,brawlBall,Backyard Bowl
+494,gemGrab,Double Swoosh
+610,bounty,Shooting Star
+1135,gemGrab,Deep Diner
+1490,bounty,Hideout
+1630,gemGrab,Minecart Madness
+1633,heist,Snaked Assault
+2094,hotZone,Parallel Plays
+3277,heist,Tornado Ring
+3280,hotZone,Split
+4486,bounty,Dry Season
+5940,knockout,Flaring Phoenix
+7181,heist,Kaboom Canyon
+7270,knockout,X Marks the Spot
+7372,hotZone,Quarter Pounder
+26647,hotZone,Controller Chaos
