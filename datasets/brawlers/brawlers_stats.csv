@@ -1,65 +1,65 @@
-,id,name,role,range,speed,health
-0,16000000,SHELLY,tank stopper,long,normal,5320
-1,16000001,COLT,ranged dps,long,normal,3920
-2,16000002,BULL,close quarters,short,fast,7000
-3,16000003,BROCK,sniper,long,normal,3600
-4,16000004,RICO,ranged dps,long,normal,4200
-5,16000005,SPIKE,ranged dps,long,normal,3600
-6,16000006,BARLEY,thrower,normal,normal,3480
-7,16000007,JESSIE,area control,long,normal,4500
-8,16000008,NITA,area control,short,normal,5800
-9,16000009,DYNAMIKE,thrower,normal,fast,4200
-10,16000010,EL PRIMO,close quarters,short,fast,8400
-11,16000011,MORTIS,assassin,short,very fast,5700
-12,16000012,CROW,area control,long,very fast,3480
-13,16000013,POCO,healer,long,normal,5800
-14,16000014,BO,area control,long,normal,5220
-15,16000015,PIPER,sniper,very long,normal,3360
-16,16000016,PAM,area control,long,normal,7200
-17,16000017,TARA,area control,long,normal,4800
-18,16000018,DARRYL,assassin,short,fast,7950
-19,16000019,PENNY,area control,long,normal,5400
-20,16000020,FRANK,tank,normal,fast,10150
-21,16000021,GENE,area control,long,normal,5400
-22,16000022,TICK,thrower,very long,normal,3080
-23,16000023,LEON,assassin,long,very fast,4800
-24,16000024,ROSA,tank,short,fast,7830
-25,16000025,CARL,area control,long,normal,5600
-26,16000026,BIBI,area control,short,very fast,6670
-27,16000027,8-BIT,ranged dps,long,very slow,6720
-28,16000028,SANDY,area control,normal,fast,5510
-29,16000029,BEA,sniper,very long,normal,3480
-30,16000030,EMZ,area control,normal,normal,5220
-31,16000031,MR. P,area control,long,normal,4200
-32,16000032,MAX,assassin,normal,very fast,4480
-33,16000034,JACKY,tank,short,fast,7250
-34,16000035,GALE,area control,long,normal,5040
-35,16000036,NANI,sniper,very long,normal,3770
-36,16000037,SPROUT,thrower,very long,normal,4350
-37,16000038,SURGE,assassin,long,slow,4200
-38,16000039,COLETTE,assassin,long,normal,4760
-39,16000040,AMBER,area control,long,normal,4640
-40,16000041,LOU,area control,long,normal,4640
-41,16000042,BYRON,healer,long,normal,3480
-42,16000043,EDGAR,close quarters,short,very fast,3920
-43,16000044,RUFFS,ranged dps,long,normal,4060
-44,16000045,STU,assassin,normal,normal,4205
-45,16000046,BELLE,sniper,long,normal,3640
-46,16000047,SQUEAK,area control,long,normal,5040
-47,16000048,GROM,thrower,very long,normal,4350
-48,16000049,BUZZ,close quarters,short,fast,6600
-49,16000050,GRIFF,ranged dps,long,normal,4930
-50,16000051,ASH,tank,short,normal,7830
-51,16000052,MEG,tank,normal,fast,3335
-52,16000053,LOLA,ranged dps,long,normal,5320
-53,16000054,FANG,assassin,short,fast,6450
-54,16000056,EVE,area control,long,normal,4205
-55,16000057,JANET,assassin,long,normal,4930
-56,16000058,BONNIE,sniper,long,slow,6720
-57,16000059,OTIS,assassin,long,normal,4760
-58,16000060,SAM,tank,short,fast,7560
-59,16000061,GUS,healer,long,normal,4480
-60,16000062,BUSTER,area control,normal,fast,6960
-61,16000063,CHESTER,assassin,long,fast,4785
-62,16000064,GRAY,sniper,long,normal,4785
-63,16000065,MANDY,sniper,very long,normal,5600
+,id,name,starPowers,gadgets,Brawler,Health,Rarity,Class,Movement_Speed,Range,Reload,Speed_Num,Range_Num,Reload_Num,Role
+0,16000000,SHELLY,"[{'id': 23000076, 'name': 'SHELL SHOCK'}, {'id': 23000135, 'name': 'BAND-AID'}]","[{'id': 23000255, 'name': 'FAST FORWARD'}, {'id': 23000288, 'name': 'CLAY PIGEONS'}]",shelly,5700.0,Starting Brawler,Damage Dealer,Normal,Long,Normal,720,7.67,1.5,tank stopper
+1,16000001,COLT,"[{'id': 23000077, 'name': 'SLICK BOOTS'}, {'id': 23000138, 'name': 'MAGNUM SPECIAL'}]","[{'id': 23000273, 'name': 'SPEEDLOADER'}, {'id': 23000319, 'name': 'SILVER BULLET'}]",colt,4200.0,Rare,Damage Dealer,Normal,Long,Normal,720,9.0,1.7,ranged dps
+2,16000002,BULL,"[{'id': 23000078, 'name': 'BERSERKER'}, {'id': 23000137, 'name': 'TOUGH GUY'}]","[{'id': 23000272, 'name': 'T-BONE INJECTOR'}, {'id': 23000310, 'name': 'STOMPER'}]",bull,7500.0,Rare,Tank,Fast,Normal,Normal,770,5.33,1.6,close quarters
+3,16000003,BROCK,"[{'id': 23000079, 'name': 'MORE ROCKETS!'}, {'id': 23000150, 'name': 'ROCKET NO. 4'}]","[{'id': 23000245, 'name': 'ROCKET LACES'}, {'id': 23000316, 'name': 'ROCKET FUEL'}]",brock,3600.0,Rare,Damage Dealer,Normal,Long,Slow,720,9.0,2.1,sniper
+4,16000004,RICO,"[{'id': 23000080, 'name': 'SUPER BOUNCY'}, {'id': 23000156, 'name': 'ROBO RETREAT'}]","[{'id': 23000246, 'name': 'MULTIBALL LAUNCHER'}, {'id': 23000409, 'name': 'BOUNCY CASTLE'}]",rico,4200.0,Super Rare,Damage Dealer,Normal,Very Long,Very Fast,720,9.67,1.2,ranged dps
+5,16000005,SPIKE,"[{'id': 23000081, 'name': 'FERTILIZE'}, {'id': 23000151, 'name': 'CURVEBALL'}]","[{'id': 23000247, 'name': 'POPPING PINCUSHION'}, {'id': 23000406, 'name': 'LIFE PLANT'}]",spike,3600.0,Legendary,Damage Dealer,Normal,Long,Slow,720,7.67,2.0,ranged dps
+6,16000006,BARLEY,"[{'id': 23000082, 'name': 'MEDICAL USE'}, {'id': 23000158, 'name': 'EXTRA NOXIOUS'}]","[{'id': 23000250, 'name': 'STICKY SYRUP MIXER'}, {'id': 23000293, 'name': 'HERBAL TONIC'}]",barley,3600.0,Rare,Damage Dealer,Normal,Long,Slow,720,7.33,2.0,thrower
+7,16000007,JESSIE,"[{'id': 23000083, 'name': 'ENERGIZE'}, {'id': 23000149, 'name': 'SHOCKY'}]","[{'id': 23000251, 'name': 'SPARK PLUG'}, {'id': 23000295, 'name': 'RECOIL SPRING'}]",jessie,4500.0,Super Rare,Damage Dealer,Normal,Long,Normal,720,9.0,1.8,area control
+8,16000008,NITA,"[{'id': 23000084, 'name': 'BEAR WITH ME'}, {'id': 23000136, 'name': 'HYPER BEAR'}]","[{'id': 23000249, 'name': 'BEAR PAWS'}, {'id': 23000314, 'name': 'FAUX FUR'}]",nita,6000.0,Rare,Damage Dealer,Normal,Normal,Very Fast,720,6.0,1.1,area control
+9,16000009,DYNAMIKE,"[{'id': 23000085, 'name': 'DYNA-JUMP'}, {'id': 23000155, 'name': 'DEMOLITION'}]","[{'id': 23000258, 'name': 'FIDGET SPINNER'}, {'id': 23000294, 'name': 'SATCHEL CHARGE'}]",dynamike,4200.0,Super Rare,Damage Dealer,Fast,Long,Normal,770,7.33,1.6,thrower
+10,16000010,EL PRIMO,"[{'id': 23000086, 'name': 'EL FUEGO'}, {'id': 23000140, 'name': 'METEOR RUSH'}]","[{'id': 23000264, 'name': 'SUPLEX SUPPLEMENT'}, {'id': 23000292, 'name': 'ASTEROID BELT'}]",el_primo,9000.0,Rare,Tank,Fast,Short,Very Fast,770,3.0,0.8,close quarters
+11,16000011,MORTIS,"[{'id': 23000087, 'name': 'CREEPY HARVEST'}, {'id': 23000154, 'name': 'COILED SNAKE'}]","[{'id': 23000265, 'name': 'COMBO SPINNER'}, {'id': 23000290, 'name': 'SURVIVAL SHOVEL'}]",mortis,5700.0,Mythic,Assassin,Very Fast,Short,Very Slow,820,2.67,2.4,assassin
+12,16000012,CROW,"[{'id': 23000088, 'name': 'EXTRA TOXIC'}, {'id': 23000143, 'name': 'CARRION CROW'}]","[{'id': 23000243, 'name': 'DEFENSE BOOSTER'}, {'id': 23000286, 'name': 'SLOWING TOXIN'}]",crow,3600.0,Legendary,Assassin,Very Fast,Long,Fast,820,8.67,1.4,area control
+13,16000013,POCO,"[{'id': 23000089, 'name': 'DA CAPO!'}, {'id': 23000144, 'name': 'SCREECHING SOLO'}]","[{'id': 23000267, 'name': 'TUNING FORK'}, {'id': 23000350, 'name': 'PROTECTIVE TUNES'}]",poco,6000.0,Rare,Support,Normal,Long,Normal,720,7.0,1.6,healer
+14,16000014,BO,"[{'id': 23000090, 'name': 'CIRCLING EAGLE'}, {'id': 23000148, 'name': 'SNARE A BEAR'}]","[{'id': 23000263, 'name': 'SUPER TOTEM'}, {'id': 23000289, 'name': 'TRIPWIRE'}]",bo,5400.0,Epic,Damage Dealer,Normal,Long,Normal,720,8.67,1.7,area control
+15,16000015,PIPER,"[{'id': 23000091, 'name': 'AMBUSH'}, {'id': 23000152, 'name': 'SNAPPY SNIPING'}]","[{'id': 23000268, 'name': 'AUTO AIMER'}, {'id': 23000291, 'name': 'HOMEMADE RECIPE'}]",piper,3600.0,Epic,Damage Dealer,Normal,Very Long,Very Slow,720,10.0,2.3,sniper
+16,16000016,PAM,"[{'id': 23000092, 'name': ""MAMA'S HUG""}, {'id': 23000139, 'name': ""MAMA'S SQUEEZE""}]","[{'id': 23000257, 'name': 'PULSE MODULATOR'}, {'id': 23000404, 'name': 'SCRAPSUCKER'}]",pam,7200.0,Epic,Support,Normal,Long,Very Fast,720,9.0,1.3,area control
+17,16000017,TARA,"[{'id': 23000093, 'name': 'BLACK PORTAL'}, {'id': 23000160, 'name': 'HEALING SHADE'}]","[{'id': 23000266, 'name': 'PSYCHIC ENHANCER'}, {'id': 23000356, 'name': 'SUPPORT FROM BEYOND'}]",tara,4800.0,Mythic,Damage Dealer,Normal,Long,Slow,720,8.0,2.0,area control
+18,16000018,DARRYL,"[{'id': 23000094, 'name': 'STEEL HOOPS'}, {'id': 23000157, 'name': 'ROLLING RELOAD'}]","[{'id': 23000260, 'name': 'RECOILING ROTATOR'}, {'id': 23000313, 'name': 'TAR BARREL'}]",darryl,7950.0,Super Rare,Hybrid,Fast,Normal,Normal,770,6.0,1.8,assassin
+19,16000019,PENNY,"[{'id': 23000099, 'name': 'HEAVY COFFERS'}, {'id': 23000142, 'name': 'MASTER BLASTER'}]","[{'id': 23000248, 'name': 'SALTY BARREL'}, {'id': 23000287, 'name': 'TRUSTY SPYGLASS'}]",penny,5400.0,Super Rare,Damage Dealer,Normal,Long,Slow,720,8.0,2.0,area control
+20,16000020,FRANK,"[{'id': 23000104, 'name': 'POWER GRAB'}, {'id': 23000153, 'name': 'SPONGE'}]","[{'id': 23000261, 'name': 'ACTIVE NOISE CANCELING'}, {'id': 23000351, 'name': 'IRRESISTIBLE ATTRACTION'}]",frank,10500.0,Epic,Tank,Fast,Normal,Very Fast,770,6.0,0.8,tank
+21,16000021,GENE,"[{'id': 23000109, 'name': 'MAGIC PUFFS'}, {'id': 23000159, 'name': 'SPIRIT SLAP'}]","[{'id': 23000252, 'name': 'LAMP BLOWOUT'}, {'id': 23000352, 'name': 'VENGEFUL SPIRITS'}]",gene,5400.0,Mythic,Support,Normal,close range; Normal,Slow,720,5.67,2.0,area control
+22,16000022,TICK,"[{'id': 23000114, 'name': 'WELL OILED'}, {'id': 23000161, 'name': 'AUTOMA-TICK RELOAD'}]","[{'id': 23000253, 'name': 'MINE MANIA'}, {'id': 23000355, 'name': 'LAST HURRAH'}]",tick,3300.0,Super Rare,Damage Dealer,Normal,Long,Very Slow,720,8.67,2.3,thrower
+23,16000023,LEON,"[{'id': 23000119, 'name': 'SMOKE TRAILS'}, {'id': 23000141, 'name': 'INVISIHEAL'}]","[{'id': 23000276, 'name': 'CLONE PROJECTOR'}, {'id': 23000408, 'name': 'LOLLIPOP DROP'}]",leon,4800.0,Legendary,Assassin,Very Fast,Very Long,Normal,820,9.67,1.9,assassin
+24,16000024,ROSA,"[{'id': 23000124, 'name': 'PLANT LIFE'}, {'id': 23000147, 'name': 'THORNY GLOVES'}]","[{'id': 23000242, 'name': 'GROW LIGHT'}, {'id': 23000348, 'name': 'UNFRIENDLY BUSHES'}]",rosa,8100.0,Rare,Tank,Fast,Short,Very Fast,770,3.67,1.0,tank
+25,16000025,CARL,"[{'id': 23000129, 'name': 'POWER THROW'}, {'id': 23000145, 'name': 'PROTECTIVE PIROUETTE'}]","[{'id': 23000262, 'name': 'HEAT EJECTOR'}, {'id': 23000317, 'name': 'FLYING HOOK'}]",carl,6000.0,Super Rare,Damage Dealer,Normal,,,720,2.33,,area control
+26,16000026,BIBI,"[{'id': 23000134, 'name': 'HOME RUN'}, {'id': 23000146, 'name': 'BATTING STANCE'}]","[{'id': 23000275, 'name': 'VITAMIN BOOSTER'}, {'id': 23000458, 'name': 'EXTRA STICKY'}]",bibi,6900.0,Epic,Damage Dealer,Very Fast,Short,Very Fast,820,3.67,0.8,area control
+27,16000027,8-BIT,"[{'id': 23000168, 'name': 'BOOSTED BOOSTER'}, {'id': 23000181, 'name': 'PLUGGED IN'}]","[{'id': 23000259, 'name': 'CHEAT CARTRIDGE'}, {'id': 23000318, 'name': 'EXTRA CREDITS'}]",8-bit,7200.0,Super Rare,Damage Dealer,Very Slow,Very Long,Normal,580,10.0,1.5,ranged dps
+28,16000028,SANDY,"[{'id': 23000186, 'name': 'RUDE SANDS'}, {'id': 23000187, 'name': 'HEALING WINDS'}]","[{'id': 23000270, 'name': 'SLEEP STIMULATOR'}, {'id': 23000405, 'name': 'SWEET DREAMS'}]",sandy,5700.0,Legendary,Support,Fast,Normal,Normal,770,6.0,1.8,area control
+29,16000029,BEA,"[{'id': 23000192, 'name': 'INSTA BEALOAD'}, {'id': 23000193, 'name': 'HONEYCOMB'}]","[{'id': 23000271, 'name': 'HONEY MOLASSES'}, {'id': 23000312, 'name': 'RATTLED HIVE'}]",bea,3600.0,Epic,Damage Dealer,Normal,Very Long,Very Fast,720,10.0,0.9,sniper
+30,16000030,EMZ,"[{'id': 23000198, 'name': 'BAD KARMA'}, {'id': 23000199, 'name': 'HYPE'}]","[{'id': 23000274, 'name': 'FRIENDZONER'}, {'id': 23000459, 'name': 'ACID SPRAY'}]",emz,5400.0,Epic,Damage Dealer,Normal,Normal,Slow,720,6.67,2.0,area control
+31,16000031,MR. P,"[{'id': 23000204, 'name': 'HANDLE WITH CARE'}, {'id': 23000205, 'name': 'REVOLVING DOOR'}]","[{'id': 23000269, 'name': 'SERVICE BELL'}, {'id': 23000349, 'name': 'PORTER REINFORCEMENTS'}]",mr__p,4500.0,Mythic,Damage Dealer,Normal,Long,Normal,720,7.0,1.6,area control
+32,16000032,MAX,"[{'id': 23000210, 'name': 'SUPER CHARGED'}, {'id': 23000211, 'name': 'RUN N GUN'}]","[{'id': 23000254, 'name': 'PHASE SHIFTER'}, {'id': 23000311, 'name': 'SNEAKY SNEAKERS'}]",max,4800.0,Mythic,Support,Very Fast,Long,Very Fast,820,8.33,1.3,assassin
+33,16000034,JACKY,"[{'id': 23000222, 'name': 'COUNTER CRUSH'}, {'id': 23000223, 'name': 'HARDY HARD HAT'}]","[{'id': 23000256, 'name': 'PNEUMATIC BOOSTER'}, {'id': 23000486, 'name': 'REBUILD'}]",jacky,7500.0,Super Rare,Tank,Fast,Short,Normal,770,3.33,1.8,tank
+34,16000035,GALE,"[{'id': 23000228, 'name': 'BLUSTERY BLOW'}, {'id': 23000229, 'name': 'FREEZING SNOW'}]","[{'id': 23000277, 'name': 'SPRING EJECTOR'}, {'id': 23000407, 'name': 'TWISTER'}]",gale,5400.0,Chromatic,Hybrid,Normal,Long,Very Fast,720,8.33,1.2,area control
+35,16000036,NANI,"[{'id': 23000234, 'name': 'AUTOFOCUS'}, {'id': 23000235, 'name': 'TEMPERED STEEL'}]","[{'id': 23000278, 'name': 'WARP BLAST'}, {'id': 23000353, 'name': 'RETURN TO SENDER'}]",nani,3900.0,Epic,Damage Dealer,Normal,Long,Normal,720,8.67,1.8,sniper
+36,16000037,SPROUT,"[{'id': 23000240, 'name': 'OVERGROWTH'}, {'id': 23000241, 'name': 'PHOTOSYNTHESIS'}]","[{'id': 23000244, 'name': 'GARDEN MULCHER'}, {'id': 23000315, 'name': 'TRANSPLANT'}]",sprout,4500.0,Mythic,Support,Normal,Normal,Normal,720,5.0,1.7,thrower
+37,16000038,SURGE,"[{'id': 23000283, 'name': 'TO THE MAX!'}, {'id': 23000284, 'name': 'SERVE ICE COLD'}]","[{'id': 23000285, 'name': 'POWER SURGE'}, {'id': 23000485, 'name': 'POWER SHIELD'}]",surge,4200.0,Chromatic,Damage Dealer,Slow,Normal,Slow,650,6.67,2.0,assassin
+38,16000039,COLETTE,"[{'id': 23000300, 'name': 'PUSH IT'}, {'id': 23000301, 'name': 'MASS TAX'}]","[{'id': 23000302, 'name': 'NA-AH!'}, {'id': 23000457, 'name': 'GOTCHA!'}]",colette,5100.0,Chromatic,Damage Dealer,Normal,Long,Normal,720,8.67,1.6,assassin
+39,16000040,AMBER,"[{'id': 23000307, 'name': 'WILD FLAMES'}, {'id': 23000308, 'name': ""SCORCHIN' SIPHON""}]","[{'id': 23000309, 'name': 'FIRE STARTERS'}, {'id': 23000488, 'name': 'DANCING FLAMES'}]",amber,4800.0,Legendary,Damage Dealer,Normal,Long,8.8 seconds max; Very Fast,720,8.33,0.22,area control
+40,16000041,LOU,"[{'id': 23000324, 'name': 'SUPERCOOL'}, {'id': 23000325, 'name': 'HYPOTHERMIA'}]","[{'id': 23000326, 'name': 'ICE BLOCK'}, {'id': 23000400, 'name': 'CRYO SYRUP'}]",lou,4800.0,Chromatic,Hybrid,Normal,Very Long,Very Fast,720,9.33,1.3,area control
+41,16000042,BYRON,"[{'id': 23000331, 'name': 'MALAISE'}, {'id': 23000332, 'name': 'INJECTION'}]","[{'id': 23000333, 'name': 'SHOT IN THE ARM'}, {'id': 23000461, 'name': 'BOOSTER SHOTS'}]",byron,3600.0,Mythic,Support,Normal,Very Long,Normal,720,10.0,1.6,healer
+42,16000043,EDGAR,"[{'id': 23000338, 'name': 'HARD LANDING'}, {'id': 23000339, 'name': 'FISTICUFFS'}]","[{'id': 23000340, 'name': ""LET'S FLY""}, {'id': 23000403, 'name': 'HARDCORE'}]",edgar,4200.0,Epic,Assassin,Very Fast,Short,Very Fast,820,2.0,0.7,close quarters
+43,16000044,RUFFS,"[{'id': 23000345, 'name': 'AIR SUPERIORITY'}, {'id': 23000346, 'name': 'FIELD PROMOTION'}]","[{'id': 23000347, 'name': 'TAKE COVER'}, {'id': 23000402, 'name': 'AIR SUPPORT'}]",ruffs,4200.0,Chromatic,Support,Normal,Long,Fast,720,9.0,1.4,ranged dps
+44,16000045,STU,"[{'id': 23000362, 'name': 'ZERO DRAG'}, {'id': 23000363, 'name': 'GASO-HEAL'}]","[{'id': 23000364, 'name': 'SPEED ZONE'}, {'id': 23000401, 'name': 'BREAKTHROUGH'}]",stu,4350.0,Epic,Assassin,Normal,Long,Normal,720,7.67,1.5,assassin
+45,16000046,BELLE,"[{'id': 23000369, 'name': 'POSITIVE FEEDBACK'}, {'id': 23000370, 'name': 'GROUNDED'}]","[{'id': 23000371, 'name': 'NEST EGG'}, {'id': 23000463, 'name': 'REVERSE POLARITY'}]",belle,3900.0,Chromatic,Damage Dealer,Normal,Very Long,Fast,720,10.0,1.4,sniper
+46,16000047,SQUEAK,"[{'id': 23000376, 'name': 'CHAIN REACTION'}, {'id': 23000377, 'name': 'SUPER STICKY'}]","[{'id': 23000378, 'name': 'WINDUP'}, {'id': 23000462, 'name': 'RESIDUE'}]",squeak,5400.0,Mythic,Damage Dealer,Normal,Long,Slow,720,7.67,2.1,area control
+47,16000048,GROM,"[{'id': 23000383, 'name': 'FOOT PATROL'}, {'id': 23000384, 'name': 'X-FACTOR'}]","[{'id': 23000385, 'name': 'WATCHTOWER'}, {'id': 23000460, 'name': 'RADIO CHECK'}]",grom,4500.0,Epic,Damage Dealer,Normal,Long,Slow,720,7.67,2.0,thrower
+48,16000049,BUZZ,"[{'id': 23000390, 'name': 'TOUGHER TORPEDO'}, {'id': 23000391, 'name': 'EYES SHARP'}]","[{'id': 23000392, 'name': 'RESERVE BUOY'}, {'id': 23000490, 'name': 'X-RAY-SHADES'}]",buzz,6600.0,Chromatic,Assassin,Fast,Short,Very Fast,770,2.67,1.0,close quarters
+49,16000050,GRIFF,"[{'id': 23000397, 'name': 'KEEP THE CHANGE'}, {'id': 23000398, 'name': 'BUSINESS RESILIENCE'}]","[{'id': 23000399, 'name': 'PIGGY BANK'}, {'id': 23000487, 'name': 'COIN SHOWER'}]",griff,5100.0,Epic,Damage Dealer,Normal,Long,Normal,720,8.33,1.7,ranged dps
+50,16000051,ASH,"[{'id': 23000414, 'name': 'FIRST BASH'}, {'id': 23000415, 'name': 'MAD AS HECK'}]","[{'id': 23000416, 'name': 'CHILL PILL'}, {'id': 23000465, 'name': 'ROTTEN BANANA'}]",ash,8100.0,Chromatic,Tank,Normal,Normal,Fast,720,4.67,1.4,tank
+51,16000052,MEG,"[{'id': 23000421, 'name': 'FORCE FIELD'}, {'id': 23000422, 'name': 'HEAVY METAL'}]","[{'id': 23000423, 'name': 'JOLTING VOLTS'}, {'id': 23000489, 'name': 'TOOLBOX'}]",meg,3450.0,Legendary,Damage Dealer,Fast,Long,Very Fast,770,9.0,1.3,tank
+52,16000053,LOLA,"[{'id': 23000431, 'name': 'IMPROVISE'}, {'id': 23000432, 'name': 'SEALED WITH A KISS'}]","[{'id': 23000433, 'name': 'FREEZE FRAME'}, {'id': 23000456, 'name': 'STUNT DOUBLE'}]",lola,5700.0,Chromatic,Damage Dealer,Normal,Long,Normal,720,8.67,1.5,ranged dps
+53,16000054,FANG,"[{'id': 23000438, 'name': 'FRESH KICKS'}, {'id': 23000439, 'name': 'DIVINE SOLES'}]","[{'id': 23000440, 'name': 'CORN-FU'}, {'id': 23000464, 'name': 'ROUNDHOUSE KICK'}]",fang,6450.0,Chromatic,Damage Dealer,Fast,Short,Very Fast,770,3.0,1.0,assassin
+54,16000056,EVE,"[{'id': 23000452, 'name': 'UNNATURAL ORDER'}, {'id': 23000453, 'name': 'HAPPY SURPRISE'}]","[{'id': 23000454, 'name': 'GOTTA GO!'}, {'id': 23000455, 'name': 'MOTHERLY LOVE'}]",eve,4350.0,Chromatic,Damage Dealer,Normal,Very Long,Normal,720,9.33,1.6,area control
+55,16000057,JANET,"[{'id': 23000470, 'name': 'STAGE VIEW'}, {'id': 23000471, 'name': 'VOCAL WARM UP'}]","[{'id': 23000472, 'name': 'DROP THE BASS'}, {'id': 23000473, 'name': 'BACKSTAGE PASS'}]",janet,5100.0,Chromatic,Damage Dealer,Normal,min range; Normal,Normal,720,4.0,1.5,assassin
+56,16000058,BONNIE,"[{'id': 23000478, 'name': 'BLACK POWDER'}, {'id': 23000479, 'name': 'WISDOM TOOTH'}]","[{'id': 23000480, 'name': 'SUGAR RUSH'}, {'id': 23000481, 'name': 'CRASH TEST'}]",bonnie,7200.0,Epic,Hybrid,Clyde; Slow,Clyde; Very Long,Clyde; Very Fast,620,9.0,1.0,sniper
+57,16000059,OTIS,"[{'id': 23000495, 'name': 'STENCIL GLUE'}, {'id': 23000496, 'name': 'INK REFILLS'}]","[{'id': 23000497, 'name': 'DORMANT STAR'}, {'id': 23000498, 'name': 'PHAT SPLATTER'}]",otis,5100.0,Chromatic,Damage Dealer,Normal,Very Long,Normal,720,9.0,1.5,assassin
+58,16000060,SAM,"[{'id': 23000503, 'name': 'HEARTY RECOVERY'}, {'id': 23000504, 'name': 'REMOTE RECHARGE'}]","[{'id': 23000505, 'name': 'MAGNETIC FIELD'}, {'id': 23000506, 'name': 'PULSE REPELLENT'}]",sam,8100.0,Chromatic,Damage Dealer,Fast,Short,with Knuckle Busters; Normal,770,3.0,1.6,tank
+59,16000061,GUS,"[{'id': 23000511, 'name': 'HEALTH BONANZA'}, {'id': 23000512, 'name': 'SPIRIT ANIMAL'}]","[{'id': 23000513, 'name': 'KOOKY POPPER'}, {'id': 23000514, 'name': 'SOUL SWITCHER'}]",gus,4800.0,Super Rare,Support,Normal,Very Long,Normal,720,9.33,1.5,healer
+60,16000062,BUSTER,"[{'id': 23000519, 'name': 'BLOCKBUSTER'}, {'id': 23000520, 'name': 'KEVLAR VEST'}]","[{'id': 23000521, 'name': 'UTILITY BELT'}, {'id': 23000522, 'name': 'SLO-MO REPLAY'}]",buster,7200.0,Chromatic,Tank,Fast,Normal,Normal,770,5.33,1.8,area control
+61,16000063,CHESTER,"[{'id': 23000527, 'name': ""BELL'O'MANIA""}, {'id': 23000528, 'name': 'SNEAK PEEK'}]","[{'id': 23000529, 'name': 'SPICY DICE'}, {'id': 23000530, 'name': 'CANDY BEANS'}]",chester,4950.0,Legendary,Damage Dealer,Fast,Long,Normal,770,8.33,1.9,assassin
+62,16000064,GRAY,"[{'id': 23000535, 'name': 'FAKE INJURY'}, {'id': 23000536, 'name': 'NEW PERSPECTIVE'}]","[{'id': 23000537, 'name': 'WALKING CANE'}, {'id': 23000538, 'name': 'GRAND PIANO'}]",gray,4950.0,Mythic,Support,Normal,Very Long,Fast,720,9.0,1.4,sniper
+63,16000065,MANDY,"[{'id': 23000543, 'name': 'IN MY SIGHTS'}, {'id': 23000544, 'name': 'HARD CANDY'}]","[{'id': 23000545, 'name': 'CARAMELIZE'}, {'id': 23000546, 'name': 'COOKIE CRUMBS'}]",mandy,4200.0,Chromatic,Damage Dealer,Normal,Very Long,Normal,720,9.0,1.5,sniper

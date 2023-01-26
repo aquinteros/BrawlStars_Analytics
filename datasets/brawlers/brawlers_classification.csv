@@ -1,4 +1,4 @@
-,Brawler,Health,Rarity,Class,Movement Speed,Range,Reload,Speed_Num,Range_Num,Reload_Num,id,Role
+,Brawler,Health,Rarity,Class,Movement_Speed,Range,Reload,Speed_Num,Range_Num,Reload_Num,id,Role
 0,shelly,5700.0,Starting Brawler,Damage Dealer,Normal,Long,Normal,720,7.67,1.5,16000000,tank stopper
 1,colt,4200.0,Rare,Damage Dealer,Normal,Long,Normal,720,9,1.7,16000001,ranged dps
 2,bull,7500.0,Rare,Tank,Fast,Normal,Normal,770,5.33,1.6,16000002,close quarters

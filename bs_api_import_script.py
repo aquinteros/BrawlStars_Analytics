@@ -9,7 +9,7 @@ import os
 
 # %%
 # crear cliente
-client = brawlstats.Client('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjdhMGNiNWIxLWFlMzctNDQzYi1iMTAzLWFmZjdmZDQwMDNhYyIsImlhdCI6MTY3NDMyMjUyNCwic3ViIjoiZGV2ZWxvcGVyL2Q0ZTc3OGNkLWJlYTAtZjlmNS04NDBhLTgzYTk1NTk3MWQ1MCIsInNjb3BlcyI6WyJicmF3bHN0YXJzIl0sImxpbWl0cyI6W3sidGllciI6ImRldmVsb3Blci9zaWx2ZXIiLCJ0eXBlIjoidGhyb3R0bGluZyJ9LHsiY2lkcnMiOlsiMjAxLjE4OC40LjM1Il0sInR5cGUiOiJjbGllbnQifV19.4nIoAAurRFujh0KHsgQ32E9xlycENhX4IqnS6btozJRkhZHnjgSH1YBhco9-CMq_Zk0OH10sMW9kjM_rZCkRIQ')
+client = brawlstats.Client('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6ImQ3ZWQ1MTNlLWU0ZGQtNGUwOS1iMjI0LWMyMGNhNDQzM2RkOCIsImlhdCI6MTY3NDYxNzgwNiwic3ViIjoiZGV2ZWxvcGVyL2Q0ZTc3OGNkLWJlYTAtZjlmNS04NDBhLTgzYTk1NTk3MWQ1MCIsInNjb3BlcyI6WyJicmF3bHN0YXJzIl0sImxpbWl0cyI6W3sidGllciI6ImRldmVsb3Blci9zaWx2ZXIiLCJ0eXBlIjoidGhyb3R0bGluZyJ9LHsiY2lkcnMiOlsiMjAxLjE4OC4yNi4xNTkiXSwidHlwZSI6ImNsaWVudCJ9XX0.n2YisIxdFHM8hur3GaoiBVX6ON3r4MoDj4Nqgvkig6UyBYfErSwZtZe4DRFEzms4MVhNM8zDfg2K1hwLAmhWqA')
 # Do not post your token on a public github
 
 # %%
@@ -37,7 +37,7 @@ brawlers_classification = pd.read_csv('C:/Users/alniquia/OneDrive - Telefonica/D
 
 # %%
 # merge de ambos dataframes
-brawlerStats = pd.merge(brawlers['id'], brawlers_classification, on='id')
+brawlerStats = pd.merge(brawlers, brawlers_classification, on='id')
 print(brawlerStats.info())
 
 # %%
@@ -191,35 +191,6 @@ print('dimensiones battlelog: ' + str(battlelog.shape))
 battlelog.info()
 
 # %%
-# Abrir el archivo comprimido
-with zipfile.ZipFile('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/complete/battlelog_complete.zip', 'r') as zip_ref:
-    # Extraer el archivo CSV
-    zip_ref.extractall('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/complete/')
-
-# Leer el archivo CSV
-battlelog_complete = pd.read_csv('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/complete/battlelog_complete.csv', index_col=0)
-
-print('dimensiones battlelog complete: ' + str(battlelog_complete.shape))
-
-battlelog_export = pd.concat([battlelog, battlelog_complete])
-
-print('dimensiones battlelog concat: ' + str(battlelog_export.shape))
-
-battlelog_export = battlelog_export.drop_duplicates(['playertag', 'battleTime', 'event.id', 'event.mode', 'event.map', 'battle.mode', 'battle.type', 'battle.result', 'battle.duration', 'battle.trophyChange'], ignore_index=True)
-
-battlelog_export.reset_index(drop=True, inplace=True)
-
-print('dimensiones battlelog export: ' + str(battlelog_export.shape))
-
-battlelog_export.to_csv('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/complete/battlelog_complete.csv')
-
-# Comprimir el archivo CSV
-with zipfile.ZipFile('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/complete/battlelog_complete.zip', 'w') as zip_file:
-    zip_file.write('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/complete/battlelog_complete.csv', arcname='battlelog_complete.csv',compress_type=zipfile.ZIP_DEFLATED)
-
-os.remove('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/complete/battlelog_complete.csv')
-
-# %%
 # cuenta tipos de juego
 battlelog['battle.type'].value_counts()
 
@@ -364,9 +335,6 @@ battlelog.info()
 
 
 # %%
-battlelog.iloc[0].to_clipboard()
-
-# %%
 # eliminar battle teams
 battlelog = battlelog.drop(columns=[
 'battle.teams'
@@ -402,5 +370,10 @@ with zipfile.ZipFile('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects
     zip_file.write('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/teams/battlelog_teams.csv', arcname='battlelog_teams.csv',compress_type=zipfile.ZIP_DEFLATED)
 
 os.remove('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/teams/battlelog_teams.csv')
+
+# %%
+maplist = battlelog[['event.mode','event.map']].drop_duplicates()
+
+maplist.to_csv('C:/Users/alniquia/OneDrive - Telefonica/Documents/Projects/BrawlStars_Model/datasets/maps/maplist.csv')
 
 
