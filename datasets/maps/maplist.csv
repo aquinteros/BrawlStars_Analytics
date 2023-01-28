@@ -1,43 +1,43 @@
 ,event.mode,event.map
-0,bounty,Temple Ruins
-6,heist,Safe Zone
-12,knockout,Riverside
-25,gemGrab,Undermine
-36,gemGrab,Gem Fort
-50,brawlBall,Pinhole Punt
-53,heist,Pit Stop
-55,bounty,Layer Cake
-58,bounty,Canal Grande
-61,hotZone,Dueling Beetles
-63,knockout,Belle's Rock
-65,hotZone,Open Zone
-99,brawlBall,Super Beach
-102,knockout,Out in the Open
-110,bounty,Excel
-114,gemGrab,Crystal Arcade
-115,hotZone,Ring of Fire
-131,heist,Hot Potato
-156,heist,Bridge Too Far
-159,gemGrab,Hard Rock Mine
-166,knockout,Goldarm Gulch
-169,brawlBall,Sneaky Fields
-175,knockout,New Perspective
-195,brawlBall,Sunny Soccer
-219,brawlBall,Beach Ball
-428,brawlBall,Center Stage
-469,brawlBall,Backyard Bowl
-494,gemGrab,Double Swoosh
-610,bounty,Shooting Star
-1135,gemGrab,Deep Diner
-1490,bounty,Hideout
-1630,gemGrab,Minecart Madness
-1633,heist,Snaked Assault
-2094,hotZone,Parallel Plays
-3277,heist,Tornado Ring
-3280,hotZone,Split
-4486,bounty,Dry Season
-5940,knockout,Flaring Phoenix
-7181,heist,Kaboom Canyon
-7270,knockout,X Marks the Spot
-7372,hotZone,Quarter Pounder
-26647,hotZone,Controller Chaos
+0,brawlBall,Super Beach
+16,heist,Safe Zone
+19,gemGrab,Crystal Arcade
+22,bounty,Canal Grande
+30,bounty,Shooting Star
+33,gemGrab,Hard Rock Mine
+36,hotZone,Ring of Fire
+39,hotZone,Controller Chaos
+53,brawlBall,Sneaky Fields
+54,heist,Hot Potato
+96,gemGrab,Deep Diner
+104,knockout,Goldarm Gulch
+106,knockout,Out in the Open
+121,knockout,Flaring Phoenix
+129,brawlBall,Sunny Soccer
+165,hotZone,Open Zone
+167,bounty,Layer Cake
+170,heist,Bridge Too Far
+179,brawlBall,Pinhole Punt
+185,knockout,Belle's Rock
+190,brawlBall,Beach Ball
+314,bounty,Excel
+370,gemGrab,Double Swoosh
+434,gemGrab,Undermine
+441,gemGrab,Gem Fort
+532,hotZone,Dueling Beetles
+638,heist,Pit Stop
+790,knockout,Riverside
+985,bounty,Temple Ruins
+990,brawlBall,Center Stage
+1987,gemGrab,Minecart Madness
+1997,knockout,New Perspective
+2161,brawlBall,Backyard Bowl
+2464,heist,Snaked Assault
+3081,knockout,X Marks the Spot
+3434,heist,Tornado Ring
+5178,hotZone,Parallel Plays
+9326,hotZone,Quarter Pounder
+9971,bounty,Hideout
+9981,hotZone,Split
+13277,heist,Kaboom Canyon
+21889,bounty,Dry Season
