@@ -1,43 +1,43 @@
 ,event.mode,event.map
-0,gemGrab,Double Swoosh
-3,heist,Bridge Too Far
-8,brawlBall,Pinhole Punt
-10,heist,Pit Stop
-12,brawlBall,Backyard Bowl
-25,hotZone,Ring of Fire
-29,knockout,Goldarm Gulch
-31,knockout,Belle's Rock
-33,knockout,Out in the Open
-55,heist,Snaked Assault
-57,brawlBall,Center Stage
-58,heist,Safe Zone
-60,brawlBall,Sunny Soccer
-65,brawlBall,Beach Ball
-66,gemGrab,Hard Rock Mine
-74,bounty,Canal Grande
-83,gemGrab,Deep Diner
-92,brawlBall,Sneaky Fields
-104,bounty,Layer Cake
-126,hotZone,Open Zone
-130,brawlBall,Super Beach
-131,gemGrab,Crystal Arcade
-168,knockout,Flaring Phoenix
-169,hotZone,Controller Chaos
-178,hotZone,Quarter Pounder
-433,hotZone,Dueling Beetles
-449,bounty,Shooting Star
-748,heist,Tornado Ring
-1239,bounty,Temple Ruins
-1295,gemGrab,Undermine
-1303,gemGrab,Gem Fort
-1815,heist,Hot Potato
-1895,gemGrab,Minecart Madness
-1896,heist,Kaboom Canyon
-2266,knockout,Riverside
-2628,knockout,New Perspective
-2638,bounty,Dry Season
-2886,bounty,Excel
-3354,hotZone,Parallel Plays
-3781,bounty,Hideout
-8749,knockout,X Marks the Spot
-17919,hotZone,Split
+0,gemGrab,Minecart Madness
+1,gemGrab,Double Swoosh
+3,knockout,Belle's Rock
+5,gemGrab,Hard Rock Mine
+9,hotZone,Open Zone
+11,heist,Safe Zone
+13,heist,Pit Stop
+20,hotZone,Quarter Pounder
+45,hotZone,Ring of Fire
+52,brawlBall,Super Beach
+62,brawlBall,Backyard Bowl
+63,bounty,Canal Grande
+77,brawlBall,Center Stage
+91,gemGrab,Crystal Arcade
+93,gemGrab,Deep Diner
+104,knockout,Goldarm Gulch
+111,bounty,Shooting Star
+131,brawlBall,Pinhole Punt
+136,heist,Kaboom Canyon
+137,hotZone,Controller Chaos
+139,brawlBall,Sneaky Fields
+145,knockout,Flaring Phoenix
+186,bounty,Hideout
+229,knockout,Out in the Open
+291,heist,Bridge Too Far
+393,bounty,Temple Ruins
+558,bounty,Layer Cake
+561,hotZone,Dueling Beetles
+762,gemGrab,Undermine
+937,knockout,New Perspective
+1407,brawlBall,Beach Ball
+1646,brawlBall,Sunny Soccer
+1647,knockout,Riverside
+1825,heist,Snaked Assault
+2024,gemGrab,Gem Fort
+3035,heist,Hot Potato
+3977,bounty,Excel
+4229,knockout,X Marks the Spot
+14605,heist,Tornado Ring
+15638,bounty,Dry Season
+19627,hotZone,Parallel Plays
+36336,hotZone,Split
