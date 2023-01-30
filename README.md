@@ -6,7 +6,7 @@ Modelo analitics de brawlstars, importa battlelogs y stats desde la api oficial 
 
 Procesamiento de la información tabulada para la creación de creación de plots e identificación de KPI
 
-![alt text](https://https://github.com/aquinteros/BrawlStars_Analytics/blob/main/plots/overall/overall.png?raw=true)
+![overall_winrate_userate](https://github.com/aquinteros/BrawlStars_Analytics/blob/main/plots/overall/overall.png?raw=true)
 
 # brawlstars_api_import.ipynb
 
