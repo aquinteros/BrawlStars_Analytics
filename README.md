@@ -6,7 +6,7 @@ Modelo analitics de brawlstars, importa battlelogs y stats desde la api oficial 
 
 Procesamiento de la información tabulada para la creación de creación de plots e identificación de KPI
 
-![overall_winrate_userate](https://github.com/aquinteros/BrawlStars_Analytics/blob/main/plots/overall/overall.png?raw=true)
+<img src="https://github.com/aquinteros/BrawlStars_Analytics/blob/main/plots/overall/overall.png" width="800" height="800">
 
 # brawlstars_api_import.ipynb
 
@@ -16,8 +16,8 @@ Importación de la api oficial de brawlstars por medio del brawlstats
 
 Procesamiento de imágenes de mapas para obtener datos adicionales a partir de la identificación de patrones y cuenta de pixeles
 
-![riverside_barrier](https://github.com/aquinteros/BrawlStars_Analytics/blob/main/resources/maps/barrier_detection/Riverside.png)
-![crystalarcade_barrier](https://github.com/aquinteros/BrawlStars_Analytics/blob/main/resources/maps/bush_detection/Crystal%20Arcade.png)
+<img src="https://github.com/aquinteros/BrawlStars_Analytics/blob/main/resources/maps/barrier_detection/Riverside.png" width="400" height="600">
+<img src="https://github.com/aquinteros/BrawlStars_Analytics/blob/main/resources/maps/bush_detection/Crystal%20Arcade.png" width="400" height="600">
 
 # brawlstars_ML_training.ipynb
 
