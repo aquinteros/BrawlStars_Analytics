@@ -16,6 +16,9 @@ Importación de la api oficial de brawlstars por medio del brawlstats
 
 Procesamiento de imágenes de mapas para obtener datos adicionales a partir de la identificación de patrones y cuenta de pixeles
 
+![riverside_barrier](https://github.com/aquinteros/BrawlStars_Analytics/blob/main/resources/maps/barrier_detection/Riverside.png)
+![crystalarcade_barrier](https://github.com/aquinteros/BrawlStars_Analytics/blob/main/resources/maps/bush_detection/Crystal%20Arcade.png)
+
 # brawlstars_ML_training.ipynb
 
 Entrenamiento de modelo de machine learning a partir de partidas del battlelog
