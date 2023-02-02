@@ -1,43 +1,43 @@
 ,event.mode,event.map
-0,gemGrab,Minecart Madness
-1,gemGrab,Double Swoosh
-3,knockout,Belle's Rock
-5,gemGrab,Hard Rock Mine
-9,hotZone,Open Zone
-11,heist,Safe Zone
-13,heist,Pit Stop
-20,hotZone,Quarter Pounder
-45,hotZone,Ring of Fire
-52,brawlBall,Super Beach
-62,brawlBall,Backyard Bowl
-63,bounty,Canal Grande
-77,brawlBall,Center Stage
-91,gemGrab,Crystal Arcade
-93,gemGrab,Deep Diner
-104,knockout,Goldarm Gulch
-111,bounty,Shooting Star
-131,brawlBall,Pinhole Punt
-136,heist,Kaboom Canyon
-137,hotZone,Controller Chaos
-139,brawlBall,Sneaky Fields
-145,knockout,Flaring Phoenix
-186,bounty,Hideout
-229,knockout,Out in the Open
-291,heist,Bridge Too Far
-393,bounty,Temple Ruins
-558,bounty,Layer Cake
-561,hotZone,Dueling Beetles
-762,gemGrab,Undermine
-937,knockout,New Perspective
-1407,brawlBall,Beach Ball
-1646,brawlBall,Sunny Soccer
-1647,knockout,Riverside
-1825,heist,Snaked Assault
-2024,gemGrab,Gem Fort
-3035,heist,Hot Potato
-3977,bounty,Excel
-4229,knockout,X Marks the Spot
-14605,heist,Tornado Ring
-15638,bounty,Dry Season
-19627,hotZone,Parallel Plays
-36336,hotZone,Split
+0,brawlBall,Sunny Soccer
+1,hotZone,Dueling Beetles
+4,heist,Bridge Too Far
+8,bounty,Hideout
+14,gemGrab,Minecart Madness
+16,brawlBall,Center Stage
+17,heist,Safe Zone
+20,brawlBall,Super Beach
+22,brawlBall,Pinhole Punt
+28,brawlBall,Beach Ball
+31,knockout,Goldarm Gulch
+32,gemGrab,Hard Rock Mine
+36,hotZone,Open Zone
+40,bounty,Layer Cake
+43,brawlBall,Sneaky Fields
+52,gemGrab,Double Swoosh
+70,knockout,Out in the Open
+72,gemGrab,Crystal Arcade
+75,gemGrab,Gem Fort
+77,bounty,Shooting Star
+87,knockout,Belle's Rock
+139,heist,Pit Stop
+143,hotZone,Parallel Plays
+184,brawlBall,Backyard Bowl
+199,gemGrab,Deep Diner
+258,heist,Kaboom Canyon
+296,bounty,Canal Grande
+369,hotZone,Ring of Fire
+420,knockout,X Marks the Spot
+506,knockout,New Perspective
+1305,knockout,Flaring Phoenix
+1345,heist,Hot Potato
+1940,hotZone,Controller Chaos
+2028,knockout,Riverside
+3150,hotZone,Quarter Pounder
+3226,bounty,Temple Ruins
+3651,gemGrab,Undermine
+7559,heist,Snaked Assault
+14065,bounty,Excel
+25298,heist,Tornado Ring
+39884,hotZone,Split
+50445,bounty,Dry Season
