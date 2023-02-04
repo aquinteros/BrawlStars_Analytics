@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/alniquia/OneDrive%20-%20Telefonica/Documents/Projects/BrawlStars_Model/machine_learning/mlruns/826595088186492497/13e1ba8dde59417c8c61602894072755/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '826595088186492497'
+lifecycle_stage: active
+run_id: 13e1ba8dde59417c8c61602894072755
+run_name: Ada Boost Classifier
+run_uuid: 13e1ba8dde59417c8c61602894072755
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675480896122
+status: 1
+tags: []
+user_id: alniquia

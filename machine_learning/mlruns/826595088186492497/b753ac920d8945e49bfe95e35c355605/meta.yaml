@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/alniquia/OneDrive%20-%20Telefonica/Documents/Projects/BrawlStars_Model/machine_learning/mlruns/826595088186492497/b753ac920d8945e49bfe95e35c355605/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '826595088186492497'
+lifecycle_stage: active
+run_id: b753ac920d8945e49bfe95e35c355605
+run_name: Light Gradient Boosting Machine
+run_uuid: b753ac920d8945e49bfe95e35c355605
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675482051105
+status: 1
+tags: []
+user_id: alniquia
