@@ -211,21 +211,6 @@ battlelog = battlelog[[
 ,'battle_team2_player3_brawler_trophies'
 ]]
 
-try:
-	battlelog_hist = pd.read_parquet('datasets/teams/battlelog_teams.parquet')
-except:
-    battlelog_hist = pd.DataFrame()
-
-print('dimensiones battlelog hist: ' + str(battlelog_hist.shape))
-
-# agregar nuevos reg a histórico
-battlelog = pd.concat([battlelog, battlelog_hist])
-print('dimensiones battlelog concat: ' + str(battlelog.shape))
-
-# eliminar battelogs duplicados
-battlelog = battlelog.drop_duplicates(['battleTime', 'event_mode', 'event_map', 'battle_type', 'battle_duration', 'battle_team1_player1_tag'], ignore_index=True)
-
-print('dimensiones battlelog final: ' + str(battlelog.shape))
 
 dtypes = {
 	'battleTime': 'datetime64[ns]',
@@ -264,65 +249,79 @@ dtypes = {
 
 battlelog = battlelog.astype(dtypes)
 
-# export dataset teams completo mas histórico
-battlelog.to_parquet('datasets/teams/battlelog_teams.parquet', index=False, engine='fastparquet', compression='gzip')
+try:
+	battlelog_hist = pd.read_parquet('datasets/teams/battlelog_teams.parquet')
+except:
+    battlelog_hist = pd.DataFrame()
 
-maplist = battlelog[['event_mode','event_map']].drop_duplicates()
+print('dimensiones battlelog hist: ' + str(battlelog_hist.shape))
+
+# agregar nuevos reg a histórico
+battlelog_final = pd.concat([battlelog, battlelog_hist])
+print('dimensiones battlelog concat: ' + str(battlelog_final.shape))
+
+# eliminar battelogs duplicados
+battlelog_final = battlelog_final.drop_duplicates(['battleTime', 'event_mode', 'event_map', 'battle_type', 'battle_duration', 'battle_team1_player1_tag'], ignore_index=True)
+
+print('dimensiones battlelog final sin duplicados: ' + str(battlelog_final.shape))
+
+# export dataset teams completo mas histórico
+battlelog_final.to_parquet('datasets/teams/battlelog_teams.parquet', index=False, engine='fastparquet', compression='gzip')
+
+maplist = battlelog_final[['event_mode','event_map']].drop_duplicates()
 
 maplist.to_parquet('datasets/maps/maplist.parquet', index=False, engine='fastparquet', compression='gzip')
 
-
 # define tags
-# tags = pd.concat([
-# 	battlelog['battle.team1.player1.tag']
-# 	,battlelog['battle.team1.player2.tag']
-# 	,battlelog['battle.team1.player3.tag']
-# 	,battlelog['battle.team2.player1.tag']
-# 	,battlelog['battle.team2.player2.tag']
-# 	,battlelog['battle.team2.player3.tag']])
-# tags = tags.drop_duplicates().reset_index(drop=True)
-# tags.shape
+tags = pd.concat([
+	battlelog['battle_team1_player1_tag']
+	,battlelog['battle_team1_player2_tag']
+	,battlelog['battle_team1_player3_tag']
+	,battlelog['battle_team2_player1_tag']
+	,battlelog['battle_team2_player2_tag']
+	,battlelog['battle_team2_player3_tag']])
+tags = tags.drop_duplicates().reset_index(drop=True)
+
+print('dimensiones tags: ' + str(tags.shape))
 
 # import players dataset
-# player = {}
+player = {}
 
-# top_player_list = tags.to_list()
+top_player_list = tags.to_list()
 
-# def get_profile(playertag):
-# 	profile = client.get_profile(playertag)
-# 	return {
-# 		'tag': playertag, 
-# 		'team_victories': profile.team_victories, 
-# 		'highestTrophies': profile.highest_trophies, 
-# 		'expPoints': profile.exp_points, 
-# 		'trophies': profile.trophies,
-# 		'datetime': datetime.datetime.now()
-# 		}
+def get_profile(playertag):
+	profile = client.get_profile(playertag)
+	return {
+		'tag': playertag, 
+		'team_victories': profile.team_victories, 
+		'highestTrophies': profile.highest_trophies, 
+		'expPoints': profile.exp_points, 
+		'trophies': profile.trophies,
+		'datetime': datetime.datetime.now()
+		}
 
-# with cf.ThreadPoolExecutor(max_workers=40) as executor:
-# 	future_to_player = {executor.submit(get_profile, playertag): playertag for playertag in top_player_list}
-# 	for future in tqdm(cf.as_completed(future_to_player), total = len(top_player_list), colour='brown'):
-# 		try:
-# 			i = top_player_list.index(future_to_player[future])
-# 			player[str(i)] = future.result()
-# 		except:
-# 			pass
+with cf.ThreadPoolExecutor(max_workers=40) as executor:
+	future_to_player = {executor.submit(get_profile, playertag): playertag for playertag in top_player_list}
+	for future in tqdm(cf.as_completed(future_to_player), total = len(top_player_list)):
+		try:
+			i = top_player_list.index(future_to_player[future])
+			player[str(i)] = future.result()
+		except:
+			pass
 
-# players = pd.DataFrame.from_dict(player, orient='index').reset_index(drop=True)
+players = pd.DataFrame.from_dict(player, orient='index').reset_index(drop=True)
 
 # importar historico de players
-# players_hist = pd.read_parquet('datasets/players/players.parquet')
+players_hist = pd.read_parquet('datasets/players/players.parquet')
 
-# print('dimensiones players hist: ' + str(players_hist.shape))
-
+print('dimensiones players hist: ' + str(players_hist.shape))
 
 # concatenar las bases
-# players = pd.concat([players_hist, players], ignore_index=True) \
-# 	.drop_duplicates(subset='tag', keep='last') \
-# 	.reset_index(drop=True)
+players = pd.concat([players_hist, players], ignore_index=True) \
+	.drop_duplicates(subset='tag', keep='last') \
+	.reset_index(drop=True)
 
-# print('dimensiones players: ' + str(players.shape))
-
+print('dimensiones players: ' + str(players.shape))
 
 # export players
-# players.to_parquet('datasets/players/players.parquet', index=False, engine='fastparquet', compression='gzip')
+players.to_parquet('datasets/players/players.parquet', index=False, engine='fastparquet', compression='gzip')
