@@ -1,7 +1,7 @@
 # ## Import packages
 import brawlstats
 import pandas as pd
-import datetime
+import datetime as dt
 import api_key as key
 import concurrent.futures as cf
 from tqdm import tqdm
@@ -109,11 +109,6 @@ battlelog = battlelog.drop('event', axis=1)
 battlelog = battlelog.drop('battle', axis=1)
 print('dimensiones battlelog: ' + str(battlelog.shape))
 
-# cuenta tipos de juego
-print(battlelog['battle.type'].value_counts())
-# cuenta modos de juego
-print(battlelog['battle.mode'].value_counts())
-
 print(f'Se eliminan {len(battlelog.loc[battlelog["battle.type"] == "friendly"])} eventos de tipo friendly')
 battlelog = battlelog.loc[battlelog['battle.type'] != "friendly"]
 
@@ -132,8 +127,6 @@ battlelog = battlelog.loc[battlelog['event.map'] != "unknown"]
 
 # reset battlelog index
 battlelog = battlelog.reset_index(drop=True)
-
-print('dimensiones battlelog: ' + str(battlelog.shape))
 
 def normalize_to_df(i, t, p):
 	battlelog.loc[i,'battle.team' + str(t) + '.player' + str(p) + '.tag'] = normalized[t - 1][p - 1]['tag']
@@ -249,6 +242,8 @@ dtypes = {
 
 battlelog = battlelog.astype(dtypes)
 
+print(f'dimensiones battlelog: {battlelog.shape}')
+
 try:
 	battlelog_hist = pd.read_parquet('datasets/teams/battlelog_teams.parquet')
 except:
@@ -272,22 +267,32 @@ maplist = battlelog_final[['event_mode','event_map']].drop_duplicates()
 
 maplist.to_parquet('datasets/maps/maplist.parquet', index=False, engine='fastparquet', compression='gzip')
 
-# define tags
-tags = pd.concat([
+# importar historico de players
+players_hist = pd.read_parquet('datasets/players/players.parquet')
+
+# players con menos de un mes desde su última actualización
+players_lm = players_hist[players_hist['datetime'] > (dt.datetime.now() - dt.timedelta(days=30))]['tag'].to_list()
+
+print(f'players con menos de un mes desde su última actualización: {len(players_lm)}')
+
+battlelog_tags = pd.concat([
 	battlelog['battle_team1_player1_tag']
 	,battlelog['battle_team1_player2_tag']
 	,battlelog['battle_team1_player3_tag']
 	,battlelog['battle_team2_player1_tag']
 	,battlelog['battle_team2_player2_tag']
-	,battlelog['battle_team2_player3_tag']])
-tags = tags.drop_duplicates().reset_index(drop=True)
+	,battlelog['battle_team2_player3_tag']
+	]).drop_duplicates().reset_index(drop=True).to_list()
 
-print('dimensiones tags: ' + str(tags.shape))
+print(f'battlelog tags: {len(battlelog_tags)}')
+
+# select tags not in players_hist
+tags = list(set(battlelog_tags) - set(players_lm))
+
+print(f'new tags: {len(tags)}')
 
 # import players dataset
 player = {}
-
-top_player_list = tags.to_list()
 
 def get_profile(playertag):
 	profile = client.get_profile(playertag)
@@ -297,24 +302,19 @@ def get_profile(playertag):
 		'highestTrophies': profile.highest_trophies, 
 		'expPoints': profile.exp_points, 
 		'trophies': profile.trophies,
-		'datetime': datetime.datetime.now()
+		'datetime': dt.datetime.now()
 		}
 
-with cf.ThreadPoolExecutor(max_workers=40) as executor:
-	future_to_player = {executor.submit(get_profile, playertag): playertag for playertag in top_player_list}
-	for future in tqdm(cf.as_completed(future_to_player), total = len(top_player_list)):
+with cf.ThreadPoolExecutor(max_workers=50) as executor:
+	future_to_player = {executor.submit(get_profile, playertag): playertag for playertag in tags}
+	for future in tqdm(cf.as_completed(future_to_player), total = len(tags)):
 		try:
-			i = top_player_list.index(future_to_player[future])
+			i = tags.index(future_to_player[future])
 			player[str(i)] = future.result()
 		except:
 			pass
 
 players = pd.DataFrame.from_dict(player, orient='index').reset_index(drop=True)
-
-# importar historico de players
-players_hist = pd.read_parquet('datasets/players/players.parquet')
-
-print('dimensiones players hist: ' + str(players_hist.shape))
 
 # concatenar las bases
 players = pd.concat([players_hist, players], ignore_index=True) \
