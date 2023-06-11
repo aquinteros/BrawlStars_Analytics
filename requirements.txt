@@ -1,0 +1,13 @@
+pandas
+numpy
+pycaret
+matplotlib
+seaborn
+requests_html
+bs4
+brawlstats
+tqdm
+fastparquet
+streamlit
+streamlit-extras
+mlflow

@@ -1,3 +1,4 @@
 api_key.py
 machine_learning/
 __pycache__/
+.venv
