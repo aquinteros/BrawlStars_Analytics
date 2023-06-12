@@ -134,7 +134,7 @@ def run():
 	}
 
 	if st.button('Predict'):
-		output = predict(pd.DataFrame(input_df, index=[0]), models_dict['brawlBall'])
+		output = predict(pd.DataFrame(input_df, index=[0]), models_dict[event_mode])
 
 		st.markdown(f"""
 			# Prediction
