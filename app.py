@@ -4,7 +4,7 @@ def run():
 
 	brawlers = pd.read_parquet('datasets/brawlers/brawlers.parquet')
 	maps = pd.read_parquet('datasets/maps/maplist.parquet')
-	metrics = pd.read_json('resources/bs_metrics.json')
+	metrics = pd.read_json('resources/bs_metrics.json', orient='index')
 	means = pd.read_json('resources/means.json')
 
 	means = round(means, 0)
