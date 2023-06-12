@@ -8567,3 +8567,2329 @@ Alternately, you can install this by running `pip install pycaret[models]`
 2023-06-12 17:07:49,621:INFO:Preloading libraries
 2023-06-12 17:07:49,624:INFO:Set up data.
 2023-06-12 17:07:49,642:INFO:Set up index.
+2023-06-12 17:20:44,047:INFO:PyCaret ClassificationExperiment
+2023-06-12 17:20:44,047:INFO:Logging name: clf-default-name
+2023-06-12 17:20:44,047:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-06-12 17:20:44,047:INFO:version 3.0.2
+2023-06-12 17:20:44,047:INFO:Initializing setup()
+2023-06-12 17:20:44,048:INFO:self.USI: 5b33
+2023-06-12 17:20:44,048:INFO:self._variable_keys: {'html_param', 'seed', 'gpu_n_jobs_param', 'X_train', 'exp_id', 'fix_imbalance', 'is_multiclass', 'USI', 'y_train', 'fold_shuffle_param', 'logging_param', 'gpu_param', 'y', 'fold_groups_param', 'target_param', 'X', 'idx', 'exp_name_log', '_available_plots', 'fold_generator', 'log_plots_param', 'pipeline', 'n_jobs_param', 'memory', 'X_test', '_ml_usecase', 'data', 'y_test'}
+2023-06-12 17:20:44,048:INFO:Checking environment
+2023-06-12 17:20:44,048:INFO:python_version: 3.10.10
+2023-06-12 17:20:44,048:INFO:python_build: ('tags/v3.10.10:aad5f6a', 'Feb  7 2023 17:20:36')
+2023-06-12 17:20:44,049:INFO:machine: AMD64
+2023-06-12 17:20:44,049:INFO:platform: Windows-10-10.0.19044-SP0
+2023-06-12 17:20:44,053:INFO:Memory: svmem(total=17034072064, available=6415212544, percent=62.3, used=10618859520, free=6415212544)
+2023-06-12 17:20:44,053:INFO:Physical Core: 2
+2023-06-12 17:20:44,053:INFO:Logical Core: 4
+2023-06-12 17:20:44,053:INFO:Checking libraries
+2023-06-12 17:20:44,053:INFO:System:
+2023-06-12 17:20:44,053:INFO:    python: 3.10.10 (tags/v3.10.10:aad5f6a, Feb  7 2023, 17:20:36) [MSC v.1929 64 bit (AMD64)]
+2023-06-12 17:20:44,053:INFO:executable: c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\Scripts\python.exe
+2023-06-12 17:20:44,053:INFO:   machine: Windows-10-10.0.19044-SP0
+2023-06-12 17:20:44,053:INFO:PyCaret required dependencies:
+2023-06-12 17:20:44,053:INFO:                 pip: 23.1.2
+2023-06-12 17:20:44,054:INFO:          setuptools: 65.5.0
+2023-06-12 17:20:44,054:INFO:             pycaret: 3.0.2
+2023-06-12 17:20:44,054:INFO:             IPython: 8.14.0
+2023-06-12 17:20:44,054:INFO:          ipywidgets: 8.0.6
+2023-06-12 17:20:44,054:INFO:                tqdm: 4.65.0
+2023-06-12 17:20:44,054:INFO:               numpy: 1.23.5
+2023-06-12 17:20:44,054:INFO:              pandas: 1.5.3
+2023-06-12 17:20:44,054:INFO:              jinja2: 3.1.2
+2023-06-12 17:20:44,054:INFO:               scipy: 1.10.1
+2023-06-12 17:20:44,054:INFO:              joblib: 1.2.0
+2023-06-12 17:20:44,054:INFO:             sklearn: 1.2.2
+2023-06-12 17:20:44,054:INFO:                pyod: 1.0.9
+2023-06-12 17:20:44,054:INFO:            imblearn: 0.10.1
+2023-06-12 17:20:44,054:INFO:   category_encoders: 2.6.1
+2023-06-12 17:20:44,054:INFO:            lightgbm: 3.3.5
+2023-06-12 17:20:44,054:INFO:               numba: 0.57.0
+2023-06-12 17:20:44,054:INFO:            requests: 2.31.0
+2023-06-12 17:20:44,054:INFO:          matplotlib: 3.7.1
+2023-06-12 17:20:44,055:INFO:          scikitplot: 0.3.7
+2023-06-12 17:20:44,055:INFO:         yellowbrick: 1.5
+2023-06-12 17:20:44,055:INFO:              plotly: 5.15.0
+2023-06-12 17:20:44,055:INFO:             kaleido: 0.2.1
+2023-06-12 17:20:44,055:INFO:         statsmodels: 0.14.0
+2023-06-12 17:20:44,055:INFO:              sktime: 0.17.0
+2023-06-12 17:20:44,055:INFO:               tbats: 1.1.3
+2023-06-12 17:20:44,055:INFO:            pmdarima: 2.0.3
+2023-06-12 17:20:44,055:INFO:              psutil: 5.9.5
+2023-06-12 17:20:44,055:INFO:PyCaret optional dependencies:
+2023-06-12 17:20:44,055:INFO:                shap: Not installed
+2023-06-12 17:20:44,055:INFO:           interpret: Not installed
+2023-06-12 17:20:44,055:INFO:                umap: Not installed
+2023-06-12 17:20:44,055:INFO:    pandas_profiling: Not installed
+2023-06-12 17:20:44,055:INFO:  explainerdashboard: Not installed
+2023-06-12 17:20:44,055:INFO:             autoviz: Not installed
+2023-06-12 17:20:44,056:INFO:           fairlearn: Not installed
+2023-06-12 17:20:44,056:INFO:             xgboost: Not installed
+2023-06-12 17:20:44,056:INFO:            catboost: Not installed
+2023-06-12 17:20:44,056:INFO:              kmodes: Not installed
+2023-06-12 17:20:44,056:INFO:             mlxtend: Not installed
+2023-06-12 17:20:44,056:INFO:       statsforecast: Not installed
+2023-06-12 17:20:44,056:INFO:        tune_sklearn: Not installed
+2023-06-12 17:20:44,056:INFO:                 ray: Not installed
+2023-06-12 17:20:44,056:INFO:            hyperopt: Not installed
+2023-06-12 17:20:44,056:INFO:              optuna: Not installed
+2023-06-12 17:20:44,056:INFO:               skopt: Not installed
+2023-06-12 17:20:44,056:INFO:              mlflow: 2.4.1
+2023-06-12 17:20:44,056:INFO:              gradio: Not installed
+2023-06-12 17:20:44,056:INFO:             fastapi: Not installed
+2023-06-12 17:20:44,056:INFO:             uvicorn: Not installed
+2023-06-12 17:20:44,056:INFO:              m2cgen: Not installed
+2023-06-12 17:20:44,056:INFO:           evidently: Not installed
+2023-06-12 17:20:44,057:INFO:               fugue: Not installed
+2023-06-12 17:20:44,057:INFO:           streamlit: 1.23.1
+2023-06-12 17:20:44,057:INFO:             prophet: Not installed
+2023-06-12 17:20:44,057:INFO:None
+2023-06-12 17:20:44,057:INFO:Set up data.
+2023-06-12 17:20:44,127:INFO:Set up train/test split.
+2023-06-12 17:20:44,225:INFO:Set up index.
+2023-06-12 17:20:44,228:INFO:Set up folding strategy.
+2023-06-12 17:20:44,228:INFO:Assigning column types.
+2023-06-12 17:20:44,276:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2023-06-12 17:20:44,322:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-06-12 17:20:44,323:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-06-12 17:20:44,351:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-12 17:20:44,352:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-12 17:20:44,401:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-06-12 17:20:44,402:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-06-12 17:20:44,430:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-12 17:20:44,430:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-12 17:20:44,431:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2023-06-12 17:20:44,476:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-06-12 17:20:44,507:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-12 17:20:44,508:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-12 17:20:44,555:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-06-12 17:20:44,587:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-12 17:20:44,587:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-12 17:20:44,587:INFO:Engine successfully changes for model 'rbfsvm' to 'sklearn'.
+2023-06-12 17:20:44,660:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-12 17:20:44,661:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-12 17:20:44,741:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-12 17:20:44,741:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-12 17:20:44,742:INFO:Preparing preprocessing pipeline...
+2023-06-12 17:20:44,751:INFO:Set up label encoding.
+2023-06-12 17:20:44,751:INFO:Set up simple imputation.
+2023-06-12 17:20:44,795:INFO:Set up encoding of categorical features.
+2023-06-12 17:20:44,805:INFO:Set up column name cleaning.
+2023-06-12 17:20:45,360:INFO:Finished creating preprocessing pipeline.
+2023-06-12 17:20:45,368:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power...
+                 TransformerWrapper(exclude=None, include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False)
+2023-06-12 17:20:45,369:INFO:Creating final display dataframe.
+2023-06-12 17:20:46,286:INFO:Setup _display_container:                     Description             Value
+0                    Session id              2557
+1                        Target       winner_team
+2                   Target type            Binary
+3                Target mapping        1: 0, 2: 1
+4           Original data shape      (62905, 142)
+5        Transformed data shape      (62905, 146)
+6   Transformed train set shape      (44033, 146)
+7    Transformed test set shape      (18872, 146)
+8              Numeric features               140
+9          Categorical features                 1
+10                   Preprocess              True
+11              Imputation type            simple
+12           Numeric imputation              mean
+13       Categorical imputation              mode
+14     Maximum one-hot encoding               500
+15              Encoding method              None
+16               Fold Generator   StratifiedKFold
+17                  Fold Number                10
+18                     CPU Jobs                -1
+19                      Use GPU             False
+20               Log Experiment      MlflowLogger
+21              Experiment Name  clf-default-name
+22                          USI              5b33
+2023-06-12 17:20:46,393:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-12 17:20:46,394:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-12 17:20:46,478:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-12 17:20:46,478:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-12 17:20:46,479:INFO:Logging experiment in loggers
+2023-06-12 17:20:46,701:INFO:SubProcess save_model() called ==================================
+2023-06-12 17:20:46,728:INFO:Initializing save_model()
+2023-06-12 17:20:46,728:INFO:save_model(model=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power...
+                 TransformerWrapper(exclude=None, include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False), model_name=C:\Users\alniquia\AppData\Local\Temp\tmpaw0avry_\Transformation Pipeline, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power...
+                 TransformerWrapper(exclude=None, include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False), verbose=False, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2023-06-12 17:20:46,728:INFO:Adding model into prep_pipe
+2023-06-12 17:20:46,728:WARNING:Only Model saved as it was a pipeline.
+2023-06-12 17:20:46,741:INFO:C:\Users\alniquia\AppData\Local\Temp\tmpaw0avry_\Transformation Pipeline.pkl saved in current working directory
+2023-06-12 17:20:46,752:INFO:Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power...
+                 TransformerWrapper(exclude=None, include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False)
+2023-06-12 17:20:46,752:INFO:save_model() successfully completed......................................
+2023-06-12 17:20:46,910:INFO:SubProcess save_model() end ==================================
+2023-06-12 17:20:46,931:INFO:setup() successfully completed in 18.41s...............
+2023-06-12 17:21:02,578:INFO:Initializing compare_models()
+2023-06-12 17:21:02,579:INFO:compare_models(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000162310DDF90>, include=None, fold=None, round=4, cross_validation=True, sort=Accuracy, n_select=1, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, parallel=None, caller_params={'self': <pycaret.classification.oop.ClassificationExperiment object at 0x00000162310DDF90>, 'include': None, 'exclude': None, 'fold': None, 'round': 4, 'cross_validation': True, 'sort': 'Accuracy', 'n_select': 1, 'budget_time': None, 'turbo': True, 'errors': 'ignore', 'fit_kwargs': None, 'groups': None, 'experiment_custom_tags': None, 'probability_threshold': None, 'engine': None, 'verbose': True, 'parallel': None, '__class__': <class 'pycaret.classification.oop.ClassificationExperiment'>}, exclude=None)
+2023-06-12 17:21:02,579:INFO:Checking exceptions
+2023-06-12 17:21:02,660:INFO:Preparing display monitor
+2023-06-12 17:21:02,689:INFO:Initializing Logistic Regression
+2023-06-12 17:21:02,690:INFO:Total runtime is 1.6597906748453774e-05 minutes
+2023-06-12 17:21:02,694:INFO:SubProcess create_model() called ==================================
+2023-06-12 17:21:02,695:INFO:Initializing create_model()
+2023-06-12 17:21:02,695:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000162310DDF90>, estimator=lr, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001622F16FF10>, model_only=True, return_train_score=False, kwargs={})
+2023-06-12 17:21:02,695:INFO:Checking exceptions
+2023-06-12 17:21:02,695:INFO:Importing libraries
+2023-06-12 17:21:02,696:INFO:Copying training dataset
+2023-06-12 17:21:02,820:INFO:Defining folds
+2023-06-12 17:21:02,821:INFO:Declaring metric variables
+2023-06-12 17:21:02,825:INFO:Importing untrained model
+2023-06-12 17:21:02,829:INFO:Logistic Regression Imported successfully
+2023-06-12 17:21:02,836:INFO:Starting cross validation
+2023-06-12 17:21:02,841:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-06-12 17:24:19,795:INFO:Calculating mean and std
+2023-06-12 17:24:19,796:INFO:Creating metrics dataframe
+2023-06-12 17:24:39,699:INFO:Uploading results into container
+2023-06-12 17:24:39,699:INFO:Uploading model into container now
+2023-06-12 17:24:39,700:INFO:_master_model_container: 1
+2023-06-12 17:24:39,700:INFO:_display_container: 2
+2023-06-12 17:24:39,701:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2557, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2023-06-12 17:24:39,701:INFO:create_model() successfully completed......................................
+2023-06-12 17:24:39,825:INFO:SubProcess create_model() end ==================================
+2023-06-12 17:24:39,825:INFO:Creating metrics dataframe
+2023-06-12 17:24:39,840:INFO:Initializing K Neighbors Classifier
+2023-06-12 17:24:39,840:INFO:Total runtime is 3.619192318121592 minutes
+2023-06-12 17:24:39,840:INFO:SubProcess create_model() called ==================================
+2023-06-12 17:24:39,840:INFO:Initializing create_model()
+2023-06-12 17:24:39,840:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000162310DDF90>, estimator=knn, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001622F16FF10>, model_only=True, return_train_score=False, kwargs={})
+2023-06-12 17:24:39,840:INFO:Checking exceptions
+2023-06-12 17:24:39,840:INFO:Importing libraries
+2023-06-12 17:24:39,840:INFO:Copying training dataset
+2023-06-12 17:24:40,001:INFO:Defining folds
+2023-06-12 17:24:40,001:INFO:Declaring metric variables
+2023-06-12 17:24:40,010:INFO:Importing untrained model
+2023-06-12 17:24:40,021:INFO:K Neighbors Classifier Imported successfully
+2023-06-12 17:24:40,035:INFO:Starting cross validation
+2023-06-12 17:24:40,038:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-06-12 17:25:19,096:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.51s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 17:28:02,116:INFO:Calculating mean and std
+2023-06-12 17:28:02,118:INFO:Creating metrics dataframe
+2023-06-12 17:28:23,641:INFO:Uploading results into container
+2023-06-12 17:28:23,642:INFO:Uploading model into container now
+2023-06-12 17:28:23,643:INFO:_master_model_container: 2
+2023-06-12 17:28:23,643:INFO:_display_container: 2
+2023-06-12 17:28:23,644:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform')
+2023-06-12 17:28:23,644:INFO:create_model() successfully completed......................................
+2023-06-12 17:28:23,790:INFO:SubProcess create_model() end ==================================
+2023-06-12 17:28:23,790:INFO:Creating metrics dataframe
+2023-06-12 17:28:23,803:INFO:Initializing Naive Bayes
+2023-06-12 17:28:23,803:INFO:Total runtime is 7.351907237370809 minutes
+2023-06-12 17:28:23,807:INFO:SubProcess create_model() called ==================================
+2023-06-12 17:28:23,809:INFO:Initializing create_model()
+2023-06-12 17:28:23,809:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000162310DDF90>, estimator=nb, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001622F16FF10>, model_only=True, return_train_score=False, kwargs={})
+2023-06-12 17:28:23,809:INFO:Checking exceptions
+2023-06-12 17:28:23,809:INFO:Importing libraries
+2023-06-12 17:28:23,810:INFO:Copying training dataset
+2023-06-12 17:28:23,948:INFO:Defining folds
+2023-06-12 17:28:23,948:INFO:Declaring metric variables
+2023-06-12 17:28:23,952:INFO:Importing untrained model
+2023-06-12 17:28:23,956:INFO:Naive Bayes Imported successfully
+2023-06-12 17:28:23,966:INFO:Starting cross validation
+2023-06-12 17:28:23,970:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-06-12 17:28:56,243:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.56s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-12 17:28:56,246:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.54s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-12 17:31:34,559:INFO:Calculating mean and std
+2023-06-12 17:31:34,561:INFO:Creating metrics dataframe
+2023-06-12 17:31:54,707:INFO:Uploading results into container
+2023-06-12 17:31:54,708:INFO:Uploading model into container now
+2023-06-12 17:31:54,709:INFO:_master_model_container: 3
+2023-06-12 17:31:54,709:INFO:_display_container: 2
+2023-06-12 17:31:54,709:INFO:GaussianNB(priors=None, var_smoothing=1e-09)
+2023-06-12 17:31:54,709:INFO:create_model() successfully completed......................................
+2023-06-12 17:31:54,853:INFO:SubProcess create_model() end ==================================
+2023-06-12 17:31:54,853:INFO:Creating metrics dataframe
+2023-06-12 17:31:54,865:INFO:Initializing Decision Tree Classifier
+2023-06-12 17:31:54,866:INFO:Total runtime is 10.869621169567107 minutes
+2023-06-12 17:31:54,870:INFO:SubProcess create_model() called ==================================
+2023-06-12 17:31:54,870:INFO:Initializing create_model()
+2023-06-12 17:31:54,870:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000162310DDF90>, estimator=dt, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001622F16FF10>, model_only=True, return_train_score=False, kwargs={})
+2023-06-12 17:31:54,871:INFO:Checking exceptions
+2023-06-12 17:31:54,871:INFO:Importing libraries
+2023-06-12 17:31:54,871:INFO:Copying training dataset
+2023-06-12 17:31:55,011:INFO:Defining folds
+2023-06-12 17:31:55,012:INFO:Declaring metric variables
+2023-06-12 17:31:55,017:INFO:Importing untrained model
+2023-06-12 17:31:55,022:INFO:Decision Tree Classifier Imported successfully
+2023-06-12 17:31:55,030:INFO:Starting cross validation
+2023-06-12 17:31:55,034:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-06-12 17:32:29,301:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:231: UserWarning: Persisting input arguments took 0.57s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_transformer = self._memory_fit(
+
+2023-06-12 17:32:29,302:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:231: UserWarning: Persisting input arguments took 0.58s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_transformer = self._memory_fit(
+
+2023-06-12 17:32:29,662:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.60s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-12 17:32:29,669:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:231: UserWarning: Persisting input arguments took 0.56s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_transformer = self._memory_fit(
+
+2023-06-12 17:35:21,338:INFO:Calculating mean and std
+2023-06-12 17:35:21,340:INFO:Creating metrics dataframe
+2023-06-12 17:35:42,700:INFO:Uploading results into container
+2023-06-12 17:35:42,700:INFO:Uploading model into container now
+2023-06-12 17:35:42,700:INFO:_master_model_container: 4
+2023-06-12 17:35:42,700:INFO:_display_container: 2
+2023-06-12 17:35:42,700:INFO:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       random_state=2557, splitter='best')
+2023-06-12 17:35:42,700:INFO:create_model() successfully completed......................................
+2023-06-12 17:35:42,842:INFO:SubProcess create_model() end ==================================
+2023-06-12 17:35:42,842:INFO:Creating metrics dataframe
+2023-06-12 17:35:42,842:INFO:Initializing SVM - Linear Kernel
+2023-06-12 17:35:42,842:INFO:Total runtime is 14.669212766488393 minutes
+2023-06-12 17:35:42,858:INFO:SubProcess create_model() called ==================================
+2023-06-12 17:35:42,858:INFO:Initializing create_model()
+2023-06-12 17:35:42,859:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000162310DDF90>, estimator=svm, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001622F16FF10>, model_only=True, return_train_score=False, kwargs={})
+2023-06-12 17:35:42,859:INFO:Checking exceptions
+2023-06-12 17:35:42,859:INFO:Importing libraries
+2023-06-12 17:35:42,859:INFO:Copying training dataset
+2023-06-12 17:35:42,987:INFO:Defining folds
+2023-06-12 17:35:42,987:INFO:Declaring metric variables
+2023-06-12 17:35:42,991:INFO:Importing untrained model
+2023-06-12 17:35:42,996:INFO:SVM - Linear Kernel Imported successfully
+2023-06-12 17:35:43,007:INFO:Starting cross validation
+2023-06-12 17:35:43,010:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-06-12 17:35:46,093:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2023-06-12 17:35:46,123:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2023-06-12 17:35:46,139:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2023-06-12 17:35:46,378:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2023-06-12 17:36:13,628:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:231: UserWarning: Persisting input arguments took 0.59s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_transformer = self._memory_fit(
+
+2023-06-12 17:36:15,966:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2023-06-12 17:36:16,320:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2023-06-12 17:36:17,070:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2023-06-12 17:36:17,246:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2023-06-12 17:36:51,111:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2023-06-12 17:36:52,987:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2023-06-12 17:38:48,283:INFO:Calculating mean and std
+2023-06-12 17:38:48,284:INFO:Creating metrics dataframe
+2023-06-12 17:39:08,030:INFO:Uploading results into container
+2023-06-12 17:39:08,031:INFO:Uploading model into container now
+2023-06-12 17:39:08,032:INFO:_master_model_container: 5
+2023-06-12 17:39:08,032:INFO:_display_container: 2
+2023-06-12 17:39:08,032:INFO:SGDClassifier(alpha=0.0001, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.001, fit_intercept=True,
+              l1_ratio=0.15, learning_rate='optimal', loss='hinge',
+              max_iter=1000, n_iter_no_change=5, n_jobs=-1, penalty='l2',
+              power_t=0.5, random_state=2557, shuffle=True, tol=0.001,
+              validation_fraction=0.1, verbose=0, warm_start=False)
+2023-06-12 17:39:08,033:INFO:create_model() successfully completed......................................
+2023-06-12 17:39:08,175:INFO:SubProcess create_model() end ==================================
+2023-06-12 17:39:08,175:INFO:Creating metrics dataframe
+2023-06-12 17:39:08,187:INFO:Initializing Ridge Classifier
+2023-06-12 17:39:08,187:INFO:Total runtime is 18.09163095553716 minutes
+2023-06-12 17:39:08,193:INFO:SubProcess create_model() called ==================================
+2023-06-12 17:39:08,193:INFO:Initializing create_model()
+2023-06-12 17:39:08,193:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000162310DDF90>, estimator=ridge, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001622F16FF10>, model_only=True, return_train_score=False, kwargs={})
+2023-06-12 17:39:08,193:INFO:Checking exceptions
+2023-06-12 17:39:08,193:INFO:Importing libraries
+2023-06-12 17:39:08,193:INFO:Copying training dataset
+2023-06-12 17:39:08,329:INFO:Defining folds
+2023-06-12 17:39:08,329:INFO:Declaring metric variables
+2023-06-12 17:39:08,333:INFO:Importing untrained model
+2023-06-12 17:39:08,337:INFO:Ridge Classifier Imported successfully
+2023-06-12 17:39:08,347:INFO:Starting cross validation
+2023-06-12 17:39:08,352:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-06-12 17:39:09,791:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2023-06-12 17:39:09,844:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2023-06-12 17:39:09,850:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2023-06-12 17:39:09,882:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2023-06-12 17:39:39,454:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2023-06-12 17:39:39,514:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2023-06-12 17:39:39,515:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2023-06-12 17:39:39,713:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2023-06-12 17:40:11,363:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2023-06-12 17:40:12,169:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2023-06-12 17:42:03,839:INFO:Calculating mean and std
+2023-06-12 17:42:03,841:INFO:Creating metrics dataframe
+2023-06-12 17:42:23,731:INFO:Uploading results into container
+2023-06-12 17:42:23,732:INFO:Uploading model into container now
+2023-06-12 17:42:23,732:INFO:_master_model_container: 6
+2023-06-12 17:42:23,733:INFO:_display_container: 2
+2023-06-12 17:42:23,733:INFO:RidgeClassifier(alpha=1.0, class_weight=None, copy_X=True, fit_intercept=True,
+                max_iter=None, positive=False, random_state=2557, solver='auto',
+                tol=0.0001)
+2023-06-12 17:42:23,733:INFO:create_model() successfully completed......................................
+2023-06-12 17:42:23,877:INFO:SubProcess create_model() end ==================================
+2023-06-12 17:42:23,877:INFO:Creating metrics dataframe
+2023-06-12 17:42:23,893:INFO:Initializing Random Forest Classifier
+2023-06-12 17:42:23,894:INFO:Total runtime is 21.353426778316496 minutes
+2023-06-12 17:42:23,899:INFO:SubProcess create_model() called ==================================
+2023-06-12 17:42:23,899:INFO:Initializing create_model()
+2023-06-12 17:42:23,899:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000162310DDF90>, estimator=rf, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001622F16FF10>, model_only=True, return_train_score=False, kwargs={})
+2023-06-12 17:42:23,900:INFO:Checking exceptions
+2023-06-12 17:42:23,900:INFO:Importing libraries
+2023-06-12 17:42:23,900:INFO:Copying training dataset
+2023-06-12 17:42:24,059:INFO:Defining folds
+2023-06-12 17:42:24,060:INFO:Declaring metric variables
+2023-06-12 17:42:24,064:INFO:Importing untrained model
+2023-06-12 17:42:24,068:INFO:Random Forest Classifier Imported successfully
+2023-06-12 17:42:24,078:INFO:Starting cross validation
+2023-06-12 17:42:24,082:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-06-12 17:42:52,701:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.78s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 17:42:52,802:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.74s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 17:42:54,265:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.55s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 17:42:54,740:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.56s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 17:43:54,308:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.85s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 17:43:54,626:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.92s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 17:43:55,236:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.72s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 17:43:56,112:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.65s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 17:43:56,240:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.57s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 17:43:57,253:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.62s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 17:44:43,985:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.53s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 17:46:30,161:INFO:Calculating mean and std
+2023-06-12 17:46:30,162:INFO:Creating metrics dataframe
+2023-06-12 17:46:49,447:INFO:Uploading results into container
+2023-06-12 17:46:49,449:INFO:Uploading model into container now
+2023-06-12 17:46:49,450:INFO:_master_model_container: 7
+2023-06-12 17:46:49,450:INFO:_display_container: 2
+2023-06-12 17:46:49,451:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=100, n_jobs=-1, oob_score=False,
+                       random_state=2557, verbose=0, warm_start=False)
+2023-06-12 17:46:49,451:INFO:create_model() successfully completed......................................
+2023-06-12 17:46:49,590:INFO:SubProcess create_model() end ==================================
+2023-06-12 17:46:49,591:INFO:Creating metrics dataframe
+2023-06-12 17:46:49,605:INFO:Initializing Quadratic Discriminant Analysis
+2023-06-12 17:46:49,605:INFO:Total runtime is 25.78193254470825 minutes
+2023-06-12 17:46:49,609:INFO:SubProcess create_model() called ==================================
+2023-06-12 17:46:49,610:INFO:Initializing create_model()
+2023-06-12 17:46:49,610:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000162310DDF90>, estimator=qda, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001622F16FF10>, model_only=True, return_train_score=False, kwargs={})
+2023-06-12 17:46:49,610:INFO:Checking exceptions
+2023-06-12 17:46:49,610:INFO:Importing libraries
+2023-06-12 17:46:49,610:INFO:Copying training dataset
+2023-06-12 17:46:49,743:INFO:Defining folds
+2023-06-12 17:46:49,743:INFO:Declaring metric variables
+2023-06-12 17:46:49,747:INFO:Importing untrained model
+2023-06-12 17:46:49,752:INFO:Quadratic Discriminant Analysis Imported successfully
+2023-06-12 17:46:49,760:INFO:Starting cross validation
+2023-06-12 17:46:49,762:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-06-12 17:46:51,934:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\discriminant_analysis.py:926: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2023-06-12 17:46:52,007:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\discriminant_analysis.py:926: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2023-06-12 17:46:52,020:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\discriminant_analysis.py:926: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2023-06-12 17:47:24,992:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\discriminant_analysis.py:926: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2023-06-12 17:47:25,000:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\discriminant_analysis.py:926: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2023-06-12 17:47:25,076:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\discriminant_analysis.py:926: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2023-06-12 17:47:25,121:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\discriminant_analysis.py:926: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2023-06-12 17:47:58,272:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\discriminant_analysis.py:926: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2023-06-12 17:47:59,456:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\discriminant_analysis.py:926: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2023-06-12 17:50:41,483:INFO:Calculating mean and std
+2023-06-12 17:50:41,484:INFO:Creating metrics dataframe
+2023-06-12 17:51:10,136:INFO:Uploading results into container
+2023-06-12 17:51:10,138:INFO:Uploading model into container now
+2023-06-12 17:51:10,138:INFO:_master_model_container: 8
+2023-06-12 17:51:10,139:INFO:_display_container: 2
+2023-06-12 17:51:10,139:INFO:QuadraticDiscriminantAnalysis(priors=None, reg_param=0.0,
+                              store_covariance=False, tol=0.0001)
+2023-06-12 17:51:10,140:INFO:create_model() successfully completed......................................
+2023-06-12 17:51:10,340:INFO:SubProcess create_model() end ==================================
+2023-06-12 17:51:10,340:INFO:Creating metrics dataframe
+2023-06-12 17:51:10,361:INFO:Initializing Ada Boost Classifier
+2023-06-12 17:51:10,361:INFO:Total runtime is 30.127865624427795 minutes
+2023-06-12 17:51:10,369:INFO:SubProcess create_model() called ==================================
+2023-06-12 17:51:10,370:INFO:Initializing create_model()
+2023-06-12 17:51:10,370:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000162310DDF90>, estimator=ada, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001622F16FF10>, model_only=True, return_train_score=False, kwargs={})
+2023-06-12 17:51:10,370:INFO:Checking exceptions
+2023-06-12 17:51:10,370:INFO:Importing libraries
+2023-06-12 17:51:10,370:INFO:Copying training dataset
+2023-06-12 17:51:10,551:INFO:Defining folds
+2023-06-12 17:51:10,551:INFO:Declaring metric variables
+2023-06-12 17:51:10,555:INFO:Importing untrained model
+2023-06-12 17:51:10,559:INFO:Ada Boost Classifier Imported successfully
+2023-06-12 17:51:10,573:INFO:Starting cross validation
+2023-06-12 17:51:10,577:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-06-12 17:55:14,006:INFO:Calculating mean and std
+2023-06-12 17:55:14,008:INFO:Creating metrics dataframe
+2023-06-12 17:55:42,243:INFO:Uploading results into container
+2023-06-12 17:55:42,244:INFO:Uploading model into container now
+2023-06-12 17:55:42,245:INFO:_master_model_container: 9
+2023-06-12 17:55:42,245:INFO:_display_container: 2
+2023-06-12 17:55:42,245:INFO:AdaBoostClassifier(algorithm='SAMME.R', base_estimator='deprecated',
+                   estimator=None, learning_rate=1.0, n_estimators=50,
+                   random_state=2557)
+2023-06-12 17:55:42,246:INFO:create_model() successfully completed......................................
+2023-06-12 17:55:42,435:INFO:SubProcess create_model() end ==================================
+2023-06-12 17:55:42,435:INFO:Creating metrics dataframe
+2023-06-12 17:55:42,459:INFO:Initializing Gradient Boosting Classifier
+2023-06-12 17:55:42,459:INFO:Total runtime is 34.662827014923096 minutes
+2023-06-12 17:55:42,464:INFO:SubProcess create_model() called ==================================
+2023-06-12 17:55:42,464:INFO:Initializing create_model()
+2023-06-12 17:55:42,465:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000162310DDF90>, estimator=gbc, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001622F16FF10>, model_only=True, return_train_score=False, kwargs={})
+2023-06-12 17:55:42,465:INFO:Checking exceptions
+2023-06-12 17:55:42,465:INFO:Importing libraries
+2023-06-12 17:55:42,465:INFO:Copying training dataset
+2023-06-12 17:55:42,650:INFO:Defining folds
+2023-06-12 17:55:42,650:INFO:Declaring metric variables
+2023-06-12 17:55:42,659:INFO:Importing untrained model
+2023-06-12 17:55:42,663:INFO:Gradient Boosting Classifier Imported successfully
+2023-06-12 17:55:42,675:INFO:Starting cross validation
+2023-06-12 17:55:42,679:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-06-12 18:00:04,165:INFO:Calculating mean and std
+2023-06-12 18:00:04,167:INFO:Creating metrics dataframe
+2023-06-12 18:00:27,325:INFO:Uploading results into container
+2023-06-12 18:00:27,326:INFO:Uploading model into container now
+2023-06-12 18:00:27,326:INFO:_master_model_container: 10
+2023-06-12 18:00:27,327:INFO:_display_container: 2
+2023-06-12 18:00:27,327:INFO:GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=2557, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False)
+2023-06-12 18:00:27,328:INFO:create_model() successfully completed......................................
+2023-06-12 18:00:27,498:INFO:SubProcess create_model() end ==================================
+2023-06-12 18:00:27,498:INFO:Creating metrics dataframe
+2023-06-12 18:00:27,526:INFO:Initializing Linear Discriminant Analysis
+2023-06-12 18:00:27,527:INFO:Total runtime is 39.41396232446035 minutes
+2023-06-12 18:00:27,531:INFO:SubProcess create_model() called ==================================
+2023-06-12 18:00:27,531:INFO:Initializing create_model()
+2023-06-12 18:00:27,531:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000162310DDF90>, estimator=lda, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001622F16FF10>, model_only=True, return_train_score=False, kwargs={})
+2023-06-12 18:00:27,531:INFO:Checking exceptions
+2023-06-12 18:00:27,531:INFO:Importing libraries
+2023-06-12 18:00:27,532:INFO:Copying training dataset
+2023-06-12 18:00:27,695:INFO:Defining folds
+2023-06-12 18:00:27,695:INFO:Declaring metric variables
+2023-06-12 18:00:27,700:INFO:Importing untrained model
+2023-06-12 18:00:27,704:INFO:Linear Discriminant Analysis Imported successfully
+2023-06-12 18:00:27,716:INFO:Starting cross validation
+2023-06-12 18:00:27,720:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-06-12 18:03:33,593:INFO:Calculating mean and std
+2023-06-12 18:03:33,595:INFO:Creating metrics dataframe
+2023-06-12 18:03:54,394:INFO:Uploading results into container
+2023-06-12 18:03:54,395:INFO:Uploading model into container now
+2023-06-12 18:03:54,396:INFO:_master_model_container: 11
+2023-06-12 18:03:54,396:INFO:_display_container: 2
+2023-06-12 18:03:54,397:INFO:LinearDiscriminantAnalysis(covariance_estimator=None, n_components=None,
+                           priors=None, shrinkage=None, solver='svd',
+                           store_covariance=False, tol=0.0001)
+2023-06-12 18:03:54,397:INFO:create_model() successfully completed......................................
+2023-06-12 18:03:54,538:INFO:SubProcess create_model() end ==================================
+2023-06-12 18:03:54,539:INFO:Creating metrics dataframe
+2023-06-12 18:03:54,554:INFO:Initializing Extra Trees Classifier
+2023-06-12 18:03:54,554:INFO:Total runtime is 42.864421502749124 minutes
+2023-06-12 18:03:54,558:INFO:SubProcess create_model() called ==================================
+2023-06-12 18:03:54,558:INFO:Initializing create_model()
+2023-06-12 18:03:54,559:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000162310DDF90>, estimator=et, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001622F16FF10>, model_only=True, return_train_score=False, kwargs={})
+2023-06-12 18:03:54,559:INFO:Checking exceptions
+2023-06-12 18:03:54,559:INFO:Importing libraries
+2023-06-12 18:03:54,559:INFO:Copying training dataset
+2023-06-12 18:03:54,701:INFO:Defining folds
+2023-06-12 18:03:54,701:INFO:Declaring metric variables
+2023-06-12 18:03:54,706:INFO:Importing untrained model
+2023-06-12 18:03:54,710:INFO:Extra Trees Classifier Imported successfully
+2023-06-12 18:03:54,719:INFO:Starting cross validation
+2023-06-12 18:03:54,722:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-06-12 18:04:38,449:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.50s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:04:39,312:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.51s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:04:40,528:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.81s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:04:41,262:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.62s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:04:41,624:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.52s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 18:04:42,666:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.72s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 18:05:15,966:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:231: UserWarning: Persisting input arguments took 0.96s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_transformer = self._memory_fit(
+
+2023-06-12 18:05:17,654:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.87s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-12 18:05:58,215:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.97s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:05:58,247:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.98s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:06:00,278:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 1.30s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 18:06:00,280:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 1.55s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:06:02,379:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.57s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 18:06:02,639:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.73s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:06:04,251:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.71s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 18:07:00,310:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.62s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:07:00,777:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.52s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:07:01,814:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.66s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 18:08:45,389:INFO:Calculating mean and std
+2023-06-12 18:08:45,390:INFO:Creating metrics dataframe
+2023-06-12 18:09:05,604:INFO:Uploading results into container
+2023-06-12 18:09:05,605:INFO:Uploading model into container now
+2023-06-12 18:09:05,606:INFO:_master_model_container: 12
+2023-06-12 18:09:05,606:INFO:_display_container: 2
+2023-06-12 18:09:05,607:INFO:ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=2557, verbose=0, warm_start=False)
+2023-06-12 18:09:05,607:INFO:create_model() successfully completed......................................
+2023-06-12 18:09:05,749:INFO:SubProcess create_model() end ==================================
+2023-06-12 18:09:05,749:INFO:Creating metrics dataframe
+2023-06-12 18:09:05,764:INFO:Initializing Light Gradient Boosting Machine
+2023-06-12 18:09:05,764:INFO:Total runtime is 48.05124648014704 minutes
+2023-06-12 18:09:05,769:INFO:SubProcess create_model() called ==================================
+2023-06-12 18:09:05,769:INFO:Initializing create_model()
+2023-06-12 18:09:05,770:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000162310DDF90>, estimator=lightgbm, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001622F16FF10>, model_only=True, return_train_score=False, kwargs={})
+2023-06-12 18:09:05,770:INFO:Checking exceptions
+2023-06-12 18:09:05,770:INFO:Importing libraries
+2023-06-12 18:09:05,770:INFO:Copying training dataset
+2023-06-12 18:09:05,911:INFO:Defining folds
+2023-06-12 18:09:05,911:INFO:Declaring metric variables
+2023-06-12 18:09:05,915:INFO:Importing untrained model
+2023-06-12 18:09:05,921:INFO:Light Gradient Boosting Machine Imported successfully
+2023-06-12 18:09:05,930:INFO:Starting cross validation
+2023-06-12 18:09:05,934:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-06-12 18:09:39,611:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.51s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:12:07,697:INFO:Calculating mean and std
+2023-06-12 18:12:07,699:INFO:Creating metrics dataframe
+2023-06-12 18:12:28,126:INFO:Uploading results into container
+2023-06-12 18:12:28,127:INFO:Uploading model into container now
+2023-06-12 18:12:28,128:INFO:_master_model_container: 13
+2023-06-12 18:12:28,128:INFO:_display_container: 2
+2023-06-12 18:12:28,129:INFO:LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=2557, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0)
+2023-06-12 18:12:28,129:INFO:create_model() successfully completed......................................
+2023-06-12 18:12:28,278:INFO:SubProcess create_model() end ==================================
+2023-06-12 18:12:28,278:INFO:Creating metrics dataframe
+2023-06-12 18:12:28,295:INFO:Initializing Dummy Classifier
+2023-06-12 18:12:28,295:INFO:Total runtime is 51.42676031589508 minutes
+2023-06-12 18:12:28,309:INFO:SubProcess create_model() called ==================================
+2023-06-12 18:12:28,309:INFO:Initializing create_model()
+2023-06-12 18:12:28,309:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000162310DDF90>, estimator=dummy, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001622F16FF10>, model_only=True, return_train_score=False, kwargs={})
+2023-06-12 18:12:28,309:INFO:Checking exceptions
+2023-06-12 18:12:28,310:INFO:Importing libraries
+2023-06-12 18:12:28,310:INFO:Copying training dataset
+2023-06-12 18:12:28,444:INFO:Defining folds
+2023-06-12 18:12:28,444:INFO:Declaring metric variables
+2023-06-12 18:12:28,451:INFO:Importing untrained model
+2023-06-12 18:12:28,456:INFO:Dummy Classifier Imported successfully
+2023-06-12 18:12:28,465:INFO:Starting cross validation
+2023-06-12 18:12:28,467:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-06-12 18:12:29,381:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-06-12 18:12:29,385:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-06-12 18:12:29,436:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-06-12 18:12:29,465:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-06-12 18:12:59,967:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-06-12 18:13:00,118:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-06-12 18:13:00,148:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-06-12 18:13:00,224:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-06-12 18:13:30,772:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-06-12 18:13:32,025:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-06-12 18:15:25,709:INFO:Calculating mean and std
+2023-06-12 18:15:25,710:INFO:Creating metrics dataframe
+2023-06-12 18:15:45,559:INFO:Uploading results into container
+2023-06-12 18:15:45,561:INFO:Uploading model into container now
+2023-06-12 18:15:45,561:INFO:_master_model_container: 14
+2023-06-12 18:15:45,561:INFO:_display_container: 2
+2023-06-12 18:15:45,562:INFO:DummyClassifier(constant=None, random_state=2557, strategy='prior')
+2023-06-12 18:15:45,562:INFO:create_model() successfully completed......................................
+2023-06-12 18:15:45,706:INFO:SubProcess create_model() end ==================================
+2023-06-12 18:15:45,706:INFO:Creating metrics dataframe
+2023-06-12 18:15:45,734:INFO:Initializing create_model()
+2023-06-12 18:15:45,734:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000162310DDF90>, estimator=LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=2557, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, kwargs={})
+2023-06-12 18:15:45,735:INFO:Checking exceptions
+2023-06-12 18:15:45,737:INFO:Importing libraries
+2023-06-12 18:15:45,737:INFO:Copying training dataset
+2023-06-12 18:15:45,876:INFO:Defining folds
+2023-06-12 18:15:45,877:INFO:Declaring metric variables
+2023-06-12 18:15:45,878:INFO:Importing untrained model
+2023-06-12 18:15:45,878:INFO:Declaring custom model
+2023-06-12 18:15:45,879:INFO:Light Gradient Boosting Machine Imported successfully
+2023-06-12 18:15:45,880:INFO:Cross validation set to False
+2023-06-12 18:15:45,880:INFO:Fitting Model
+2023-06-12 18:16:02,580:INFO:LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=2557, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0)
+2023-06-12 18:16:02,580:INFO:create_model() successfully completed......................................
+2023-06-12 18:16:02,735:INFO:Creating Dashboard logs
+2023-06-12 18:16:02,739:INFO:Model: Light Gradient Boosting Machine
+2023-06-12 18:16:02,866:INFO:Logged params: {'boosting_type': 'gbdt', 'class_weight': None, 'colsample_bytree': 1.0, 'importance_type': 'split', 'learning_rate': 0.1, 'max_depth': -1, 'min_child_samples': 20, 'min_child_weight': 0.001, 'min_split_gain': 0.0, 'n_estimators': 100, 'n_jobs': -1, 'num_leaves': 31, 'objective': None, 'random_state': 2557, 'reg_alpha': 0.0, 'reg_lambda': 0.0, 'silent': 'warn', 'subsample': 1.0, 'subsample_for_bin': 200000, 'subsample_freq': 0}
+2023-06-12 18:16:03,166:INFO:Initializing predict_model()
+2023-06-12 18:16:03,166:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000162310DDF90>, estimator=LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=2557, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=False, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001623298FC70>)
+2023-06-12 18:16:03,166:INFO:Checking exceptions
+2023-06-12 18:16:03,166:INFO:Preloading libraries
+2023-06-12 18:16:22,489:INFO:Creating Dashboard logs
+2023-06-12 18:16:22,496:INFO:Model: Random Forest Classifier
+2023-06-12 18:16:22,567:INFO:Logged params: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': -1, 'oob_score': False, 'random_state': 2557, 'verbose': 0, 'warm_start': False}
+2023-06-12 18:16:39,293:INFO:Creating Dashboard logs
+2023-06-12 18:16:39,297:INFO:Model: Gradient Boosting Classifier
+2023-06-12 18:16:39,381:INFO:Logged params: {'ccp_alpha': 0.0, 'criterion': 'friedman_mse', 'init': None, 'learning_rate': 0.1, 'loss': 'log_loss', 'max_depth': 3, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_iter_no_change': None, 'random_state': 2557, 'subsample': 1.0, 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}
+2023-06-12 18:16:55,356:INFO:Creating Dashboard logs
+2023-06-12 18:16:55,363:INFO:Model: Ada Boost Classifier
+2023-06-12 18:16:55,439:INFO:Logged params: {'algorithm': 'SAMME.R', 'base_estimator': 'deprecated', 'estimator': None, 'learning_rate': 1.0, 'n_estimators': 50, 'random_state': 2557}
+2023-06-12 18:17:16,239:INFO:Creating Dashboard logs
+2023-06-12 18:17:16,243:INFO:Model: Logistic Regression
+2023-06-12 18:17:16,325:INFO:Logged params: {'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 1000, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': 2557, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+2023-06-12 18:17:35,121:INFO:Creating Dashboard logs
+2023-06-12 18:17:35,126:INFO:Model: Linear Discriminant Analysis
+2023-06-12 18:17:35,233:INFO:Logged params: {'covariance_estimator': None, 'n_components': None, 'priors': None, 'shrinkage': None, 'solver': 'svd', 'store_covariance': False, 'tol': 0.0001}
+2023-06-12 18:17:52,171:INFO:Creating Dashboard logs
+2023-06-12 18:17:52,176:INFO:Model: Ridge Classifier
+2023-06-12 18:17:52,263:INFO:Logged params: {'alpha': 1.0, 'class_weight': None, 'copy_X': True, 'fit_intercept': True, 'max_iter': None, 'positive': False, 'random_state': 2557, 'solver': 'auto', 'tol': 0.0001}
+2023-06-12 18:18:09,341:INFO:Creating Dashboard logs
+2023-06-12 18:18:09,345:INFO:Model: SVM - Linear Kernel
+2023-06-12 18:18:09,429:INFO:Logged params: {'alpha': 0.0001, 'average': False, 'class_weight': None, 'early_stopping': False, 'epsilon': 0.1, 'eta0': 0.001, 'fit_intercept': True, 'l1_ratio': 0.15, 'learning_rate': 'optimal', 'loss': 'hinge', 'max_iter': 1000, 'n_iter_no_change': 5, 'n_jobs': -1, 'penalty': 'l2', 'power_t': 0.5, 'random_state': 2557, 'shuffle': True, 'tol': 0.001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}
+2023-06-12 18:18:25,929:INFO:Creating Dashboard logs
+2023-06-12 18:18:25,933:INFO:Model: Extra Trees Classifier
+2023-06-12 18:18:26,022:INFO:Logged params: {'bootstrap': False, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': -1, 'oob_score': False, 'random_state': 2557, 'verbose': 0, 'warm_start': False}
+2023-06-12 18:18:47,729:INFO:Creating Dashboard logs
+2023-06-12 18:18:47,735:INFO:Model: K Neighbors Classifier
+2023-06-12 18:18:47,823:INFO:Logged params: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': -1, 'n_neighbors': 5, 'p': 2, 'weights': 'uniform'}
+2023-06-12 18:19:06,629:INFO:Creating Dashboard logs
+2023-06-12 18:19:06,633:INFO:Model: Decision Tree Classifier
+2023-06-12 18:19:06,712:INFO:Logged params: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 2557, 'splitter': 'best'}
+2023-06-12 18:19:22,761:INFO:Creating Dashboard logs
+2023-06-12 18:19:22,766:INFO:Model: Naive Bayes
+2023-06-12 18:19:22,845:INFO:Logged params: {'priors': None, 'var_smoothing': 1e-09}
+2023-06-12 18:19:38,474:INFO:Creating Dashboard logs
+2023-06-12 18:19:38,479:INFO:Model: Quadratic Discriminant Analysis
+2023-06-12 18:19:38,558:INFO:Logged params: {'priors': None, 'reg_param': 0.0, 'store_covariance': False, 'tol': 0.0001}
+2023-06-12 18:19:53,858:INFO:Creating Dashboard logs
+2023-06-12 18:19:53,862:INFO:Model: Dummy Classifier
+2023-06-12 18:19:53,939:INFO:Logged params: {'constant': None, 'random_state': 2557, 'strategy': 'prior'}
+2023-06-12 18:20:09,600:INFO:_master_model_container: 14
+2023-06-12 18:20:09,600:INFO:_display_container: 2
+2023-06-12 18:20:09,601:INFO:LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=2557, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0)
+2023-06-12 18:20:09,601:INFO:compare_models() successfully completed......................................
+2023-06-12 18:20:09,631:INFO:Initializing tune_model()
+2023-06-12 18:20:09,632:INFO:tune_model(estimator=LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=2557, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0), fold=None, round=4, n_iter=10, custom_grid=None, optimize=F1, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={}, self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000162310DDF90>)
+2023-06-12 18:20:09,632:INFO:Checking exceptions
+2023-06-12 18:20:09,718:INFO:Copying training dataset
+2023-06-12 18:20:09,812:INFO:Checking base model
+2023-06-12 18:20:09,813:INFO:Base model : Light Gradient Boosting Machine
+2023-06-12 18:20:09,818:INFO:Declaring metric variables
+2023-06-12 18:20:09,823:INFO:Defining Hyperparameters
+2023-06-12 18:20:09,977:INFO:Tuning with n_jobs=-1
+2023-06-12 18:20:09,978:INFO:Initializing RandomizedSearchCV
+2023-06-12 18:31:19,965:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.56s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:31:20,871:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:108: UserWarning: Persisting input arguments took 0.51s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = pipeline._memory_transform(transformer, X, y)
+
+2023-06-12 18:31:21,585:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:108: UserWarning: Persisting input arguments took 0.58s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = pipeline._memory_transform(transformer, X, y)
+
+2023-06-12 18:32:07,436:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.58s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:32:08,711:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.62s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 18:32:38,060:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 1.36s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:32:39,465:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.64s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 18:32:52,460:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:231: UserWarning: Persisting input arguments took 0.51s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_transformer = self._memory_fit(
+
+2023-06-12 18:33:09,814:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 1.44s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:33:11,239:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.58s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 18:33:37,427:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 1.23s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:33:39,426:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.98s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 18:34:02,563:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 1.07s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:34:04,583:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.94s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 18:34:26,907:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 1.19s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:34:28,748:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.81s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 18:34:50,959:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 1.19s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:34:52,874:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.93s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 18:35:19,519:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 1.49s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:35:21,504:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.94s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 18:35:46,862:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 1.20s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:35:48,724:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.79s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 18:36:10,473:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 1.31s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:38:15,343:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.83s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:39:50,401:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.55s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:44:56,992:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.68s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:50:31,831:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.58s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:51:08,075:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.56s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 18:59:01,768:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:108: UserWarning: Persisting input arguments took 1.06s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = pipeline._memory_transform(transformer, X, y)
+
+2023-06-12 18:59:02,816:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:108: UserWarning: Persisting input arguments took 0.83s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = pipeline._memory_transform(transformer, X, y)
+
+2023-06-12 18:59:41,210:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.94s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-12 19:06:58,844:INFO:best_params: {'actual_estimator__reg_lambda': 5, 'actual_estimator__reg_alpha': 0.4, 'actual_estimator__num_leaves': 8, 'actual_estimator__n_estimators': 220, 'actual_estimator__min_split_gain': 0, 'actual_estimator__min_child_samples': 16, 'actual_estimator__learning_rate': 0.1, 'actual_estimator__feature_fraction': 0.4, 'actual_estimator__bagging_freq': 7, 'actual_estimator__bagging_fraction': 1.0}
+2023-06-12 19:06:58,846:INFO:Hyperparameter search completed
+2023-06-12 19:06:58,847:INFO:SubProcess create_model() called ==================================
+2023-06-12 19:06:58,849:INFO:Initializing create_model()
+2023-06-12 19:06:58,849:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000162310DDF90>, estimator=LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=2557, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x0000016232899090>, model_only=True, return_train_score=False, kwargs={'reg_lambda': 5, 'reg_alpha': 0.4, 'num_leaves': 8, 'n_estimators': 220, 'min_split_gain': 0, 'min_child_samples': 16, 'learning_rate': 0.1, 'feature_fraction': 0.4, 'bagging_freq': 7, 'bagging_fraction': 1.0})
+2023-06-12 19:06:58,850:INFO:Checking exceptions
+2023-06-12 19:06:58,850:INFO:Importing libraries
+2023-06-12 19:06:58,851:INFO:Copying training dataset
+2023-06-12 19:06:59,065:INFO:Defining folds
+2023-06-12 19:06:59,065:INFO:Declaring metric variables
+2023-06-12 19:06:59,074:INFO:Importing untrained model
+2023-06-12 19:06:59,074:INFO:Declaring custom model
+2023-06-12 19:06:59,098:INFO:Light Gradient Boosting Machine Imported successfully
+2023-06-12 19:06:59,117:INFO:Starting cross validation
+2023-06-12 19:06:59,120:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-06-12 19:07:15,570:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.73s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-12 19:07:15,679:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.76s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-12 19:07:16,848:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.64s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 19:07:17,339:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.63s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 19:08:15,481:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.97s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-12 19:08:15,640:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:108: UserWarning: Persisting input arguments took 0.64s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = pipeline._memory_transform(transformer, X, y)
+
+2023-06-12 19:08:16,699:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.85s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 19:08:16,756:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.82s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 19:08:22,608:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:108: UserWarning: Persisting input arguments took 0.92s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = pipeline._memory_transform(transformer, X, y)
+
+2023-06-12 19:08:23,403:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.61s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 19:08:23,451:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.56s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 19:12:24,729:INFO:Calculating mean and std
+2023-06-12 19:12:24,731:INFO:Creating metrics dataframe
+2023-06-12 19:12:24,743:INFO:Finalizing model
+2023-06-12 19:12:25,366:INFO:[LightGBM] [Warning] feature_fraction is set=0.4, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.4
+2023-06-12 19:12:25,366:INFO:[LightGBM] [Warning] bagging_fraction is set=1.0, subsample=1.0 will be ignored. Current value: bagging_fraction=1.0
+2023-06-12 19:12:25,366:INFO:[LightGBM] [Warning] bagging_freq is set=7, subsample_freq=0 will be ignored. Current value: bagging_freq=7
+2023-06-12 19:13:11,803:INFO:Uploading results into container
+2023-06-12 19:13:11,805:INFO:Uploading model into container now
+2023-06-12 19:13:11,806:INFO:_master_model_container: 15
+2023-06-12 19:13:11,806:INFO:_display_container: 3
+2023-06-12 19:13:11,807:INFO:LGBMClassifier(bagging_fraction=1.0, bagging_freq=7, boosting_type='gbdt',
+               class_weight=None, colsample_bytree=1.0, feature_fraction=0.4,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=16, min_child_weight=0.001, min_split_gain=0,
+               n_estimators=220, n_jobs=-1, num_leaves=8, objective=None,
+               random_state=2557, reg_alpha=0.4, reg_lambda=5, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0)
+2023-06-12 19:13:11,808:INFO:create_model() successfully completed......................................
+2023-06-12 19:13:12,151:INFO:SubProcess create_model() end ==================================
+2023-06-12 19:13:12,151:INFO:choose_better activated
+2023-06-12 19:13:12,159:INFO:SubProcess create_model() called ==================================
+2023-06-12 19:13:12,160:INFO:Initializing create_model()
+2023-06-12 19:13:12,160:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000162310DDF90>, estimator=LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=2557, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, kwargs={})
+2023-06-12 19:13:12,160:INFO:Checking exceptions
+2023-06-12 19:13:12,162:INFO:Importing libraries
+2023-06-12 19:13:12,163:INFO:Copying training dataset
+2023-06-12 19:13:12,358:INFO:Defining folds
+2023-06-12 19:13:12,358:INFO:Declaring metric variables
+2023-06-12 19:13:12,359:INFO:Importing untrained model
+2023-06-12 19:13:12,359:INFO:Declaring custom model
+2023-06-12 19:13:12,360:INFO:Light Gradient Boosting Machine Imported successfully
+2023-06-12 19:13:12,360:INFO:Starting cross validation
+2023-06-12 19:13:12,361:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-06-12 19:13:13,907:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.67s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-12 19:13:14,190:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.67s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 19:13:14,236:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.62s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 19:13:14,274:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.65s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 19:14:33,808:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 1.13s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-12 19:16:00,841:WARNING:c:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.67s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-12 19:19:12,858:INFO:Calculating mean and std
+2023-06-12 19:19:12,860:INFO:Creating metrics dataframe
+2023-06-12 19:19:12,863:INFO:Finalizing model
+2023-06-12 19:19:42,101:INFO:Uploading results into container
+2023-06-12 19:19:42,102:INFO:Uploading model into container now
+2023-06-12 19:19:42,103:INFO:_master_model_container: 16
+2023-06-12 19:19:42,103:INFO:_display_container: 4
+2023-06-12 19:19:42,104:INFO:LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=2557, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0)
+2023-06-12 19:19:42,104:INFO:create_model() successfully completed......................................
+2023-06-12 19:19:42,318:INFO:SubProcess create_model() end ==================================
+2023-06-12 19:19:42,319:INFO:LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=2557, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0) result for F1 is 0.6941
+2023-06-12 19:19:42,320:INFO:LGBMClassifier(bagging_fraction=1.0, bagging_freq=7, boosting_type='gbdt',
+               class_weight=None, colsample_bytree=1.0, feature_fraction=0.4,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=16, min_child_weight=0.001, min_split_gain=0,
+               n_estimators=220, n_jobs=-1, num_leaves=8, objective=None,
+               random_state=2557, reg_alpha=0.4, reg_lambda=5, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0) result for F1 is 0.6941
+2023-06-12 19:19:42,320:INFO:LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=2557, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0) is best model
+2023-06-12 19:19:42,321:INFO:choose_better completed
+2023-06-12 19:19:42,321:INFO:Original model was better than the tuned model, hence it will be returned. NOTE: The display metrics are for the tuned model (not the original one).
+2023-06-12 19:19:42,321:INFO:Creating Dashboard logs
+2023-06-12 19:19:42,327:INFO:Model: Light Gradient Boosting Machine
+2023-06-12 19:19:42,492:INFO:Logged params: {'boosting_type': 'gbdt', 'class_weight': None, 'colsample_bytree': 1.0, 'importance_type': 'split', 'learning_rate': 0.1, 'max_depth': -1, 'min_child_samples': 20, 'min_child_weight': 0.001, 'min_split_gain': 0.0, 'n_estimators': 100, 'n_jobs': -1, 'num_leaves': 31, 'objective': None, 'random_state': 2557, 'reg_alpha': 0.0, 'reg_lambda': 0.0, 'silent': 'warn', 'subsample': 1.0, 'subsample_for_bin': 200000, 'subsample_freq': 0}
+2023-06-12 19:19:42,773:INFO:Initializing predict_model()
+2023-06-12 19:19:42,773:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000162310DDF90>, estimator=LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=2557, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=False, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001623298F6D0>)
+2023-06-12 19:19:42,773:INFO:Checking exceptions
+2023-06-12 19:19:42,773:INFO:Preloading libraries
+2023-06-12 19:20:06,259:INFO:_master_model_container: 16
+2023-06-12 19:20:06,259:INFO:_display_container: 3
+2023-06-12 19:20:06,260:INFO:LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=2557, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0)
+2023-06-12 19:20:06,260:INFO:tune_model() successfully completed......................................
+2023-06-12 19:20:29,202:INFO:Initializing finalize_model()
+2023-06-12 19:20:29,202:INFO:finalize_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000162310DDF90>, estimator=LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=2557, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0), fit_kwargs=None, groups=None, model_only=False, experiment_custom_tags=None)
+2023-06-12 19:20:29,204:INFO:Finalizing LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=2557, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0)
+2023-06-12 19:20:29,267:INFO:Initializing create_model()
+2023-06-12 19:20:29,267:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000162310DDF90>, estimator=LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=2557, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0), fold=None, round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=False, metrics=None, display=None, model_only=False, return_train_score=False, kwargs={})
+2023-06-12 19:20:29,268:INFO:Checking exceptions
+2023-06-12 19:20:29,277:INFO:Importing libraries
+2023-06-12 19:20:29,278:INFO:Copying training dataset
+2023-06-12 19:20:29,281:INFO:Defining folds
+2023-06-12 19:20:29,282:INFO:Declaring metric variables
+2023-06-12 19:20:29,282:INFO:Importing untrained model
+2023-06-12 19:20:29,282:INFO:Declaring custom model
+2023-06-12 19:20:29,284:INFO:Light Gradient Boosting Machine Imported successfully
+2023-06-12 19:20:29,288:INFO:Cross validation set to False
+2023-06-12 19:20:29,289:INFO:Fitting Model
+2023-06-12 19:20:31,281:INFO:Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power...
+                 LGBMClassifier(boosting_type='gbdt', class_weight=None,
+                                colsample_bytree=1.0, importance_type='split',
+                                learning_rate=0.1, max_depth=-1,
+                                min_child_samples=20, min_child_weight=0.001,
+                                min_split_gain=0.0, n_estimators=100, n_jobs=-1,
+                                num_leaves=31, objective=None,
+                                random_state=2557, reg_alpha=0.0,
+                                reg_lambda=0.0, silent='warn', subsample=1.0,
+                                subsample_for_bin=200000, subsample_freq=0))],
+         verbose=False)
+2023-06-12 19:20:31,281:INFO:create_model() successfully completed......................................
+2023-06-12 19:20:31,507:INFO:Creating Dashboard logs
+2023-06-12 19:20:31,508:INFO:Model: Light Gradient Boosting Machine
+2023-06-12 19:20:31,599:INFO:Logged params: {'boosting_type': 'gbdt', 'class_weight': None, 'colsample_bytree': 1.0, 'importance_type': 'split', 'learning_rate': 0.1, 'max_depth': -1, 'min_child_samples': 20, 'min_child_weight': 0.001, 'min_split_gain': 0.0, 'n_estimators': 100, 'n_jobs': -1, 'num_leaves': 31, 'objective': None, 'random_state': 2557, 'reg_alpha': 0.0, 'reg_lambda': 0.0, 'silent': 'warn', 'subsample': 1.0, 'subsample_for_bin': 200000, 'subsample_freq': 0}
+2023-06-12 19:20:32,097:INFO:_master_model_container: 16
+2023-06-12 19:20:32,097:INFO:_display_container: 3
+2023-06-12 19:20:32,113:INFO:Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power...
+                 LGBMClassifier(boosting_type='gbdt', class_weight=None,
+                                colsample_bytree=1.0, importance_type='split',
+                                learning_rate=0.1, max_depth=-1,
+                                min_child_samples=20, min_child_weight=0.001,
+                                min_split_gain=0.0, n_estimators=100, n_jobs=-1,
+                                num_leaves=31, objective=None,
+                                random_state=2557, reg_alpha=0.0,
+                                reg_lambda=0.0, silent='warn', subsample=1.0,
+                                subsample_for_bin=200000, subsample_freq=0))],
+         verbose=False)
+2023-06-12 19:20:32,113:INFO:finalize_model() successfully completed......................................
+2023-06-12 19:20:32,382:INFO:Initializing save_model()
+2023-06-12 19:20:32,382:INFO:save_model(model=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power...
+                 LGBMClassifier(boosting_type='gbdt', class_weight=None,
+                                colsample_bytree=1.0, importance_type='split',
+                                learning_rate=0.1, max_depth=-1,
+                                min_child_samples=20, min_child_weight=0.001,
+                                min_split_gain=0.0, n_estimators=100, n_jobs=-1,
+                                num_leaves=31, objective=None,
+                                random_state=2557, reg_alpha=0.0,
+                                reg_lambda=0.0, silent='warn', subsample=1.0,
+                                subsample_for_bin=200000, subsample_freq=0))],
+         verbose=False), model_name=models/bs_predictor_brawlBall, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power...
+                 TransformerWrapper(exclude=None, include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2023-06-12 19:20:32,382:INFO:Adding model into prep_pipe
+2023-06-12 19:20:32,382:WARNING:Only Model saved as it was a pipeline.
+2023-06-12 19:20:32,461:INFO:models/bs_predictor_brawlBall.pkl saved in current working directory
+2023-06-12 19:20:32,491:INFO:Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power...
+                 LGBMClassifier(boosting_type='gbdt', class_weight=None,
+                                colsample_bytree=1.0, importance_type='split',
+                                learning_rate=0.1, max_depth=-1,
+                                min_child_samples=20, min_child_weight=0.001,
+                                min_split_gain=0.0, n_estimators=100, n_jobs=-1,
+                                num_leaves=31, objective=None,
+                                random_state=2557, reg_alpha=0.0,
+                                reg_lambda=0.0, silent='warn', subsample=1.0,
+                                subsample_for_bin=200000, subsample_freq=0))],
+         verbose=False)
+2023-06-12 19:20:32,498:INFO:save_model() successfully completed......................................
+2023-06-12 19:20:32,811:INFO:Initializing predict_model()
+2023-06-12 19:20:32,811:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000162310DDF90>, estimator=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power...
+                 LGBMClassifier(boosting_type='gbdt', class_weight=None,
+                                colsample_bytree=1.0, importance_type='split',
+                                learning_rate=0.1, max_depth=-1,
+                                min_child_samples=20, min_child_weight=0.001,
+                                min_split_gain=0.0, n_estimators=100, n_jobs=-1,
+                                num_leaves=31, objective=None,
+                                random_state=2557, reg_alpha=0.0,
+                                reg_lambda=0.0, silent='warn', subsample=1.0,
+                                subsample_for_bin=200000, subsample_freq=0))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001623315C3A0>)
+2023-06-12 19:20:32,811:INFO:Checking exceptions
+2023-06-12 19:20:32,812:INFO:Preloading libraries
+2023-06-12 19:20:32,815:INFO:Set up data.
+2023-06-12 19:20:32,916:INFO:Set up index.
