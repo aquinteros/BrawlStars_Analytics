@@ -5,7 +5,6 @@ import datetime as dt
 import api_key as key
 import concurrent.futures as cf
 from tqdm import tqdm
-import json
 
 # crear cliente
 client = brawlstats.Client(key.api_key)
