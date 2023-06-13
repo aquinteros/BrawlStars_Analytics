@@ -413,7 +413,7 @@ def metrics_capturing(df):
 
 	return accuracy, f1, precision, recall
 
-def train_ml_model(progress):
+def train_ml_model(event, progress):
     """"Función para entrenar el modelo de machine learning"""
     from pycaret.classification import create_model, setup, finalize_model, predict_model, save_model
 
@@ -456,53 +456,54 @@ def train_ml_model(progress):
 
     events = ['brawlBall', 'heist', 'gemGrab', 'bounty', 'hotZone', 'knockout', 'volleyBrawl']
 
-    for i, event in enumerate(events):
-        print(f'Entrenando modelo para {event}...')
-        dataset = df[df['event_mode'] == event]
-        dataset = dataset.drop(columns=['event_mode'])
-        
-        seed=14697
+    print(f'Entrenando modelo para {event}...')
+    dataset = df[df['event_mode'] == event]
+    dataset = dataset.drop(columns=['event_mode'])
+    
+    seed=14697
 
-        train, test = split_data(dataset, test_size = 0.25, random_state=seed)
+    train, test = split_data(dataset, test_size = 0.25, random_state=seed)
 
-        session_1 = setup(
-            data = train,
-            target = 'winner_team',
-            # fix_imbalance = True,
-            # feature_selection= True,
-            # remove_outliers=True,
-            log_experiment = True,
-            use_gpu=False,
-            max_encoding_ohe=500,
-        )
+    session_1 = setup(
+        data = train,
+        target = 'winner_team',
+        # fix_imbalance = True,
+        # feature_selection= True,
+        # remove_outliers=True,
+        log_experiment = True,
+        use_gpu=False,
+        max_encoding_ohe=500,
+    )
 
-        model = create_model('lightgbm')
+    progress.progress(0.2)
 
-        model_finalized = finalize_model(model)
+    model = create_model('lightgbm')
 
-        save_model(model_finalized, 'models/bs_predictor_' + event)
+    progress.progress(0.5)
 
-        predictions = predict_model(model_finalized, data = test)
-        predictions['winner_team'] = predictions['winner_team'] + 1
+    model_finalized = finalize_model(model)
 
-        accuracy, f1, precision, recall = metrics_capturing(predictions)
+    save_model(model_finalized, 'models/bs_predictor_' + event)
 
-        metrics = {
-                'accuracy': accuracy,
-                'f1': f1,
-                'precision': precision,
-                'recall': recall,
-        }
+    predictions = predict_model(model_finalized, data = test)
+    predictions['winner_team'] = predictions['winner_team'] + 1
 
-        print(metrics)
+    accuracy, f1, precision, recall = metrics_capturing(predictions)
 
-        with open('resources/bs_metrics.json', 'r') as f:
-            data = json.load(f)
-            data[event] = metrics
+    metrics = {
+            'accuracy': accuracy,
+            'f1': f1,
+            'precision': precision,
+            'recall': recall,
+    }
 
-        with open('resources/bs_metrics.json', 'w') as f:
-            json.dump(data, f, indent=4)
+    print(metrics)
 
-        progress.progress((i + 1) / len(events))
+    with open('resources/bs_metrics.json', 'r') as f:
+        data = json.load(f)
+        data[event] = metrics
+
+    with open('resources/bs_metrics.json', 'w') as f:
+        json.dump(data, f, indent=4)
 
     progress.progress(100)
