@@ -3,5 +3,5 @@ machine_learning/
 __pycache__/
 .venv
 mlruns
-*.log
+logs.log
 secrets.toml
