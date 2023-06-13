@@ -11496,3 +11496,174 @@ Alternately, you can install this by running `pip install pycaret[models]`
 2023-06-12 23:07:11,703:INFO:Light Gradient Boosting Machine Imported successfully
 2023-06-12 23:07:11,703:INFO:Starting cross validation
 2023-06-12 23:07:11,709:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-06-12 23:07:59,731:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.51s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-12 23:08:00,395:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:231: UserWarning: Persisting input arguments took 0.60s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_transformer = self._memory_fit(
+
+2023-06-12 23:08:00,427:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:231: UserWarning: Persisting input arguments took 0.57s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_transformer = self._memory_fit(
+
+2023-06-12 23:08:00,545:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:231: UserWarning: Persisting input arguments took 0.61s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_transformer = self._memory_fit(
+
+2023-06-12 23:08:00,546:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:231: UserWarning: Persisting input arguments took 0.58s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_transformer = self._memory_fit(
+
+2023-06-12 23:08:01,748:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.61s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-12 23:08:01,764:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.54s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-12 23:08:01,764:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.55s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-12 23:08:01,795:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.55s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-12 23:08:02,709:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.52s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-12 23:08:02,713:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.57s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-12 23:08:02,730:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.54s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-12 23:08:05,728:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.57s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-12 23:08:07,859:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:108: UserWarning: Persisting input arguments took 1.90s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = pipeline._memory_transform(transformer, X, y)
+
+2023-06-12 23:08:07,859:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:108: UserWarning: Persisting input arguments took 1.85s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = pipeline._memory_transform(transformer, X, y)
+
+2023-06-12 23:08:08,890:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.73s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 23:08:08,893:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.77s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-12 23:08:39,522:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:231: UserWarning: Persisting input arguments took 0.55s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_transformer = self._memory_fit(
+
+2023-06-12 23:08:43,188:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.52s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
