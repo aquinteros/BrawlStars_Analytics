@@ -296,10 +296,10 @@ player = {}
 def get_profile(playertag):
 	profile = client.get_profile(playertag)
 	return {
-		'tag': playertag, 
-		'team_victories': profile.team_victories, 
-		'highestTrophies': profile.highest_trophies, 
-		'expPoints': profile.exp_points, 
+		'tag': playertag,
+		'team_victories': profile.team_victories,
+		'highestTrophies': profile.highest_trophies,
+		'expPoints': profile.exp_points,
 		'trophies': profile.trophies,
 		'datetime': dt.datetime.now()
 		}

@@ -10893,3 +10893,305 @@ THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
 2023-06-12 19:20:32,812:INFO:Preloading libraries
 2023-06-12 19:20:32,815:INFO:Set up data.
 2023-06-12 19:20:32,916:INFO:Set up index.
+2023-06-12 19:35:49,684:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-12 19:35:49,684:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-12 19:35:49,684:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-12 19:35:49,684:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-12 19:35:54,863:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-06-12 19:36:04,335:INFO:Initializing load_model()
+2023-06-12 19:36:04,336:INFO:load_model(model_name=models/bs_predictor_brawlBall, platform=None, authentication=None, verbose=True)
+2023-06-12 19:36:04,496:INFO:Initializing load_model()
+2023-06-12 19:36:04,497:INFO:load_model(model_name=models/bs_predictor_gemGrab, platform=None, authentication=None, verbose=True)
+2023-06-12 19:41:06,514:INFO:Initializing predict_model()
+2023-06-12 19:41:06,518:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001D007978790>, estimator=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power_diff', 'T1_8-BIT',
+                                             'T1_AMBER', 'T1_ASH', '...
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LGBMClassifier(random_state=2557))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001D078E3FD90>)
+2023-06-12 19:41:06,518:INFO:Checking exceptions
+2023-06-12 19:41:06,518:INFO:Preloading libraries
+2023-06-12 19:41:06,518:INFO:Set up data.
+2023-06-12 19:41:06,518:INFO:Set up index.
+2023-06-12 19:50:34,820:INFO:Initializing predict_model()
+2023-06-12 19:50:34,820:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001D0074C5EA0>, estimator=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power_diff', 'T1_8-BIT',
+                                             'T1_AMBER', 'T1_ASH', '...
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LGBMClassifier(random_state=2557))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001D078E3FD90>)
+2023-06-12 19:50:34,820:INFO:Checking exceptions
+2023-06-12 19:50:34,820:INFO:Preloading libraries
+2023-06-12 19:50:34,821:INFO:Set up data.
+2023-06-12 19:50:34,889:INFO:Set up index.
+2023-06-12 19:51:34,359:INFO:Initializing predict_model()
+2023-06-12 19:51:34,360:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001D078E32A40>, estimator=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power_diff', 'T1_8-BIT',
+                                             'T1_AMBER', 'T1_ASH', '...
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LGBMClassifier(random_state=2557))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001D078E3FA30>)
+2023-06-12 19:51:34,360:INFO:Checking exceptions
+2023-06-12 19:51:34,360:INFO:Preloading libraries
+2023-06-12 19:51:34,361:INFO:Set up data.
+2023-06-12 19:51:34,432:INFO:Set up index.
+2023-06-12 19:53:11,753:INFO:Initializing predict_model()
+2023-06-12 19:53:11,754:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001D0074C5780>, estimator=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power_diff', 'T1_8-BIT',
+                                             'T1_AMBER', 'T1_ASH', '...
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LGBMClassifier(random_state=2557))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001D078E3F7F0>)
+2023-06-12 19:53:11,754:INFO:Checking exceptions
+2023-06-12 19:53:11,754:INFO:Preloading libraries
+2023-06-12 19:53:11,755:INFO:Set up data.
+2023-06-12 19:53:11,814:INFO:Set up index.
+2023-06-12 19:53:23,641:INFO:Initializing predict_model()
+2023-06-12 19:53:23,643:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001D0074C5420>, estimator=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power_diff', 'T1_8-BIT',
+                                             'T1_AMBER', 'T1_ASH', '...
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LGBMClassifier(random_state=2557))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001D007C77EB0>)
+2023-06-12 19:53:23,645:INFO:Checking exceptions
+2023-06-12 19:53:23,645:INFO:Preloading libraries
+2023-06-12 19:53:23,646:INFO:Set up data.
+2023-06-12 19:53:23,718:INFO:Set up index.
+2023-06-12 19:53:28,240:INFO:Initializing predict_model()
+2023-06-12 19:53:28,241:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001D0074C5C60>, estimator=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power_diff', 'T1_8-BIT',
+                                             'T1_AMBER', 'T1_ASH', '...
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LGBMClassifier(random_state=2557))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001D007C77D90>)
+2023-06-12 19:53:28,241:INFO:Checking exceptions
+2023-06-12 19:53:28,241:INFO:Preloading libraries
+2023-06-12 19:53:28,241:INFO:Set up data.
+2023-06-12 19:53:28,297:INFO:Set up index.
+2023-06-12 19:53:35,128:INFO:Initializing predict_model()
+2023-06-12 19:53:35,128:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001D007CB49D0>, estimator=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power_diff', 'T1_8-BIT',
+                                             'T1_AMBER', 'T1_ASH', '...
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LGBMClassifier(random_state=2557))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001D078E9CCA0>)
+2023-06-12 19:53:35,128:INFO:Checking exceptions
+2023-06-12 19:53:35,129:INFO:Preloading libraries
+2023-06-12 19:53:35,130:INFO:Set up data.
+2023-06-12 19:53:35,178:INFO:Set up index.
+2023-06-12 19:53:45,951:INFO:Initializing predict_model()
+2023-06-12 19:53:45,952:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001D00797AD40>, estimator=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power_diff', 'T1_8-BIT',
+                                             'T1_AMBER', 'T1_ASH', '...
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LGBMClassifier(random_state=2557))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001D007C777F0>)
+2023-06-12 19:53:45,952:INFO:Checking exceptions
+2023-06-12 19:53:45,952:INFO:Preloading libraries
+2023-06-12 19:53:45,952:INFO:Set up data.
+2023-06-12 19:53:45,989:INFO:Set up index.
+2023-06-12 19:53:57,820:INFO:Initializing predict_model()
+2023-06-12 19:53:57,820:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001D007D50EB0>, estimator=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power_diff', 'T1_8-BIT',
+                                             'T1_AMBER', 'T1_ASH', '...
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LGBMClassifier(random_state=2557))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001D078E3F9A0>)
+2023-06-12 19:53:57,821:INFO:Checking exceptions
+2023-06-12 19:53:57,821:INFO:Preloading libraries
+2023-06-12 19:53:57,821:INFO:Set up data.
+2023-06-12 19:53:57,880:INFO:Set up index.
+2023-06-12 19:54:05,893:INFO:Initializing predict_model()
+2023-06-12 19:54:05,893:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001D007979BD0>, estimator=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power_diff', 'T1_8-BIT',
+                                             'T1_AMBER', 'T1_ASH', '...
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LGBMClassifier(random_state=2557))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001D007C77640>)
+2023-06-12 19:54:05,893:INFO:Checking exceptions
+2023-06-12 19:54:05,893:INFO:Preloading libraries
+2023-06-12 19:54:05,894:INFO:Set up data.
+2023-06-12 19:54:05,962:INFO:Set up index.
+2023-06-12 19:54:12,426:INFO:Initializing predict_model()
+2023-06-12 19:54:12,426:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001D007A65E10>, estimator=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power_diff', 'T1_8-BIT',
+                                             'T1_AMBER', 'T1_ASH', '...
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LGBMClassifier(random_state=2557))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001D007C76E60>)
+2023-06-12 19:54:12,426:INFO:Checking exceptions
+2023-06-12 19:54:12,426:INFO:Preloading libraries
+2023-06-12 19:54:12,426:INFO:Set up data.
+2023-06-12 19:54:12,483:INFO:Set up index.
+2023-06-12 19:59:45,012:INFO:Initializing predict_model()
+2023-06-12 19:59:45,012:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001D007CB52D0>, estimator=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power_diff', 'T1_8-BIT',
+                                             'T1_AMBER', 'T1_ASH', '...
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LGBMClassifier(random_state=2557))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001D007C76CB0>)
+2023-06-12 19:59:45,012:INFO:Checking exceptions
+2023-06-12 19:59:45,013:INFO:Preloading libraries
+2023-06-12 19:59:45,013:INFO:Set up data.
+2023-06-12 19:59:45,119:INFO:Set up index.

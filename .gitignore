@@ -3,3 +3,4 @@ machine_learning/
 __pycache__/
 .venv
 mlruns
+*.log
