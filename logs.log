@@ -16869,3 +16869,385 @@ Setuptools is replacing distutils.
 2023-06-13 14:07:22,941:INFO:Preloading libraries
 2023-06-13 14:07:22,946:INFO:Set up data.
 2023-06-13 14:07:23,046:INFO:Set up index.
+2023-06-13 14:45:24,005:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-13 14:45:24,005:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-13 14:45:24,005:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-13 14:45:24,005:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-13 14:45:26,087:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-06-13 14:45:28,369:INFO:Initializing load_model()
+2023-06-13 14:45:28,369:INFO:load_model(model_name=models/bs_predictor_brawlBall, platform=None, authentication=None, verbose=True)
+2023-06-13 14:45:28,420:INFO:Initializing load_model()
+2023-06-13 14:45:28,420:INFO:load_model(model_name=models/bs_predictor_gemGrab, platform=None, authentication=None, verbose=True)
+2023-06-13 14:45:28,445:INFO:Initializing load_model()
+2023-06-13 14:45:28,445:INFO:load_model(model_name=models/bs_predictor_heist, platform=None, authentication=None, verbose=True)
+2023-06-13 14:45:28,465:INFO:Initializing load_model()
+2023-06-13 14:45:28,465:INFO:load_model(model_name=models/bs_predictor_bounty, platform=None, authentication=None, verbose=True)
+2023-06-13 14:45:28,483:INFO:Initializing load_model()
+2023-06-13 14:45:28,484:INFO:load_model(model_name=models/bs_predictor_hotZone, platform=None, authentication=None, verbose=True)
+2023-06-13 14:45:28,501:INFO:Initializing load_model()
+2023-06-13 14:45:28,501:INFO:load_model(model_name=models/bs_predictor_knockout, platform=None, authentication=None, verbose=True)
+2023-06-13 14:45:28,522:INFO:Initializing load_model()
+2023-06-13 14:45:28,522:INFO:load_model(model_name=models/bs_predictor_volleyBrawl, platform=None, authentication=None, verbose=True)
+2023-06-13 17:01:39,528:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-13 17:01:39,528:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-13 17:01:39,528:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-13 17:01:39,528:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-13 17:01:40,793:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-06-13 17:01:43,109:INFO:Initializing load_model()
+2023-06-13 17:01:43,109:INFO:load_model(model_name=models/bs_predictor_brawlBall, platform=None, authentication=None, verbose=True)
+2023-06-13 17:01:43,142:INFO:Initializing load_model()
+2023-06-13 17:01:43,142:INFO:load_model(model_name=models/bs_predictor_gemGrab, platform=None, authentication=None, verbose=True)
+2023-06-13 17:01:43,176:INFO:Initializing load_model()
+2023-06-13 17:01:43,177:INFO:load_model(model_name=models/bs_predictor_heist, platform=None, authentication=None, verbose=True)
+2023-06-13 17:01:43,196:INFO:Initializing load_model()
+2023-06-13 17:01:43,196:INFO:load_model(model_name=models/bs_predictor_bounty, platform=None, authentication=None, verbose=True)
+2023-06-13 17:01:43,215:INFO:Initializing load_model()
+2023-06-13 17:01:43,215:INFO:load_model(model_name=models/bs_predictor_hotZone, platform=None, authentication=None, verbose=True)
+2023-06-13 17:01:43,234:INFO:Initializing load_model()
+2023-06-13 17:01:43,235:INFO:load_model(model_name=models/bs_predictor_knockout, platform=None, authentication=None, verbose=True)
+2023-06-13 17:01:43,254:INFO:Initializing load_model()
+2023-06-13 17:01:43,254:INFO:load_model(model_name=models/bs_predictor_volleyBrawl, platform=None, authentication=None, verbose=True)
+2023-06-13 18:04:45,091:INFO:PyCaret ClassificationExperiment
+2023-06-13 18:04:45,091:INFO:Logging name: clf-default-name
+2023-06-13 18:04:45,091:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-06-13 18:04:45,091:INFO:version 3.0.2
+2023-06-13 18:04:45,091:INFO:Initializing setup()
+2023-06-13 18:04:45,091:INFO:self.USI: 9e2c
+2023-06-13 18:04:45,091:INFO:self._variable_keys: {'log_plots_param', 'y_train', 'fold_groups_param', 'idx', 'USI', 'fix_imbalance', 'X', 'data', 'fold_generator', 'y', 'n_jobs_param', 'target_param', 'fold_shuffle_param', 'X_test', 'pipeline', 'exp_id', 'X_train', 'logging_param', 'html_param', 'exp_name_log', 'is_multiclass', 'y_test', '_ml_usecase', 'seed', 'memory', 'gpu_n_jobs_param', 'gpu_param', '_available_plots'}
+2023-06-13 18:04:45,091:INFO:Checking environment
+2023-06-13 18:04:45,091:INFO:python_version: 3.10.10
+2023-06-13 18:04:45,091:INFO:python_build: ('tags/v3.10.10:aad5f6a', 'Feb  7 2023 17:20:36')
+2023-06-13 18:04:45,091:INFO:machine: AMD64
+2023-06-13 18:04:45,117:INFO:platform: Windows-10-10.0.19044-SP0
+2023-06-13 18:04:45,117:INFO:Memory: svmem(total=17034072064, available=6689701888, percent=60.7, used=10344370176, free=6689701888)
+2023-06-13 18:04:45,117:INFO:Physical Core: 2
+2023-06-13 18:04:45,117:INFO:Logical Core: 4
+2023-06-13 18:04:45,117:INFO:Checking libraries
+2023-06-13 18:04:45,117:INFO:System:
+2023-06-13 18:04:45,117:INFO:    python: 3.10.10 (tags/v3.10.10:aad5f6a, Feb  7 2023, 17:20:36) [MSC v.1929 64 bit (AMD64)]
+2023-06-13 18:04:45,117:INFO:executable: C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\Scripts\python.exe
+2023-06-13 18:04:45,117:INFO:   machine: Windows-10-10.0.19044-SP0
+2023-06-13 18:04:45,117:INFO:PyCaret required dependencies:
+2023-06-13 18:04:45,117:INFO:                 pip: 23.1.2
+2023-06-13 18:04:45,117:INFO:          setuptools: 65.5.0
+2023-06-13 18:04:45,117:INFO:             pycaret: 3.0.2
+2023-06-13 18:04:45,117:INFO:             IPython: 8.14.0
+2023-06-13 18:04:45,117:INFO:          ipywidgets: 8.0.6
+2023-06-13 18:04:45,117:INFO:                tqdm: 4.65.0
+2023-06-13 18:04:45,117:INFO:               numpy: 1.23.5
+2023-06-13 18:04:45,117:INFO:              pandas: 1.5.3
+2023-06-13 18:04:45,117:INFO:              jinja2: 3.1.2
+2023-06-13 18:04:45,117:INFO:               scipy: 1.10.1
+2023-06-13 18:04:45,117:INFO:              joblib: 1.2.0
+2023-06-13 18:04:45,117:INFO:             sklearn: 1.2.2
+2023-06-13 18:04:45,117:INFO:                pyod: 1.0.9
+2023-06-13 18:04:45,117:INFO:            imblearn: 0.10.1
+2023-06-13 18:04:45,117:INFO:   category_encoders: 2.6.1
+2023-06-13 18:04:45,117:INFO:            lightgbm: 3.3.5
+2023-06-13 18:04:45,117:INFO:               numba: 0.57.0
+2023-06-13 18:04:45,117:INFO:            requests: 2.31.0
+2023-06-13 18:04:45,117:INFO:          matplotlib: 3.7.1
+2023-06-13 18:04:45,117:INFO:          scikitplot: 0.3.7
+2023-06-13 18:04:45,117:INFO:         yellowbrick: 1.5
+2023-06-13 18:04:45,117:INFO:              plotly: 5.15.0
+2023-06-13 18:04:45,117:INFO:             kaleido: 0.2.1
+2023-06-13 18:04:45,117:INFO:         statsmodels: 0.14.0
+2023-06-13 18:04:45,117:INFO:              sktime: 0.17.0
+2023-06-13 18:04:45,117:INFO:               tbats: 1.1.3
+2023-06-13 18:04:45,117:INFO:            pmdarima: 2.0.3
+2023-06-13 18:04:45,117:INFO:              psutil: 5.9.5
+2023-06-13 18:04:45,117:INFO:PyCaret optional dependencies:
+2023-06-13 18:04:45,159:INFO:                shap: Not installed
+2023-06-13 18:04:45,159:INFO:           interpret: Not installed
+2023-06-13 18:04:45,159:INFO:                umap: Not installed
+2023-06-13 18:04:45,159:INFO:    pandas_profiling: Not installed
+2023-06-13 18:04:45,159:INFO:  explainerdashboard: Not installed
+2023-06-13 18:04:45,159:INFO:             autoviz: Not installed
+2023-06-13 18:04:45,159:INFO:           fairlearn: Not installed
+2023-06-13 18:04:45,159:INFO:             xgboost: Not installed
+2023-06-13 18:04:45,159:INFO:            catboost: Not installed
+2023-06-13 18:04:45,159:INFO:              kmodes: Not installed
+2023-06-13 18:04:45,159:INFO:             mlxtend: Not installed
+2023-06-13 18:04:45,159:INFO:       statsforecast: Not installed
+2023-06-13 18:04:45,159:INFO:        tune_sklearn: Not installed
+2023-06-13 18:04:45,159:INFO:                 ray: Not installed
+2023-06-13 18:04:45,160:INFO:            hyperopt: Not installed
+2023-06-13 18:04:45,160:INFO:              optuna: Not installed
+2023-06-13 18:04:45,160:INFO:               skopt: Not installed
+2023-06-13 18:04:45,160:INFO:              mlflow: 2.4.1
+2023-06-13 18:04:45,160:INFO:              gradio: Not installed
+2023-06-13 18:04:45,160:INFO:             fastapi: Not installed
+2023-06-13 18:04:45,160:INFO:             uvicorn: Not installed
+2023-06-13 18:04:45,160:INFO:              m2cgen: Not installed
+2023-06-13 18:04:45,160:INFO:           evidently: Not installed
+2023-06-13 18:04:45,160:INFO:               fugue: Not installed
+2023-06-13 18:04:45,160:INFO:           streamlit: 1.23.1
+2023-06-13 18:04:45,160:INFO:             prophet: Not installed
+2023-06-13 18:04:45,160:INFO:None
+2023-06-13 18:04:45,160:INFO:Set up data.
+2023-06-13 18:04:45,201:INFO:Set up train/test split.
+2023-06-13 18:04:45,263:INFO:Set up index.
+2023-06-13 18:04:45,263:INFO:Set up folding strategy.
+2023-06-13 18:04:45,263:INFO:Assigning column types.
+2023-06-13 18:04:45,295:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2023-06-13 18:04:45,332:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-06-13 18:04:45,332:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-06-13 18:04:45,386:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 18:04:45,386:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 18:04:45,432:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-06-13 18:04:45,432:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-06-13 18:04:45,448:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 18:04:45,448:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 18:04:45,448:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2023-06-13 18:04:45,502:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-06-13 18:04:45,533:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 18:04:45,533:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 18:04:45,580:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-06-13 18:04:45,606:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 18:04:45,606:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 18:04:45,606:INFO:Engine successfully changes for model 'rbfsvm' to 'sklearn'.
+2023-06-13 18:04:45,702:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 18:04:45,702:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 18:04:45,802:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 18:04:45,802:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 18:04:45,802:INFO:Preparing preprocessing pipeline...
+2023-06-13 18:04:45,802:INFO:Set up label encoding.
+2023-06-13 18:04:45,802:INFO:Set up simple imputation.
+2023-06-13 18:04:45,833:INFO:Set up encoding of categorical features.
+2023-06-13 18:04:45,833:INFO:Set up column name cleaning.
+2023-06-13 18:04:46,503:INFO:Finished creating preprocessing pipeline.
+2023-06-13 18:04:46,503:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power...
+                 TransformerWrapper(exclude=None, include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False)
+2023-06-13 18:04:46,503:INFO:Creating final display dataframe.
+2023-06-13 18:04:47,806:INFO:Setup _display_container:                     Description             Value
+0                    Session id              4199
+1                        Target       winner_team
+2                   Target type            Binary
+3                Target mapping        1: 0, 2: 1
+4           Original data shape      (36354, 142)
+5        Transformed data shape      (36354, 151)
+6   Transformed train set shape      (25447, 151)
+7    Transformed test set shape      (10907, 151)
+8              Numeric features               140
+9          Categorical features                 1
+10                   Preprocess              True
+11              Imputation type            simple
+12           Numeric imputation              mean
+13       Categorical imputation              mode
+14     Maximum one-hot encoding               500
+15              Encoding method              None
+16               Fold Generator   StratifiedKFold
+17                  Fold Number                10
+18                     CPU Jobs                -1
+19                      Use GPU             False
+20               Log Experiment      MlflowLogger
+21              Experiment Name  clf-default-name
+22                          USI              9e2c
+2023-06-13 18:04:47,913:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 18:04:47,913:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 18:04:47,989:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 18:04:47,989:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 18:04:47,989:INFO:Logging experiment in loggers
+2023-06-13 18:04:48,239:INFO:SubProcess save_model() called ==================================
+2023-06-13 18:04:48,270:INFO:Initializing save_model()
+2023-06-13 18:04:48,270:INFO:save_model(model=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power...
+                 TransformerWrapper(exclude=None, include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False), model_name=C:\Users\alniquia\AppData\Local\Temp\tmp9ww52h6n\Transformation Pipeline, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power...
+                 TransformerWrapper(exclude=None, include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False), verbose=False, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2023-06-13 18:04:48,270:INFO:Adding model into prep_pipe
+2023-06-13 18:04:48,270:WARNING:Only Model saved as it was a pipeline.
+2023-06-13 18:04:48,270:INFO:C:\Users\alniquia\AppData\Local\Temp\tmp9ww52h6n\Transformation Pipeline.pkl saved in current working directory
+2023-06-13 18:04:48,286:INFO:Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power...
+                 TransformerWrapper(exclude=None, include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False)
+2023-06-13 18:04:48,286:INFO:save_model() successfully completed......................................
+2023-06-13 18:04:48,386:INFO:SubProcess save_model() end ==================================
+2023-06-13 18:04:48,407:INFO:setup() successfully completed in 18.9s...............
+2023-06-13 18:04:48,407:INFO:Initializing create_model()
+2023-06-13 18:04:48,407:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001D70D1F4730>, estimator=lightgbm, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, kwargs={})
+2023-06-13 18:04:48,407:INFO:Checking exceptions
+2023-06-13 18:04:48,407:INFO:Importing libraries
+2023-06-13 18:04:48,407:INFO:Copying training dataset
+2023-06-13 18:04:48,507:INFO:Defining folds
+2023-06-13 18:04:48,507:INFO:Declaring metric variables
+2023-06-13 18:04:48,507:INFO:Importing untrained model
+2023-06-13 18:04:48,507:INFO:Light Gradient Boosting Machine Imported successfully
+2023-06-13 18:04:48,507:INFO:Starting cross validation
+2023-06-13 18:04:48,520:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-06-13 18:05:29,442:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.60s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-13 18:05:29,847:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.53s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-13 18:05:30,952:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.53s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-13 18:05:31,381:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.55s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-13 18:06:00,502:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.62s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-13 18:06:00,662:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.63s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-13 18:07:06,305:INFO:Entrenando modelo para gemGrab...
+2023-06-13 18:07:06,559:INFO:train:  (36354, 142)
+2023-06-13 18:07:06,561:INFO:test:  (12118, 142)
