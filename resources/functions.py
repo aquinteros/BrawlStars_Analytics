@@ -457,6 +457,7 @@ def train_ml_model(progress):
     events = ['brawlBall', 'heist', 'gemGrab', 'bounty', 'hotZone', 'knockout', 'volleyBrawl']
 
     for i, event in enumerate(events):
+        print(f'Entrenando modelo para {event}...')
         dataset = df[df['event_mode'] == event]
         dataset = dataset.drop(columns=['event_mode'])
         
@@ -493,6 +494,8 @@ def train_ml_model(progress):
                 'recall': recall,
         }
 
+        print(metrics)
+
         with open('resources/bs_metrics.json', 'r') as f:
             data = json.load(f)
             data[event] = metrics
@@ -500,6 +503,6 @@ def train_ml_model(progress):
         with open('resources/bs_metrics.json', 'w') as f:
             json.dump(data, f, indent=4)
 
-        progress.progress(100 * (i + 1) / len(events))
+        progress.progress((i + 1) / len(events))
 
     progress.progress(100)
