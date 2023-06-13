@@ -12,7 +12,7 @@ def run():
 	st.title('API Import')
 	st.subheader('Import Data from BrawlStars API')
 	st.write('Data is imported from the BrawlStars API and preprocessed for ML model training.')
-	st.write(f'The data available in the dataset is from games played unit {maxDate}.')
+	st.write(f'The data available in the dataset is from games played until {maxDate}.')
 
 	if st.button('Import New Data'):
 

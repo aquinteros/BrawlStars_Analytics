@@ -16,10 +16,9 @@ def run():
 		progress = st.progress(0)
 		train_ml_model(event_mode, progress)
 		st.success(f'Model trained for {event_mode}')
-		
+
 	st.subheader('Model Metrics')
 	st.dataframe(metrics)
 	
-
 if __name__ == '__main__':
 	run()
