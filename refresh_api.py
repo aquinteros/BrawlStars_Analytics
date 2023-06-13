@@ -7,7 +7,7 @@ import concurrent.futures as cf
 from tqdm import tqdm
 
 # crear cliente
-client = brawlstats.Client(key.api_key)
+client = brawlstats.Client(key.api_key, base_url='https://proxy.brawlstars.com/v{}')
 
 # importar brawlers
 json_brawlers = client.get_brawlers().raw_data

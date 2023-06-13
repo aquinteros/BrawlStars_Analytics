@@ -31,11 +31,12 @@ def api_import(progress):
     import brawlstats
     import concurrent.futures as cf
 
-    client = brawlstats.Client(st.secrets['api_key'])
+    client = brawlstats.Client(st.secrets['api_key'], base_url='https://bsproxy.royaleapi.dev/v1')
 
     # importar brawlers
     json_brawlers = client.get_brawlers().raw_data
     brawlers = pd.json_normalize(json_brawlers)[['id', 'name']]
+
 
     # reset brawler index y export de dataset
     brawlers.to_parquet('datasets/brawlers/brawlers.parquet', index=False, engine='fastparquet', compression='gzip')
@@ -360,6 +361,8 @@ def update_dataset(progress):
 
     df = pd.read_parquet('datasets/teams/battlelog_teams.parquet')
 
+    print(f'Comienza actualización del dataset de battlelog con {df.shape[0]} registros')
+
     df['player_team'] = df.apply(team_assignment, axis=1)
     df = df[df['battle_result'] != 'draw'].reset_index(drop=True)
     df['winner_team'] = df.apply(winner_assignment, axis=1)
@@ -370,6 +373,8 @@ def update_dataset(progress):
         df['avg_brawler_trophies_' + team] = df.apply(lambda row: create_avg(row, 'brawler_trophies', team), axis=1)
 
     df = df[(df['avg_brawler_trophies_team1'] > 50) & (df['avg_brawler_trophies_team2'] > 50)].reset_index(drop = True)
+
+    print(f'Asignación de equipos y ganadores completada. {df.shape[0]} registros restantes')
 
     progress.progress(40)
 
@@ -382,6 +387,7 @@ def update_dataset(progress):
             df = eliminar_outliers(df, prefix + '_brawler_trophies_' + team)
 
     progress.progress(60)
+    print(f'Actualización de atributos completada. {df.shape[0]} registros restantes')
 
     for team in ['team1', 'team2']:
         df['battle_power_' + team] = df['battle_' + team + '_player1_brawler_power'] + df['battle_' + team + '_player2_brawler_power'] + df['battle_' + team + '_player3_brawler_power']
