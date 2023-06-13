@@ -14,35 +14,8 @@ def run():
 
 	models_dict = load_models()
 
-	st.sidebar.title('Data')
-	st.sidebar.download_button('Download Brawlers Data', data=brawlers.to_csv(index=False), file_name='brawlers.csv')
 	st.sidebar.subheader('Model Metrics')
 	st.sidebar.dataframe(metrics, use_container_width=True)
-
-	st.sidebar.title('API Import')
-	st.sidebar.subheader('Import Data from BrawlStars API')
-	if st.sidebar.button('Import Data'):
-
-		progress = st.sidebar.progress(0)
-		api_import(progress)
-		progress.progress(100)
-		st.sidebar.success('Data Imported')
-
-	st.sidebar.title('Data Preprocessing')
-	st.sidebar.subheader('Preprocess Data for ML Model')
-	if st.sidebar.button('Preprocess Data'):
-		progress = st.sidebar.progress(0)
-		update_dataset(progress)
-		progress.progress(100)
-		st.sidebar.success('Data Preprocessed')
-
-	st.sidebar.title('Model Training')
-	st.sidebar.subheader('Train ML Model')
-	if st.sidebar.button('Train Model'):
-		progress = st.sidebar.progress(0)
-		train_ml_model(progress)
-		st.sidebar.success('Model Trained')
-
 
 	st.title('BrawlStars ML Model')
 	st.write('This is a simple ML model that predicts the outcome of a BrawlStars match based on the brawlers and maps chosen.')

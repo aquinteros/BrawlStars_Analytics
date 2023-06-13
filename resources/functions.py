@@ -1,30 +1,36 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
-# import plotly.express as px
-# import plotly.graph_objects as go
-import brawlstats
-import concurrent.futures as cf
 import json
 from tqdm import tqdm
-from pycaret.classification import load_model, predict_model
 
 st.set_page_config(page_title="BrawlStars ML Model")
 
 @st.cache_resource()
 def load_models():
     """Carga modelos de ML para predecir resultados"""
+    from pycaret.classification import load_model
     modelos = {
         'brawlBall': load_model('models/bs_predictor_brawlBall'),
         'gemGrab': load_model('models/bs_predictor_gemGrab'),
+        'heist': load_model('models/bs_predictor_heist'),
+        'bounty': load_model('models/bs_predictor_bounty'),
+        'hotZone': load_model('models/bs_predictor_hotZone'),
+        'knockout': load_model('models/bs_predictor_knockout'),
+        'volleyBrawl': load_model('models/bs_predictor_volleyBrawl')
     }
     return modelos
 
 def predict(input_df, model):
+    from pycaret.classification import predict_model
     return predict_model(estimator=model, data=input_df)
 
 def api_import(progress):
     """Importa datos de la API de BrawlStars"""
+
+    import brawlstats
+    import concurrent.futures as cf
+
     client = brawlstats.Client(st.secrets['api_key'])
 
     # importar brawlers
@@ -45,8 +51,10 @@ def api_import(progress):
 
     print('dimensiones brawlerStats: ' + str(brawlerStats.shape))
 
-    countryCode = ['US','MX','BR','GB','CA','DE','FR','ES','IT','RU','TR','AR','PL','CO','IN','ID','UA','AU','NL','JP','KR','CZ','CH','PH','MY','VN','IE','TH','IL','NO','FI','PT','AT','GR','HU','SG','SA','AE','SE','DK','BZ','CR','GT','HN','NI','PA','SV','BO','CL','EC']
+    # countryCode = ['US','MX','BR','GB','CA','DE','FR','ES','IT','RU','TR','AR','PL','CO','IN','ID','UA','AU','NL','JP','KR','CZ','CH','PH','MY','VN','IE','CL','IL','NO','FI','PT','AT','GR','HU','SG','SA','AE','SE','DK','BZ','CR','GT','HN','NI','PA','SV','BO','EC']
     
+    countryCode = ['US','MX','BR','GB','CA','DE','FR','ES','IT','RU','TR','AR','PL','CO','IN','ID','UA','AU','NL','JP','KR','CZ','CH','PH','MY','VN','IE','CL']
+
     # sacar el player tag de los top players
     top_player = []
 
@@ -454,8 +462,6 @@ def train_ml_model(event, progress):
         'battle_team2_player3_brawler_name',
     ])
 
-    events = ['brawlBall', 'heist', 'gemGrab', 'bounty', 'hotZone', 'knockout', 'volleyBrawl']
-
     print(f'Entrenando modelo para {event}...')
     dataset = df[df['event_mode'] == event]
     dataset = dataset.drop(columns=['event_mode'])
@@ -507,3 +513,7 @@ def train_ml_model(event, progress):
         json.dump(data, f, indent=4)
 
     progress.progress(100)
+    
+def convert_df(df):
+   """Convert a pandas dataframe into a csv file that can be downloaded"""
+   return df.to_csv(index=False).encode('utf-8')

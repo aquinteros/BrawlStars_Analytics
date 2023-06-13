@@ -15998,3 +15998,41 @@ THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
 2023-06-12 23:44:50,199:INFO:Preloading libraries
 2023-06-12 23:44:50,199:INFO:Set up data.
 2023-06-12 23:44:50,243:INFO:Set up index.
+2023-06-13 13:09:13,776:INFO:Initializing load_model()
+2023-06-13 13:09:13,776:INFO:load_model(model_name=models/bs_predictor_brawlBall, platform=None, authentication=None, verbose=True)
+2023-06-13 13:09:13,790:INFO:Initializing load_model()
+2023-06-13 13:09:13,790:INFO:load_model(model_name=models/bs_predictor_gemGrab, platform=None, authentication=None, verbose=True)
+2023-06-13 13:09:13,814:INFO:Initializing load_model()
+2023-06-13 13:09:13,815:INFO:load_model(model_name=models/bs_predictor_heist, platform=None, authentication=None, verbose=True)
+2023-06-13 13:09:13,834:INFO:Initializing load_model()
+2023-06-13 13:09:13,834:INFO:load_model(model_name=models/bs_predictor_bounty, platform=None, authentication=None, verbose=True)
+2023-06-13 13:09:13,854:INFO:Initializing load_model()
+2023-06-13 13:09:13,854:INFO:load_model(model_name=models/bs_predictor_hotZone, platform=None, authentication=None, verbose=True)
+2023-06-13 13:09:13,874:INFO:Initializing load_model()
+2023-06-13 13:09:13,875:INFO:load_model(model_name=models/bs_predictor_knockout, platform=None, authentication=None, verbose=True)
+2023-06-13 13:09:13,898:INFO:Initializing load_model()
+2023-06-13 13:09:13,899:INFO:load_model(model_name=models/bs_predictor_volleyBrawl, platform=None, authentication=None, verbose=True)
+2023-06-13 13:10:50,328:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-13 13:10:50,328:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-13 13:10:50,328:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-13 13:10:50,328:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-13 13:10:54,626:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-06-13 13:11:02,307:INFO:Initializing load_model()
+2023-06-13 13:11:02,307:INFO:load_model(model_name=models/bs_predictor_brawlBall, platform=None, authentication=None, verbose=True)
+2023-06-13 13:11:02,490:INFO:Initializing load_model()
+2023-06-13 13:11:02,490:INFO:load_model(model_name=models/bs_predictor_gemGrab, platform=None, authentication=None, verbose=True)
+2023-06-13 13:11:02,526:INFO:Initializing load_model()
+2023-06-13 13:11:02,527:INFO:load_model(model_name=models/bs_predictor_heist, platform=None, authentication=None, verbose=True)
+2023-06-13 13:11:02,546:INFO:Initializing load_model()
+2023-06-13 13:11:02,546:INFO:load_model(model_name=models/bs_predictor_bounty, platform=None, authentication=None, verbose=True)
+2023-06-13 13:11:02,568:INFO:Initializing load_model()
+2023-06-13 13:11:02,569:INFO:load_model(model_name=models/bs_predictor_hotZone, platform=None, authentication=None, verbose=True)
+2023-06-13 13:11:02,593:INFO:Initializing load_model()
+2023-06-13 13:11:02,593:INFO:load_model(model_name=models/bs_predictor_knockout, platform=None, authentication=None, verbose=True)
+2023-06-13 13:11:02,613:INFO:Initializing load_model()
+2023-06-13 13:11:02,613:INFO:load_model(model_name=models/bs_predictor_volleyBrawl, platform=None, authentication=None, verbose=True)
