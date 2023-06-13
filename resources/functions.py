@@ -22,7 +22,74 @@ def load_models():
     return modelos
 
 def predict(input_df, model):
+    """Predice el resultado de una partida de BrawlStars"""
     from pycaret.classification import predict_model
+
+    brawlers = pd.read_parquet('datasets/brawlers/brawlers.parquet')
+
+    for brawler in brawlers['name']:
+        input_df['T1_' + brawler] = 0
+        input_df['T2_' + brawler] = 0
+
+    t1p1_name = input_df['battle_team1_player1_brawler_name']
+    t1p2_name = input_df['battle_team1_player2_brawler_name']
+    t1p3_name = input_df['battle_team1_player3_brawler_name']
+    t2p1_name = input_df['battle_team2_player1_brawler_name']
+    t2p2_name = input_df['battle_team2_player2_brawler_name']
+    t2p3_name = input_df['battle_team2_player3_brawler_name']
+    
+    input_df['T1_' + t1p1_name] = input_df['T1_' + t1p1_name] + 1
+    input_df['T1_' + t1p2_name] = input_df['T1_' + t1p2_name] + 1
+    input_df['T1_' + t1p3_name] = input_df['T1_' + t1p3_name] + 1
+    input_df['T2_' + t2p1_name] = input_df['T2_' + t2p1_name] + 1
+    input_df['T2_' + t2p2_name] = input_df['T2_' + t2p2_name] + 1
+    input_df['T2_' + t2p3_name] = input_df['T2_' + t2p3_name] + 1
+
+    input_df = pd.DataFrame(input_df, index=[0])
+
+    input_df = input_df.drop(columns=[
+        'battle_team1_player1_brawler_name', 
+        'battle_team1_player2_brawler_name', 
+        'battle_team1_player3_brawler_name', 
+        'battle_team2_player1_brawler_name', 
+        'battle_team2_player2_brawler_name', 
+        'battle_team2_player3_brawler_name', 
+    ])
+
+    for team in ['team1', 'team2']:
+        for player in ['player1', 'player2', 'player3']:
+            input_df['battle_' + team + '_' + player + '_brawler_trophies'] = to_log(input_df, 'battle_' + team + '_' + player + '_brawler_trophies')
+
+    # avg_brawler_trophies_diff = (t1p1_brawler_trophies + t1p2_brawler_trophies + t1p3_brawler_trophies) / 3 - (t2p1_brawler_trophies + t2p2_brawler_trophies + t2p3_brawler_trophies) / 3
+    # max_brawler_trophies_diff = max(t1p1_brawler_trophies, t1p2_brawler_trophies, t1p3_brawler_trophies) - max(t2p1_brawler_trophies, t2p2_brawler_trophies, t2p3_brawler_trophies)
+    # min_brawler_trophies_diff = min(t1p1_brawler_trophies, t1p2_brawler_trophies, t1p3_brawler_trophies) - min(t2p1_brawler_trophies, t2p2_brawler_trophies, t2p3_brawler_trophies)
+    # battle_power_diff = t1p1_power + t1p2_power + t1p3_power - t2p1_power - t2p2_power - t2p3_power
+
+    avg_brawler_trophies_diff = (input_df['battle_team1_player1_brawler_trophies'] + input_df['battle_team1_player2_brawler_trophies'] + input_df['battle_team1_player3_brawler_trophies']) / 3 - (input_df['battle_team2_player1_brawler_trophies'] + input_df['battle_team2_player2_brawler_trophies'] + input_df['battle_team2_player3_brawler_trophies']) / 3
+    max_brawler_trohpies_diff = max(input_df['battle_team1_player1_brawler_trophies'][0], input_df['battle_team1_player2_brawler_trophies'][0], input_df['battle_team1_player3_brawler_trophies'][0]) - max(input_df['battle_team2_player1_brawler_trophies'][0], input_df['battle_team2_player2_brawler_trophies'][0], input_df['battle_team2_player3_brawler_trophies'][0])
+    min_brawler_trophies_diff = min(input_df['battle_team1_player1_brawler_trophies'][0], input_df['battle_team1_player2_brawler_trophies'][0], input_df['battle_team1_player3_brawler_trophies'][0]) - min(input_df['battle_team2_player1_brawler_trophies'][0], input_df['battle_team2_player2_brawler_trophies'][0], input_df['battle_team2_player3_brawler_trophies'][0])
+    battle_power_diff = input_df['battle_team1_player1_brawler_power'] + input_df['battle_team1_player2_brawler_power'] + input_df['battle_team1_player3_brawler_power'] - input_df['battle_team2_player1_brawler_power'] - input_df['battle_team2_player2_brawler_power'] - input_df['battle_team2_player3_brawler_power']
+    
+    input_df['avg_brawler_trophies_diff'] = avg_brawler_trophies_diff
+    input_df['max_brawler_trophies_diff'] = max_brawler_trohpies_diff
+    input_df['min_brawler_trophies_diff'] = min_brawler_trophies_diff
+    input_df['battle_power_diff'] = battle_power_diff
+
+    input_df = input_df.drop(columns=[
+        'battle_team1_player1_brawler_trophies',
+        'battle_team1_player2_brawler_trophies',
+        'battle_team1_player3_brawler_trophies',
+        'battle_team2_player1_brawler_trophies',
+        'battle_team2_player2_brawler_trophies',
+        'battle_team2_player3_brawler_trophies',
+        'battle_team1_player1_brawler_power',
+        'battle_team1_player2_brawler_power',
+        'battle_team1_player3_brawler_power',
+        'battle_team2_player1_brawler_power',
+        'battle_team2_player2_brawler_power',
+        'battle_team2_player3_brawler_power',
+    ])
+
     return predict_model(estimator=model, data=input_df)
 
 def api_import(progress):
@@ -387,6 +454,7 @@ def update_dataset(progress):
             df = eliminar_outliers(df, prefix + '_brawler_trophies_' + team)
 
     progress.progress(60)
+
     print(f'Actualización de atributos completada. {df.shape[0]} registros restantes')
 
     for team in ['team1', 'team2']:

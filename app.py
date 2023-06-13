@@ -59,11 +59,6 @@ def run():
 		t2p3_power = c3.slider('Power', 1, 11, mean_brawler_power, key='t2p3_power')
 		t2p3_brawler_trophies = c3.slider('Brawler Trophies', 0, 1_500, mean_brawler_trophies, key='t2p3_brawler_trophies')
 
-	avg_brawler_trophies_diff = (t1p1_brawler_trophies + t1p2_brawler_trophies + t1p3_brawler_trophies) / 3 - (t2p1_brawler_trophies + t2p2_brawler_trophies + t2p3_brawler_trophies) / 3
-	max_brawler_trophies_diff = max(t1p1_brawler_trophies, t1p2_brawler_trophies, t1p3_brawler_trophies) - max(t2p1_brawler_trophies, t2p2_brawler_trophies, t2p3_brawler_trophies)
-	min_brawler_trophies_diff = min(t1p1_brawler_trophies, t1p2_brawler_trophies, t1p3_brawler_trophies) - min(t2p1_brawler_trophies, t2p2_brawler_trophies, t2p3_brawler_trophies)
-	battle_power_diff = t1p1_power + t1p2_power + t1p3_power - t2p1_power - t2p2_power - t2p3_power
-
 	input_df = {
 		'event_mode': event_mode,
 		'event_map': event_map,
@@ -73,35 +68,21 @@ def run():
 		'battle_team2_player1_brawler_name': t2p1_name,
 		'battle_team2_player2_brawler_name': t2p2_name,
 		'battle_team2_player3_brawler_name': t2p3_name,
-		'avg_brawler_trophies_diff': avg_brawler_trophies_diff,
-		'max_brawler_trophies_diff': max_brawler_trophies_diff,
-		'min_brawler_trophies_diff': min_brawler_trophies_diff,
-		'battle_power_diff': battle_power_diff,
+		'battle_team1_player1_brawler_power': t1p1_power,
+		'battle_team1_player2_brawler_power': t1p2_power,
+		'battle_team1_player3_brawler_power': t1p3_power,
+		'battle_team2_player1_brawler_power': t2p1_power,
+		'battle_team2_player2_brawler_power': t2p2_power,
+		'battle_team2_player3_brawler_power': t2p3_power,
+		'battle_team1_player1_brawler_trophies': t1p1_brawler_trophies,
+		'battle_team1_player2_brawler_trophies': t1p2_brawler_trophies,
+		'battle_team1_player3_brawler_trophies': t1p3_brawler_trophies,
+		'battle_team2_player1_brawler_trophies': t2p1_brawler_trophies,
+		'battle_team2_player2_brawler_trophies': t2p2_brawler_trophies,
+		'battle_team2_player3_brawler_trophies': t2p3_brawler_trophies,
 	}
 
 	if st.button('Predict'):
-
-		for brawler in brawlers['name']:
-			input_df['T1_' + brawler] = 0
-			input_df['T2_' + brawler] = 0
-		
-		input_df['T1_' + t1p1_name] = input_df['T1_' + t1p1_name] + 1
-		input_df['T1_' + t1p2_name] = input_df['T1_' + t1p2_name] + 1
-		input_df['T1_' + t1p3_name] = input_df['T1_' + t1p3_name] + 1
-		input_df['T2_' + t2p1_name] = input_df['T2_' + t2p1_name] + 1
-		input_df['T2_' + t2p2_name] = input_df['T2_' + t2p2_name] + 1
-		input_df['T2_' + t2p3_name] = input_df['T2_' + t2p3_name] + 1
-
-		input_df = pd.DataFrame(input_df, index=[0])
-
-		input_df = input_df.drop(columns=[
-			'battle_team1_player1_brawler_name', 
-			'battle_team1_player2_brawler_name', 
-			'battle_team1_player3_brawler_name', 
-			'battle_team2_player1_brawler_name', 
-			'battle_team2_player2_brawler_name', 
-			'battle_team2_player3_brawler_name', 
-		])
 
 		output = predict(input_df, models_dict[event_mode])
 
