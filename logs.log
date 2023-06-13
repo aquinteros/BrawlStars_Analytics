@@ -16036,3 +16036,836 @@ THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
 2023-06-13 13:11:02,593:INFO:load_model(model_name=models/bs_predictor_knockout, platform=None, authentication=None, verbose=True)
 2023-06-13 13:11:02,613:INFO:Initializing load_model()
 2023-06-13 13:11:02,613:INFO:load_model(model_name=models/bs_predictor_volleyBrawl, platform=None, authentication=None, verbose=True)
+2023-06-13 13:47:58,847:INFO:Initializing predict_model()
+2023-06-13 13:47:58,848:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000208BEA0D7E0>, estimator=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power_diff', 'T1_8-BIT',
+                                             'T1_AMBER', 'T1_ASH', '...
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LGBMClassifier(random_state=6134))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000208A5AAB1C0>)
+2023-06-13 13:47:58,848:INFO:Checking exceptions
+2023-06-13 13:47:58,848:INFO:Preloading libraries
+2023-06-13 13:47:58,848:INFO:Set up data.
+2023-06-13 13:47:58,907:INFO:Set up index.
+2023-06-13 13:48:08,192:INFO:Initializing predict_model()
+2023-06-13 13:48:08,193:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000208BE40C640>, estimator=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power_diff', 'T1_8-BIT',
+                                             'T1_AMBER', 'T1_ASH', '...
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LGBMClassifier(random_state=3800))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000208A5AA9B40>)
+2023-06-13 13:48:08,193:INFO:Checking exceptions
+2023-06-13 13:48:08,193:INFO:Preloading libraries
+2023-06-13 13:48:08,194:INFO:Set up data.
+2023-06-13 13:48:08,255:INFO:Set up index.
+2023-06-13 13:48:15,009:INFO:Initializing predict_model()
+2023-06-13 13:48:15,009:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000208BEA0D840>, estimator=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power_diff', 'T1_8-BIT',
+                                             'T1_AMBER', 'T1_ASH', '...
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LGBMClassifier(random_state=6178))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002088DE4C160>)
+2023-06-13 13:48:15,010:INFO:Checking exceptions
+2023-06-13 13:48:15,010:INFO:Preloading libraries
+2023-06-13 13:48:15,011:INFO:Set up data.
+2023-06-13 13:48:15,092:INFO:Set up index.
+2023-06-13 13:48:23,901:INFO:Initializing predict_model()
+2023-06-13 13:48:23,903:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000208BE3AFDF0>, estimator=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power_diff', 'T1_8-BIT',
+                                             'T1_AMBER', 'T1_ASH', '...
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LGBMClassifier(random_state=6178))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000208A5AAA680>)
+2023-06-13 13:48:23,903:INFO:Checking exceptions
+2023-06-13 13:48:23,904:INFO:Preloading libraries
+2023-06-13 13:48:23,905:INFO:Set up data.
+2023-06-13 13:48:23,959:INFO:Set up index.
+2023-06-13 13:48:31,225:INFO:Initializing predict_model()
+2023-06-13 13:48:31,225:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000208BE40EAA0>, estimator=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power_diff', 'T1_8-BIT',
+                                             'T1_AMBER', 'T1_ASH', '...
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LGBMClassifier(random_state=6178))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002088E189090>)
+2023-06-13 13:48:31,226:INFO:Checking exceptions
+2023-06-13 13:48:31,226:INFO:Preloading libraries
+2023-06-13 13:48:31,226:INFO:Set up data.
+2023-06-13 13:48:31,309:INFO:Set up index.
+2023-06-13 14:00:44,246:INFO:PyCaret ClassificationExperiment
+2023-06-13 14:00:44,246:INFO:Logging name: clf-default-name
+2023-06-13 14:00:44,247:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-06-13 14:00:44,247:INFO:version 3.0.2
+2023-06-13 14:00:44,247:INFO:Initializing setup()
+2023-06-13 14:00:44,247:INFO:self.USI: ab86
+2023-06-13 14:00:44,247:INFO:self._variable_keys: {'seed', 'pipeline', 'gpu_n_jobs_param', 'exp_id', 'idx', 'fold_shuffle_param', '_available_plots', 'data', 'y_train', 'USI', 'fix_imbalance', 'y', 'exp_name_log', 'y_test', 'fold_groups_param', 'target_param', 'memory', 'is_multiclass', 'logging_param', 'X_train', 'html_param', 'n_jobs_param', 'X', '_ml_usecase', 'fold_generator', 'X_test', 'gpu_param', 'log_plots_param'}
+2023-06-13 14:00:44,247:INFO:Checking environment
+2023-06-13 14:00:44,247:INFO:python_version: 3.10.10
+2023-06-13 14:00:44,247:INFO:python_build: ('tags/v3.10.10:aad5f6a', 'Feb  7 2023 17:20:36')
+2023-06-13 14:00:44,247:INFO:machine: AMD64
+2023-06-13 14:00:44,276:INFO:platform: Windows-10-10.0.19044-SP0
+2023-06-13 14:00:44,280:INFO:Memory: svmem(total=17034072064, available=6071726080, percent=64.4, used=10962345984, free=6071726080)
+2023-06-13 14:00:44,280:INFO:Physical Core: 2
+2023-06-13 14:00:44,280:INFO:Logical Core: 4
+2023-06-13 14:00:44,280:INFO:Checking libraries
+2023-06-13 14:00:44,280:INFO:System:
+2023-06-13 14:00:44,280:INFO:    python: 3.10.10 (tags/v3.10.10:aad5f6a, Feb  7 2023, 17:20:36) [MSC v.1929 64 bit (AMD64)]
+2023-06-13 14:00:44,280:INFO:executable: C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\Scripts\python.exe
+2023-06-13 14:00:44,280:INFO:   machine: Windows-10-10.0.19044-SP0
+2023-06-13 14:00:44,280:INFO:PyCaret required dependencies:
+2023-06-13 14:00:44,280:INFO:                 pip: 23.1.2
+2023-06-13 14:00:44,280:INFO:          setuptools: 65.5.0
+2023-06-13 14:00:44,280:INFO:             pycaret: 3.0.2
+2023-06-13 14:00:44,280:INFO:             IPython: 8.14.0
+2023-06-13 14:00:44,280:INFO:          ipywidgets: 8.0.6
+2023-06-13 14:00:44,281:INFO:                tqdm: 4.65.0
+2023-06-13 14:00:44,281:INFO:               numpy: 1.23.5
+2023-06-13 14:00:44,281:INFO:              pandas: 1.5.3
+2023-06-13 14:00:44,281:INFO:              jinja2: 3.1.2
+2023-06-13 14:00:44,281:INFO:               scipy: 1.10.1
+2023-06-13 14:00:44,281:INFO:              joblib: 1.2.0
+2023-06-13 14:00:44,281:INFO:             sklearn: 1.2.2
+2023-06-13 14:00:44,281:INFO:                pyod: 1.0.9
+2023-06-13 14:00:44,281:INFO:            imblearn: 0.10.1
+2023-06-13 14:00:44,281:INFO:   category_encoders: 2.6.1
+2023-06-13 14:00:44,281:INFO:            lightgbm: 3.3.5
+2023-06-13 14:00:44,281:INFO:               numba: 0.57.0
+2023-06-13 14:00:44,281:INFO:            requests: 2.31.0
+2023-06-13 14:00:44,281:INFO:          matplotlib: 3.7.1
+2023-06-13 14:00:44,281:INFO:          scikitplot: 0.3.7
+2023-06-13 14:00:44,281:INFO:         yellowbrick: 1.5
+2023-06-13 14:00:44,281:INFO:              plotly: 5.15.0
+2023-06-13 14:00:44,281:INFO:             kaleido: 0.2.1
+2023-06-13 14:00:44,281:INFO:         statsmodels: 0.14.0
+2023-06-13 14:00:44,281:INFO:              sktime: 0.17.0
+2023-06-13 14:00:44,281:INFO:               tbats: 1.1.3
+2023-06-13 14:00:44,281:INFO:            pmdarima: 2.0.3
+2023-06-13 14:00:44,281:INFO:              psutil: 5.9.5
+2023-06-13 14:00:44,281:INFO:PyCaret optional dependencies:
+2023-06-13 14:00:44,320:INFO:                shap: Not installed
+2023-06-13 14:00:44,320:INFO:           interpret: Not installed
+2023-06-13 14:00:44,320:INFO:                umap: Not installed
+2023-06-13 14:00:44,320:INFO:    pandas_profiling: Not installed
+2023-06-13 14:00:44,320:INFO:  explainerdashboard: Not installed
+2023-06-13 14:00:44,320:INFO:             autoviz: Not installed
+2023-06-13 14:00:44,320:INFO:           fairlearn: Not installed
+2023-06-13 14:00:44,321:INFO:             xgboost: Not installed
+2023-06-13 14:00:44,321:INFO:            catboost: Not installed
+2023-06-13 14:00:44,321:INFO:              kmodes: Not installed
+2023-06-13 14:00:44,321:INFO:             mlxtend: Not installed
+2023-06-13 14:00:44,321:INFO:       statsforecast: Not installed
+2023-06-13 14:00:44,321:INFO:        tune_sklearn: Not installed
+2023-06-13 14:00:44,321:INFO:                 ray: Not installed
+2023-06-13 14:00:44,321:INFO:            hyperopt: Not installed
+2023-06-13 14:00:44,321:INFO:              optuna: Not installed
+2023-06-13 14:00:44,321:INFO:               skopt: Not installed
+2023-06-13 14:00:44,321:INFO:              mlflow: 2.4.1
+2023-06-13 14:00:44,321:INFO:              gradio: Not installed
+2023-06-13 14:00:44,321:INFO:             fastapi: Not installed
+2023-06-13 14:00:44,321:INFO:             uvicorn: Not installed
+2023-06-13 14:00:44,321:INFO:              m2cgen: Not installed
+2023-06-13 14:00:44,321:INFO:           evidently: Not installed
+2023-06-13 14:00:44,321:INFO:               fugue: Not installed
+2023-06-13 14:00:44,321:INFO:           streamlit: 1.23.1
+2023-06-13 14:00:44,321:INFO:             prophet: Not installed
+2023-06-13 14:00:44,321:INFO:None
+2023-06-13 14:00:44,321:INFO:Set up data.
+2023-06-13 14:00:44,371:INFO:Set up train/test split.
+2023-06-13 14:00:44,397:INFO:Set up index.
+2023-06-13 14:00:44,398:INFO:Set up folding strategy.
+2023-06-13 14:00:44,398:INFO:Assigning column types.
+2023-06-13 14:00:44,415:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2023-06-13 14:00:44,463:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-06-13 14:00:44,471:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-06-13 14:00:44,540:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 14:00:44,541:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 14:00:44,593:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-06-13 14:00:44,594:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-06-13 14:00:44,625:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 14:00:44,625:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 14:00:44,626:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2023-06-13 14:00:44,676:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-06-13 14:00:44,707:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 14:00:44,707:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 14:00:44,757:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-06-13 14:00:44,787:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 14:00:44,788:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 14:00:44,788:INFO:Engine successfully changes for model 'rbfsvm' to 'sklearn'.
+2023-06-13 14:00:44,868:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 14:00:44,868:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 14:00:44,946:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 14:00:44,946:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 14:00:44,949:INFO:Preparing preprocessing pipeline...
+2023-06-13 14:00:44,953:INFO:Set up label encoding.
+2023-06-13 14:00:44,953:INFO:Set up simple imputation.
+2023-06-13 14:00:44,963:INFO:Set up encoding of categorical features.
+2023-06-13 14:00:44,966:INFO:Set up column name cleaning.
+2023-06-13 14:00:45,231:INFO:Finished creating preprocessing pipeline.
+2023-06-13 14:00:45,240:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power...
+                 TransformerWrapper(exclude=None, include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False)
+2023-06-13 14:00:45,241:INFO:Creating final display dataframe.
+2023-06-13 14:00:46,222:INFO:Setup _display_container:                     Description             Value
+0                    Session id              5085
+1                        Target       winner_team
+2                   Target type            Binary
+3                Target mapping        1: 0, 2: 1
+4           Original data shape      (11235, 142)
+5        Transformed data shape      (11235, 151)
+6   Transformed train set shape       (7864, 151)
+7    Transformed test set shape       (3371, 151)
+8              Numeric features               140
+9          Categorical features                 1
+10                   Preprocess              True
+11              Imputation type            simple
+12           Numeric imputation              mean
+13       Categorical imputation              mode
+14     Maximum one-hot encoding               500
+15              Encoding method              None
+16               Fold Generator   StratifiedKFold
+17                  Fold Number                10
+18                     CPU Jobs                -1
+19                      Use GPU             False
+20               Log Experiment      MlflowLogger
+21              Experiment Name  clf-default-name
+22                          USI              ab86
+2023-06-13 14:00:46,438:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 14:00:46,439:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 14:00:46,554:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 14:00:46,555:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-06-13 14:00:46,556:INFO:Logging experiment in loggers
+2023-06-13 14:00:47,051:INFO:SubProcess save_model() called ==================================
+2023-06-13 14:00:47,071:INFO:Initializing save_model()
+2023-06-13 14:00:47,071:INFO:save_model(model=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power...
+                 TransformerWrapper(exclude=None, include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False), model_name=C:\Users\alniquia\AppData\Local\Temp\tmp4fo00hj6\Transformation Pipeline, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power...
+                 TransformerWrapper(exclude=None, include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False), verbose=False, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2023-06-13 14:00:47,072:INFO:Adding model into prep_pipe
+2023-06-13 14:00:47,072:WARNING:Only Model saved as it was a pipeline.
+2023-06-13 14:00:47,086:INFO:C:\Users\alniquia\AppData\Local\Temp\tmp4fo00hj6\Transformation Pipeline.pkl saved in current working directory
+2023-06-13 14:00:47,093:INFO:Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power...
+                 TransformerWrapper(exclude=None, include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False)
+2023-06-13 14:00:47,094:INFO:save_model() successfully completed......................................
+2023-06-13 14:00:47,200:INFO:SubProcess save_model() end ==================================
+2023-06-13 14:00:47,239:INFO:setup() successfully completed in 23.1s...............
+2023-06-13 14:00:47,240:INFO:Initializing create_model()
+2023-06-13 14:00:47,240:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000208E675FB80>, estimator=lightgbm, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, kwargs={})
+2023-06-13 14:00:47,240:INFO:Checking exceptions
+2023-06-13 14:00:47,242:INFO:Importing libraries
+2023-06-13 14:00:47,243:INFO:Copying training dataset
+2023-06-13 14:00:47,301:INFO:Defining folds
+2023-06-13 14:00:47,301:INFO:Declaring metric variables
+2023-06-13 14:00:47,301:INFO:Importing untrained model
+2023-06-13 14:00:47,302:INFO:Light Gradient Boosting Machine Imported successfully
+2023-06-13 14:00:47,302:INFO:Starting cross validation
+2023-06-13 14:00:47,304:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-06-13 14:01:00,267:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.59s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-13 14:01:00,267:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.59s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-13 14:01:00,268:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.60s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-13 14:01:00,273:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.60s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-13 14:01:36,139:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:231: UserWarning: Persisting input arguments took 0.87s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_transformer = self._memory_fit(
+
+2023-06-13 14:01:36,172:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:231: UserWarning: Persisting input arguments took 0.62s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_transformer = self._memory_fit(
+
+2023-06-13 14:01:36,222:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.62s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-13 14:01:36,270:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.65s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-13 14:01:36,831:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.53s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-13 14:01:36,996:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.66s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-13 14:01:37,809:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.55s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-13 14:01:37,905:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.62s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-13 14:01:38,064:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.73s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-13 14:01:38,553:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.57s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-13 14:01:38,720:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.52s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-13 14:01:38,897:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.57s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-13 14:01:39,132:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.67s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-13 14:01:39,467:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.64s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-13 14:01:40,392:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:310: UserWarning: Persisting input arguments took 0.90s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, _ = self._memory_full_transform(self, X, None, with_final=False)
+
+2023-06-13 14:02:16,267:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.64s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-06-13 14:02:29,672:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\pycaret\internal\pipeline.py:260: UserWarning: Persisting input arguments took 0.53s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-06-13 14:04:52,444:INFO:Calculating mean and std
+2023-06-13 14:04:52,445:INFO:Creating metrics dataframe
+2023-06-13 14:04:52,450:INFO:Finalizing model
+2023-06-13 14:05:17,399:INFO:Creating Dashboard logs
+2023-06-13 14:05:17,400:INFO:Model: Light Gradient Boosting Machine
+2023-06-13 14:05:17,505:INFO:Logged params: {'boosting_type': 'gbdt', 'class_weight': None, 'colsample_bytree': 1.0, 'importance_type': 'split', 'learning_rate': 0.1, 'max_depth': -1, 'min_child_samples': 20, 'min_child_weight': 0.001, 'min_split_gain': 0.0, 'n_estimators': 100, 'n_jobs': -1, 'num_leaves': 31, 'objective': None, 'random_state': 5085, 'reg_alpha': 0.0, 'reg_lambda': 0.0, 'silent': 'warn', 'subsample': 1.0, 'subsample_for_bin': 200000, 'subsample_freq': 0}
+2023-06-13 14:05:17,772:INFO:Initializing predict_model()
+2023-06-13 14:05:17,772:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000208E675FB80>, estimator=LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=5085, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=False, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000208D37E6830>)
+2023-06-13 14:05:17,772:INFO:Checking exceptions
+2023-06-13 14:05:17,772:INFO:Preloading libraries
+2023-06-13 14:05:18,104:WARNING:C:\Users\alniquia\OneDrive - Telefonica\Documents\Projects\BrawlStars_Model\.venv\lib\site-packages\_distutils_hack\__init__.py:33: UserWarning:
+
+Setuptools is replacing distutils.
+
+
+2023-06-13 14:05:37,617:INFO:Uploading results into container
+2023-06-13 14:05:37,618:INFO:Uploading model into container now
+2023-06-13 14:05:37,637:INFO:_master_model_container: 1
+2023-06-13 14:05:37,637:INFO:_display_container: 2
+2023-06-13 14:05:37,638:INFO:LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=5085, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0)
+2023-06-13 14:05:37,639:INFO:create_model() successfully completed......................................
+2023-06-13 14:05:37,769:INFO:Initializing finalize_model()
+2023-06-13 14:05:37,769:INFO:finalize_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000208E675FB80>, estimator=LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=5085, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0), fit_kwargs=None, groups=None, model_only=False, experiment_custom_tags=None)
+2023-06-13 14:05:37,770:INFO:Finalizing LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=5085, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0)
+2023-06-13 14:05:37,786:INFO:Initializing create_model()
+2023-06-13 14:05:37,786:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000208E675FB80>, estimator=LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=5085, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0), fold=None, round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=False, metrics=None, display=None, model_only=False, return_train_score=False, kwargs={})
+2023-06-13 14:05:37,786:INFO:Checking exceptions
+2023-06-13 14:05:37,789:INFO:Importing libraries
+2023-06-13 14:05:37,789:INFO:Copying training dataset
+2023-06-13 14:05:37,790:INFO:Defining folds
+2023-06-13 14:05:37,790:INFO:Declaring metric variables
+2023-06-13 14:05:37,791:INFO:Importing untrained model
+2023-06-13 14:05:37,791:INFO:Declaring custom model
+2023-06-13 14:05:37,792:INFO:Light Gradient Boosting Machine Imported successfully
+2023-06-13 14:05:37,795:INFO:Cross validation set to False
+2023-06-13 14:05:37,795:INFO:Fitting Model
+2023-06-13 14:05:38,735:INFO:Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power...
+                 LGBMClassifier(boosting_type='gbdt', class_weight=None,
+                                colsample_bytree=1.0, importance_type='split',
+                                learning_rate=0.1, max_depth=-1,
+                                min_child_samples=20, min_child_weight=0.001,
+                                min_split_gain=0.0, n_estimators=100, n_jobs=-1,
+                                num_leaves=31, objective=None,
+                                random_state=5085, reg_alpha=0.0,
+                                reg_lambda=0.0, silent='warn', subsample=1.0,
+                                subsample_for_bin=200000, subsample_freq=0))],
+         verbose=False)
+2023-06-13 14:05:38,736:INFO:create_model() successfully completed......................................
+2023-06-13 14:05:38,863:INFO:Creating Dashboard logs
+2023-06-13 14:05:38,865:INFO:Model: Light Gradient Boosting Machine
+2023-06-13 14:05:38,961:INFO:Logged params: {'boosting_type': 'gbdt', 'class_weight': None, 'colsample_bytree': 1.0, 'importance_type': 'split', 'learning_rate': 0.1, 'max_depth': -1, 'min_child_samples': 20, 'min_child_weight': 0.001, 'min_split_gain': 0.0, 'n_estimators': 100, 'n_jobs': -1, 'num_leaves': 31, 'objective': None, 'random_state': 5085, 'reg_alpha': 0.0, 'reg_lambda': 0.0, 'silent': 'warn', 'subsample': 1.0, 'subsample_for_bin': 200000, 'subsample_freq': 0}
+2023-06-13 14:05:39,349:INFO:_master_model_container: 1
+2023-06-13 14:05:39,349:INFO:_display_container: 2
+2023-06-13 14:05:39,358:INFO:Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power...
+                 LGBMClassifier(boosting_type='gbdt', class_weight=None,
+                                colsample_bytree=1.0, importance_type='split',
+                                learning_rate=0.1, max_depth=-1,
+                                min_child_samples=20, min_child_weight=0.001,
+                                min_split_gain=0.0, n_estimators=100, n_jobs=-1,
+                                num_leaves=31, objective=None,
+                                random_state=5085, reg_alpha=0.0,
+                                reg_lambda=0.0, silent='warn', subsample=1.0,
+                                subsample_for_bin=200000, subsample_freq=0))],
+         verbose=False)
+2023-06-13 14:05:39,358:INFO:finalize_model() successfully completed......................................
+2023-06-13 14:05:39,483:INFO:Initializing save_model()
+2023-06-13 14:05:39,483:INFO:save_model(model=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power...
+                 LGBMClassifier(boosting_type='gbdt', class_weight=None,
+                                colsample_bytree=1.0, importance_type='split',
+                                learning_rate=0.1, max_depth=-1,
+                                min_child_samples=20, min_child_weight=0.001,
+                                min_split_gain=0.0, n_estimators=100, n_jobs=-1,
+                                num_leaves=31, objective=None,
+                                random_state=5085, reg_alpha=0.0,
+                                reg_lambda=0.0, silent='warn', subsample=1.0,
+                                subsample_for_bin=200000, subsample_freq=0))],
+         verbose=False), model_name=models/bs_predictor_hotZone, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power...
+                 TransformerWrapper(exclude=None, include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2023-06-13 14:05:39,483:INFO:Adding model into prep_pipe
+2023-06-13 14:05:39,484:WARNING:Only Model saved as it was a pipeline.
+2023-06-13 14:05:39,511:INFO:models/bs_predictor_hotZone.pkl saved in current working directory
+2023-06-13 14:05:39,529:INFO:Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power...
+                 LGBMClassifier(boosting_type='gbdt', class_weight=None,
+                                colsample_bytree=1.0, importance_type='split',
+                                learning_rate=0.1, max_depth=-1,
+                                min_child_samples=20, min_child_weight=0.001,
+                                min_split_gain=0.0, n_estimators=100, n_jobs=-1,
+                                num_leaves=31, objective=None,
+                                random_state=5085, reg_alpha=0.0,
+                                reg_lambda=0.0, silent='warn', subsample=1.0,
+                                subsample_for_bin=200000, subsample_freq=0))],
+         verbose=False)
+2023-06-13 14:05:39,530:INFO:save_model() successfully completed......................................
+2023-06-13 14:05:39,683:INFO:Initializing predict_model()
+2023-06-13 14:05:39,684:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000208E675FB80>, estimator=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power...
+                 LGBMClassifier(boosting_type='gbdt', class_weight=None,
+                                colsample_bytree=1.0, importance_type='split',
+                                learning_rate=0.1, max_depth=-1,
+                                min_child_samples=20, min_child_weight=0.001,
+                                min_split_gain=0.0, n_estimators=100, n_jobs=-1,
+                                num_leaves=31, objective=None,
+                                random_state=5085, reg_alpha=0.0,
+                                reg_lambda=0.0, silent='warn', subsample=1.0,
+                                subsample_for_bin=200000, subsample_freq=0))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002088E189090>)
+2023-06-13 14:05:39,684:INFO:Checking exceptions
+2023-06-13 14:05:39,685:INFO:Preloading libraries
+2023-06-13 14:05:39,685:INFO:Set up data.
+2023-06-13 14:05:39,746:INFO:Set up index.
+2023-06-13 14:07:07,090:INFO:Initializing predict_model()
+2023-06-13 14:07:07,092:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000208E675FB80>, estimator=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power_diff', 'T1_8-BIT',
+                                             'T1_AMBER', 'T1_ASH', '...
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LGBMClassifier(random_state=5675))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000208AC53BC70>)
+2023-06-13 14:07:07,093:INFO:Checking exceptions
+2023-06-13 14:07:07,093:INFO:Preloading libraries
+2023-06-13 14:07:07,094:INFO:Set up data.
+2023-06-13 14:07:07,165:INFO:Set up index.
+2023-06-13 14:07:22,936:INFO:Initializing predict_model()
+2023-06-13 14:07:22,941:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000208E675FB80>, estimator=Pipeline(memory=FastMemory(location=C:\Users\alniquia\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['avg_brawler_trophies_diff',
+                                             'max_brawler_trophies_diff',
+                                             'min_brawler_trophies_diff',
+                                             'battle_power_diff', 'T1_8-BIT',
+                                             'T1_AMBER', 'T1_ASH', '...
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['event_map'],
+                                    transformer=OneHotEncoder(cols=['event_map'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', LGBMClassifier(random_state=5675))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000208B41D6320>)
+2023-06-13 14:07:22,941:INFO:Checking exceptions
+2023-06-13 14:07:22,941:INFO:Preloading libraries
+2023-06-13 14:07:22,946:INFO:Set up data.
+2023-06-13 14:07:23,046:INFO:Set up index.
