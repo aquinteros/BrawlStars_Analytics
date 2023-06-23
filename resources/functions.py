@@ -3,6 +3,7 @@ import numpy as np
 import streamlit as st
 import json
 from tqdm import tqdm
+from streamlit_extras.buy_me_a_coffee import button as buy_me_a_coffee
 
 st.set_page_config(page_title="BrawlStars ML Model")
 

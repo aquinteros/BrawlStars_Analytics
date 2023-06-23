@@ -21,6 +21,8 @@ def run():
 	st.write('This is a simple ML model that predicts the outcome of a BrawlStars match based on the brawlers and maps chosen.')
 	st.write('The model is trained on data from the BrawlStars API, and the data is available in the sidebar.')
 
+	buy_me_a_coffee(username="aquinteros", floating=False, width=221)
+
 	ct = st.container()
 
 	with ct:
